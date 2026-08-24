@@ -1,8 +1,0 @@
-#+TITLE: Aleksandr Savchenko Blog
-#+OPTIONS: toc:nil title:nil
-
-#+INCLUDE: preamble.org
-
-#+INCLUDE: posts.org :lines "6-"
-
-#+INCLUDE: tools.org :lines "6-"

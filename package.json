@@ -1,0 +1,42 @@
+{
+  "name": "asv-filesystem-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate:content": "tsx scripts/generate-content.ts",
+    "dev": "npm run generate:content && vite",
+    "build": "npm run generate:content && tsc -b && vite build && tsx scripts/prerender.ts",
+    "preview": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fontsource/source-code-pro": "^5.3.0",
+    "@fontsource/source-serif-4": "^5.3.0",
+    "@phosphor-icons/react": "^2.1.10",
+    "gray-matter": "^4.0.3",
+    "minisearch": "^7.2.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-syntax-highlighter": "^16.1.1",
+    "refractor": "^5.0.0",
+    "rehype-stringify": "^10.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "unified": "^11.0.5",
+    "uniorg-parse": "^3.2.2",
+    "uniorg-rehype": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "@vitejs/plugin-react": "^6.1.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  }
+}

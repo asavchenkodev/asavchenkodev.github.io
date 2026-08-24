@@ -1,0 +1,6 @@
+#+TITLE: 360 degree surround view
+#+SOURCE: Bosch Mobility
+#+URL: https://www.bosch-mobility.com/en/solutions/assistance-systems/360-degree-surround-view/
+#+SECTION: Production surround view
+
+A production-oriented overview of 3D surround view, transparent-hood rendering, and parking assistance.

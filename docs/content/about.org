@@ -1,0 +1,17 @@
+#+TITLE: About me
+#+DESCRIPTION: Computer vision engineer.
+#+TAGS: about, computer-vision, software
+
+I work in ADAS/AD automotive sector and develop production software in c/c++ for embedded systems.
+It includes Surround View systems, camera views, algorithms, etc.
+
+* Connect
+
+- [[https://github.com/asavchenkodev][GitHub]]
+- [[https://www.linkedin.com/in/aleksandr-savchenko-25321b267][LinkedIn]]
+
+* About this site
+
+I use emacs (spacemacs) as my main editor for more than a decade. I do like the style, dired mode and other features. \\
+And my idea was to try to create a website which is generated from my org-mode files right away, also in dired style.
+Here you can use vim motions and use search with preview via s button.

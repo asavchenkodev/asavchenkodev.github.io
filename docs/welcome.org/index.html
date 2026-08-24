@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1522" />
+    <meta name="description" content="Homepage welcome text." />
+    <link rel="icon" type="image/svg+xml" href="/favicon-asv.svg" />
+    <title>Welcome · Aleksandr Savchenko</title>
+    <link rel="canonical" href="https://asavchenkodev.github.io/welcome.org/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Aleksandr Savchenko" />
+    <meta property="og:title" content="Welcome · Aleksandr Savchenko" />
+    <meta property="og:description" content="Homepage welcome text." />
+    <meta property="og:url" content="https://asavchenkodev.github.io/welcome.org/" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="alternate" type="application/atom+xml" title="Aleksandr Savchenko" href="/feed.xml" />
+    <link rel="preload" href="/content-manifest.json" as="fetch" crossorigin="anonymous" />
+    <script>
+      // Static entry pages (/notes/papers/, written by scripts/prerender.ts) open the app on the same #/ route.
+      (function () {
+        var page = location.pathname.replace(/index\.html$/, "");
+        if (page !== "/" && !location.hash) history.replaceState(null, "", "/#" + page.replace(/\/$/, ""));
+      })();
+    </script>
+    <script>
+      window.goatcounter = { path: (p) => p + location.hash };
+    </script>
+    <script data-goatcounter="https://asv.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+    <script type="module" crossorigin src="/assets/index-D_M3o2Zi.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DnOYrGmu.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript><article><h1>Welcome</h1><p>Hey! I'm Aleksandr Savchenko. Welcome to my blog! <br></p><p>Here I do experiments with website in emacs-like style, host static web tools and post notes.
+</p><p>I am a computer vision engineer working on perception software, including classical and CNN approaches.
+Interested in things about ISP, camera systems, image processing, rendering, detection algorithms. <br>  <br></p><section class="section-level-1"><h1 id="ls-highlights-dashboard">ls --highlights   <span class="tags"><span class="tag tag-dashboard">dashboard</span></span></h1><ul><li><a href="file:projects">projects/</a>
+<dl><dt><a href="file:projects/raw-pixel-viewer">raw-pixel-viewer/</a></dt><dd><p>Raw pixel viewer to open NV12, YUV, Bayer images. More convenient version of old rawpixels app
+</p></dd><dt><a href="file:projects/sync-reader">sync-reader/</a></dt><dd><p>German and Russian parallel reader for language learning, including anki style repetition.
+</p></dd></dl></li><li><a href="file:notes">notes/</a>
+<dl><dt><a href="file:notes/automotive">automotive/</a></dt><dd><p>Mostly videos about Surround View systems.
+</p></dd><dt><a href="file:notes/computer-vision">computer-vision/</a></dt><dd><p>Calibration, fisheye tools, and github projects.
+</p></dd><dt><a href="file:notes/papers">papers/</a></dt><dd><p>Interesting papers to read.
+</p></dd></dl></li></ul></section></article></noscript>
+  </body>
+</html>

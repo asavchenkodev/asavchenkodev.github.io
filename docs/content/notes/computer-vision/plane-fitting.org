@@ -1,0 +1,8 @@
+#+TITLE: Plane fitting
+#+SOURCE: Tangram Vision
+#+SECTION: Camera models and calibration
+
+A two-part series on fitting planes to 3D points.
+
+- [[https://www.tangramvision.com/blog/a-different-way-to-think-about-plane-fitting][Part 1: A Different Way To Think about Plane Fitting]] develops the geometric intuition.
+- [[https://www.tangramvision.com/blog/plane-fitting-part-2-manifold-optimization-without-lie-groups][Part 2: Manifold Optimization, without Lie Groups]] treats the problem as manifold optimization.

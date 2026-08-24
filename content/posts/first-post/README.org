@@ -1,0 +1,10 @@
+#+TITLE: First post
+#+DATE: 2026-10-08
+#+DESCRIPTION: One line that shows in listings, the feed and link previews.
+#+TAGS: draft
+
+A post is a folder under posts/ with a README.org (or README.md) inside it.
+Images and attachments can sit next to it and be linked with [[file:figure.png]].
+
+Remove the draft tag to publish it. It then appears in posts/ and feed.xml,
+and gets its own page at /posts/first-post/.

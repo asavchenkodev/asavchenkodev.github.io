@@ -1,0 +1,6 @@
+#+TITLE: Automotive
+#+DESCRIPTION: Selected references on production camera systems, surround view, and AV simulation.
+#+TAGS: automotive, surround-view, perception
+#+SECTIONS: Production surround view | Simulation
+
+Selected references on production camera systems, surround view, and AV simulation.

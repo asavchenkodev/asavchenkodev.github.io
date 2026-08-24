@@ -1,0 +1,7 @@
+#+TITLE: calicam-mono
+#+SOURCE: GitHub
+#+URL: https://github.com/astar-ai/calicam_mono
+#+SECTION: Practical fisheye tools
+#+TAGS: cpp
+
+Fisheye rectification with several output projections for downstream perception pipelines.

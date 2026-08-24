@@ -1,0 +1,6 @@
+#+TITLE: Computer Vision
+#+DESCRIPTION: Selected references on calibration, camera geometry, fisheye tools, and edge perception.
+#+TAGS: computer-vision, calibration, fisheye, geometry
+#+SECTIONS: Camera models and calibration | Practical fisheye tools | Edge perception
+
+Selected references on calibration, camera geometry, fisheye tools, and edge perception.

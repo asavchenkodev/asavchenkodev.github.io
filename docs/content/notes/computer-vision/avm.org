@@ -1,0 +1,6 @@
+#+TITLE: avm
+#+SOURCE: GitHub
+#+URL: https://github.com/xixu-me/avm
+#+SECTION: Practical fisheye tools
+
+A compact around-view pipeline from fisheye inputs to a bird's-eye-view image.

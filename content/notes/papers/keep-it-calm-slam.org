@@ -1,0 +1,6 @@
+#+TITLE: Keep It CALM: Toward Calibration-Free Kilometer-Level SLAM with Visual Geometry Foundation Models via an Assistant Eye
+#+SOURCE: arXiv · Zhang
+#+URL: https://arxiv.org/abs/2604.14795v1
+#+SECTION: Geometry and localization
+
+Uses a geometry foundation model to correct camera intrinsics and pose for long-range SLAM consistency.

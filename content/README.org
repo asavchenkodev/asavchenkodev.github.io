@@ -1,0 +1,6 @@
+#+TITLE: Aleksandr Savchenko
+#+DESCRIPTION: Computer vision engineer building practical tools and sharing technical notes.
+
+Welcome to my public working directory.
+
+This website is generated from the files in this repository. Browse it like a small, read-only filesystem: open a folder, read a document, or search everything at once.

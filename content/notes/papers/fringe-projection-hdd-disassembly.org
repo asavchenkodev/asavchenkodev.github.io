@@ -1,0 +1,6 @@
+#+TITLE: Fringe Projection Based Vision Pipeline for Autonomous Hard Drive Disassembly
+#+SOURCE: arXiv · Balasubramaniam
+#+URL: https://arxiv.org/abs/2604.17231v1
+#+SECTION: Industrial vision
+
+Connects fringe-projection depth, completion, and segmentation in a concrete robotic-disassembly pipeline.

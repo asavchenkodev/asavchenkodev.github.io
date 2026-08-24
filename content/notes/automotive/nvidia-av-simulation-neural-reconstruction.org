@@ -1,0 +1,6 @@
+#+TITLE: Accelerating AV Simulation with Neural Reconstruction and World Foundation Models
+#+SOURCE: NVIDIA
+#+URL: https://developer.nvidia.com/blog/accelerating-av-simulation-with-neural-reconstruction-and-world-foundation-models/
+#+SECTION: Simulation
+
+A useful look at neural reconstruction and world models as tools for shortening perception-testing loops.

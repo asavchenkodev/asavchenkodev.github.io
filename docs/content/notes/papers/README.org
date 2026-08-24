@@ -1,0 +1,6 @@
+#+TITLE: Papers
+#+DESCRIPTION: A short list of computer-vision and robotics papers worth revisiting.
+#+TAGS: papers, computer-vision, robotics, automotive
+#+SECTIONS: Wide-angle perception | Geometry and localization | 3D perception | Industrial vision
+
+A short list of computer-vision and robotics papers worth revisiting.

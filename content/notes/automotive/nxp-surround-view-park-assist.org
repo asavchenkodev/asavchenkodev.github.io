@@ -1,0 +1,6 @@
+#+TITLE: Surround View / Park Assist System
+#+SOURCE: NXP
+#+URL: https://www.nxp.com/applications/SURROUND-VIEW-PARK-ASSIST-SYSTEM
+#+SECTION: Production surround view
+
+A compact system-level view of camera inputs, HDR streams, ISP work, and embedded processing blocks.

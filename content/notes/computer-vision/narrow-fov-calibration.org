@@ -1,0 +1,6 @@
+#+TITLE: Narrow FOV Calibration Made Easy(er)
+#+SOURCE: Tangram Vision
+#+URL: https://www.tangramvision.com/blog/nfov-calibration-made-easier
+#+SECTION: Camera models and calibration
+
+Practical failure modes and mitigation strategies for calibrating narrow-field-of-view cameras.

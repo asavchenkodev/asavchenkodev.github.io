@@ -1,0 +1,6 @@
+#+TITLE: A Real-Time Bike-Pedestrian Safety System with Wide-Angle Perception and Evaluation Testbed for Urban Intersections
+#+SOURCE: arXiv · Turkcan
+#+URL: https://arxiv.org/abs/2604.17046v1
+#+SECTION: Wide-angle perception
+
+Combines fisheye calibration, projection, real-time perception, and deployment-risk validation in one intersection-safety system.

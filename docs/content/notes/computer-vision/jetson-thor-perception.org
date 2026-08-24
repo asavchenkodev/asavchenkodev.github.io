@@ -1,0 +1,6 @@
+#+TITLE: Making Robot Perception More Efficient on NVIDIA Jetson Thor
+#+SOURCE: NVIDIA
+#+URL: https://developer.nvidia.com/blog/making-robot-perception-more-efficient-on-nvidia-jetson-thor/
+#+SECTION: Edge perception
+
+A practical reference for model and runtime tradeoffs on embedded vision hardware.

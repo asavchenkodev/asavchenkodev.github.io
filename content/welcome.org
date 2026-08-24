@@ -1,0 +1,19 @@
+#+TITLE: Welcome
+#+DESCRIPTION: Homepage welcome text.
+
+Hey! I'm Aleksandr Savchenko. Welcome to my blog! \\
+
+Here I do experiments with website in emacs-like style, host static web tools and post notes.
+
+I am a computer vision engineer working on perception software, including classical and CNN approaches.
+Interested in things about ISP, camera systems, image processing, rendering, detection algorithms. \\
+  \\
+
+* ls --highlights :dashboard:
+- [[file:projects][projects/]]
+  - [[file:projects/raw-pixel-viewer][raw-pixel-viewer/]] :: Raw pixel viewer to open NV12, YUV, Bayer images. More convenient version of old rawpixels app
+  - [[file:projects/sync-reader][sync-reader/]] :: German and Russian parallel reader for language learning, including anki style repetition.
+- [[file:notes][notes/]]
+  - [[file:notes/automotive][automotive/]] :: Mostly videos about Surround View systems.
+  - [[file:notes/computer-vision][computer-vision/]] :: Calibration, fisheye tools, and github projects.
+  - [[file:notes/papers][papers/]] :: Interesting papers to read.

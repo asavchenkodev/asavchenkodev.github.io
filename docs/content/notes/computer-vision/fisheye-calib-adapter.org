@@ -1,0 +1,7 @@
+#+TITLE: fisheye-calib-adapter
+#+SOURCE: GitHub
+#+URL: https://github.com/eowjd0512/fisheye-calib-adapter
+#+SECTION: Practical fisheye tools
+#+TAGS: cpp
+
+Converts between multiple fisheye camera models, which is useful when real systems use incompatible calibration formats.

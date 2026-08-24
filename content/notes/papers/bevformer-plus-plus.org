@@ -1,0 +1,6 @@
+#+TITLE: BEVFormer++: Enhancing BEV Fusion with Normalized Embedding and Range Attention for 3D Object Detection
+#+SOURCE: ScienceDirect
+#+URL: https://www.sciencedirect.com/science/article/pii/S095741742600045X
+#+SECTION: 3D perception
+
+Extends BEV fusion with normalized embeddings and range-aware attention for camera-based 3D detection.

@@ -1,0 +1,6 @@
+#+TITLE: The Brown-Conrady Model
+#+SOURCE: Tangram Vision
+#+URL: https://www.tangramvision.com/blog/the-innovative-brown-conrady-model
+#+SECTION: Camera models and calibration
+
+A clear explanation of the distortion model and why choosing the correct camera model matters in calibration work.

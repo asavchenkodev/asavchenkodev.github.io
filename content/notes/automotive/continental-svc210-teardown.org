@@ -1,0 +1,6 @@
+#+TITLE: Continental SVC210 surround-view camera teardown
+#+SOURCE: TechInsights
+#+URL: https://www.techinsights.com/blog/deep-dive-teardown-continental-surround-view-camera-svc210-automotive-camera
+#+SECTION: Production surround view
+
+A teardown of a real production camera. The camera supplies a 60 FPS video stream while the vehicle compute unit performs the main processing.
