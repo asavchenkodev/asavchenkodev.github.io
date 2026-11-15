@@ -1,0 +1,227 @@
+Third-party material in this book
+=================================
+
+KaTeX (assets/vendor/katex/, incl. fonts): MIT licence, see assets/vendor/katex/LICENSE.
+
+Foggy intersection, frame 113 of the comma2k19 example segment (Example_1, segment 40).
+  Copyright (c) 2018 comma.ai. Source: comma2k19 dataset https://github.com/commaai/comma2k19
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma2k19.txt
+  Changes: Frame 113 (t = 5.65 s) decoded from video.hevc, cropped to rows 110-560 (bonnet and dashboard removed), JPEG.
+  Files: img/perception-tasks/street.jpg
+
+Relative depth of the comma2k19 street frame: our runs of MiDaS v2.1 small (MIT) and Depth Anything V2 Small (Apache-2.0).
+  Copyright (c) 2018 comma.ai. Source: comma2k19 dataset https://github.com/commaai/comma2k19
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma2k19.txt
+  Changes: Model output on the cropped frame, coloured with a magma-like ramp (tools/write/perception-tasks/experiments/depth_onnx.py).
+  Files: img/perception-tasks/depth-midas.jpg, img/perception-tasks/depth-dav2.jpg
+
+Highway lane-finding test images (solidWhiteCurve, test5, straight_lines1), processed with classic operators.
+  Copyright (c) 2016-2018 Udacity, Inc. Source: Udacity CarND-LaneLines-P1 and CarND-Advanced-Lane-Lines test_images https://github.com/udacity/CarND-Advanced-Lane-Lines
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-udacity-CarND-LaneLines-P1.txt
+  Licence text: licenses/LICENSE-udacity-CarND-Advanced-Lane-Lines.txt
+  Changes: Cropped, converted to grey, filtered, thresholded, warped to a bird's-eye view (tools/restructure/classic-cv/ext/experiments/ops.py).
+  Files: img/classic-cv/f-18-bv-bw.png, img/classic-cv/f-18-bv-cc.png, img/classic-cv/f-18-bv-in.jpg, img/classic-cv/f-18-bv-open.jpg and 22 more
+
+Astronaut Eileen Collins (skimage.data.astronaut) with our MediaPipe Face Landmarker output.
+  NASA. Source: scikit-image sample data (skimage.data.astronaut) https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.astronaut
+  Licence: Public domain (work of the US federal government, 17 U.S.C. 105) https://www.usa.gov/government-copyright
+  Changes: Face mesh, eye and iris landmarks drawn on the image (tools/write/in-cabin-sensing/experiments/landmarks.py).
+  Files: img/in-cabin-sensing/face-mesh.jpg
+
+Nvidia@16nm@Pascal@GP102@GeForce_GTX_1080_Ti@A_TAIWAN_1653A1_PBFV81.C00_GP102-350-K1-A1___DSCx4_polysilicon@5x.
+  Fritzchens Fritz. Source: Flickr (CC0); tiles fetched from the misdake/ChipAnnotationData GitHub mirror https://www.flickr.com/photos/130561288@N04/46079430302/
+  Licence: CC0 1.0 (public domain dedication) https://creativecommons.org/publicdomain/zero/1.0/
+  Changes: Level-1 tiles (half resolution of the Flickr original) stitched; whole die downscaled to 1400 px; GPC inset cropped from level-1 pixels 340,300-1760,1832 and downscaled to 900 px; JPEG q82. Labels are SVG overlays in the figure, not in the pixels.
+  Files: img/gpu-cuda/gp102-die.jpg, img/gpu-cuda/gp102-gpc.jpg
+
+BeagleBone AI-64, back of the board (TDA4VM SoC, LPDDR4, eMMC, PMICs, camera and display connectors).
+  Copyright 2024 BeagleBoard.org Foundation. Source: BeagleBone AI-64 documentation (docs.beagleboard.io) https://github.com/beagleboard/docs.beagleboard.io/blob/main/boards/beaglebone/ai-64/images/back.png
+  Licence: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+  Licence text: licenses/LICENSE-beagleboard-docs-CC-BY-SA-4.0.txt
+  Changes: Transparent background flattened to white, resized to 1400 px, JPEG; numbered markers drawn as SVG on top in the book (tools/images/sources/embedded-compute/make_board_svg.py).
+  Files: img/embedded-compute/bbai64-board-back.jpg
+
+BeagleBone AI-64 with heatsink, 45 degree view.
+  Copyright 2024 BeagleBoard.org Foundation. Source: BeagleBone AI-64 documentation (docs.beagleboard.io) https://github.com/beagleboard/docs.beagleboard.io/blob/main/boards/beaglebone/ai-64/images/45-back-heatsink.png
+  Licence: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+  Licence text: licenses/LICENSE-beagleboard-docs-CC-BY-SA-4.0.txt
+  Changes: Transparent background flattened to white, cropped to content, resized to 900 px, JPEG.
+  Files: img/embedded-compute/bbai64-heatsink.jpg
+
+comma10k imgs2 pair 00300: wide fisheye road camera and narrow road camera of a comma three at the same moment.
+  Copyright (c) 2020, Comma.ai, Inc. Source: comma10k dataset (imgs2) https://github.com/commaai/comma10k
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma10k.txt
+  Changes: Resized (fisheye 1200 px, narrow 800 px wide), JPEG; outline of the narrow field of view and labels drawn in SVG.
+  Files: img/camera-geometry/comma-fisheye.jpg, img/camera-geometry/comma-narrow.jpg
+
+Rectilinear 100/140 degree and cylindrical 180 degree views re-sampled from comma10k fisheye frame 00300.
+  Copyright (c) 2020, Comma.ai, Inc. Source: comma10k dataset (imgs2) https://github.com/commaai/comma10k
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma10k.txt
+  Changes: Re-sampled with our equidistant fisheye estimate (tools/write/camera-geometry/images/make_real.py), JPEG.
+  Files: img/camera-geometry/comma-rect100.jpg, img/camera-geometry/comma-rect140.jpg, img/camera-geometry/comma-cyl180.jpg
+
+OpenCV sample calibration image samples/data/left01.jpg (checkerboard) and a 13 x 13 px crop of it.
+  Copyright (C) 2000-2022, Intel Corporation; 2015-2023, OpenCV Foundation; and others (see COPYRIGHT). Source: OpenCV samples/data https://github.com/opencv/opencv/tree/4.x/samples/data
+  Licence: Apache License 2.0 https://www.apache.org/licenses/LICENSE-2.0
+  Licence text: licenses/LICENSE-opencv.txt
+  Licence text: licenses/COPYRIGHT-opencv.txt
+  Changes: Re-encoded as JPEG; corner crop enlarged x18 (nearest neighbour); detected corners drawn in SVG.
+  Files: img/camera-geometry/opencv-chessboard.jpg, img/camera-geometry/opencv-chessboard-corner.png
+
+Input image of the opencv_contrib omnidirectional camera calibration tutorial (fisheye, checkerboard).
+  opencv_contrib contributors (Apache License 2.0). Source: opencv_contrib ccalib tutorial images https://github.com/opencv/opencv_contrib/tree/4.x/modules/ccalib/tutorials/img
+  Licence: Apache License 2.0 https://www.apache.org/licenses/LICENSE-2.0
+  Licence text: licenses/LICENSE-opencv_contrib.txt
+  Changes: Re-encoded as JPEG; detected corners drawn in SVG.
+  Files: img/camera-geometry/opencv-fisheye-chessboard.jpg
+
+One frame of an Ouster OS0-128 lidar at a street intersection (SDK test recording OS-0-128-U1_v2.3.0_1024x10).
+  Copyright (c) 2018-2026, Ouster, Inc. Source: Ouster SDK repository (tests/pcaps) https://github.com/ouster-lidar/ouster-sdk
+  Licence: BSD 3-Clause License https://opensource.org/license/bsd-3-clause
+  Licence text: licenses/LICENSE-ouster-sdk.txt
+  Changes: Raw UDP packets decoded with our numpy code (tools/write/automotive-sensors/experiments/ouster_frame.py, with the sensor metadata OS-0-128-U1_v2.3.0_1024x10.json); range, reflectivity and ambient images of the front half of the sweep, and a bird's-eye rendering of the point cloud.
+  Files: img/automotive-sensors/lidar-frame-strips.jpg, img/automotive-sensors/lidar-frame-bev.jpg
+
+The Boreas data-collection car (Boreas Road Trip configuration) with labelled sensors.
+  Copyright (c) 2021, ASRL - Autonomous Space Robotics Lab. Source: pyboreas repository (figs/pyboreas_all.png) https://github.com/utiasASRL/pyboreas
+  Licence: BSD 3-Clause License https://opensource.org/license/bsd-3-clause
+  Licence text: licenses/LICENSE-pyboreas.txt
+  Changes: Right-hand car cropped (x 1296-2400, y 312-1188), transparent background flattened to black, JPEG.
+  Files: img/automotive-sensors/boreas-sensor-car.jpg
+
+Raw phone frames (strawberry stall, sunset street, blue sky) from the HDR+ Burst Photography Dataset, processed with a simple ISP; HDR+ merged and final results of the street burst.
+  Samuel W. Hasinoff, Dillon Sharlet, Ryan Geiss, Andrew Adams, Jonathan T. Barron, Florian Kainz, Jiawen Chen, Marc Levoy (Google). Source: HDR+ Burst Photography Dataset (20171106_subset) https://storage.googleapis.com/hdrplusdata/README.html
+  Licence: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+  Changes: Bursts 6FHF_20150308_130849_627, 33TJ_20150612_201525_012, 33TJ_20150607_135208_428: frame 0 cropped and processed with our pipeline (black level, lens shading map, bilinear demosaic, white balance, the dataset's colour matrix, sRGB curve; 8x nearest-neighbour enlargement for the mosaic patch); merged.dng processed the same way; final.jpg resized. Script: tools/restructure/camera-pipeline/supplement/real_images.py; source URLs and SHA-256 in fetch.json.
+  Files: img/camera-pipeline/hdrplus-mosaic-cfa.png, img/camera-pipeline/hdrplus-mosaic-context.jpg, img/camera-pipeline/hdrplus-mosaic-raw.png, img/camera-pipeline/hdrplus-mosaic-rgb.png and 8 more
+
+Road tunnel, wide road camera (fisheye-type), comma10k imgs2 00010_e.
+  Copyright (c) 2020, Comma.ai, Inc. Source: comma10k dataset (imgs2 set) https://github.com/commaai/comma10k
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma10k.txt
+  Changes: Downscaled 1928x1208 -> 900x564, JPEG; labels drawn in the SVG figure.
+  Files: img/optics/tunnel-wide.jpg
+
+Road tunnel, narrow road camera, same instant, comma10k imgs2 00010_f.
+  Copyright (c) 2020, Comma.ai, Inc. Source: comma10k dataset (imgs2 set) https://github.com/commaai/comma10k
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma10k.txt
+  Changes: Downscaled 1928x1208 -> 900x564, JPEG; labels drawn in the SVG figure.
+  Files: img/optics/tunnel-narrow.jpg
+
+Low sun with veiling glare and lens ghosts, wide road camera, comma10k imgs2 00200_e.
+  Copyright (c) 2020, Comma.ai, Inc. Source: comma10k dataset (imgs2 set) https://github.com/commaai/comma10k
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma10k.txt
+  Changes: Downscaled 1928x1208 -> 1400x877, JPEG; sun, ghosts, centre and the source-centre line marked in the SVG figure.
+  Files: img/optics/sun-ghosts.jpg
+
+Frames 750 (lamp post and sign in fog) and 450 (tree-lined avenue, overtaking car) of the comma2k19 example segment (Example_1, segment 40).
+  Copyright (c) 2018 comma.ai. Source: comma2k19 dataset https://github.com/commaai/comma2k19
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma2k19.txt
+  Changes: Frames decoded from video.hevc with ffmpeg, bonnet removed (rows 0-620); jpeg-orig.png is the 192x120 crop at (330,150) of frame 750 (PNG); road-motion.jpg is frame 450 as JPEG q82. Motion-vector arrows are drawn over it in SVG.
+  Files: img/video-streaming/jpeg-orig.png, img/video-streaming/road-motion.jpg
+
+Frame 750 of the comma2k19 example segment after our JPEG (q 80/20/5) and x264 (QP 44, deblocking off/on) encodes.
+  Copyright (c) 2018 comma.ai. Source: comma2k19 dataset https://github.com/commaai/comma2k19
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma2k19.txt
+  Changes: Encoded and decoded with Pillow JPEG and ffmpeg/libx264 (tools/write/video-streaming/experiments/real_images.py); crops saved as PNG with exact pixels.
+  Files: img/video-streaming/jpeg-q80.png, img/video-streaming/jpeg-q20.png, img/video-streaming/jpeg-q5.png, img/video-streaming/deblock-off.png and 1 more
+
+AMD@16nm@Jaguar_Polaris@Neo@Playstation_4_Pro@CXD90044GB___DSCx1_polysilicon_microscope_stitched@5x.
+  Fritzchens Fritz. Source: Flickr (CC0); tiles fetched from the misdake/ChipAnnotationData GitHub mirror https://www.flickr.com/photos/130561288@N04/24915482017/
+  Licence: CC0 1.0 (public domain dedication) https://creativecommons.org/publicdomain/zero/1.0/
+  Changes: Level-2 tiles (quarter resolution of the Flickr original) stitched, downscaled to 1400 px, JPEG q82. Outlines and labels are SVG overlays in the figure (tools/images/sources/embedded-compute/make_die_svg.py).
+  Files: img/embedded-compute/ps4pro-soc-die.jpg
+
+Frames 20, 60, 100, 205, 480 and 1140 of the comma2k19 example segment (Example_1, segment 40): junction approach, school sign, wiper, fog.
+  Copyright (c) 2018 comma.ai. Source: comma2k19 dataset https://github.com/commaai/comma2k19
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma2k19.txt
+  Changes: Frames decoded from video.hevc and cropped (rows 110-560; wiper/fog tiles also cropped in x); traffic-light and sign insets are small crops enlarged 4x / 2x with nearest-neighbour; JPEG q82 or PNG (tools/write/perception-tasks/experiments/real_images.py).
+  Files: img/perception-tasks/tl-approach.jpg, img/perception-tasks/tl-zoom-020.png, img/perception-tasks/tl-zoom-060.png, img/perception-tasks/tl-zoom-100.png and 4 more
+
+Colour-coded optical flow between frames 205 and 206 of the comma2k19 example segment: our run of OpenCV DIS.
+  Copyright (c) 2018 comma.ai. Source: comma2k19 dataset https://github.com/commaai/comma2k19
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma2k19.txt
+  Changes: DIS optical flow (OpenCV, medium preset) on the cropped frames, hue = direction, saturation = speed (full at 30 px/frame).
+  Files: img/perception-tasks/flow-color.jpg
+
+Traffic sign pictograms (speed limits, end of limit, LED limit, supplementary panels, US and Nordic limits, stop signs).
+  Copyright (c) 2015 mapillary. Source: mapillary_sprite_source https://github.com/mapillary/mapillary_sprite_source
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-mapillary-sprite-source.txt
+  Changes: Renamed; viewBox="0 0 24 24" added so the drawings scale in every browser.
+  Files: img/perception-tasks/signs/limit-30.svg, img/perception-tasks/signs/limit-50.svg, img/perception-tasks/signs/limit-80.svg, img/perception-tasks/signs/end-limit-80.svg and 8 more
+
+One sweep of an Ouster OS-2-128 lidar in a city street with parked cars (SDK test recording OS-2-128-U1_v2.3.0_1024x10).
+  Copyright (c) 2018-2026, Ouster, Inc. Source: Ouster SDK repository (tests/pcaps) https://github.com/ouster-lidar/ouster-sdk
+  Licence: BSD 3-Clause License https://opensource.org/license/bsd-3-clause
+  Licence text: licenses/LICENSE-ouster-sdk.txt
+  Changes: Raw UDP packets (profile RNG19_RFL8_SIG16_NIR16, with the sensor metadata OS-2-128-U1_v2.3.0_1024x10.json) decoded with our numpy code (tools/write/bev-perception/experiments/real_lidar.py); destaggered signal and range images (1024 x 128) and a top-view rendering of the point cloud coloured by height above the local ground.
+  Files: img/bev-perception/lidar-street-signal.jpg, img/bev-perception/lidar-street-range.jpg, img/bev-perception/lidar-street-bev.png
+
+Four raw bursts (bookshelf, Zurich at night, blue sky with gulls, Lower Manhattan) from the curated subset of the HDR+ Burst Photography Dataset.
+  Samuel W. Hasinoff, Dillon Sharlet, Ryan Geiss, Andrew Adams, Jonathan T. Barron, Florian Kainz, Jiawen Chen, Marc Levoy (Google). Source: HDR+ Burst Photography Dataset https://hdrplusdata.org/dataset.html
+  Licence: CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+  Changes: Our minimal pipeline (experiments/real_hdrplus.py in tools/write/isp-engineering): black level, the burst's lens shading map, white balance from AsShotNeutral, demosaic (bilinear / Malvar 2004 / Menon 2007), the burst's rgb2rgb matrix, display gain, sRGB curve; crops, enlargements, resize, JPEG/PNG. hdrplus-books-final.jpg is the dataset's final.jpg resized only. The adapted images are shared under CC BY-SA 4.0.
+  Files: img/isp-engineering/hdrplus-books-final.jpg, img/isp-engineering/hdrplus-books-mosaic-cfa.png, img/isp-engineering/hdrplus-books-mosaic.png, img/isp-engineering/hdrplus-books-ours.jpg and 10 more
+
+comma10k frame 5441: a US tractor-semitrailer in the next lane, seen from a car dashboard camera.
+  Copyright (c) 2020, Comma.ai, Inc. Source: comma10k dataset (imgs) https://github.com/commaai/comma10k
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma10k.txt
+  Changes: Door lettering and a small trailer logo Gaussian-blurred, cropped to x 790-1164, y 60-700, JPEG; part labels drawn in SVG.
+  Files: img/truck-perception/truck-profile.jpg
+
+comma10k frame 2745: a tractor without a trailer seen from behind on the left (cab back wall, trailer lines, deck plate).
+  Copyright (c) 2020, Comma.ai, Inc. Source: comma10k dataset (imgs) https://github.com/commaai/comma10k
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma10k.txt
+  Changes: Cropped to x 700-1164, y 0-680, JPEG; part labels drawn in SVG.
+  Files: img/truck-perception/tractor-no-trailer.jpg
+
+comma10k frame 7060: a trailer alongside at night, seen through a wet windscreen.
+  Copyright (c) 2020, Comma.ai, Inc. Source: comma10k dataset (imgs) https://github.com/commaai/comma10k
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma10k.txt
+  Changes: Cropped to rows 0-690 (bonnet removed), JPEG; labels drawn in SVG.
+  Files: img/truck-perception/trailer-night-rain.jpg
+
+Feature visualisation of GoogLeNet channels from edges to objects (title figure of 'Feature Visualization').
+  Chris Olah, Alexander Mordvintsev, Ludwig Schubert. Source: Distill (2017), 'Feature Visualization' https://distill.pub/2017/feature-visualization/
+  Licence: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+  Licence text: licenses/LICENSE-distill-CC-BY-4.0.txt
+  Changes: 10 of the 30 tiles (rows 1-2 of the 5 x 6 sprite) resized from 200 to 232 px and arranged in a 5 x 2 grid, JPEG; layer labels redrawn in the book's SVG.
+  Files: img/deep-learning-vision/distill-feature-vis.jpg
+
+Crops of the comma2k19 foggy-intersection frame (centre 750 x 450, 640 x 248 network input, 224 x 224 ViT input cut into 16 px patches).
+  Copyright (c) 2018 comma.ai. Source: comma2k19 dataset https://github.com/commaai/comma2k19
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma2k19.txt
+  Changes: Cropped and resized from the book's street.jpg crop (rows 110-560); ViT version with a white 14 x 14 grid and 12 single patches enlarged (tools/write/deep-learning-vision/experiments/real_images.py).
+  Files: img/deep-learning-vision/road-crop.jpg, img/deep-learning-vision/road-resnet-input.jpg, img/deep-learning-vision/vit-patches.jpg, img/deep-learning-vision/vit-tokens.jpg
+
+Model outputs on the comma2k19 frame: YOLO11n-seg instance masks, Depth Anything V2 Small relative depth, ResNet-50 stage activations over the dimmed frame.
+  Copyright (c) 2018 comma.ai. Source: comma2k19 dataset https://github.com/commaai/comma2k19
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma2k19.txt
+  Changes: Our model runs on the cropped frame (tools/write/deep-learning-vision/experiments/real_images.py); masks blended at 55 %, depth and activations coloured with the book's navy-teal-amber ramp.
+  Files: img/deep-learning-vision/road-masks.jpg, img/deep-learning-vision/road-depth.jpg, img/deep-learning-vision/road-resnet-stages.jpg
+
+Rendered from pretrained weights: the 64 conv1 filters of timm resnet50 (resnet50_ram-a26f946b) and the position-embedding similarity of ViT-B/16 (jx_vit_base_p16_224-80ecf9dd).
+  Copyright 2019 Ross Wightman. Source: pytorch-image-models (timm) release assets https://github.com/huggingface/pytorch-image-models
+  Licence: Apache License 2.0 https://www.apache.org/licenses/LICENSE-2.0
+  Licence text: licenses/LICENSE-timm-Apache-2.0.txt
+  Changes: Filters min-max scaled per filter and enlarged; cosine similarity of position embeddings (every second patch, values below 0.6 dark) coloured with the book's ramp.
+  Files: img/deep-learning-vision/road-resnet-filters.jpg, img/deep-learning-vision/vit-posemb.jpg
+
+All other figures, diagrams and images were generated for this book (synthetic scenes, simulations, plots and our own renders). A per-chapter list is in credits.html.

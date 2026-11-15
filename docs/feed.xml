@@ -5,8 +5,20 @@
   <link href="https://asavchenkodev.github.io/"/>
   <link rel="self" href="https://asavchenkodev.github.io/feed.xml"/>
   <id>https://asavchenkodev.github.io/</id>
-  <updated>2026-08-24T00:00:00Z</updated>
+  <updated>2026-11-15T00:00:00Z</updated>
   <author><name>Aleksandr Savchenko</name></author>
+  <entry>
+    <title>Engineering Learning Book</title>
+    <link href="https://asavchenkodev.github.io/projects/book/"/>
+    <id>https://asavchenkodev.github.io/projects/book/</id>
+    <updated>2026-11-15T00:00:00Z</updated>
+    <summary>A generated book with simple overviews and examples of engineering and automotive topics, for finding knowledge gaps.</summary>
+    <content type="html">&lt;h1 id=&quot;engineering-learning-book&quot;&gt;Engineering Learning Book&lt;/h1&gt;
+&lt;p&gt;A generated book that gives a simple overview of interesting engineering and automotive topics, with examples. I use it to find gaps in my knowledge, then dive deeper with proper resources such as books and papers.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/tools/book/index.html&quot;&gt;Open the book&lt;/a&gt;&lt;/p&gt;</content>
+    <category term="book"/>
+    <category term="learning"/>
+  </entry>
   <entry>
     <title>Raw Pixel Viewer</title>
     <link href="https://asavchenkodev.github.io/projects/raw-pixel-viewer/"/>

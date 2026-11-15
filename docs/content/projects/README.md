@@ -9,3 +9,4 @@ These projects run entirely in the browser. Their project folders contain the st
 
 - [Sync Reader](./sync-reader/)
 - [Raw Pixel Viewer](./raw-pixel-viewer/)
+- [Engineering Learning Book](./book/)

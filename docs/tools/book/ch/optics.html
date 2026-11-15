@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="guide-id" content="optics">
+<meta name="guide-version" content="2026-10-29">
+<title>Light, lenses and the sensor plane</title>
+<!-- book:head -->
+<link rel="stylesheet" href="../assets/guide.css">
+<link rel="stylesheet" href="../assets/book.css">
+<link rel="stylesheet" href="../assets/vendor/katex/katex.min.css">
+<script src="../assets/book-data.js" defer></script>
+<script src="../assets/vendor/katex/katex.min.js" defer></script>
+<script src="../assets/vendor/katex/auto-render.min.js" defer></script>
+<script src="../assets/book.js" defer></script>
+<script src="../assets/guide.js" defer></script>
+<script src="../assets/marks.js" defer></script>
+<!-- /book:head -->
+</head>
+<body>
+<div class="g-layout">
+<nav class="g-toc" aria-label="Contents"></nav>
+<main class="g-doc" data-guide>
+<header class="g-title">
+  <div class="kicker"></div>
+  <h1>Light, lenses and the sensor plane</h1>
+  <p class="subtitle">Field of view, focus, depth of field, aberrations, distortion, resolution and lens selection</p>
+</header>
+<section class="chapter" id="ch-1">
+<h2><span class="num">1</span>Light, Lenses and the Sensor Plane</h2>
+<p><i>How field of view, focus and projection geometry decide what a camera can see</i></p>
+<p>A camera does not record the world. It records the light that one particular assembly of glass chooses to deliver to one particular flat rectangle of silicon. Everything a vision algorithm later does, whether detecting, tracking, measuring or reconstructing, starts from that delivery, and decisions made in the optics are very hard to undo in software. A pedestrian who lands on forty pixels instead of four hundred, a corner smeared across three pixels because the sensor sits a few micrometres away from the plane of best focus, a straight wall edge that curls because the lens follows a different projection law than your code assumes: these are optical facts, not algorithm bugs.</p>
+<p>This chapter builds the optics of a camera from the ground up. We start with the simplest imaging device, a pinhole, add a lens, and then answer the three questions that dominate practical camera design: what part of the world fits on the sensor (field of view), what part of that is sharp (focus and depth of field), and what changes when we push the field of view towards 180 degrees and beyond (fisheye lenses). Throughout, we keep one eye on the sensor plane, the physical surface where all of it has to come together.</p>
+<div class="box note"><span class="box-title">IN THIS CHAPTER</span><p>After working through this chapter you should be able to:</p><ul><li>explain how a pinhole and a thin lens map a 3D scene onto the sensor plane, and where the focal length enters;</li><li>compute horizontal, vertical and diagonal field of view, the scene footprint and the pixel focal length;</li><li>explain why only one plane is sharp, and estimate blur, depth of field and hyperfocal distance;</li><li>reason about where the sensor plane must sit, and what moves it (cover glass, tilt, temperature);</li><li>describe why rectilinear lenses cannot reach 180°, how fisheye projection models differ, and how to calibrate them.</li></ul></div>
+<section id="s-1-1">
+<h3><span class="num">1.1</span>From scene to sensor</h3>
+<p>Light leaves every point of a scene in every direction. A bare sensor placed in front of a scene would collect light from every scene point on every one of its pixels, and the result would be a featureless gray wash. To form an image, the camera must establish a correspondence: each point on the sensor should receive light from one scene point (or one direction) and from no other.</p>
+<p>The simplest way to achieve this is a <b>pinhole</b>: an opaque barrier with a tiny hole, placed between scene and sensor (Figure 1.1). Light from a scene point can reach the sensor only along the single straight line through the hole, so every sensor point sees exactly one direction. By similar triangles, a scene point at lateral position <i>X</i> and depth <i>Z</i> in front of the pinhole lands at distance <i>fX</i>/<i>Z</i> from the axis on a sensor plane placed a distance <i>f</i></p>
+<figure id="f-1-1" class="pdf-fig"><img src="../img/optics/f-1-1.png" width="580" height="255" loading="lazy" alt="A pinhole camera. Rays from the object pass straight through the hole and form an inverted image on the sensor plane. The distance f from pinhole to sensor is t"><figcaption><b>Figure 1.1</b> A pinhole camera. Rays from the object pass straight through the hole and form an inverted image on the sensor plane. The distance <i>f</i> from pinhole to sensor is the focal length of this idealised camera.</figcaption></figure>
+<div class="eq">\[ x = f\,\frac{X}{Z}, \qquad y = f\,\frac{Y}{Z} \tag{1.1} \]</div>
+<p>Equation (1.1) is the perspective projection that underlies nearly all of multiple-view geometry. It has four consequences worth remembering: the image is inverted; image size scales as 1/<i>Z</i>, so distant objects shrink; straight lines in the world stay straight in the image; and, because every ray passes through one point, everything is sharp regardless of its depth.</p>
+<p>If the pinhole is so well behaved, why do cameras have lenses? Because of light. A hole small enough to give a sharp image admits very little of it, and a hole made even smaller blurs the image again through diffraction. A lens solves the dilemma by collecting light over a wide opening and bending it so that all the rays leaving one scene point arrive at one image point.</p>
+<div class="box note"><span class="box-title">KEY IDEA</span><p>The pinhole model describes the geometry of an ideal camera: every scene point projects along a straight line through a single centre of projection. A real lens approximates this geometry while gathering orders of magnitude more light. Much of camera calibration is the work of measuring how, and by how much, a real lens departs from it.</p></div>
+<p><b>Notation.</b> We use the following symbols throughout. The <i>optical axis</i> is the line through the centre of the lens, perpendicular to the sensor. The <i>sensor plane</i> (or image plane) is the flat surface that carries the photosites. <i>f</i> is the focal length; <i>D</i> the diameter of the aperture and <i>N</i> = <i>f</i>/<i>D</i> the f-number; <i>u</i> the distance from lens to a scene point and <i>v</i> the distance from lens to the plane where that point is sharp; <i>w</i> and <i>h</i> the sensor width and height; and <i>p</i> the pixel pitch.</p>
+</section>
+<section id="s-1-2">
+<h3><span class="num">1.2</span>The sensor plane</h3>
+<p>The sensor plane is where optics ends and measurement begins. It is a flat array of photosites with a physical width <i>w</i> = <i>W</i><sub>px</sub> · <i>p</i>, where <i>W</i><sub>px</sub> is the number of pixel columns and <i>p</i> the pixel pitch. Two sensors with the same resolution can differ enormously in physical size, and that size, more than the pixel count, determines how a given lens behaves: the same lens that is a mild wide-angle on a large sensor becomes a telephoto-like crop on a small one (Figure 1.2 and Table 1.1).</p>
+<figure id="f-1-2" class="pdf-fig"><img src="../img/optics/f-1-2.png" width="580" height="221" loading="lazy" alt="Common sensor formats drawn to the same scale. The crop factor is the ratio of the full-frame diagonal (43.3 mm) to the sensor diagonal."><figcaption><b>Figure 1.2</b> Common sensor formats drawn to the same scale. The crop factor is the ratio of the full-frame diagonal (43.3 mm) to the sensor diagonal.</figcaption></figure>
+<p class="tcap"><b>Table 1.1</b> Typical sensor formats. Exact dimensions vary slightly between manufacturers.</p>
+<table>
+<tr><th>Format</th><th>Width × height (mm)</th><th>Diagonal (mm)</th><th>Crop factor</th><th>Typical use</th></tr>
+<tr><td>Full frame</td><td>36 × 24</td><td>43.3</td><td>1.00</td><td>professional photography, cinema</td></tr>
+<tr><td>APS-C</td><td>23.5 × 15.6</td><td>28.2</td><td>1.53</td><td>mirrorless and DSLR cameras</td></tr>
+<tr><td>1 inch</td><td>13.2 × 8.8</td><td>15.9</td><td>2.73</td><td>industrial machine vision, premium compacts</td></tr>
+<tr><td>1/2.3 inch</td><td>6.17 × 4.55</td><td>7.7</td><td>5.64</td><td>compact and action cameras, drones</td></tr>
+<tr><td>1/2.8 inch</td><td>5.57 × 3.13</td><td>6.4</td><td>6.77</td><td>security, automotive and robotics cameras</td></tr>
+</table>
+<p>Sensor formats are named after historical video-camera tubes: a "1/2.3 inch" sensor is not 1/2.3 inch across. Always work from the datasheet width in millimetres, or compute it as <i>W</i><sub>px</sub> · <i>p</i>. A 1920-pixel-wide sensor with 2.9 µm pixels, for example, is 5.57 mm wide.</p>
+<p>Pixel pitch matters for a second reason. A sensor can only record detail up to its Nyquist frequency, 1/(2<i>p</i>). For <i>p</i> = 2.9 µm that is about 172 line pairs per millimetre, and the lens must deliver usable contrast at that frequency across the whole sensor if the pixel count is to mean anything. Small pixels therefore place heavy demands on lens quality, focus accuracy and, as we will see in Section 1.5, on the position of the sensor plane itself.</p>
+</section>
+<section id="s-1-3">
+<h3><span class="num">1.3</span>The lens as a ray-bending machine</h3>
+<h4><span class="num">1.3.1</span>The thin lens</h4>
+<p>A convex lens refracts light at its two curved surfaces so that rays leaving one scene point are bent towards a common image point. Rays that arrive parallel to the optical axis, as they would from a very distant point, converge at the <b>focal point</b> <i>F</i>′ at a distance <i>f</i> behind the lens; this distance is the focal length. For a lens thin enough that its thickness can be ignored, the relation between object distance <i>u</i>, image distance <i>v</i> and focal length is the <b>thin-lens equation</b>:</p>
+<div class="eq">\[ \frac{1}{f} = \frac{1}{u} + \frac{1}{v} \tag{1.2} \]</div>
+<figure id="f-1-3" class="pdf-fig"><img src="../img/optics/f-1-3.png" width="593" height="287" loading="lazy" alt="Image formation by a thin lens. Three rays suffice to locate the image: one parallel to the axis (blue), which is bent through F′; one through the lens centre ("><figcaption><b>Figure 1.3</b> Image formation by a thin lens. Three rays suffice to locate the image: one parallel to the axis (blue), which is bent through <i>F</i>′; one through the lens centre (orange), which is not deflected; and one through <i>F</i> (purple), which leaves the lens parallel to the axis. They meet at the image point.</figcaption></figure>
+<p>Figure 1.3 shows why three rays are enough: any two rays from the same object point meet at its image, and these three are the easiest to construct. The image is <i>real</i> (light actually arrives there, so a sensor can record it) and <i>inverted</i>. Its size relative to the object is the lateral magnification:</p>
+<div class="eq">\[ m = \frac{h_{\text{image}}}{H_{\text{object}}} = -\frac{v}{u} \tag{1.3} \]</div>
+<p>Two limiting cases fix intuition. As the object moves to infinity, 1/<i>u</i> vanishes and <i>v</i> becomes exactly <i>f</i>: a camera focused at infinity has its sensor one focal length behind the lens. As the object approaches the front focal point (<i>u</i> → <i>f</i>), the image recedes to infinity. Everything in between has <i>v</i> larger than <i>f</i>.</p>
+<div class="box practice"><span class="box-title">WORKED EXAMPLE 1: A 50 MM LENS FOCUSED AT 2 M</span><p>With <i>f</i> = 50 mm and <i>u</i> = 2000 mm, Equation (1.2) gives <i>v</i> = <i>f u</i> / (<i>u</i> − <i>f</i>) = 50 · 2000 / 1950 = <b>51.28 mm</b>. The sensor must therefore sit 1.28 mm farther from the lens than it would for an object at infinity. The magnification is <i>m</i> = −<i>v</i>/<i>u</i> = −0.0256, so a 1.7 m tall person appears 43.6 mm tall on the sensor.</p></div>
+<h4><span class="num">1.3.2</span>Focusing means changing the image distance</h4>
+<p>Solving the thin-lens equation for <i>v</i> gives the position of the sharp image for any object distance. The quantity that matters mechanically is how far the lens must be moved away from the sensor, relative to its infinity position, in order to focus:</p>
+<div class="eq">\[ v = \frac{f\,u}{u - f}, \qquad \Delta = v - f = \frac{f^2}{u - f} \tag{1.4} \]</div>
+<p>The extension <i>Δ</i> falls off quickly with distance (Figure 1.4a) and grows with the <i>square</i> of the focal length. A 50 mm lens focused at 1 m must move 2.63 mm; a 4 mm lens focused at 1 m moves only 16 µm. This is why short lenses used in robotics and automotive cameras can be fixed-focus: for objects farther than about 100<i>f</i> the extension is below 1% of <i>f</i>, and the whole working range sits within a few tens of micrometres of the infinity position.</p>
+<figure id="f-1-4" class="pdf-fig"><img src="../img/optics/f-1-4.png" width="604" height="225" loading="lazy" alt="(a) Lens extension Δ beyond the infinity position as a function of object distance. (b) Because the image distance v grows when focusing closer, the field of vi"><figcaption><b>Figure 1.4</b> (a) Lens extension <i>Δ</i> beyond the infinity position as a function of object distance. (b) Because the image distance <i>v</i> grows when focusing closer, the field of view shrinks, an effect known as focus breathing.</figcaption></figure>
+<p>Moving the lens away from the sensor has a side effect that Figure 1.4b quantifies. The angle subtended by the sensor is set by <i>v</i>, not by <i>f</i>, so focusing closer narrows the field of view. For a 50 mm lens on a 1 inch sensor, focusing from infinity to 0.5 m reduces the horizontal field of view by about 10%. Lens designers fight this with internal focusing groups, but the effect never vanishes completely, and it means that the intrinsic parameters you calibrate are valid only for the focus setting at which you calibrated.</p>
+<h4><span class="num">1.3.3</span>Real lenses</h4>
+<p>A real camera lens contains between three and twenty elements, arranged to cancel the aberrations (colour fringing, blur away from the axis, curvature of the focal surface) that any single element introduces. Such a compound lens behaves, to a good approximation, like a thin lens with two modifications. First, it has two <i>principal planes</i> rather than one, and the distances <i>u</i> and <i>v</i> are measured from them rather than from the front or rear glass. Second, its brightness and depth of field are governed by the <i>aperture stop</i>, an adjustable diaphragm of diameter <i>D</i>. The ratio <i>N</i> = <i>f</i>/<i>D</i> is the f-number; the light reaching each pixel scales as 1/<i>N</i><sup>2</sup>, which is why the standard f-number sequence 1.4, 2, 2.8, 4, 5.6, 8, 11 advances by factors of √2: each step halves the light.</p>
+<p>Lenses for machine vision come in standardised mounts. The C-mount and CS-mount (flange distance 17.526 mm and 12.526 mm respectively) carry larger lenses for industrial cameras; the small M12 or S-mount (an M12 × 0.5 mm thread) dominates embedded, automotive and robotics work. In an M12 lens the thread is also the focus mechanism: turning the lens in its holder moves it along the optical axis, which will matter in Section 1.5.4.</p>
+<div class="box practice"><span class="box-title">ENGINEERING NOTE</span><p>The focal length printed on a lens is a nominal value. Tolerances of ±1–5% are common for low-cost lenses, and the effective focal length also drifts with temperature and focus setting. Never derive geometry from the datasheet value alone; use it to choose a lens and then calibrate.</p></div>
+</section>
+<section id="s-1-4">
+<h3><span class="num">1.4</span>Field of view</h3>
+<h4><span class="num">1.4.1</span>Definition and formula</h4>
+<p>The <b>field of view</b> (FOV) is the angular extent of the scene that the sensor records. Figure 1.5 shows the geometry for the horizontal direction. The two rays that pass through the centre of the lens and the left and right edges of the sensor bound the visible region; the angle between them is the horizontal FOV. Because the centre ray is not deflected, the right-angled triangle formed by half the sensor width and the distance to the lens gives directly:</p>
+<div class="eq">\[ \mathrm{HFOV} = 2\arctan\Big(\frac{w}{2f}\Big) \tag{1.5} \]</div>
+<figure id="f-1-5" class="pdf-fig"><img src="../img/optics/f-1-5.png" width="593" height="445" loading="lazy" alt="Field of view geometry (top view). The angle θ between the rays through the sensor edges and the lens centre is the field of view. The scene width W covered at "><figcaption><b>Figure 1.5</b> Field of view geometry (top view). The angle <i>θ</i> between the rays through the sensor edges and the lens centre is the field of view. The scene width <i>W</i> covered at distance <i>Z</i> follows by similar triangles.</figcaption></figure>
+<p>The vertical and diagonal FOV follow from the same formula with the sensor height <i>h</i> or diagonal <i>d</i> = √(<i>w</i><sup>2</sup> + <i>h</i><sup>2</sup>) in place of <i>w</i>. When the lens is focused at a finite distance, replace <i>f</i> by the image distance <i>v</i>. Two properties are worth noting. The FOV depends only on the ratio <i>w</i>/<i>f</i>, so a small sensor with a short lens can have the same FOV as a large sensor with a long one. And for small angles the formula reduces to HFOV ≈ 57.3° · <i>w</i>/<i>f</i>, a handy mental estimate.</p>
+<p class="tcap"><b>Table 1.2</b> Horizontal field of view for combinations of focal length and sensor width.</p>
+<table>
+<tr><th>Focal length</th><th>1/2.8" (5.57 mm)</th><th>1" (13.2 mm)</th><th>APS-C (23.5 mm)</th><th>Full frame (36 mm)</th></tr>
+<tr><td>2.8 mm</td><td>89.7°</td><td>134.0°</td><td>153.2°</td><td>162.3°</td></tr>
+<tr><td>4 mm</td><td>69.7°</td><td>117.6°</td><td>142.4°</td><td>154.9°</td></tr>
+<tr><td>8 mm</td><td>38.4°</td><td>79.0°</td><td>111.5°</td><td>132.1°</td></tr>
+<tr><td>16 mm</td><td>19.7°</td><td>44.8°</td><td>72.6°</td><td>96.7°</td></tr>
+<tr><td>25 mm</td><td>12.7°</td><td>29.6°</td><td>50.3°</td><td>71.5°</td></tr>
+<tr><td>50 mm</td><td>6.4°</td><td>15.0°</td><td>26.4°</td><td>39.6°</td></tr>
+<tr><td>100 mm</td><td>3.2°</td><td>7.6°</td><td>13.4°</td><td>20.4°</td></tr>
+</table>
+<figure id="f-1-6" class="pdf-fig"><img src="../img/optics/f-1-6.png" width="556" height="285" loading="lazy" alt="Horizontal field of view as a function of focal length for four sensor widths. The curve flattens at long focal lengths and rises steeply below about 10 mm, whe"><figcaption><b>Figure 1.6</b> Horizontal field of view as a function of focal length for four sensor widths. The curve flattens at long focal lengths and rises steeply below about 10 mm, where small changes in <i>f</i> change the view dramatically.</figcaption></figure>
+<p>Figure 1.6 explains an important practical point. At long focal lengths, FOV changes slowly and almost linearly with 1/<i>f</i>. At short focal lengths the curve bends and approaches, but never reaches, 180°. A rectilinear lens would need <i>f</i> → 0 to see a full hemisphere, which is the first hint that a different projection is needed for very wide views (Section 1.7).</p>
+<h4><span class="num">1.4.2</span>Angle versus footprint</h4>
+<p>The field of view is an angle, and angles do not depend on distance. What does depend on distance is the <i>footprint</i>: the width of the scene region the sensor covers at distance <i>Z</i>. By similar triangles in Figure 1.5:</p>
+<div class="eq">\[ W = w\,\frac{u}{v} \approx \frac{w\,Z}{f} \qquad (Z \gg f) \tag{1.6} \]</div>
+<p>Dividing the footprint by the number of pixel columns gives the <b>ground sample distance</b> (GSD), the size of scene that one pixel covers: GSD = <i>p Z</i>/<i>f</i>. It is the quantity that decides whether a feature of a given size is detectable. Doubling the focal length halves the GSD at the same distance, at the cost of halving the footprint.</p>
+<div class="box practice"><span class="box-title">WORKED EXAMPLE 2: CHOOSING A LENS</span><p>A camera must cover a 6 m wide scene from 4 m away. The sensor is 1920 pixels wide with 2.9 µm pixels, so <i>w</i> = 5.57 mm. The required horizontal FOV is 2 arctan(3/4) = <b>73.7°</b>. Solving Equation (1.5) for <i>f</i> gives <i>f</i> = (<i>w</i>/2) /tan(HFOV/2) = 2.784 / 0.75 = <b>3.71 mm</b>. A stock 3.6 mm or 4 mm lens would be the practical choice, changing the coverage slightly. At 4 m the GSD is 3.12 mm per pixel, so a 20 mm marker would span about 6 pixels.</p></div>
+<h4><span class="num">1.4.3</span>Pixel focal length and the camera matrix</h4>
+<p>Computer vision rarely uses millimetres. After calibration, a camera is described by its <b>pixel focal length</b>, the focal length expressed in units of pixels:</p>
+<div class="eq">\[ f_x = \frac{f}{p_x} = \frac{W_{\text{px}}/2}{\tan(\mathrm{HFOV}/2)} \tag{1.7} \]</div>
+<p>A scene point (<i>X</i>, <i>Y</i>, <i>Z</i>) in camera coordinates then lands on pixel <i>u</i> = <i>f</i><sub>x</sub><i>X</i>/<i>Z</i> + <i>c</i><sub>x</sub>, <i>v</i> = <i>f</i><sub>y</sub><i>Y</i>/<i>Z</i> + <i>c</i><sub>y</sub>, where (<i>c</i><sub>x</sub>, <i>c</i><sub>y</sub>) is the principal point, the pixel where the optical axis meets the sensor. These four numbers are the entries of the intrinsic matrix <b>K</b>. For the lens of Worked example 2, <i>f</i><sub>x</sub> = 3.71 / 0.0029 = 1280 pixels, which equals 960 /tan(36.9°) as it must.</p>
+<p>Three consequences follow. First, <i>f</i><sub>x</sub> is a ratio: it does not reveal the physical focal length unless the pixel pitch is known. Second, anything that rescales the image, such as binning, resizing or cropping, rescales <i>f</i><sub>x</sub> and moves the principal point, and the matrix must be updated accordingly. Third, focusing, zooming and temperature all change <i>f</i><sub>x</sub>, so it is a property of a camera <i>in a particular state</i>, not of a camera in general.</p>
+<div class="box note"><span class="box-title">CROP FACTOR AND EQUIVALENCE</span><p>Photographers describe lenses by their "35 mm equivalent" focal length: the focal length that would give the same FOV on a full-frame sensor. It equals <i>f</i> multiplied by the crop factor of Table 1.1. A 4 mm lens on a 1/2.8 inch sensor is therefore roughly a 27 mm equivalent. The concept is a convenient shorthand for comparing FOV; it does not transfer depth of field or noise performance, which depend on the real focal length and pixel size.</p></div>
+<h4>ROI and digital crop</h4>
+<p>Reducing a sensor region of interest narrows the recorded FOV if the ROI crops pixels from the edges. It does not change perspective, focal length, optical magnification, or diffraction. It is equivalent to cropping the full image, except that the camera may read out faster or use less bandwidth.</p>
+</section>
+<section id="s-1-5">
+<h3><span class="num">1.5</span>Focus</h3>
+<h4><span class="num">1.5.1</span>Only one plane is sharp</h4>
+<p>The thin-lens equation assigns each object distance <i>u</i> its own image distance <i>v</i>. A sensor sits at one distance, so it can coincide with the sharp image of only one object plane. Points on other planes have their image in front of or behind the sensor, and the sensor intercepts a cone of light instead of a point: a disc called the <b>blur circle</b> or circle of confusion (Figure 1.7).</p>
+<figure id="f-1-7" class="pdf-fig"><img src="../img/optics/f-1-7.png" width="604" height="213" loading="lazy" alt="A bundle of rays from a distant point, converging at F′. Left and right: the sensor plane is displaced from the image plane and records a blur circle. Centre: t"><figcaption><b>Figure 1.7</b> A bundle of rays from a distant point, converging at <i>F</i>′. Left and right: the sensor plane is displaced from the image plane and records a blur circle. Centre: the sensor sits exactly in the image plane and records a point.</figcaption></figure>
+<p>Similar triangles in the light cone give the blur diameter directly. If the aperture has diameter <i>D</i>, the image point lies at distance <i>v</i>′, and the sensor sits at distance <i>v</i>, then</p>
+<div class="eq">\[ c = D\,\frac{|v' - v|}{v'} \tag{1.8} \]</div>
+<p>The blur grows linearly with the focus error and with the aperture diameter. Both facts are exploited in practice: closing the aperture (larger <i>N</i>, smaller <i>D</i>) makes focus more forgiving, and a short focal length at a given f-number means a small <i>D</i> and hence small blur for a given error.</p>
+<h4><span class="num">1.5.2</span>How much blur is acceptable?</h4>
+<p>Sharpness is a continuum, so a threshold <i>c</i><sub>max</sub> is chosen below which blur is considered invisible. Photography traditionally uses about 1/1500 of the sensor diagonal, around 29 µm for full frame. For machine vision a more principled choice is one to two pixel pitches: a blur circle of one pixel is indistinguishable from the pixel sampling itself, and two pixels is a common compromise for detection tasks. Tasks that rely on sub-pixel edge localisation, such as calibration or metrology, need the smaller value.</p>
+<h4><span class="num">1.5.3</span>Depth of field and hyperfocal distance</h4>
+<p>The range of object distances for which the blur stays below <i>c</i><sub>max</sub> is the <b>depth of field</b> (DoF). Figure 1.8 shows the geometry. If the lens is focused on distance <i>s</i>, the blur circle of a point at distance <i>u</i> works out to</p>
+<figure id="f-1-8" class="pdf-fig"><img src="../img/optics/f-1-8.png" width="604" height="240" loading="lazy" alt="Depth of field. Points nearer than the focus plane (blue) focus behind the sensor; points farther away (coral) focus in front. The blur circle c at the sensor i"><figcaption><b>Figure 1.8</b> Depth of field. Points nearer than the focus plane (blue) focus behind the sensor; points farther away (coral) focus in front. The blur circle <i>c</i> at the sensor is the same at the near and far limits, and the sharp zone extends farther behind the focus plane than in front of it.</figcaption></figure>
+<div class="eq">\[ c(u) = \frac{f^2}{N\,(s - f)} \cdot \frac{|u - s|}{u} \tag{1.9} \]</div>
+<p>Setting <i>c</i>(<i>u</i>) = <i>c</i><sub>max</sub> and solving for <i>u</i> gives the near and far limits of the sharp zone. They are conveniently expressed through the <b>hyperfocal distance</b> <i>H</i>, the focus distance at which the far limit just reaches infinity:</p>
+<div class="eq">\[ H = \frac{f^2}{N\,c_{\max}} + f \tag{1.10} \]</div>
+<div class="eq">\[ D_{\text{near}} = \frac{s\,(H - f)}{H + s - 2f}, \qquad D_{\text{far}} = \frac{s\,(H - f)}{H - s} \quad (s < H) \tag{1.11} \]</div>
+<p>Focusing at <i>s</i> = <i>H</i> yields the largest sharp zone that still includes infinity, running from about <i>H</i>/2 to ∞. Focusing beyond <i>H</i> wastes depth of field behind infinity. Equation (1.10) tells us how to buy depth of field: it grows with the f-number and the tolerated blur, and falls with the <i>square</i> of the focal length. Short lenses are therefore forgiving, long lenses unforgiving (Figure 1.9b).</p>
+<div class="box practice"><span class="box-title">WORKED EXAMPLE 3: FOCUS FOR THE 3.7 MM LENS</span><p>Take the lens of Worked example 2 at <i>N</i> = 2.0 with <i>c</i><sub>max</sub> = 2 pixels = 5.8 µm. The hyperfocal distance is <i>H</i> = 3.71<sup>2</sup> / (2.0 · 0.0058) + 3.71 = <b>1.19 m</b>. Focused at <i>H</i>, everything from 0.60 m to infinity is sharp. Even focused at 3 m, which lies beyond <i>H</i>, the near limit is 0.85 m. For a lens of this focal length, focus is a one-time factory adjustment rather than a control loop.</p></div>
+<p class="tcap"><b>Table 1.3</b> Depth of field for a 25 mm lens, <i>c</i><sub>max</sub> = 4.8 µm (two 2.4 µm pixels), focused at <i>s</i> = 5 m.</p>
+<table>
+<tr><th>f-number</th><th>Hyperfocal <i>H</i></th><th>Near limit</th><th>Far limit</th><th>Depth of field</th></tr>
+<tr><td>f/1.4</td><td>93.0 m</td><td>4.75 m</td><td>5.28 m</td><td>0.54 m</td></tr>
+<tr><td>f/2.8</td><td>46.5 m</td><td>4.52 m</td><td>5.60 m</td><td>1.08 m</td></tr>
+<tr><td>f/5.6</td><td>23.3 m</td><td>4.12 m</td><td>6.36 m</td><td>2.24 m</td></tr>
+<tr><td>f/11</td><td>11.9 m</td><td>3.52 m</td><td>8.62 m</td><td>5.10 m</td></tr>
+</table>
+<figure id="f-1-9" class="pdf-fig"><img src="../img/optics/f-1-9.png" width="604" height="253" loading="lazy" alt="(a) Near and far limits of the sharp zone versus focus distance for three f-numbers (25 mm lens). The dashed line marks the focus distance itself; the far limit"><figcaption><b>Figure 1.9</b> (a) Near and far limits of the sharp zone versus focus distance for three f-numbers (25 mm lens). The dashed line marks the focus distance itself; the far limit diverges once the focus distance reaches the hyperfocal distance. (b) Hyperfocal distance versus f-number for four focal lengths.</figcaption></figure>
+<div class="box why"><span class="box-title">ENGINEERING NOTE: WHY NOT SIMPLY STOP DOWN?</span><p>Closing the aperture increases depth of field, but diffraction places a floor on blur. A perfect lens images a point as an Airy disc of diameter about 2.44<i>λN</i>. At 550 nm this is 2.7 µm at <i>f</i>/2, 7.5 µm at <i>f</i>/5.6 and 14.8 µm at <i>f</i>/11, already larger than a 2.9 µm pixel at <i>f</i>/2. For small-pixel sensors the best resolution therefore lies at wide-tomoderate apertures, and depth of field has to come from short focal length rather than from a small aperture.</p></div>
+<h4>Depth of field and magnification</h4>
+<p>At close range, magnification becomes a better predictor of DOF than subject distance alone. Macro imaging can have millimeter-scale or sub-millimeter DOF even at small apertures. For high-magnification inspection, lighting, mechanical flatness, focus stability, and telecentric or specialized macro optics may matter more than nominal megapixels.</p>
+<h4><span class="num">1.5.4</span>Where exactly is the sensor plane?</h4>
+<p>Everything above assumes the sensor sits at distance <i>v</i> behind the lens. In a manufactured camera the allowed error is startlingly small. The image-side counterpart of depth of field is the <b>depth of focus</b>: the range of sensor positions over which blur stays below <i>c</i><sub>max</sub>. It is approximately ±<i>N c</i><sub>max</sub>. For <i>N</i> = 2 and <i>c</i><sub>max</sub> = 5.8 µm that is ±11.6 µm, thinner than a human hair and about a tenth of the thickness of a sheet of paper.</p>
+<p>Several effects move the sensor plane, or the plane of best focus, by more than that tolerance:</p>
+<ul><li><b>Back focal distance and mount tolerances.</b> The distance from the last lens surface to the sensor is set by the mechanical stack of lens barrel, holder, board and sensor package, each with tolerances of tens of micrometres. A common remedy is a threaded lens: an M12 × 0.5 mm thread moves 0.5 mm per turn, or 1.39 µm per degree. The ±11.6 µm focus window above corresponds to only about ±8° of rotation, so the lens is turned while watching a live sharpness measure and then locked with adhesive or a set screw.</li><li><b>Cover glass and IR-cut filters.</b> A plane-parallel glass plate in the converging beam pushes the focus backwards (Figure 1.10). The longitudinal shift is given by Equation (1.12) below. A 0.7 mm plate of index 1.5 shifts focus by 0.23 mm, twenty times the depth of focus computed above, so lenses are designed for a specific glass stack, and replacing a filter changes the focus.</li><li><b>Sensor tilt and misalignment.</b> If the sensor is not perpendicular to the optical axis, one side of the image is in focus while the other is not. This shows up as a left-to-right sharpness gradient and is a classic production defect. Active alignment, in which the sensor or lens is adjusted while measuring sharpness at several field positions, is the industrial fix.</li><li><b>Field curvature.</b> Even a perfect lens does not focus a flat object on a flat sensor; the surface of best focus is slightly curved. Designers balance centre against corner, which is why the sharpest focus setting differs between them.</li><li><b>Temperature and wavelength.</b> Plastic lens elements change focal length with temperature, and glass dispersion shifts focus between visible and near-infrared light. Cameras for 24-hour use (day and night) need lenses corrected for both, or a focus compromise.</li></ul>
+<figure id="f-1-10" class="pdf-fig"><img src="../img/optics/f-1-10.png" width="593" height="232" loading="lazy" alt="A plane-parallel glass plate (cover glass or IR-cut filter) in the converging beam. Rays bend towards the normal inside the glass and emerge parallel to their o"><figcaption><b>Figure 1.10</b> A plane-parallel glass plate (cover glass or IR-cut filter) in the converging beam. Rays bend towards the normal inside the glass and emerge parallel to their original direction, but displaced, so the focus moves backwards by <i>Δ</i>.</figcaption></figure>
+<div class="eq">\[ \Delta = t\,\Big(1 - \frac{1}{n}\Big) \tag{1.12} \]</div>
+<div class="box practice"><span class="box-title">ENGINEERING NOTE: MEASURING FOCUS</span><p>Verify focus numerically, not by eye. A slanted-edge target imaged at the centre and the four corners gives the modulation transfer function (MTF) at each position; the MTF50 value, the frequency at which contrast falls to half, is a robust sharpness score. When no target is available, the variance of the Laplacian of the image is a cheap proxy. Comparing the centre against the corners reveals tilt (asymmetric corners) and field curvature (corners better or worse than centre at every focus setting).</p></div>
+</section>
+<section id="s-1-6">
+<h3><span class="num">1.6</span>Distortion: leaving the pinhole ideal</h3>
+<p>Real lenses depart from the straight-line geometry of Equation (1.1). The most common departure is <b>radial distortion</b>, where magnification varies with distance from the optical axis. The standard polynomial (Brown–Conrady) model maps ideal normalised coordinates (<i>x</i>, <i>y</i>) to distorted ones:</p>
+<div class="eq">\[ x_d = x\,(1 + k_1 r^2 + k_2 r^4 + k_3 r^6), \qquad r^2 = x^2 + y^2 \tag{1.13} \]</div>
+<figure id="f-1-11" class="pdf-fig"><img src="../img/optics/f-1-11.png" width="580" height="213" loading="lazy" alt="The effect of the first radial term on a square grid. Negative k1 compresses the periphery (barrel); positive k1"><figcaption><b>Figure 1.11</b> The effect of the first radial term on a square grid. Negative <i>k</i><sub>1</sub> compresses the periphery (barrel); positive <i>k</i><sub>1</sub> stretches it (pincushion). Dashed outline: the undistorted frame.</figcaption></figure>
+<p>The same relation is applied to <i>y</i>. A second family of terms, tangential distortion, accounts for the lens elements being slightly off-centre. These coefficients are estimated during calibration by imaging a known pattern, usually a checkerboard, from many viewpoints and minimising reprojection error.</p>
+<p>The polynomial is well behaved while the field of view stays below roughly 100–120°. Beyond that, the ratio between the true image radius and the pinhole prediction, <i>f</i> tan <i>θ</i>, becomes so large that no low-order polynomial can follow it. That regime calls for a different parametrisation of the projection itself, which is the subject of the rest of the chapter.</p>
+<h4>Calibration is configuration-specific</h4>
+<p>Changing focus, zoom, resolution mode, digital crop, lens mount position, or sometimes aperture can alter the effective camera model. If dimensional accuracy matters, calibrate in the final mechanical configuration and validate residual errors over the actual measurement volume.</p>
+</section>
+<section id="s-1-7">
+<h3><span class="num">1.7</span>Fisheye lenses</h3>
+<h4><span class="num">1.7.1</span>Why rectilinear projection cannot reach 180°</h4>
+<p>Consider a ray arriving at an angle <i>θ</i> from the optical axis. A rectilinear (pinhole-like) lens places it at image radius <i>r</i> = <i>f</i> tan <i>θ</i>. The tangent diverges as <i>θ</i> approaches 90°: a ray at 80° lands 5.7<i>f</i> from the centre, one at 89° lands 57<i>f</i>, and a ray at 90° never reaches the sensor at all. A rectilinear lens covering 180° would need an infinitely large sensor. The deeper problem is magnification. The radial scale of the image, d<i>r</i>/d<i>θ</i> = <i>f</i> / cos<sup>2</sup><i>θ</i>, is 1× on the axis, 4× at 60°, 15× at 75° and 132× at 85°. Objects near the edge of an ultra-wide rectilinear image are stretched radially to many times their size at the centre, while their pixel density per degree grows just as steeply. A wide rectilinear image is correct, but unpleasant to look at and wasteful of sensor area on the periphery.</p>
+<h4><span class="num">1.7.2</span>The fisheye idea: choose a different mapping</h4>
+<p>A fisheye lens abandons the tangent law deliberately. It uses strong barrel distortion, built into the optical design, so that the image radius grows slowly enough with angle that a full hemisphere, or even more, fits on the sensor. In general the lens is described by a monotonic function <i>g</i>:</p>
+<div class="eq">\[ r = f\,g(\theta) \tag{1.14} \]</div>
+<p>Several choices of <i>g</i> have become standard (Table 1.4 and Figure 1.12). Each preserves one property of the scene at the expense of the others.</p>
+<p class="tcap"><b>Table 1.4</b> Standard lens projection models.</p>
+<table>
+<tr><th>Model</th><th>Mapping <i>r</i>(<i>θ</i>)</th><th>Preserves</th><th>Reaches 180°?</th><th>Typical use</th></tr>
+<tr><td>Rectilinear</td><td><i>f</i> tan <i>θ</i></td><td>straight lines</td><td>no (diverges at 90°)</td><td>ordinary and wideangle lenses</td></tr>
+<tr><td>Equidistant</td><td><i>f θ</i></td><td>angles along a radius (uniform pixels per degree)</td><td>yes</td><td>robotics, SLAM, calibration targets</td></tr>
+<tr><td>Equisolid angle</td><td>2<i>f</i> sin(<i>θ</i>/2)</td><td>area per solid angle</td><td>yes</td><td>photographic fisheyes, sky imaging</td></tr>
+<tr><td>Stereographic</td><td>2<i>f</i> tan(<i>θ</i>/2)</td><td>local shape (conformal)</td><td>yes, stretched at the rim</td><td>automotive surround view, security</td></tr>
+<tr><td>Orthographic</td><td><i>f</i> sin <i>θ</i></td><td>illumination fall-off</td><td>no (maximum at 90°)</td><td>rare; some hemispheric sensors</td></tr>
+</table>
+<figure id="f-1-12" class="pdf-fig"><img src="../img/optics/f-1-12.png" width="604" height="257" loading="lazy" alt="(a) Image radius per unit focal length for five projection models. All coincide near the axis, where g(θ) ≈ θ; they separate as the angle grows. (b) The slope d"><figcaption><b>Figure 1.12</b> (a) Image radius per unit focal length for five projection models. All coincide near the axis, where <i>g</i>(<i>θ</i>) ≈ <i>θ</i>; they separate as the angle grows. (b) The slope d<i>r</i>/d<i>θ</i> is the number of pixels per radian (divided by <i>f</i>/<i>p</i>): flat for equidistant, rising for rectilinear and stereographic, falling for the others.</figcaption></figure>
+<p>The slope plot in Figure 1.12b is a good way to remember what each model does with your pixels. The equidistant model spends them uniformly across the field. The equisolid and orthographic models spend them most heavily near the centre and thin them toward the edge. The stereographic model does the opposite, which is why it suits cameras that must recognise objects at the periphery, as in vehicle surround view. The slope of the rectilinear model explodes at large angles.</p>
+<p>Real fisheye lenses never follow any of these formulas exactly. The ideal models are best seen as starting points for calibration, which refines them with polynomial corrections (Section 1.7.6).</p>
+<h4><span class="num">1.7.3</span>What a fisheye image looks like</h4>
+<p>In a fisheye image straight lines in the world no longer appear straight, with one exception: lines that pass through the optical axis project onto radial lines through the image centre and stay straight. Everything else curves, bending increasingly towards the rim. Figure 1.13 shows a flat wall covered with a square grid under four projection models. The rectilinear panel preserves the grid but can only show a limited field. The three fisheye panels show the wall bending around the centre, with the grid lines crowding towards the rim, where the wall is seen at a grazing angle.</p>
+<figure id="f-1-13" class="pdf-fig"><img src="../img/optics/f-1-13.png" width="604" height="172" loading="lazy" alt="A flat wall covered with a square grid, seen head-on under four projection models. Coral: the grid lines through the optical axis, which remain straight in ever"><figcaption><b>Figure 1.13</b> A flat wall covered with a square grid, seen head-on under four projection models. Coral: the grid lines through the optical axis, which remain straight in every model. Dashed: the 90° boundary (circle) or the clipped region (square).</figcaption></figure>
+<h4><span class="num">1.7.4</span>Image circle, sensor and what "180°" means</h4>
+<p>A fisheye lens projects a circular image whose size is a design decision. How that circle relates to the rectangular sensor decides how the lens is used (Figure 1.14 and Table 1.5). In a <i>circular fisheye</i> the image circle fits inside the sensor: a perfect 180° disc surrounded by black. In a <i>diagonal fisheye</i> (also called full-frame fisheye) the circle is larger, so the sensor crops it, and the full 180° is available only along the diagonal. Intermediate designs exist in between.</p>
+<figure id="f-1-14" class="pdf-fig"><img src="../img/optics/f-1-14.png" width="604" height="241" loading="lazy" alt="Three ways to fit an equidistant 180° image circle onto a 36 × 24 mm sensor. Dashed: the full image circle. The focal length and the horizontal and vertical fie"><figcaption><b>Figure 1.14</b> Three ways to fit an equidistant 180° image circle onto a 36 × 24 mm sensor. Dashed: the full image circle. The focal length and the horizontal and vertical fields of view change with the choice.</figcaption></figure>
+<figure id="f-fisheye-photo"><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:.8rem"><div><div style="font-size:.85rem;font-weight:600;margin:0 0 .3rem">Wide road camera (fisheye-type lens)</div><img src="../img/optics/tunnel-wide.jpg" width="900" height="564" loading="lazy" alt="Road tunnel through a fisheye-type wide camera: curved wall seams, black corners, darker rim" style="display:block;width:100%;height:auto;border-radius:4px"></div><div><div style="font-size:.85rem;font-weight:600;margin:0 0 .3rem">Narrow road camera, same instant</div><img src="../img/optics/tunnel-narrow.jpg" width="900" height="564" loading="lazy" alt="The same tunnel through the narrow camera: straight wall seams, much smaller field of view" style="display:block;width:100%;height:auto;border-radius:4px"></div></div><figcaption><b>Figure 1.15</b> One moment in a road tunnel, recorded by two cameras of the same dashcam unit behind the windscreen. The first view comes from the wide camera, a fisheye-type lens: its wall seams are straight in the world but bend more the farther they run from the image centre, while the lane line heading for the vanishing point, nearly a radial line, stays almost straight (Section 1.7.3). The black corners lie outside the image circle, which is about as wide as the sensor and taller than it, so the top and bottom are cut: a case between the circular and the wide-circle fisheye of Figure 1.14. Brightness also falls off towards the rim (vignetting, Section 2.3). The second view comes from the narrow camera, a near-rectilinear lens of about 40° horizontal field of view (openpilot lists a pixel focal length of 2648 px for its 1928 px width, Equation 1.7). Its seams are straight, and the whole frame shows only a small central part of the wide view at much higher pixels per degree (Section 1.7.5). openpilot's own source remarks that the single focal length it lists for the wide camera is probably wrong because magnification is not consistent across the frame: a fisheye cannot be described by one pinhole focal length, which is why it needs the angle-based model of Section 1.7.6.<span class="g-credit">Images: <a href="https://github.com/commaai/comma10k">comma10k dataset</a>, comma.ai, MIT licence; pair 00010 of the imgs2 set, downscaled.</span></figcaption></figure>
+<p class="tcap"><b>Table 1.5</b> Equidistant 180° fisheye lenses on a 36 × 24 mm sensor.</p>
+<table>
+<tr><th>Lens type</th><th>Circle radius (mm)</th><th><i>f</i> (mm)</th><th>HFOV</th><th>VFOV</th><th>DFOV</th></tr>
+<tr><td>Circular</td><td>12.0</td><td>7.6</td><td>180°</td><td>180°</td><td>180°</td></tr>
+<tr><td>Diagonal</td><td>21.6</td><td>13.8</td><td>150°</td><td>100°</td><td>180°</td></tr>
+<tr><td>Wide-circle</td><td>18.0</td><td>11.5</td><td>180°</td><td>120°</td><td>180°</td></tr>
+</table>
+<p>When reading a datasheet, check which direction the quoted FOV refers to. A lens advertised as "180°" may reach that value only along the sensor diagonal, and a "190°" lens images rays up to 95° off axis: the front element bulges beyond a hemisphere, and the camera sees slightly behind itself.</p>
+<h4><span class="num">1.7.5</span>The pixel budget</h4>
+<p>Seeing everything has a price, and it is paid in pixels per degree. The local pixel density of a camera follows directly from the mapping:</p>
+<div class="eq">\[ \rho(\theta) = \frac{f}{p}\,g'(\theta) \quad [\text{pixels per radian}] \tag{1.15} \]</div>
+<p>Consider a 1920 × 1080 sensor with 2.9 µm pixels. An equidistant 180° fisheye whose image circle fits the sensor height has a radius of 540 pixels, so <i>f</i> = 1.57 mm / (π/2) = 1.00 mm and the density is uniform at <b>6.0 pixels per degree</b> everywhere. A rectilinear lens covering a 90° horizontal FOV on the same sensor has <i>f</i><sub>x</sub> = 960 pixels, which means 16.8 pixels per degree at the centre and 33.5 at 45°. A 1.7 m pedestrian standing 5 m away subtends 19.3°, which is about 116 pixels tall in the fisheye image and 326 pixels on the optical axis of the rectilinear one.</p>
+<p>Neither number is wrong; they are different compromises. The fisheye camera replaces several narrow cameras with one at the price of resolution per object, and the rectilinear camera concentrates its pixels on a narrower cone. When detection range is the requirement, the pixel density in the region of interest decides the choice of lens, and it is worth asking for a custom mapping that allocates more pixels to the important angles.</p>
+<h4><span class="num">1.7.6</span>Calibration and working with fisheye images</h4>
+<p>Calibration of a fisheye camera follows the same recipe as for a pinhole camera, but with a model whose radial mapping can describe more than 90°. The most widely used is the polynomial model of Kannala and Brandt, implemented in OpenCV's <code>fisheye</code> module. With <i>a</i> = <i>X</i>/<i>Z</i>, <i>b</i> = <i>Y</i>/<i>Z</i>, <i>r</i> = √(<i>a</i><sup>2</sup> + <i>b</i><sup>2</sup>) and <i>θ</i> = arctan <i>r</i>:</p>
+<div class="eq">\[ \theta_d = \theta\,(1 + k_1\theta^2 + k_2\theta^4 + k_3\theta^6 + k_4\theta^8) \tag{1.16} \]</div>
+<p>The pixel coordinates are then <i>u</i> = <i>f</i><sub>x</sub>(θ<sub>d</sub>/<i>r</i>)<i>a</i> + <i>c</i><sub>x</sub> and <i>v</i> = <i>f</i><sub>y</sub>(θ<sub>d</sub>/<i>r</i>)<i>b</i> + <i>c</i><sub>y</sub>. Note what has changed compared with Equation (1.13): the polynomial acts on the <i>angle θ</i>, which stays finite for all rays, instead of on the radius <i>r</i> of the normalised image plane, which does not. Other popular models are Scaramuzza's polynomial for omnidirectional cameras, the unified spherical model of Mei and Rives, and the double-sphere model of Usenko and colleagues, which has few parameters, a closed-form inverse and fits strong wide-angle lenses well.</p>
+<p>Four practical points save a great deal of trouble:</p>
+<ul><li><b>Work with rays, not normalised image points.</b> For fields of view near or beyond 180° the division by <i>Z</i> fails, because points at or behind the camera plane (<i>Z</i> ≤ 0) are visible. Back-project pixels to unit direction vectors on the sphere and run geometry (triangulation, bundle adjustment, ray casting) on those.</li><li><b>Calibrate across the whole field.</b> Place the target so that corners of the pattern reach the rim of the image circle. A calibration done only on the central region extrapolates badly where it matters most.</li><li><b>Be careful when undistorting.</b> Converting a fisheye image to a single perspective view reintroduces the stretching of Section 1.7.1: a 120° perspective crop already has edges magnified 4×. Prefer several virtual perspective views (a cube map), a cylindrical projection or an equirectangular panorama, and keep the original image for any metric computation.</li><li><b>Remember that the centre of projection moves.</b> In real fisheye lenses the entrance pupil shifts with field angle, so rays do not all pass through one point. For objects farther than about a metre the error is negligible; for close-range metrology it is not. Light fall-off (vignetting) and lateral chromatic aberration are also much stronger than in normal lenses and are worth modelling.</li></ul>
+<h4><span class="num">1.7.7</span>Focus with fisheye lenses</h4>
+<p>Fisheye lenses have very short focal lengths, which makes them extremely forgiving. The lens of the previous section has <i>f</i> = 1.00 mm; at <i>N</i> = 2 and <i>c</i><sub>max</sub> = 5.8 µm, Equation (1.10) gives a hyperfocal distance of just 87 mm. Focus the lens at that distance, and everything beyond 43 mm is sharp. The flip side is that the short back focal distance makes the sensor-plane positioning described in Section 1.5.4 critical: with such a short lens, a few micrometres of tilt produces visible blur in one part of the image.</p>
+</section>
+<section id="s-1-8">
+<h3><span class="num">1.8</span>Putting it together: a lens-selection workflow</h3>
+<p>The concepts of this chapter combine into a short procedure for choosing and verifying optics for a vision camera.</p>
+<ol><li><b>Define the field of view</b> from the scene geometry: the width and height to cover at the working distance, or the angular coverage required. Include margin for mounting error.</li><li><b>Fix the smallest feature</b> to be detected and the number of pixels it needs. Together with the working distance, this sets the required GSD, and hence the pixel focal length <i>f</i><sub>x</sub> (Equations 1.6 and 1.7).</li><li><b>Pick the sensor</b> (size, resolution, pixel pitch) so that the FOV and pixel focal length are both achievable. Then compute the physical focal length <i>f</i> = <i>f</i><sub>x</sub> · <i>p</i>.</li><li><b>Decide the projection.</b> If the horizontal FOV exceeds about 100°, move to a fisheye model, and check the pixel density at the edge of the region of interest, not just at the centre.</li><li><b>Set the aperture and focus.</b> Choose <i>N</i> from the light budget and diffraction limit, then compute <i>H</i> and the depth of field from Equations (1.10) and (1.11). For short lenses, focus at the hyperfocal distance.</li><li><b>Budget the mechanics.</b> Compare the depth of focus ±<i>N c</i><sub>max</sub> against the stack-up of tolerances, the cover-glass shift of Equation (1.12) and thermal drift. Decide whether active alignment or a focusing thread is required.</li><li><b>Calibrate and verify.</b> Calibrate intrinsics at the operating focus and temperature, measure MTF in the centre and at the corners, and verify that the reprojection error is consistent across the whole field.</li></ol>
+<figure id="f-1-15" class="paper"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 210" role="img" aria-label="Blur circle in pixels versus object distance on a logarithmic axis, with the acceptable-blur threshold, the diffraction floor and the resulting sharp zone"><g id="op-dyn"></g></svg>
+<div class="g-controls" data-no-mark>
+  <label>Focal length <select id="op-f"><option>1.2</option><option>2</option><option>4</option><option selected>6</option><option>8</option><option>12</option><option>25</option><option>50</option></select> mm</label>
+  <label>f-number <select id="op-n"><option>1.4</option><option selected>2</option><option>2.8</option><option>4</option><option>5.6</option><option>8</option><option>11</option><option>16</option></select></label>
+  <label>Focus distance <input type="range" id="op-s" min="0" max="100" step="1" value="50"> <output for="op-s">3.2 m</output></label>
+  <label>Pixel pitch <select id="op-p"><option>1.4</option><option selected>2.1</option><option>3.0</option><option>4.2</option></select> µm</label>
+</div>
+<p data-no-mark id="op-read" style="font-size:.9rem;line-height:1.55"></p>
+<figcaption><b>Figure 1.16</b> Focus and depth-of-field explorer for a 1920-pixel-wide sensor. The curve is the geometric blur circle (Equation 1.9) in pixels; the sharp zone is where it stays below two pixels. Try focusing at the hyperfocal distance, then stop down until the dashed diffraction floor crosses the threshold: from there on, a smaller aperture no longer makes anything sharper.</figcaption></figure>
+</section>
+</section>
+<section class="chapter" id="ch-2">
+<h2><span class="num">2</span>Real lenses: aperture, aberrations and resolution</h2>
+<p><i>Chapter 1 treated the lens as one thin, perfect element. Real lenses admit a finite cone of light, bend colours differently, blur off-axis points, and feed a sampled sensor. These effects decide how much detail actually survives.</i></p>
+<section id="s-2-1">
+<h3><span class="num">2.1</span>Aperture and f-number</h3>
+<p>The aperture controls the diameter of the entrance pupil, which sets the angular cone of rays admitted from each object point. The f-number N is defined as focal length divided by entrance-pupil diameter D:</p>
+<p>A lower f-number generally increases sensor irradiance, reduces exposure time requirements, and can reduce motion blur. It also decreases depth of field and often exposes more off-axis aberrations. A higher f-number increases depth of field and can improve aberration-limited sharpness, but eventually diffraction becomes dominant.</p>
+<div class="eq">\[ N = \frac{f}{D} \]</div>
+<h4>Exposure scaling</h4>
+<p>Ignoring losses, irradiance at the image plane scales approximately with 1/N<sup>2</sup>. Moving from f/4 to f/2 doubles the aperture diameter and admits roughly four times as much light, corresponding to two photographic stops. Real transmission is described more accurately by T-stop, which includes optical losses.</p>
+<h4>Diffraction</h4>
+<p>Even a perfect circular aperture creates a diffraction pattern. The diameter of the central Airy disk to the first minimum is approximately:</p>
+<div class="eq">\[ d_{\text{Airy}} \approx 2.44\,\lambda\,N \]</div>
+<p>At wavelength λ = 550 nm, the Airy diameter is about 2.7 µm at f/2, 5.4 µm at f/4, 10.7 µm at f/8, and 21.5 µm at f/16. On a sensor with 3 µm pixels, stopping down to f/16 spreads the diffraction spot across many pixels even before lens aberrations or defocus are considered.</p>
+</section>
+<section id="s-2-2">
+<h3><span class="num">2.2</span>What is inside a real lens?</h3>
+<p>A real camera lens contains multiple refractive elements, air gaps, an aperture stop, and sometimes moving focusing or zoom groups. The elements are shaped and made from different glasses so that one element can partially cancel an aberration introduced by another. A modern lens is therefore an optimization over many competing goals: FOV, aperture, distortion, color correction, corner performance, working distance, size, cost, and manufacturability.</p>
+<h4>Principal planes and effective focal length</h4>
+<p>The thin-lens drawing places all refraction in one plane. A multi-element lens has principal planes that may lie inside or even outside the physical glass stack. Distances in Gaussian optics are measured relative to these effective planes, not necessarily from the front element or mechanical mount shoulder.</p>
+<h4>Image circle</h4>
+<p>A lens projects a circular usable image region. The sensor must fit inside that image circle with acceptable illumination and sharpness. A lens designed for a smaller sensor may vignette or show poor corners on a larger sensor. Conversely, using a large-format lens on a smaller sensor often uses only its central region, though the lens may be larger and more expensive than necessary.</p>
+<figure class="paper" id="f-2-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 282" role="img" aria-label="Schematic cross-section of a wide-angle M12 camera lens: front negative menisci, positive element, aperture stop, cemented doublet, asphere, IR-cut filter, sensor cover glass and sensor, with the rear principal plane behind the last element" font-family="-apple-system, Segoe UI, Roboto, Arial, sans-serif"><path d="M232 24 H352 M232 216 H352" stroke="#8a8f98" stroke-width="2" fill="none"/><rect x="352" y="14" width="8" height="212" fill="#3f7a4a" opacity=".85"/><text x="356" y="10" font-size="10" text-anchor="middle" font-weight="normal" fill="#5d6672">PCB</text><path d="M44 32 H294 M44 208 H294 M44 32 V48 M44 208 V192" stroke="#5d6672" stroke-width="2" fill="none"/><path d="M232 32 L236 32 L240 28 L244 32 L248 28 L252 32 L256 28 L260 32 L264 28 L268 32 L272 28 L276 32 L280 28 L284 32 L288 28 L292 32" stroke="#5d6672" stroke-width="1" fill="none"/><path d="M232 208 L236 208 L240 212 L244 208 L248 212 L252 208 L256 212 L260 208 L264 212 L268 208 L272 212 L276 208 L280 212 L284 208 L288 212 L292 208" stroke="#5d6672" stroke-width="1" fill="none"/><text x="120" y="26" font-size="10" text-anchor="middle" font-weight="normal" fill="#5d6672">lens barrel</text><text x="262" y="18" font-size="10" text-anchor="middle" font-weight="normal" fill="#5d6672">M12 × 0.5 thread in holder</text><path d="M346 216 l6 0 l0 -6 z" fill="#c4473a" opacity=".8"/><line x1="20" y1="120" x2="372" y2="120" stroke="#5d6672" stroke-width=".8" stroke-dasharray="6 3 1 3"/><path d="M66 40 Q36 120 66 200 L78 180 Q30 120 78 60 Z" fill="#dce8f4" stroke="#2f6fb0" stroke-width="1.2"/><path d="M108 62 Q88 120 108 178 L116 166 Q90 120 116 74 Z" fill="#dce8f4" stroke="#2f6fb0" stroke-width="1.2"/><path d="M150 82 Q128 120 150 158 L166 158 Q188 120 166 82 Z" fill="#dce8f4" stroke="#2f6fb0" stroke-width="1.2"/><path d="M190 52 V94 M190 146 V188" stroke="#1d232b" stroke-width="3"/><path d="M212 86 Q196 120 212 154 L228 154 Q236 120 228 86 Z" fill="#dce8f4" stroke="#2f6fb0" stroke-width="1.2"/><path d="M228 86 Q236 120 228 154 L242 156 Q238 120 242 84 Z" fill="#c7d9ee" stroke="#2f6fb0" stroke-width="1.2"/><path d="M264 80 Q250 100 256 120 Q250 140 264 160 L280 164 Q292 120 280 76 Z" fill="#e6f1e6" stroke="#3f8f4a" stroke-width="1.2"/><rect x="304" y="72" width="5" height="96" fill="#f3e3c3" stroke="#b7790f" stroke-width="1"/><rect x="331" y="80" width="4" height="80" fill="#eef1f4" stroke="#5d6672" stroke-width="1"/><rect x="338" y="82" width="6" height="76" fill="#1d232b"/><line x1="318" y1="58" x2="318" y2="182" stroke="#c4473a" stroke-width="1.2" stroke-dasharray="4 3"/><text x="318" y="52" font-size="12" text-anchor="middle" font-weight="600" fill="#c4473a">H′</text><circle cx="60" cy="236" r="7.5" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="60" y="239.5" font-size="10" text-anchor="middle" font-weight="600" fill="#1d232b">1</text><circle cx="104" cy="236" r="7.5" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="104" y="239.5" font-size="10" text-anchor="middle" font-weight="600" fill="#1d232b">2</text><circle cx="157" cy="236" r="7.5" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="157" y="239.5" font-size="10" text-anchor="middle" font-weight="600" fill="#1d232b">3</text><circle cx="190" cy="236" r="7.5" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="190" y="239.5" font-size="10" text-anchor="middle" font-weight="600" fill="#1d232b">4</text><circle cx="228" cy="236" r="7.5" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="228" y="239.5" font-size="10" text-anchor="middle" font-weight="600" fill="#1d232b">5</text><circle cx="272" cy="236" r="7.5" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="272" y="239.5" font-size="10" text-anchor="middle" font-weight="600" fill="#1d232b">6</text><circle cx="306" cy="236" r="7.5" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="306" y="239.5" font-size="10" text-anchor="middle" font-weight="600" fill="#1d232b">7</text><circle cx="326" cy="236" r="7.5" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="326" y="239.5" font-size="10" text-anchor="middle" font-weight="600" fill="#1d232b">8</text><circle cx="346" cy="236" r="7.5" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="346" y="239.5" font-size="10" text-anchor="middle" font-weight="600" fill="#1d232b">9</text><path d="M318 254 V262 M338 254 V262 M318 258 H338" stroke="#1d232b" stroke-width="1"/><text x="328.0" y="254" font-size="10" text-anchor="middle" font-weight="normal" fill="#1d232b">EFL</text><path d="M287 272 V280 M338 272 V280 M287 276 H338" stroke="#1d232b" stroke-width="1"/><text x="312.5" y="272" font-size="10" text-anchor="middle" font-weight="normal" fill="#1d232b">back focal length</text><circle cx="392" cy="40" r="7" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="392" y="43.5" font-size="9.5" text-anchor="middle" font-weight="600" fill="#1d232b">1</text><text x="405" y="44" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">Front negative meniscus</text><circle cx="392" cy="59" r="7" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="392" y="62.5" font-size="9.5" text-anchor="middle" font-weight="600" fill="#1d232b">2</text><text x="405" y="63" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">Second negative meniscus</text><circle cx="392" cy="78" r="7" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="392" y="81.5" font-size="9.5" text-anchor="middle" font-weight="600" fill="#1d232b">3</text><text x="405" y="82" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">Positive element</text><circle cx="392" cy="97" r="7" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="392" y="100.5" font-size="9.5" text-anchor="middle" font-weight="600" fill="#1d232b">4</text><text x="405" y="101" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">Aperture stop (f-number)</text><circle cx="392" cy="116" r="7" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="392" y="119.5" font-size="9.5" text-anchor="middle" font-weight="600" fill="#1d232b">5</text><text x="405" y="120" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">Cemented doublet (colour)</text><circle cx="392" cy="135" r="7" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="392" y="138.5" font-size="9.5" text-anchor="middle" font-weight="600" fill="#1d232b">6</text><text x="405" y="139" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">Asphere, often moulded plastic</text><circle cx="392" cy="154" r="7" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="392" y="157.5" font-size="9.5" text-anchor="middle" font-weight="600" fill="#1d232b">7</text><text x="405" y="158" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">IR-cut filter</text><circle cx="392" cy="173" r="7" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="392" y="176.5" font-size="9.5" text-anchor="middle" font-weight="600" fill="#1d232b">8</text><text x="405" y="177" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">Sensor cover glass</text><circle cx="392" cy="192" r="7" fill="#fff" stroke="#1d232b" stroke-width="1"/><text x="392" y="195.5" font-size="9.5" text-anchor="middle" font-weight="600" fill="#1d232b">9</text><text x="405" y="196" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">Image sensor on the PCB</text><path d="M386 217 l6 0 l0 -6 z" fill="#c4473a" opacity=".8"/><text x="405" y="221" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">Glue after active alignment</text><line x1="388" y1="236" x2="396" y2="236" stroke="#c4473a" stroke-width="1.2" stroke-dasharray="4 3"/><text x="405" y="240" font-size="10.5" text-anchor="start" font-weight="normal" fill="#1d232b">H′: rear principal plane</text></svg><figcaption><b>Figure 2.1</b> Inside a wide-angle M12 lens of the kind used in vehicle and robot cameras (schematic: element count and shapes are typical, not a real prescription). The strongly curved negative front group accepts rays from far off axis and hands them on at gentler angles; the positive groups behind the aperture stop form the image, and the cemented doublet pairs two glasses so their colour errors cancel (Section 2.3). This negative-then-positive layout is a <i>retrofocus</i> design: the rear principal plane H′ lies behind the last element, so the back focal length, from the last glass surface to the sensor, is longer than the effective focal length. That gap is what leaves room for the IR-cut filter and the sensor cover glass (whose focus shift is Equation 1.12), and it is why the lens-to-sensor distance on a drawing is not the focal length. In production the barrel is screwed into the holder, focused against a target and glued.</figcaption></figure>
+</section>
+<section id="s-2-3">
+<h3><span class="num">2.3</span>Aberrations: why real lenses are not ideal</h3>
+<p>Aberrations are failure modes of the ideal mapping, each with its own signature. They usually vary with field position, aperture, wavelength and focus distance, which is why a lens can be excellent in the centre and soft in the corners.</p>
+<h4>Spherical aberration</h4>
+<p>Spherical surfaces do not bring all rays from an on-axis point to exactly the same focus. Marginal rays and paraxial rays may focus at different axial positions. Stopping down blocks the outer rays and often improves sharpness, which is one reason many lenses improve from wide open to a moderate f-number.</p>
+<h4>Chromatic aberration</h4>
+<p>Glass refractive index varies with wavelength. Different colors therefore bend by different amounts. Longitudinal chromatic aberration shifts the best focus with wavelength; lateral chromatic aberration changes image scale with wavelength and often appears as colored fringes toward the image edges. Achromatic and apochromatic lens groups use multiple glasses and powers to reduce these errors.</p>
+<h4>Coma and astigmatism</h4>
+<p>Coma affects off-axis point sources, producing asymmetric comet-like blur. Astigmatism causes tangential and sagittal rays to focus differently, so line orientation matters. These effects are important for corner resolution and can make an image look sharp in one direction but soft in another.</p>
+<h4>Field curvature</h4>
+<p>A lens may focus sharply on a curved surface rather than a plane. A flat sensor cannot follow that surface, so center and corners may not be simultaneously optimal. Stopping down increases DOF and can partly hide field curvature.</p>
+<h4>Vignetting</h4>
+<p>Vignetting is brightness falloff toward the image corners. It can come from mechanical clipping, pupil geometry, and the cos<sup>4</sup> illumination tendency of imaging systems. Flat-field correction can normalize brightness, but it also amplifies noise in darker regions and cannot recover clipped rays or lost SNR.</p>
+<div id="optics-flare"><h4 id="s-2-3-flare">Flare and ghosts</h4>
+<p>Some image defects do not come from the imaging mapping at all but from stray light. Every glass–air surface reflects a little light: about 4 % for uncoated glass of index 1.5, typically well under 1 % with an anti-reflection coating. Light reflected twice, once backwards and once forwards again, reaches the sensor as a ghost, an out-of-focus image of a bright source, often tinted by the coatings and shaped by the aperture. Light scattered by the barrel wall, edges, dust and the coatings adds veiling glare, a haze that lowers contrast around the source. In a rotationally symmetric lens a ghost always lies on the line through the source and the optical centre (Figure 2.2), which is how ghosts are told apart from real objects. For a vehicle camera this matters because a low sun or oncoming headlights can produce blobs a detector may take for lights or objects; coatings, blackened barrels and baffles reduce it, and validation sweeps a bright source across the field to measure what is left.</p>
+<figure class="paper" id="f-2-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375.9" role="img" aria-label="Wide fisheye-type camera looking towards a low sun: veiling glare, two ghosts on the line through the sun and the image centre, and a windscreen reflection" font-family="-apple-system, Segoe UI, Roboto, Arial, sans-serif"><image href="../img/optics/sun-ghosts.jpg" x="0" y="0" width="600" height="375.9"/><line x1="212.9" y1="23.0" x2="422.0" y2="419.0" stroke="#fff" stroke-width="3" opacity=".7"/><line x1="212.9" y1="23.0" x2="422.0" y2="419.0" stroke="#c4473a" stroke-width="1.4" stroke-dasharray="6 4"/><circle cx="230.3" cy="56.0" r="13" fill="none" stroke="#c4473a" stroke-width="1.6"/><path d="M293.0 188.0 H307.0 M300.0 181.0 V195.0" stroke="#fff" stroke-width="4"/><path d="M293.0 188.0 H307.0 M300.0 181.0 V195.0" stroke="#c4473a" stroke-width="1.8"/><circle cx="267.6" cy="129.8" r="9" fill="none" stroke="#c4473a" stroke-width="1.6"/><circle cx="379.7" cy="337.0" r="17" fill="none" stroke="#c4473a" stroke-width="1.6"/><text x="212.3" y="42.0" font-size="14" text-anchor="end" font-weight="600" fill="#1d232b" stroke="#fff" stroke-width="3" stroke-linejoin="round" paint-order="stroke">sun (clipped) and veiling glare</text><text x="281.6" y="133.8" font-size="14" text-anchor="start" font-weight="600" fill="#1d232b" stroke="#fff" stroke-width="3" stroke-linejoin="round" paint-order="stroke">ghost 1</text><text x="312.0" y="204.0" font-size="14" text-anchor="start" font-weight="600" fill="#1d232b" stroke="#fff" stroke-width="3" stroke-linejoin="round" paint-order="stroke">image centre ≈ optical axis</text><text x="401.7" y="341.0" font-size="14" text-anchor="start" font-weight="600" fill="#1d232b" stroke="#fff" stroke-width="3" stroke-linejoin="round" paint-order="stroke">ghost 2</text><text x="30" y="112" font-size="13" text-anchor="start" font-weight="normal" fill="#1d232b" stroke="#fff" stroke-width="3" stroke-linejoin="round" paint-order="stroke">dashboard reflected in the</text><text x="30" y="128" font-size="13" text-anchor="start" font-weight="normal" fill="#1d232b" stroke="#fff" stroke-width="3" stroke-linejoin="round" paint-order="stroke">windscreen: not the lens</text></svg><figcaption><b>Figure 2.2</b> Flare on the wide camera of Figure 1.15, driving towards a low sun. The haze around the sun is veiling glare: scattered light that lifts the dark tones and lowers contrast over a large part of the frame. The two small coloured blobs are ghosts, out-of-focus images of the sun formed by double reflections between lens surfaces. Both lie on the line through the sun and the image centre (measured directions from the centre: sun 62°, ghosts 61° and 62°), one between them and one on the opposite side, as rotational symmetry predicts. The large grey shapes in the upper left are the dashboard reflected in the windscreen, a reminder that not every artefact comes from the lens.<span class="g-credit">Images: <a href="https://github.com/commaai/comma10k">comma10k dataset</a>, comma.ai, MIT licence; image 00200_e of the imgs2 set, downscaled; markings added.</span></figcaption></figure></div>
+</section>
+<section id="s-2-4">
+<h3><span class="num">2.4</span>Resolution: optics and pixels form one system</h3>
+<p>Megapixels alone do not determine resolved detail. The scene passes through the optical transfer function of the lens, is blurred by diffraction and defocus, then sampled by pixels with finite area and often a color filter array. Effective system resolution is the combined result.</p>
+
+<h4>Pixel pitch and object-space sampling</h4>
+<p>If a scene width W maps to N<sub>x</sub> pixels, the nominal sampling is W/N<sub>x</sub> units per pixel at that plane. For reliable detection, a feature generally needs multiple samples across it. The exact number depends on contrast, optics, noise, algorithm, and whether the task is detection, classification, or metrology.</p>
+<p>For example, if a 0.5 mm defect must be represented by at least 5 pixels, the required nominal scale is 0.1 mm/pixel or finer. A 2048-pixel sensor can then cover at most about 205 mm across the relevant dimension before optical margins are included.</p>
+<h4>Nyquist frequency</h4>
+<p>Sampling theory says a periodic signal must be sampled at more than twice its spatial frequency to avoid aliasing. A pixel pitch p gives a sensor Nyquist frequency of 1/(2p) cycles per unit distance on the sensor. But a lens should not merely reach Nyquist at vanishing contrast; useful performance is usually considered through MTF at relevant spatial frequencies.</p>
+<h4>Modulation transfer function (MTF)</h4>
+<p>MTF describes how contrast is transferred versus spatial frequency. Low-frequency MTF relates to broad contrast; high-frequency MTF relates to fine detail. Lens MTF varies with field position, aperture, wavelength, focus distance, and orientation. System MTF is approximately the product of the optical MTF and sensor/sampling contributions, so a weak component limits the whole chain.</p>
+<h4>Diffraction versus aberrations: an optimum aperture</h4>
+<p>Opening the aperture tends to increase aberrations and reduce DOF. Closing it suppresses aberrations and increases DOF, but increases diffraction blur. Many lenses therefore have a middle aperture range where center and corner sharpness are best. The optimum depends on pixel pitch and task; there is no universal "sharpest f-number."</p>
+</section>
+</section>
+<section class="chapter" id="ch-3">
+<h2><span class="num">3</span>Geometry choices for measurement</h2>
+<p><i>Where the camera stands, what kind of lens it carries, and how one goes from a requirement to a lens.</i></p>
+<section id="s-3-1">
+<h3><span class="num">3.1</span>Perspective, camera position and focal length</h3>
+<p>A common statement says that wide lenses exaggerate perspective and telephoto lenses compress it. The underlying cause is camera position. Perspective is the ratio of distances from the camera to scene points. If the camera does not move, changing focal length changes framing but not the projective relationship between scene points; cropping a wide-lens image to match a telephoto framing gives nearly the same perspective.</p>
+<p>In system design, choose the camera position for geometry, occlusion, perspective, and working distance first. Then choose focal length to obtain the required FOV on the selected sensor.</p>
+<figure class="paper" id="f-3-1">
+<svg viewBox="0 0 640 210" role="img" aria-label="Two set-ups with the same framing of the near object: a close camera with a wide lens sees the far object much smaller; a distant camera with a long lens sees both at similar size">
+<g transform="translate(10,20)">
+<text class="svg-text" x="0" y="0">Camera close, wide lens</text>
+<circle cx="10" cy="95" r="5" fill="currentColor" class="svg-text"/>
+<line class="svg-line" x1="70" y1="55" x2="70" y2="135"/><line x1="230" y1="55" x2="230" y2="135" stroke="#d9822b" stroke-width="2"/>
+<path class="svg-accent" d="M10 95 L70 55 M10 95 L70 135"/><path d="M10 95 L230 55 M10 95 L230 135" stroke="#d9822b" fill="none" stroke-dasharray="4 3"/>
+<text class="svg-small" x="52" y="155">near</text><text class="svg-small" x="215" y="155">far</text>
+<text class="svg-small" x="0" y="180">far object looks 3.7× smaller than the near one</text>
+</g>
+<g transform="translate(330,20)">
+<text class="svg-text" x="0" y="0">Camera farther back, longer lens</text>
+<circle cx="10" cy="95" r="5" fill="currentColor" class="svg-text"/>
+<line class="svg-line" x1="150" y1="55" x2="150" y2="135"/><line x1="290" y1="55" x2="290" y2="135" stroke="#d9822b" stroke-width="2"/>
+<path class="svg-accent" d="M10 95 L150 55 M10 95 L150 135"/><path d="M10 95 L290 55 M10 95 L290 135" stroke="#d9822b" fill="none" stroke-dasharray="4 3"/>
+<text class="svg-small" x="132" y="155">near</text><text class="svg-small" x="275" y="155">far</text>
+<text class="svg-small" x="0" y="180">same objects, now only 2× apart in size</text>
+</g>
+</svg>
+<figcaption><b>Figure 3.1</b> Perspective is the ratio of distances from the camera to the objects. Moving the camera back makes near and far objects similar in size; the longer lens only restores the framing.</figcaption>
+</figure>
+</section>
+<section id="s-3-2">
+<h3><span class="num">3.2</span>Telecentric lenses for measurement</h3>
+<p>Conventional lenses are entocentric: magnification changes with object distance. This is normal perspective. For dimensional metrology, a small height change can therefore look like a size change. Object-space telecentric lenses restrict accepted chief rays so they are approximately parallel in object space, making magnification much less sensitive to object distance over a specified telecentric range.</p>
+<p>Telecentric lenses are larger and more expensive for a given FOV because the entrance optics must be at least comparable to the object field size. They are not simply "better" lenses; they solve a specific geometry problem. Use them when measurement stability, edge localization, or depth-dependent magnification error dominates cost and size constraints.</p>
+<figure class="paper" id="f-3-2">
+<svg viewBox="0 0 640 200" role="img" aria-label="Entocentric lens: chief rays meet at the lens centre, so a nearer object images larger. Object-space telecentric lens: chief rays run parallel to the axis, so the image size does not change with distance">
+<g transform="translate(10,20)">
+<text class="svg-text" x="0" y="0">Conventional (entocentric)</text>
+<line class="svg-muted" x1="0" y1="95" x2="300" y2="95"/>
+<line class="svg-line" x1="40" y1="65" x2="40" y2="125"/><line x1="90" y1="65" x2="90" y2="125" stroke="#d9822b" stroke-width="2"/>
+<line class="svg-line" x1="190" y1="45" x2="190" y2="145"/>
+<path class="svg-accent" d="M40 65 L190 95 L280 112 M90 65 L190 95 L280 125" fill="none"/>
+<line class="svg-line" x1="280" y1="40" x2="280" y2="150"/>
+<text class="svg-small" x="170" y="165">lens</text><text class="svg-small" x="262" y="165">sensor</text>
+<text class="svg-small" x="0" y="165">same size, two depths</text>
+</g>
+<g transform="translate(330,20)">
+<text class="svg-text" x="0" y="0">Object-space telecentric</text>
+<line class="svg-muted" x1="0" y1="95" x2="300" y2="95"/>
+<line class="svg-line" x1="40" y1="65" x2="40" y2="125"/><line x1="90" y1="65" x2="90" y2="125" stroke="#d9822b" stroke-width="2"/>
+<line class="svg-line" x1="160" y1="35" x2="160" y2="155"/><line class="svg-line" x1="230" y1="85" x2="230" y2="105"/>
+<path class="svg-accent" d="M20 65 L160 65 L230 95 L285 118" fill="none"/>
+<line class="svg-line" x1="285" y1="40" x2="285" y2="150"/>
+<text class="svg-small" x="140" y="172">large front lens</text><text class="svg-small" x="208" y="125">stop at focus</text>
+<text class="svg-small" x="0" y="165">same image size at both depths</text>
+</g>
+</svg>
+<figcaption><b>Figure 3.2</b> In a conventional lens the chief rays meet at the centre of projection, so magnification changes with distance. A telecentric design puts the stop at the focal point: chief rays are parallel to the axis in object space and magnification stays constant over its telecentric range.</figcaption>
+</figure>
+</section>
+<section id="s-3-3">
+<h3><span class="num">3.3</span>Worked design example: an inspection camera</h3>
+<p>Suppose a conveyor inspection system must cover 400 mm horizontally. The camera can be placed 600 mm from the product. The selected sensor is 12.3 mm wide with 4096 horizontal pixels. A 1.0 mm defect should span at least 8 pixels.</p>
+<h4>Sampling requirement</h4>
+<p>At 400 mm FOV and 4096 pixels, nominal sampling is 400/4096 = 0.0977 mm/pixel. A 1.0 mm defect spans about 10.2 pixels, which satisfies the 8-pixel target before optical losses. This leaves some margin for blur and contrast reduction.</p>
+<h4>Focal length estimate</h4>
+<p>Using \(f \approx Z\,S/W\) (working distance × sensor width / field width):</p>
+<div class="eq">\[ f \approx \frac{Z\,S}{W} = \frac{600\ \text{mm} \times 12.3\ \text{mm}}{400\ \text{mm}} = 18.45\ \text{mm} \]</div>
+<p>An 18 mm or 20 mm lens would be a natural starting point. Exact coverage should be checked with the real sensor active area, actual working distance definition, lens distortion, and focus breathing.</p>
+<h4>Depth of field and aperture</h4>
+<p>If products vary in height by ±15 mm, the lens must preserve enough contrast across that depth. Closing the aperture may supply adequate DOF, but the required exposure time may become too long for conveyor motion. The correct trade is therefore optical plus illumination: increase lighting, use strobed light, or adjust geometry rather than assuming aperture alone solves the problem.</p>
+<h4>Calibration</h4>
+<p>For measurement, calibrate the lens at the production focus and working distance. If the objects are not planar, perspective causes scale to vary with depth; either compensate using 3D geometry/depth information or use telecentric optics if the required accuracy justifies them.</p>
+</section>
+<section id="s-3-4">
+<h3><span class="num">3.4</span>Lens selection as a checklist</h3>
+<p>Section 1.8 gave the workflow in seven steps. The same process as a checklist, each step with the question it answers and what it fixes in the design:</p>
+<table>
+<tr><th>Step</th><th>Question</th><th>Design consequence</th></tr>
+<tr><td><b>1.</b> Define object-space task</td><td>What smallest feature must be detected or measured? What accuracy is required?</td><td>Sets required pixels per feature and acceptable optical blur.</td></tr>
+<tr><td><b>2.</b> Define FOV</td><td>What physical width/height must be visible?</td><td>Sets object-space sampling when combined with pixel count.</td></tr>
+<tr><td><b>3.</b> Choose sensor format</td><td>What active width/height and pixel pitch are available?</td><td>Links desired FOV to focal length and sampling density.</td></tr>
+<tr><td><b>4.</b> Set working distance</td><td>Where can the camera physically be placed?</td><td>Controls perspective, occlusion, required focal length, and lighting geometry.</td></tr>
+<tr><td><b>5.</b> Estimate focal length</td><td>Use \(f \approx Z\,S/W\) as a starting point.</td><td>Narrows lens candidates; verify exact FOV with manufacturer data.</td></tr>
+<tr><td><b>6.</b> Check image circle and mount</td><td>Does the lens cover the sensor and fit the flange/back-focus constraints?</td><td>Prevents corner clipping and mechanical incompatibility.</td></tr>
+<tr><td><b>7.</b> Check optical resolution</td><td>Is MTF adequate at the sensor spatial frequency and field position?</td><td>Prevents wasting pixel count on unresolved detail.</td></tr>
+<tr><td><b>8.</b> Check DOF / aperture</td><td>What depth range must remain sufficiently sharp?</td><td>Sets f-number, lighting level, exposure, and perhaps lens type.</td></tr>
+<tr><td><b>9.</b> Check distortion / telecentricity</td><td>Can distortion be calibrated? Is magnification invariance required?</td><td>Determines rectilinear, low-distortion, or telecentric requirement.</td></tr>
+<tr><td><b>10.</b> Validate experimentally</td><td>Test edge cases, corners, temperature, vibration, production tolerances.</td><td>Converts a nominal optical design into a reliable system.</td></tr>
+</table>
+</section>
+</section>
+
+<section class="chapter" id="ch-cheat">
+<h2><span class="num">4</span>Summary and formula reference</h2>
+<section id="s-4-1">
+<h3><span class="num">4.1</span>Summary</h3>
+<p>A camera maps rays to pixels in two stages: the lens redirects the rays, and the sensor plane samples them. Field of view, focus and projection law are three different aspects of the first stage, and the position of the sensor plane determines how well the second stage can use what it receives.</p>
+<ul><li>A lens bends rays from each scene point to a common image point; the sensor must lie in the plane that contains those points. The thin-lens equation links object distance, image distance and focal length.</li><li>FOV = 2 arctan(<i>w</i>/2<i>f</i>) depends only on the ratio of sensor size to focal length. The footprint on the scene grows with distance; the pixel focal length <i>f</i><sub>x</sub> = <i>f</i>/<i>p</i> is the quantity that calibration reports.</li><li>Only one plane is in perfect focus. Blur grows linearly with focus error and with aperture diameter; depth of field grows with the f-number and shrinks with the square of the focal length.</li><li>The sensor plane has to be located to within a few micrometres. Cover glass, tilt, field curvature and temperature all move it or the plane of best focus.</li><li>Rectilinear lenses cannot reach 180°. Fisheye lenses use mappings <i>r</i> = <i>f g</i>(<i>θ</i>) with finite value at 90°, trading straight lines for field of view and giving a characteristic pixel-density profile.</li><li>For wide fields of view, calibrate with angle-based models and use ray directions instead of normalised image coordinates.</li></ul>
+</section>
+<section id="s-4-2">
+<h3><span class="num">4.2</span>A compact mental model</h3>
+<p>When reasoning about a camera, separate the problem into six questions:</p>
+<ol><li><b>What angle is seen?</b> Use sensor dimensions and focal length to determine FOV.</li><li><b>What physical region is seen?</b> Combine FOV with camera position and working distance.</li><li><b>Where is it sharp?</b> Use focus geometry and a task-specific acceptable blur to reason about DOF.</li><li><b>How much light reaches the sensor?</b> Aperture, transmission, exposure time, illumination, and sensor quantum efficiency determine signal level.</li><li><b>How much detail survives?</b> Combine optical MTF, diffraction, defocus, motion blur, pixel aperture, sampling, and noise.</li><li><b>How accurate is the geometry?</b> Perspective, distortion, calibration stability, mechanics, and telecentricity determine measurement fidelity.</li></ol>
+<p>Once these questions are kept separate, lens selection becomes much less mysterious. Focal length is primarily a geometry variable; aperture is primarily a light/DOF/diffraction variable; focus chooses the conjugate plane; sensor format sets the physical image area; pixel pitch sets sampling; and the detailed lens design determines how closely the real system approaches the ideal model.</p>
+</section>
+<section id="s-4-3">
+<h3><span class="num">4.3</span>Formula reference</h3>
+<table class="formulas">
+<tr><th>Quantity</th><th>Formula</th><th>See</th></tr>
+<tr><td>Perspective projection</td><td>\(x = fX/Z,\;\; y = fY/Z\)</td><td>Eq. 1.1</td></tr>
+<tr><td>Thin lens</td><td>\(1/f = 1/u + 1/v\)</td><td>Eq. 1.2</td></tr>
+<tr><td>Magnification</td><td>\(m = -v/u\)</td><td>Eq. 1.3</td></tr>
+<tr><td>Focus extension</td><td>\(\Delta = f^2/(u - f)\)</td><td>Eq. 1.4</td></tr>
+<tr><td>Horizontal FOV</td><td>\(2\arctan(w/2f)\)</td><td>Eq. 1.5</td></tr>
+<tr><td>Scene footprint</td><td>\(W = w\,u/v \approx wZ/f\)</td><td>Eq. 1.6</td></tr>
+<tr><td>Pixel focal length</td><td>\(f_x = f/p\)</td><td>Eq. 1.7</td></tr>
+<tr><td>Blur circle</td><td>\(c = D\,|v' - v|/v'\)</td><td>Eq. 1.8</td></tr>
+<tr><td>Hyperfocal distance</td><td>\(H = f^2/(N c) + f\)</td><td>Eq. 1.10</td></tr>
+<tr><td>Depth of field limits</td><td>\(s(H - f)/(H + s - 2f),\;\; s(H - f)/(H - s)\)</td><td>Eq. 1.11</td></tr>
+<tr><td>Glass focus shift</td><td>\(\Delta = t\,(1 - 1/n)\)</td><td>Eq. 1.12</td></tr>
+<tr><td>General projection</td><td>\(r = f\,g(\theta)\)</td><td>Eq. 1.14</td></tr>
+<tr><td>Pixel density</td><td>\(\rho = (f/p)\,g'(\theta)\)</td><td>Eq. 1.15</td></tr>
+<tr><td>f-number</td><td>\(N = f/D\)</td><td>§2.1</td></tr>
+<tr><td>Exposure</td><td>\(\propto 1/N^2\)</td><td>§2.1</td></tr>
+<tr><td>Airy disc diameter</td><td>\(d \approx 2.44\,\lambda N\)</td><td>§2.1</td></tr>
+<tr><td>Object-space sampling</td><td>\(W/N_x \text{ per pixel}\)</td><td>§2.4</td></tr>
+<tr><td>Sensor Nyquist</td><td>\(\nu_N = 1/(2p)\)</td><td>§2.4</td></tr>
+</table>
+</section>
+<section id="s-4-4">
+<h3><span class="num">4.4</span>Numbers worth remembering</h3>
+<table class="rows"><thead><tr><th scope="col">Quantity</th><th scope="col">Typical value</th></tr></thead><tbody>
+<tr><th scope="row">Airy disc diameter at 550 nm</th><td>2.7 µm at f/2, 5.4 µm at f/4, 10.7 µm at f/8</td></tr>
+<tr><th scope="row">Sensor Nyquist frequency</th><td>1/(2p): 167 lp/mm for 3 µm pixels, 238 lp/mm for 2.1 µm</td></tr>
+<tr><th scope="row">Depth of focus at f/2, c<sub>max</sub> = 6 µm</th><td>about ±12 µm</td></tr>
+<tr><th scope="row">Hyperfocal distance, f = 4 mm, f/2, c<sub>max</sub> = 6 µm</th><td>1.34 m (sharp from 0.67 m to infinity)</td></tr>
+<tr><th scope="row">Focus extension to 1 m</th><td>16 µm for a 4 mm lens, 2.6 mm for a 50 mm lens</td></tr>
+<tr><th scope="row">Focus shift of a glass plate</th><td>t(1 − 1/n): 0.23 mm for 0.7 mm of n = 1.5 glass</td></tr>
+<tr><th scope="row">Rectilinear edge stretch</th><td>1/cos²θ: 4× at 60° off axis (a 120° view)</td></tr>
+<tr><th scope="row">Equidistant fisheye, f = 1 mm, p = 3 µm</th><td>333 px/rad, about 5.8 px per degree everywhere</td></tr>
+<tr><th scope="row">One photographic stop</th><td>factor √2 in N, factor 2 in light</td></tr>
+</tbody></table>
+</section>
+</section>
+
+<section class="chapter interview" id="ch-interview">
+<h2><span class="num">Q</span>Self-check questions</h2>
+<p class="lead">Short model answers first, then questions that check understanding with why and what if, the common misconceptions and a few exercises to work on paper.</p>
+<section id="s-q-1">
+<h3><span class="num">Q.1</span>Core questions</h3>
+<details><summary>What does the focal length decide, and what does it not decide?<span class="level">Basic</span></summary><div class="answer"><p>Together with the sensor size, the focal length sets the field of view (HFOV = 2 arctan(w/2f)) and the magnification: how many pixels an object of a given size occupies at a given distance. It does not decide perspective, which comes from where the camera stands, and it does not by itself decide how much light arrives, which is set by the f-number N = f/D. A "wide" lens is only wide relative to a sensor: 4 mm is a normal lens on a 1/4-inch sensor and an extreme wide-angle on full frame.</p></div></details>
+<details><summary>How do you get the field of view and the pixel focal length from a datasheet?<span class="level">Basic</span></summary><div class="answer"><p>Take the active sensor width w = W<sub>px</sub> · p from the pixel count and pitch, not from the "inch" format name. Then HFOV = 2 arctan(w/2f) and f<sub>x</sub> = f/p. For 1920 pixels of 3.0 µm (w = 5.76 mm) behind a 4 mm lens, HFOV = 2 arctan(0.72) = 71.5° and f<sub>x</sub> = 1333 px. The datasheet focal length is nominal (often ±5%), so calibration replaces it with a measured f<sub>x</sub>.</p></div></details>
+<details><summary>What is depth of field and which quantities control it?<span class="level">Basic</span></summary><div class="answer"><p>It is the range of object distances whose blur circle stays below a chosen limit c<sub>max</sub>; only one plane is truly sharp. It grows with the f-number, shrinks roughly with the square of the focal length, grows with focus distance, and depends on how strict c<sub>max</sub> is (for machine vision usually one or two pixels). The hyperfocal distance H = f²/(N c<sub>max</sub>) + f summarises all of it.</p></div></details>
+<details><summary>What is the hyperfocal distance and why do most car cameras use fixed focus?<span class="level">Intermediate</span></summary><div class="answer"><p>H is the focus distance at which the far limit of the sharp zone just reaches infinity; focused there, everything from about H/2 to infinity is acceptably sharp. Car cameras have short focal lengths, so H is small: f = 4 mm, f/2 and c<sub>max</sub> = 6 µm give H ≈ 1.34 m and a sharp zone from about 0.67 m to infinity. With no moving parts the focus cannot drift with vibration, and the lens is glued in place after active alignment at the factory.</p></div></details>
+<details><summary>Why can a rectilinear lens not reach 180°, and what does a fisheye do instead?<span class="level">Intermediate</span></summary><div class="answer"><p>A rectilinear lens maps a ray at angle θ to radius r = f tan θ, which goes to infinity at 90°: a ray at 80° already lands 5.7 f from the centre and the edge of a 120° view is magnified four times relative to the centre. A fisheye chooses a different mapping r = f g(θ) whose value stays finite at 90° (equidistant f θ, equisolid 2f sin(θ/2), stereographic 2f tan(θ/2)), so a hemisphere or more fits on the sensor at the price of bent straight lines.</p></div></details>
+<details><summary>Compare the standard fisheye projection models.<span class="level">Intermediate</span></summary><div class="answer"><p>All agree near the axis. Equidistant (f θ) gives uniform pixels per degree, which suits SLAM and calibration. Equisolid (2f sin(θ/2)) preserves area per solid angle and is common in photographic fisheyes. Stereographic (2f tan(θ/2)) is conformal, so local shapes look natural, and surround-view lenses are often close to it; it spends more pixels at the rim. Orthographic (f sin θ) stops at 90°. Real lenses follow none exactly; the model is the start point for a polynomial correction in calibration.</p></div></details>
+<details><summary>What is the difference between distortion and blur?<span class="level">Basic</span></summary><div class="answer"><p>Distortion moves image points: magnification depends on the distance from the axis, so straight lines bend, but each point can still be sharp. It is a deterministic geometric error that calibration models and a remap removes. Blur spreads one point over several pixels (defocus, diffraction, aberrations such as coma or chromatic aberration); it loses information that no calibration restores.</p></div></details>
+<details><summary>Why does stopping down eventually make the image softer?<span class="level">Intermediate</span></summary><div class="answer"><p>A smaller aperture reduces aberrations and increases depth of field, but diffraction spreads a point into an Airy disc of diameter about 2.44 λ N. At 550 nm that is 2.7 µm at f/2 and 10.7 µm at f/8, already more than three 3 µm pixels. Every lens therefore has an optimum aperture, usually two or three stops below wide open, and small-pixel sensors push that optimum towards larger apertures.</p></div></details>
+<details><summary>Why are megapixels not the same as resolution? What is MTF?<span class="level">Intermediate</span></summary><div class="answer"><p>The scene passes through the lens's optical transfer function, defocus and diffraction before the pixels sample it, so the detail that survives is the product of all stages. The modulation transfer function (MTF) gives the contrast transferred at each spatial frequency; MTF50 is a common single number. A sensor with pitch p samples up to the Nyquist frequency 1/(2p), about 167 line pairs per millimetre for 3 µm pixels; if the lens's MTF there is near zero, the extra pixels only resample blur.</p></div></details>
+<details><summary>How accurately must the sensor sit, and what moves the plane of best focus?<span class="level">Advanced</span></summary><div class="answer"><p>The image-side tolerance, the depth of focus, is about ±N c<sub>max</sub>: at f/2 and 6 µm that is ±12 µm. Things that move focus by more than that: the mechanical stack of barrel, holder, board and sensor package (tens of micrometres each), a cover glass or IR filter (shift t(1 − 1/n), 0.23 mm for 0.7 mm of n = 1.5 glass), sensor tilt, field curvature, temperature (plastic elements and housing expansion) and wavelength (visible versus near infrared). That is why automotive cameras are actively aligned and glued while the image is measured.</p></div></details>
+<details><summary>When must a camera be recalibrated?<span class="level">Intermediate</span></summary><div class="answer"><p>Whenever the mapping from rays to pixels changes: refocusing (the image distance v changes the effective focal length), a different resolution mode, binning, scaling or crop (f<sub>x</sub>, f<sub>y</sub> and the principal point rescale or shift), a lens or holder change, and mechanical creep over temperature and age. Calibrate in the final mechanical and sensor configuration, and convert intrinsics analytically for pure scaling or cropping instead of guessing.</p></div></details>
+<details><summary>How many pixels per degree does a fisheye deliver, and where?<span class="level">Advanced</span></summary><div class="answer"><p>The local density is ρ(θ) = (f/p) g′(θ) pixels per radian. For an equidistant lens it is constant: f = 1 mm and p = 3 µm give 333 px/rad, about 5.8 px per degree everywhere. A rectilinear lens has g′ = 1/cos²θ, so it concentrates pixels at the edge, while equisolid and orthographic lenses thin them out towards the rim. The density at the edge of the region of interest, not at the centre, decides whether a pedestrian at the side is detectable.</p></div></details>
+<details><summary>What is the chief ray angle and why does it matter for a sensor?<span class="level">Advanced</span></summary><div class="answer"><p>The chief ray is the ray from an image point through the centre of the aperture stop; its angle at the sensor grows towards the corners for compact lenses. Sensor microlenses are shifted to accept a specified chief-ray-angle profile. A lens whose CRA does not match loses light and leaks it into neighbouring colour pixels at the corners, giving colour shading and crosstalk that the ISP can only partly correct. CRA compatibility is one of the first checks when pairing a lens and a sensor.</p></div></details>
+<details><summary>Why do fisheye calibration models use the angle θ instead of the image radius?<span class="level">Advanced</span></summary><div class="answer"><p>The Brown–Conrady polynomial acts on the normalised radius r = tan θ, which diverges at 90°, so it cannot describe rays at or beyond the side of the camera. Kannala–Brandt (OpenCV fisheye) writes θ<sub>d</sub> = θ(1 + k<sub>1</sub>θ² + …), a polynomial in the angle, which stays finite for every ray. For fields near or beyond 180° one also works with unit ray directions rather than x/z, because points with z ≤ 0 are visible.</p></div></details>
+<details><summary>When would you choose a telecentric lens?<span class="level">Intermediate</span></summary><div class="answer"><p>For dimensional measurement where the object distance varies: in a normal (entocentric) lens magnification changes with distance, so a part that is 1 mm higher looks larger. An object-space telecentric lens puts the stop at the focal point so chief rays are parallel to the axis and magnification stays constant over its telecentric range. The front optics must be as large as the field, so these lenses are big and expensive and suit inspection, not vehicles.</p></div></details>
+</section>
+<section id="s-q-2">
+<h3><span class="num">Q.2</span>Why and what if</h3>
+<details><summary>What if you put a larger sensor behind the same lens?<span class="level">What if</span></summary><div class="answer"><p>The field of view grows only as far as the lens's image circle reaches. Beyond it the corners go dark (vignetting) or soft, because the lens was corrected only for the smaller field. The chief ray angle at the new corners may also exceed what the microlenses accept. Coverage, resolution and CRA have to be checked separately.</p></div></details>
+<details><summary>Why does focusing closer narrow the field of view?<span class="level">Why</span></summary><div class="answer"><p>The angle the sensor subtends is set by the image distance v, not by f. Focusing closer moves the lens away from the sensor (v = f u/(u − f)), so the same sensor width spans a smaller angle. This focus breathing is a few per cent for a 50 mm lens at 1 m and negligible for a 4 mm lens, whose extension at 1 m is only 16 µm.</p></div></details>
+<details><summary>What if a fixed-focus camera with plastic lens elements runs from −40 °C to +105 °C?<span class="level">What if</span></summary><div class="answer"><p>Refractive index and element spacing change with temperature, and the housing expands, so the plane of best focus moves. If the shift exceeds the depth of focus (about ±N c<sub>max</sub>, a few tens of micrometres), the image softens at one end of the range even though it was sharp at room temperature. Remedies are glass-plastic hybrid or athermalised designs, housing materials chosen to compensate, and MTF tests in a climate chamber.</p></div></details>
+<details><summary>Why is the sharp zone deeper behind the focus plane than in front of it?<span class="level">Why</span></summary><div class="answer"><p>Image distance depends on 1/u, not on u. Near the camera a small change in object distance moves the image a lot; far away even a large change moves it little. With the same tolerable blur at both limits, the far limit therefore lies further from the focus plane than the near limit; at the hyperfocal distance the far side reaches infinity.</p></div></details>
+<details><summary>What if you undistort a 190° fisheye image into one perspective image?<span class="level">What if</span></summary><div class="answer"><p>It is impossible to show the full field: rays at 90° and beyond have no rectilinear image. Even a 120° perspective crop magnifies its edges four times relative to the centre, so edge pixels are interpolated from very few source pixels and look smeared. Use several virtual perspective views, a cylindrical projection, or run the algorithm on rays directly.</p></div></details>
+<details><summary>What if you halve the pixel pitch on the same sensor area?<span class="level">What if</span></summary><div class="answer"><p>The Nyquist frequency doubles, so the lens must now deliver contrast at twice the frequency or the new pixels resolve nothing extra. A blur limit of two pixels halves in micrometres, so depth of field shrinks and H doubles. Each pixel collects about a quarter of the light, so per-pixel noise in low light rises. Diffraction becomes the limit at a wider aperture.</p></div></details>
+<details><summary>Why does a short focal length make fixed focus practical?<span class="level">Why</span></summary><div class="answer"><p>The focus extension Δ = f²/(u − f) and the hyperfocal distance both scale with f². A 4 mm lens moves 16 µm between infinity and 1 m, which is inside its depth of focus; a 50 mm lens moves 2.6 mm. Short lenses can therefore be set once to the hyperfocal distance and cover everything from well under a metre to infinity.</p></div></details>
+<details><summary>What if you read out only a region of interest of the sensor?<span class="level">What if</span></summary><div class="answer"><p>The field of view narrows exactly as if the image had been cropped, but perspective, focal length, magnification and diffraction are unchanged. The principal point shifts by the crop offset and f<sub>x</sub> stays the same, so intrinsics can be converted rather than recalibrated, provided the binning or scaling stage is also accounted for.</p></div></details>
+<details><summary>Why does replacing an IR-cut filter with one of a different thickness defocus the camera?<span class="level">Why</span></summary><div class="answer"><p>A plane glass plate in the converging beam pushes focus back by t(1 − 1/n). A 0.3 mm thickness change in n = 1.5 glass moves focus by 0.1 mm, several times the depth of focus of an f/2 lens with small pixels. Day/night cameras that swap the filter mechanically compensate with a clear plate of equal optical thickness.</p></div></details>
+<details><summary>Why do two cameras with the same focal length but different sensors give different pictures from the same spot?<span class="level">Why</span></summary><div class="answer"><p>Perspective is identical because it depends only on position. The field of view differs because the sensor width differs (crop factor), and the depth of field differs because the acceptable blur scales with the pixel size and format. To get the same framing on the smaller sensor you need a shorter lens, which then gives more depth of field at the same f-number.</p></div></details>
+</section>
+<section id="s-5-1">
+<h3><span class="num">Q.3</span>Common misconceptions</h3>
+<table class="rows"><thead><tr><th>Misconception</th><th>What is actually true</th></tr></thead><tbody>
+<tr><td>"More megapixels gives a wider view."</td><td>FOV is set by active sensor dimensions and lens projection. More pixels on the same area increase sampling density.</td></tr>
+<tr><td>"A longer lens changes perspective."</td><td>Perspective changes primarily because the camera position changes. Focal length changes framing from that position.</td></tr>
+<tr><td>"Everything inside DOF is equally sharp."</td><td>Only one object plane is exactly focused. DOF is an acceptable-blur range.</td></tr>
+<tr><td>"Stopping down always makes the image sharper."</td><td>Stopping down reduces aberrations and increases DOF, but diffraction eventually reduces fine detail.</td></tr>
+<tr><td>"Distortion means the lens is blurry."</td><td>Distortion is geometric displacement. A distorted image can still be locally sharp.</td></tr>
+<tr><td>"A lens marked for a sensor size has the right resolution."</td><td>Coverage and resolution are separate. The lens may cover the sensor but have insufficient MTF for its pixel pitch.</td></tr>
+<tr><td>"Calibration removes all lens errors."</td><td>Calibration corrects modeled geometry. It does not restore lost resolution, SNR, vignetting, flare, or unstable mechanics.</td></tr>
+</tbody></table>
+</section>
+<section id="s-5-2">
+<h3><span class="num">Q.4</span>Exercises</h3>
+<p>Work them on paper first; open a question for the answer.</p>
+<details><summary><span>A 1 inch sensor (13.2 mm wide) is paired with a 25 mm lens. What is the horizontal FOV, and how wide a scene does it cover at 10 m?</span></summary><div class="answer"><p>HFOV = 2 arctan(13.2/50) = 29.6°; footprint at 10 m ≈ 13.2 · 10 / 0.025 = 5.28 m (more precisely <i>w u</i>/<i>v</i>, which differs by 0.25%).</p></div></details>
+<details><summary><span>A 25 mm lens is focused first at infinity and then at 1 m. How far must it move? What happens to the horizontal FOV?</span></summary><div class="answer"><p>\(\Delta = 25^2/975 = 0.64\) mm. The image distance becomes 25.64 mm, so the HFOV falls from 29.6° to 28.9° (focus breathing).</p></div></details>
+<details><summary><span>For the 3.71 mm lens of Worked example 2 at f/2.8 instead of f/2.0, what are the hyperfocal distance and the near limit when focusing at that distance?</span></summary><div class="answer"><p>\(H = 3.71^2/(2.8 \cdot 0.0058) + 3.71 = 852\) mm; focusing there gives a near limit of 426 mm.</p></div></details>
+<details><summary><span>An equidistant fisheye has f = 1.2 mm and p = 2.0 µm. How many pixels does a 90° ray lie from the image centre, and how many pixels per degree does the lens deliver?</span></summary><div class="answer"><p>\(r = f\theta/p = 600 \cdot \pi/2 = 942\) pixels; density \(= 600 \cdot \pi/180 = 10.5\) pixels per degree.</p></div></details>
+<details><summary><span>Show that, for a rectilinear lens, the radial magnification at 60° from the axis is four times that on the axis.</span></summary><div class="answer"><p>\(dr/d\theta = f/\cos^2\theta\); at 60° \(\cos^2\theta = 0.25\), so the magnification is \(4f\).</p></div></details>
+</section>
+</section>
+
+<section class="chapter" id="ch-glossary">
+<h2><span class="num">G</span>Glossary</h2>
+<dl class="glossary">
+<dt id="gl-airy-disc">Airy disc</dt><dd>The diffraction pattern of a point through a circular aperture; its central spot is about 2.44 λ N wide, the floor on blur when stopping down.</dd>
+<dt id="gl-aperture-stop">Aperture stop</dt><dd>The opening inside the lens that limits the cone of light from each object point; its image seen from the front is the entrance pupil.</dd>
+<dt id="gl-back-focal-distance">Back focal distance</dt><dd>Distance from the last lens surface to the image plane; with the mount's flange distance it decides whether a lens can focus on a given camera.</dd>
+<dt id="gl-blur-circle">Blur circle (circle of confusion)</dt><dd>The disc a defocused point makes on the sensor, c = D |v′ − v| / v′; the acceptable limit c<sub>max</sub> defines depth of field.</dd>
+<dt id="gl-chief-ray-angle">Chief ray angle (CRA)</dt><dd>Angle at the sensor of the ray through the centre of the aperture stop; must match the microlens design of the sensor or corners lose light and colour.</dd>
+<dt id="gl-chromatic-aberration">Chromatic aberration</dt><dd>Wavelength-dependent focus (longitudinal) or magnification (lateral), caused by the dispersion of glass; shows as colour fringes.</dd>
+<dt id="gl-crop-factor">Crop factor</dt><dd>Ratio of the full-frame diagonal (43.3 mm) to a sensor's diagonal; multiplies f to give the 35 mm equivalent focal length.</dd>
+<dt id="gl-depth-of-field">Depth of field (DoF)</dt><dd>Range of object distances whose blur stays below c<sub>max</sub>; grows with N and focus distance, shrinks with f².</dd>
+<dt id="gl-depth-of-focus">Depth of focus</dt><dd>The image-side tolerance: how far the sensor may move from the image plane, about ±N c<sub>max</sub>.</dd>
+<dt id="gl-distortion">Distortion</dt><dd>Geometric displacement of image points from the ideal projection (radial barrel or pincushion, tangential from decentred elements); removable by calibration.</dd>
+<dt id="gl-entrance-pupil">Entrance pupil</dt><dd>The image of the aperture stop seen from object space; its centre is the camera's centre of projection, and in fisheyes it moves with field angle.</dd>
+<dt id="gl-equidistant">Equidistant projection</dt><dd>Fisheye mapping r = f θ with uniform pixels per degree; the base of most fisheye calibration models.</dd>
+<dt id="gl-f-number">f-number (N)</dt><dd>Focal length divided by entrance-pupil diameter; irradiance scales with 1/N², one stop is a factor √2 in N.</dd>
+<dt id="gl-field-curvature">Field curvature</dt><dd>The surface of best focus is curved rather than flat, so centre and corners are not sharp at the same sensor position.</dd>
+<dt id="gl-fov">Field of view (FOV)</dt><dd>Angular extent recorded by the sensor, 2 arctan(w/2f) for a rectilinear lens; quoted horizontally, vertically or diagonally.</dd>
+<dt id="gl-fisheye">Fisheye lens</dt><dd>A lens with a deliberately non-rectilinear mapping r = f g(θ) that stays finite at 90°, so 180° or more fits on the sensor.</dd>
+<dt id="gl-focal-length">Focal length</dt><dd>Distance behind a thin lens (or its rear principal plane) at which parallel rays meet; sets magnification and, with the sensor size, the FOV.</dd>
+<dt id="gl-focus-breathing">Focus breathing</dt><dd>Change of field of view when focusing, because the image distance v rather than f sets the angle the sensor subtends.</dd>
+<dt id="gl-gsd">Ground sample distance (GSD)</dt><dd>Size of the scene patch one pixel covers at distance Z, p Z / f; decides whether a feature has enough pixels.</dd>
+<dt id="gl-hyperfocal">Hyperfocal distance</dt><dd>Focus distance H = f²/(N c<sub>max</sub>) + f at which the sharp zone just reaches infinity; focused there, everything from H/2 on is sharp.</dd>
+<dt id="gl-image-circle">Image circle</dt><dd>The usable circular image a lens projects; the sensor must fit inside it, or a fisheye's circle is deliberately placed inside the sensor.</dd>
+<dt id="gl-mtf">Modulation transfer function (MTF)</dt><dd>Contrast transferred versus spatial frequency; MTF50 is the frequency where contrast falls to half, measured with slanted-edge targets.</dd>
+<dt id="gl-nyquist">Nyquist frequency</dt><dd>Highest spatial frequency a sensor can sample without aliasing, 1/(2p); about 167 lp/mm for 3 µm pixels.</dd>
+<dt id="gl-pixel-focal-length">Pixel focal length (f<sub>x</sub>, f<sub>y</sub>)</dt><dd>Focal length in pixel units, f/p; the number calibration reports and the one projection formulas use.</dd>
+<dt id="gl-pixel-pitch">Pixel pitch</dt><dd>Centre-to-centre distance of photosites; with the pixel count it gives the sensor's physical size.</dd>
+<dt id="gl-principal-point">Principal point</dt><dd>Pixel where the optical axis meets the sensor, (c<sub>x</sub>, c<sub>y</sub>); shifts when the image is cropped.</dd>
+<dt id="gl-rectilinear">Rectilinear lens</dt><dd>A lens that follows r = f tan θ and keeps straight lines straight; cannot reach 180°.</dd>
+<dt id="gl-stereographic">Stereographic projection</dt><dd>Fisheye mapping r = 2f tan(θ/2); conformal, so local shapes look natural, and often close to surround-view lenses.</dd>
+<dt id="gl-telecentric">Telecentric lens</dt><dd>Lens with the stop at a focal point so chief rays are parallel to the axis and magnification does not change with object distance.</dd>
+<dt id="gl-thin-lens">Thin-lens equation</dt><dd>1/f = 1/u + 1/v: links object distance, image distance and focal length; the basis of focus and depth-of-field formulas.</dd>
+<dt id="gl-vignetting">Vignetting</dt><dd>Brightness falloff towards the corners from mechanical clipping, pupil geometry and the cos⁴ law; corrected by flat-field gain.</dd>
+</dl>
+</section>
+
+<section class="chapter" id="ch-reading">
+<h2><span class="num">R</span>Further reading</h2>
+<ul>
+<li>E. Hecht, <i>Optics</i>, Pearson. A thorough treatment of geometrical and wave optics.</li>
+<li>W. J. Smith, <i>Modern Optical Engineering</i>, McGraw-Hill. Lens design practice, aberrations and MTF.</li>
+<li>R. Kingslake and R. B. Johnson, <i>Lens Design Fundamentals</i>, Academic Press. How compound lenses are built and why.</li>
+<li>R. Hartley and A. Zisserman, <i>Multiple View Geometry in Computer Vision</i>, Cambridge University Press. The pinhole model and calibration.</li>
+<li>J. Kannala and S. S. Brandt, "A generic camera model and calibration method for conventional, wide-angle, and fish-eye lenses," <i>IEEE Transactions on Pattern Analysis and Machine Intelligence</i>, 2006.</li>
+<li>D. Scaramuzza, A. Martinelli and R. Siegwart, "A toolbox for easily calibrating omnidirectional cameras," <i>IROS</i>, 2006.</li>
+<li>C. Mei and P. Rives, "Single view point omnidirectional camera calibration from planar grids," <i>ICRA</i>, 2007.</li>
+<li>V. Usenko, N. Demmel and D. Cremers, "The double sphere camera model," <i>3DV</i>, 2018.</li>
+<li>Machine-vision lens and sensor application notes from lens and camera manufacturers: real MTF curves, distortion plots and chief-ray-angle limits.</li>
+</ul>
+<p>The formulas here are first-order engineering models. Real lens data, mechanical drawings, MTF curves, distortion plots, chief-ray-angle constraints, spectral response and production tolerances should be checked when designing a final system.</p>
+</section>
+
+</main>
+</div>
+<script id="rs-interactive">
+/* Interactive figure of ch/optics.html: Figure 1.16 focus and depth-of-field explorer. */
+var OpticsModels = (function () {
+  // lengths in mm; p in µm; returns blur in pixels and the sharp zone for cmax = 2 px
+  function dof(p) {
+    const f = p.f, N = p.N, s = p.s, pix = p.p / 1000, c = 2 * pix;
+    const H = f * f / (N * c) + f;
+    const near = s * (H - f) / (H + s - 2 * f);
+    const far = s < H ? s * (H - f) / (H - s) : Infinity;
+    const blur = u => f * f / (N * (s - f)) * Math.abs(u - s) / u / pix;   // pixels
+    const airy = 2.44 * 0.00055 * N / pix;                                 // pixels
+    const w = 1920 * pix, hfov = 2 * Math.atan(w / (2 * f)) * 180 / Math.PI;
+    const nDiff = c / (2.44 * 0.00055);                                    // f-number where Airy = cmax
+    return { H, near, far, blur, airy, hfov, nDiff };
+  }
+  return { dof };
+})();
+if (typeof module !== 'undefined') module.exports = OpticsModels;
+
+if (typeof document !== 'undefined') document.addEventListener('DOMContentLoaded', () => {
+  const $ = id => document.getElementById(id);
+  const g = $('op-dyn'); if (!g) return;
+  const mk = (tag, a, t) => { const n = Guide.svg(tag, a); if (t != null) n.textContent = t; return n; };
+  const F = 'Inter, system-ui, sans-serif', COL = { ink: '#1f3a5f', muted: '#5b6678', line: '#b7c0cc', teal: '#0f8b8d', red: '#c4473a', amber: '#d48a1e', tealbg: '#dff1f1' };
+  const txt = (x, y, s, o) => g.appendChild(mk('text', Object.assign({ x, y, 'font-family': F, 'font-size': 6.6, fill: COL.ink, 'text-anchor': 'middle' }, o || {}), s));
+  const out = (id, s) => { const o = document.querySelector('output[for="' + id + '"]'); if (o) o.textContent = s; };
+  const m2 = v => v >= 10000 ? (v / 1000).toFixed(0) + ' m' : v >= 1000 ? (v / 1000).toFixed(2) + ' m' : (v / 10).toFixed(0) + ' cm';
+  const X0 = 60, X1 = 560, Y0 = 175, Y1 = 22, U0 = 100, U1 = 100000, BMAX = 10;   // 0.1 m … 100 m, 0 … 10 px
+  const X = u => X0 + (Math.log10(u) - Math.log10(U0)) / (Math.log10(U1) - Math.log10(U0)) * (X1 - X0);
+  const Y = b => Y0 - Math.min(b, BMAX) / BMAX * (Y0 - Y1);
+  function draw() {
+    const f = +$('op-f').value, N = +$('op-n').value, p = +$('op-p').value;
+    const s = 200 * Math.pow(250, +$('op-s').value / 100);        // 0.2 m … 50 m
+    out('op-s', m2(s));
+    const m = OpticsModels.dof({ f, N, s, p });
+    while (g.firstChild) g.removeChild(g.firstChild);
+    const a = Math.max(m.near, U0), b = Math.min(m.far, U1);
+    if (b > a) g.appendChild(mk('rect', { x: X(a), y: Y1, width: X(b) - X(a), height: Y0 - Y1, fill: COL.tealbg }));
+    g.appendChild(mk('line', { x1: X0, y1: Y0, x2: X1, y2: Y0, stroke: COL.line }));
+    g.appendChild(mk('line', { x1: X0, y1: Y0, x2: X0, y2: Y1, stroke: COL.line }));
+    [100, 300, 1000, 3000, 10000, 30000, 100000].forEach(u => { g.appendChild(mk('line', { x1: X(u), y1: Y0, x2: X(u), y2: Y0 + 3, stroke: COL.muted })); txt(X(u), Y0 + 11, m2(u), { fill: COL.muted }); });
+    [0, 2, 4, 6, 8, 10].forEach(v => txt(X0 - 6, Y(v) + 2.2, v + (v === 10 ? '+' : ''), { fill: COL.muted, 'text-anchor': 'end' }));
+    txt(310, 204, 'object distance (log scale)', { fill: COL.muted });
+    txt(18, 98, 'blur (px)', { fill: COL.muted, transform: 'rotate(-90 18 98)' });
+    g.appendChild(mk('line', { x1: X0, y1: Y(2), x2: X1, y2: Y(2), stroke: COL.teal, 'stroke-dasharray': '4 3' }));
+    txt(X1, Y(2) + 9, 'limit 2 px', { fill: COL.teal, 'text-anchor': 'end' });
+    if (m.airy <= BMAX) { g.appendChild(mk('line', { x1: X0, y1: Y(m.airy), x2: X1, y2: Y(m.airy), stroke: COL.amber, 'stroke-dasharray': '2 2' })); txt(X0 + 4, Y(m.airy) - 3, 'diffraction ' + m.airy.toFixed(1) + ' px', { fill: COL.amber, 'text-anchor': 'start' }); }
+    const pts = []; for (let i = 0; i <= 240; i++) { const u = U0 * Math.pow(U1 / U0, i / 240); if (u > f * 1.05) pts.push(X(u).toFixed(1) + ',' + Y(m.blur(u)).toFixed(1)); }
+    g.appendChild(mk('polyline', { points: pts.join(' '), fill: 'none', stroke: COL.ink, 'stroke-width': 1.4 }));
+    g.appendChild(mk('line', { x1: X(s), y1: Y0, x2: X(s), y2: Y1, stroke: COL.red, 'stroke-width': 1 }));
+    txt(X(s), Y1 - 4, 'focus ' + m2(s), { fill: COL.red });
+    if (m.H < U1) { g.appendChild(mk('line', { x1: X(m.H), y1: Y0, x2: X(m.H), y2: Y0 - 8, stroke: COL.muted })); txt(X(m.H), Y0 - 11, 'H', { fill: COL.muted }); }
+    const zone = m.far === Infinity ? `from ${m2(m.near)} to infinity` : `from ${m2(m.near)} to ${m2(m.far)} (${m2(m.far - m.near)} deep)`;
+    const diff = m.airy > 2 ? ` At f/${N} the Airy disc (${m.airy.toFixed(1)} px) is already larger than the limit: the lens is diffraction-limited, so stopping down further only blurs.`
+      : ` Diffraction reaches the 2 px limit at about f/${m.nDiff.toFixed(1)}.`;
+    $('op-read').textContent = `${f} mm at f/${N} on ${p} µm pixels: horizontal FOV ${m.hfov.toFixed(1)}°, hyperfocal distance ${m2(m.H)}. Focused at ${m2(s)}, everything ${zone} is within 2 px of blur.` + diff;
+  }
+  ['op-f', 'op-n', 'op-s', 'op-p'].forEach(id => { $(id).addEventListener('input', draw); $(id).addEventListener('change', draw); });
+  draw();
+});
+
+</script>
+</body>
+</html>
