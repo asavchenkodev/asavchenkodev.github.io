@@ -209,3 +209,6 @@ table.formulas td { vertical-align: middle; }
 .g-doc p.see a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); }
 /* secondary line inside a glossary definition (e.g. the German term) */
 dl.glossary dd small { display: block; color: var(--muted); font-size: .82rem; margin-top: .15rem; }
+
+/* offline copy state in the home page footer (assets/book.js) */
+.b-offline:not(:empty)::before { content: ' · '; }

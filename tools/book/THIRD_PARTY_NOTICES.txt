@@ -224,4 +224,18 @@ Rendered from pretrained weights: the 64 conv1 filters of timm resnet50 (resnet5
   Changes: Filters min-max scaled per filter and enlarged; cosine similarity of position embeddings (every second patch, values below 0.6 dark) coloured with the book's ramp.
   Files: img/deep-learning-vision/road-resnet-filters.jpg, img/deep-learning-vision/vit-posemb.jpg
 
+Top six comma10k frames for a text query, from whole-frame and tiled CLIP embeddings (our search run).
+  Copyright (c) 2018 comma.ai. Source: comma10k dataset https://github.com/commaai/comma10k
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma10k.txt
+  Changes: 12 frames (names in tools/write/nn-training/experiments/data_engine/clip_search.json, key sheet.names) resized to 150x113 and tiled 6x2, JPEG (clip_search.py).
+  Files: img/nn-training/de-search-top.jpg
+
+Eight frames of the comma2k19 example segment chosen by k-centre selection on CLIP embeddings (our run).
+  Copyright (c) 2018 comma.ai. Source: comma2k19 dataset https://github.com/commaai/comma2k19
+  Licence: MIT License https://opensource.org/license/mit
+  Licence text: licenses/LICENSE-comma2k19.txt
+  Changes: Frames decoded from video.hevc at 320 px width, eight frames picked by k-centre selection, cropped to 4:3 and tiled 8x1, JPEG (clip_search.py).
+  Files: img/nn-training/de-dedup-kcenter.jpg
+
 All other figures, diagrams and images were generated for this book (synthetic scenes, simulations, plots and our own renders). A per-chapter list is in credits.html.

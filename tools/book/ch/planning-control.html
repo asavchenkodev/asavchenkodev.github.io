@@ -7,6 +7,13 @@
 <meta name="guide-version" content="2026-11-06">
 <title>Localization, planning and vehicle control</title>
 <!-- book:head -->
+<link rel="manifest" href="../assets/app.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15181d" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Book">
 <link rel="stylesheet" href="../assets/guide.css">
 <link rel="stylesheet" href="../assets/book.css">
 <link rel="stylesheet" href="../assets/vendor/katex/katex.min.css">
@@ -465,6 +472,7 @@
 <p>Closed-loop evaluation lets the planner drive in a simulator, where its own actions change what happens next and errors compound as they would on the road. On the nuPlan benchmark, Dauner et al. (2023) showed that a simple rule-based planner, PDM-Closed (follow the lane centre with an intelligent-driver speed model and score a few speed variants), matched or beat the learned planners of the time in closed loop, and a hybrid variant won the 2023 nuPlan challenge. The lesson is not that learning fails, but that a planner must be judged in closed loop, against strong classical baselines, on scenarios that matter for safety. Newer benchmarks (NAVSIM, Bench2Drive in CARLA) are attempts to make that cheaper and more representative.</p>
 <div class="box talk"><span class="box-title">Talk track</span><p>"End-to-end planners such as UniAD train perception, prediction and planning jointly for the planning objective, keeping intermediate outputs for inspection. VLA models add a large vision-language model for world knowledge and explanations, but are too slow for the control loop, so they act as a slow advisor to a fast planner. Two cautions: open-loop metrics on nuScenes can be matched by a model that sees only ego speed, so evaluate in closed loop against strong rule-based baselines; and in a product, any learned planner sits behind a rule-based safety checker."</p></div>
 </section>
+<p class="see">How such a model is taken to series release, with a rule-based safety envelope, release gates and a staged rollout, belongs to <a href="functional-safety.html#s-ml-9">Functional safety 12.9–12.12</a>.</p>
 </section>
 
 <section class="chapter" id="ch-13">

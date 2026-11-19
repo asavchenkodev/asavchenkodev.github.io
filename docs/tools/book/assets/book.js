@@ -3,7 +3,8 @@
    - renders math written as \( … \) and \[ … \] when KaTeX is on the page (before marks.js anchors marks);
    - chapter pages: "Book" link and part/chapter line in the contents, previous/next chapter at the end;
    - search over all chapters (Search button, "/" or Ctrl+K), index loaded on first use;
-   - home page: marks per chapter, export/import of all marks. */
+   - home page: marks per chapter, export/import of all marks;
+   - offline copy: registers sw.js (published site only) and shows its state in the home page footer. */
 (function () {
   'use strict';
   const script = document.currentScript;
@@ -259,10 +260,31 @@
     r.readAsText(f);
   }
 
+  /* ---------- offline copy: sw.js is written next to index.html by tools/publish.py; only on http(s) ---------- */
+  function offline() {
+    if (!('serviceWorker' in navigator) || !/^https?:/.test(ROOT)) return;   // file:// copies: nothing to do
+    const sw = navigator.serviceWorker;
+    const note = document.querySelector('.b-offline');                       // home page only
+    const show = t => { if (note) note.textContent = t; };
+    let ready = '';                     // version that is fully stored; an update downloads in the background
+    sw.addEventListener('message', e => {
+      const m = e.data || {};
+      if (m.type === 'offline-ready') show('Available offline (version ' + (ready = m.version) + ')');
+      else if (m.type === 'offline-progress' && !ready) show('Saving for offline reading: ' + m.done + ' of ' + m.total + ' files');
+      else if (m.type === 'offline-error' && !ready) show('Offline copy not finished yet, it continues on the next visit');
+    });
+    sw.register(ROOT + 'sw.js')
+      .then(() => sw.ready)
+      .then(reg => { if (reg.active) reg.active.postMessage({ type: 'offline-status' }); })
+      .catch(() => { /* no sw.js beside the book (local copy served without publish.py) */ });
+  }
+
   function init() {
     if (isHome) home();
     else chapterChrome();
     searchButton();
+    if (document.readyState === 'complete') offline();
+    else window.addEventListener('load', offline);
   }
   // run after guide.js (registered later, so wait one tick)
   const later = () => setTimeout(init, 0);
