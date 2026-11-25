@@ -443,6 +443,21 @@ async function preparePublicAssets(): Promise<void> {
   await cp(toolsRoot, publicToolsRoot, { recursive: true });
 }
 
+/** Tool folders that have an entry page, for the sitemap. */
+async function toolNames(): Promise<string[]> {
+  const names: string[] = [];
+  for (const dirent of await readdir(toolsRoot, { withFileTypes: true })) {
+    if (!dirent.isDirectory() || dirent.name.startsWith(".")) continue;
+    try {
+      await stat(path.join(toolsRoot, dirent.name, "index.html"));
+      names.push(dirent.name);
+    } catch {
+      // no entry page: not a tool
+    }
+  }
+  return names;
+}
+
 async function copyPublishedContent(): Promise<void> {
   const files = Object.values(entries).filter((entry) => entry.publicUrl);
   for (const entry of files) {
@@ -477,7 +492,7 @@ async function main(): Promise<void> {
 
   await writeFile(path.join(publicRoot, "content-manifest.json"), `${JSON.stringify(manifest)}\n`);
   await writeFile(path.join(publicRoot, "search-index.json"), `${JSON.stringify(searchDocuments)}\n`);
-  await writeFeeds(manifest, publicRoot);
+  await writeFeeds(manifest, publicRoot, await toolNames());
   console.log(`Generated ${Object.keys(entries).length} filesystem entries and ${searchDocuments.length} search records.`);
 }
 

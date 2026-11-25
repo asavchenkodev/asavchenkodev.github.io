@@ -26,8 +26,25 @@
     <updated>2026-08-24T00:00:00Z</updated>
     <summary>Inspect raw NV12, YUV, Bayer, RGB, and grayscale pixel buffers directly in the browser.</summary>
     <content type="html">&lt;h1 id=&quot;raw-pixel-viewer&quot;&gt;Raw Pixel Viewer&lt;/h1&gt;
-&lt;p&gt;Raw Pixel Viewer opens camera and image buffers directly in the browser. It supports common raw layouts such as NV12, planar YUV, packed YUV422, Bayer RAW, RGB, and grayscale data.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/tools/raw-pixel-viewer/index.html&quot;&gt;Open the live tool&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;Raw Pixel Viewer opens camera and image buffers directly in the browser. It supports common raw layouts such as NV12, planar YUV, packed YUV422, Bayer RAW, RGB, and grayscale data. Files are decoded locally and never uploaded.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/tools/raw-pixel-viewer/&quot;&gt;Open the live tool&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;supported-formats&quot;&gt;Supported formats&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;YUV semi-planar:&lt;/strong&gt; NV12, NV21, NV16, NV61, and P010, including 10 to 16-bit data in 16-bit words, little or big endian.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;YUV planar:&lt;/strong&gt; I420 (YUV420P), YV12, YUV422P, and YVU422P, including high bit depth variants such as yuv420p10le.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;YUV packed:&lt;/strong&gt; YUYV (YUY2) and UYVY, with BT.601, BT.709, or BT.2020 matrices in limited or full range.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bayer RAW:&lt;/strong&gt; RGGB, BGGR, GRBG, and GBRG; 8-bit, 10 to 16-bit in 16-bit words, and packed MIPI RAW10 and RAW12.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;RGB and grayscale:&lt;/strong&gt; RGB24, BGR24, RGBA32, BGRA32, ARGB32, ABGR32, GRAY8, and GRAY16.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Images:&lt;/strong&gt; PNG, JPEG, and BMP, for comparing a raw buffer with a reference.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;how-to-view-an-nv12-file&quot;&gt;How to view an NV12 file&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the tool and drop the &lt;code&gt;.yuv&lt;/code&gt; or &lt;code&gt;.raw&lt;/code&gt; file onto the page.&lt;/li&gt;
+&lt;li&gt;Choose &lt;strong&gt;NV12&lt;/strong&gt; under YUV layouts and enter the width and height. For NV12 the file is width × height × 1.5 bytes per frame.&lt;/li&gt;
+&lt;li&gt;If the picture looks sheared, set the stride. If the colors look wrong, try NV21 or swap U and V. &lt;strong&gt;Guess format&lt;/strong&gt; tries common sizes and layouts for you.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;tools&quot;&gt;Tools&lt;/h2&gt;
+&lt;p&gt;Split, grid, wipe, and diff views; linked zoom; per-pixel values; RGB and luma histograms; and PNG or JPEG export.&lt;/p&gt;</content>
     <category term="computer-vision"/>
     <category term="image-processing"/>
     <category term="browser-tool"/>

@@ -38,7 +38,8 @@ export function atomFeed(manifest: ContentManifest): string {
   ].join("\n");
 }
 
-export function sitemap(manifest: ContentManifest): string {
+/** `toolNames` are folders under tools/ with an index.html; each is listed at /tools/<name>/. */
+export function sitemap(manifest: ContentManifest, toolNames: string[] = []): string {
   const urls = Object.values(manifest.entries)
     .filter((entry) => {
       const parent = entry.parent ? manifest.entries[entry.parent] : undefined;
@@ -47,16 +48,25 @@ export function sitemap(manifest: ContentManifest): string {
     .map((entry) => entry.path)
     .sort()
     .map((virtualPath) => `  <url><loc>${escapeXml(pageUrl(virtualPath))}</loc></url>`);
+  const toolUrls = [...toolNames]
+    .sort()
+    .map((name) => `  <url><loc>${escapeXml(`${siteUrl}/tools/${encodeURIComponent(name)}/`)}</loc></url>`);
   return [
     '<?xml version="1.0" encoding="UTF-8"?>',
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
     ...urls,
+    ...toolUrls,
     "</urlset>",
     "",
   ].join("\n");
 }
 
-export async function writeFeeds(manifest: ContentManifest, outputRoot: string): Promise<void> {
+export function robotsTxt(): string {
+  return ["User-agent: *", "Allow: /", "", `Sitemap: ${siteUrl}/sitemap.xml`, ""].join("\n");
+}
+
+export async function writeFeeds(manifest: ContentManifest, outputRoot: string, toolNames: string[] = []): Promise<void> {
   await writeFile(path.join(outputRoot, "feed.xml"), atomFeed(manifest));
-  await writeFile(path.join(outputRoot, "sitemap.xml"), sitemap(manifest));
+  await writeFile(path.join(outputRoot, "sitemap.xml"), sitemap(manifest, toolNames));
+  await writeFile(path.join(outputRoot, "robots.txt"), robotsTxt());
 }

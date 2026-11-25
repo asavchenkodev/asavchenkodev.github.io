@@ -33,7 +33,24 @@
   <body>
     <div id="root"></div>
     <noscript><article><h1>Raw Pixel Viewer</h1><h1 id="raw-pixel-viewer">Raw Pixel Viewer</h1>
-<p>Raw Pixel Viewer opens camera and image buffers directly in the browser. It supports common raw layouts such as NV12, planar YUV, packed YUV422, Bayer RAW, RGB, and grayscale data.</p>
-<p><a href="/tools/raw-pixel-viewer/index.html">Open the live tool</a></p></article></noscript>
+<p>Raw Pixel Viewer opens camera and image buffers directly in the browser. It supports common raw layouts such as NV12, planar YUV, packed YUV422, Bayer RAW, RGB, and grayscale data. Files are decoded locally and never uploaded.</p>
+<p><a href="/tools/raw-pixel-viewer/">Open the live tool</a></p>
+<h2 id="supported-formats">Supported formats</h2>
+<ul>
+<li><strong>YUV semi-planar:</strong> NV12, NV21, NV16, NV61, and P010, including 10 to 16-bit data in 16-bit words, little or big endian.</li>
+<li><strong>YUV planar:</strong> I420 (YUV420P), YV12, YUV422P, and YVU422P, including high bit depth variants such as yuv420p10le.</li>
+<li><strong>YUV packed:</strong> YUYV (YUY2) and UYVY, with BT.601, BT.709, or BT.2020 matrices in limited or full range.</li>
+<li><strong>Bayer RAW:</strong> RGGB, BGGR, GRBG, and GBRG; 8-bit, 10 to 16-bit in 16-bit words, and packed MIPI RAW10 and RAW12.</li>
+<li><strong>RGB and grayscale:</strong> RGB24, BGR24, RGBA32, BGRA32, ARGB32, ABGR32, GRAY8, and GRAY16.</li>
+<li><strong>Images:</strong> PNG, JPEG, and BMP, for comparing a raw buffer with a reference.</li>
+</ul>
+<h2 id="how-to-view-an-nv12-file">How to view an NV12 file</h2>
+<ol>
+<li>Open the tool and drop the <code>.yuv</code> or <code>.raw</code> file onto the page.</li>
+<li>Choose <strong>NV12</strong> under YUV layouts and enter the width and height. For NV12 the file is width × height × 1.5 bytes per frame.</li>
+<li>If the picture looks sheared, set the stride. If the colors look wrong, try NV21 or swap U and V. <strong>Guess format</strong> tries common sizes and layouts for you.</li>
+</ol>
+<h2 id="tools">Tools</h2>
+<p>Split, grid, wipe, and diff views; linked zoom; per-pixel values; RGB and luma histograms; and PNG or JPEG export.</p></article></noscript>
   </body>
 </html>

@@ -19,3 +19,4 @@ coverage/
 .idea/
 public/feed.xml
 public/sitemap.xml
+public/robots.txt

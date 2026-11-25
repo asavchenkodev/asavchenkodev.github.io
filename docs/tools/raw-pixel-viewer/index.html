@@ -6,16 +6,19 @@
   <title>Raw Pixel Viewer - Browser NV12, YUV, Bayer and RGB File Viewer</title>
   <meta
     name="description"
-    content="Open raw pixel files in the browser. Preview NV12, NV21, P010, YUV420/YUV422 planar, YUYV, UYVY, Bayer RAW, RGB and grayscale data with stride, endian, bit-depth, histogram, diff and format guessing tools."
+    content="Open raw pixel files in the browser. Preview NV12, NV21, P010, YUV420/YUV422 planar, YUYV, UYVY, Bayer RAW, RGB and grayscale data, and compare them with PNG, JPEG or BMP images, with stride, endian, bit-depth, histogram, diff and format guessing tools."
   />
   <meta
     name="keywords"
     content="raw pixel viewer, raw image viewer, NV12 viewer, YUV viewer, YUV420 viewer, YUV422 viewer, Bayer RAW viewer, RAW10 viewer, RAW12 viewer, P010 viewer, browser image viewer"
   />
   <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://asavchenkodev.github.io/tools/raw-pixel-viewer/" />
   <meta name="application-name" content="Raw Pixel Viewer" />
   <meta name="theme-color" content="#17181a" />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://asavchenkodev.github.io/tools/raw-pixel-viewer/" />
+  <meta property="og:site_name" content="Aleksandr Savchenko" />
   <meta property="og:title" content="Raw Pixel Viewer - Browser NV12, YUV, Bayer and RGB File Viewer" />
   <meta
     property="og:description"
@@ -32,9 +35,10 @@
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "Raw Pixel Viewer",
+      "url": "https://asavchenkodev.github.io/tools/raw-pixel-viewer/",
       "applicationCategory": "DeveloperApplication",
       "operatingSystem": "Any modern web browser",
-      "description": "Browser-based raw pixel viewer for NV12, NV21, P010, YUV420/YUV422 planar, YUYV, UYVY, Bayer RAW, RGB and grayscale files with stride, endian, bit-depth, histogram, diff and format guessing tools.",
+      "description": "Browser-based raw pixel viewer for NV12, NV21, P010, YUV420/YUV422 planar, YUYV, UYVY, Bayer RAW, RGB and grayscale files (plus PNG, JPEG and BMP for comparison) with stride, endian, bit-depth, histogram, diff and format guessing tools.",
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -442,6 +446,12 @@
       white-space: nowrap;
     }
 
+    .brand h1 {
+      margin: 0;
+      font: inherit;
+      letter-spacing: inherit;
+    }
+
     .brand svg {
       width: 16px;
       height: 16px;
@@ -507,6 +517,29 @@
       white-space: nowrap;
       min-width: 0;
       flex: 1 1 0;
+    }
+
+    .panel.is-image #panelFields > :not(.hist):not(#imageInfo) {
+      display: none !important;
+    }
+
+    #imageInfo {
+      display: none;
+    }
+
+    .panel.is-image #imageInfo {
+      display: grid;
+    }
+
+    #imageInfo .kv {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 4px 12px;
+      font-size: 12px;
+    }
+
+    #imageInfo .kv .v {
+      font-family: var(--mono);
     }
 
     .editing .ed-note {
@@ -975,6 +1008,41 @@
       text-overflow: ellipsis;
       pointer-events: none;
     }
+
+    /* ---------- About / supported formats (static, crawlable) ---------- */
+    .about summary {
+      cursor: pointer;
+      list-style: none;
+    }
+    .about summary::-webkit-details-marker { display: none; }
+    .about summary::after {
+      content: "+";
+      margin-left: auto;
+      font: 12px var(--mono);
+    }
+    .about details[open] summary::after { content: "\2212"; }
+    .about h2 {
+      margin: 0;
+      font: inherit;
+      letter-spacing: inherit;
+    }
+    .about-body {
+      display: grid;
+      gap: 8px;
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .about-body p,
+    .about-body dl { margin: 0; }
+    .about-body dt {
+      margin-top: 6px;
+      font: 600 11px var(--cond);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text);
+    }
+    .about-body dd { margin: 2px 0 0; }
 
     /* ---------- Pixel bar ---------- */
     .pixbar {
@@ -1717,7 +1785,7 @@
         border-right: 1px solid var(--line-strong);
       }
 
-      .brand span,
+      .brand h1,
       .head .kbd,
       .head-sep {
         display: none;
@@ -1747,7 +1815,6 @@
       }
     }
   </style>
-<script data-goatcounter="https://asv.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
   <div id="app" class="app">
@@ -1758,7 +1825,7 @@
       </button>
       <div class="brand">
         <svg viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="1" width="6" height="6" fill="#ff7a1a"/><rect x="9" y="1" width="6" height="6" fill="#4fb6c9"/><rect x="1" y="9" width="6" height="6" fill="#7cc36b"/><rect x="9" y="9" width="6" height="6" fill="#a493f2"/></svg>
-        <span>Raw Pixel Viewer</span>
+        <h1>Raw Pixel Viewer</h1>
       </div>
       </div>
       <div class="seg head-layout" role="group" aria-label="View layout">
@@ -1939,6 +2006,11 @@
           <div id="sizeCheck" class="sizecheck"></div>
         </section>
 
+        <section id="imageInfo" class="sec">
+          <div class="sec-title">Image file</div>
+          <div id="imageInfoKv" class="kv"></div>
+        </section>
+
         <section class="sec hist">
           <div class="sec-title">Histogram <span id="histLabel" class="mono"></span>
             <div id="histSeg" class="seg small" role="group" aria-label="Histogram channels">
@@ -1950,6 +2022,30 @@
           <div class="axis"><span>0</span><span>128</span><span>255</span></div>
         </section>
       </fieldset>
+
+      <section class="sec about" aria-label="About">
+        <details>
+          <summary class="sec-title"><h2>Supported formats</h2></summary>
+          <div class="about-body">
+            <p>View raw pixel files right in the browser. Nothing is uploaded: files are decoded locally. Set width, height, stride and offset, or use Guess format to find them.</p>
+            <dl>
+              <dt>YUV semi-planar</dt>
+              <dd>NV12, NV21 (4:2:0), NV16, NV61 (4:2:2), P010 (10-bit NV12, MSB aligned), plus 10/12/14/16-bit variants in 16-bit words, little or big endian.</dd>
+              <dt>YUV planar</dt>
+              <dd>I420 / YUV420P, YV12 / YVU420P, YUV422P, YVU422P, including high bit depth such as yuv420p10le.</dd>
+              <dt>YUV packed</dt>
+              <dd>YUYV / YUY2 and UYVY (4:2:2). BT.601, BT.709 and BT.2020 matrices, limited or full range.</dd>
+              <dt>Bayer RAW</dt>
+              <dd>RGGB, BGGR, GRBG and GBRG patterns: 8-bit, 10/12/14/16-bit in 16-bit words, and packed MIPI RAW10 and RAW12, with bilinear demosaic.</dd>
+              <dt>RGB and grayscale</dt>
+              <dd>RGB24, BGR24, RGBA32, BGRA32, ARGB32, ABGR32 (alpha or padding), GRAY8 / Y8 and GRAY16.</dd>
+              <dt>Images</dt>
+              <dd>PNG, JPEG and BMP, for comparing a raw buffer with a reference image.</dd>
+            </dl>
+            <p>Tools: split, grid, wipe and diff views, linked zoom, per-pixel values, RGB and luma histograms, and PNG or JPEG export.</p>
+          </div>
+        </details>
+      </section>
     </aside>
 
     <main id="view" class="view">
@@ -2078,6 +2174,7 @@
       const appEl = $("app");
       const panelEl = $("panel");
       const panelFields = $("panelFields");
+      const imageInfoKv = $("imageInfoKv");
       const editingLine = $("editingLine");
       const presetSelect = $("presetSelect");
       const presetSaveBtn = $("presetSaveBtn");
@@ -2702,8 +2799,113 @@
         else if (tok("bt\\.?601|rec\\.?601|601")) settings.colorSpace = "srgb";
       }
 
+      // ===== Image files (PNG / JPEG / BMP, plus GIF / WebP) =====
+      // These are decoded once by the browser into 8-bit RGBA and kept on the slot
+      // (slot.image); the raw format settings never apply to them.
+
+      const IMAGE_EXT = /\.(png|jpe?g|jfif|bmp|dib|gif|webp)$/i;
+
+      function imageTypeOf(name, bytes) {
+        const b = bytes;
+        const at = (i) => (i < b.length ? b[i] : -1);
+        if (at(0) === 0x89 && at(1) === 0x50 && at(2) === 0x4e && at(3) === 0x47 && at(4) === 0x0d && at(5) === 0x0a) return "PNG";
+        if (at(0) === 0xff && at(1) === 0xd8 && at(2) === 0xff) return "JPEG";
+        if (at(0) === 0x47 && at(1) === 0x49 && at(2) === 0x46 && at(3) === 0x38) return "GIF";
+        if (at(0) === 0x52 && at(1) === 0x49 && at(2) === 0x46 && at(3) === 0x46 && at(8) === 0x57 && at(9) === 0x45 && at(10) === 0x42 && at(11) === 0x50) return "WebP";
+        if (at(0) === 0x42 && at(1) === 0x4d && b.length >= 26) {
+          // "BM" alone is too weak for raw data: also want the .bmp name or a header
+          // whose file-size field matches.
+          const size = (at(2) | (at(3) << 8) | (at(4) << 16) | (at(5) << 24)) >>> 0;
+          if (/\.(bmp|dib)$/i.test(name) || size === b.length) return "BMP";
+        }
+        const ext = IMAGE_EXT.exec(name || "");
+        if (ext) {
+          const e = ext[1].toLowerCase();
+          return e === "png" ? "PNG" : e === "bmp" || e === "dib" ? "BMP" : e === "gif" ? "GIF" : e === "webp" ? "WebP" : "JPEG";
+        }
+        return "";
+      }
+
+      async function bitmapFromBytes(bytes) {
+        const blob = new Blob([bytes]);
+        if (typeof createImageBitmap === "function") {
+          // Raw file values, not color-managed ones: ignore embedded ICC/gamma and
+          // keep alpha unpremultiplied.
+          try {
+            return await createImageBitmap(blob, { colorSpaceConversion: "none", premultiplyAlpha: "none" });
+          } catch (err) {
+            try {
+              return await createImageBitmap(blob);
+            } catch (err2) {
+              /* fall through to <img> */
+            }
+          }
+        }
+        const url = URL.createObjectURL(blob);
+        try {
+          const img = new Image();
+          img.decoding = "async";
+          img.src = url;
+          await img.decode();
+          return img;
+        } finally {
+          URL.revokeObjectURL(url);
+        }
+      }
+
+      // Returns null when the file is not an image (or the browser can't decode it).
+      async function decodeImageFile(name, bytes) {
+        const type = imageTypeOf(name, bytes);
+        if (!type) return null;
+        let src;
+        try {
+          src = await bitmapFromBytes(bytes);
+        } catch (err) {
+          return null;
+        }
+        const width = src.naturalWidth || src.width;
+        const height = src.naturalHeight || src.height;
+        if (!width || !height) return null;
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext("2d", { willReadFrequently: true });
+        ctx.drawImage(src, 0, 0);
+        if (typeof src.close === "function") src.close();
+        const rgba = ctx.getImageData(0, 0, width, height).data;
+        let hasAlpha = false;
+        for (let i = 3; i < rgba.length; i += 4) {
+          if (rgba[i] !== 255) {
+            hasAlpha = true;
+            break;
+          }
+        }
+        // Redraw from the exact values so the display canvas matches what the readout shows.
+        ctx.putImageData(new ImageData(rgba, width, height), 0, 0);
+        return { type, width, height, rgba, hasAlpha, canvas };
+      }
+
+      function imageDecoded(img) {
+        return {
+          rgba: img.rgba,
+          width: img.width,
+          height: img.height,
+          canvas: img.canvas,
+          expectedBytes: 0,
+          getRaw: img.hasAlpha ? (x, y) => ({ A: img.rgba[(y * img.width + x) * 4 + 3] }) : null
+        };
+      }
+
       function ensureDecoded(slot) {
         if (!slot.bytes) return null;
+        if (slot.image) {
+          if (!slot.decoded) {
+            slot.decoded = imageDecoded(slot.image);
+            slot.decodedKey = decodeKeyOf(slot);
+            slot.error = "";
+          }
+          return slot.decoded;
+        }
         const key = decodeKeyOf(slot);
         if (slot.decoded && slot.decodedKey === key) return slot.decoded;
         try {
@@ -2730,7 +2932,9 @@
           throw new Error(slotA.error || slotB.error || "Failed to decode one of the slots");
         }
         if (decodedA.width !== decodedB.width || decodedA.height !== decodedB.height) {
-          throw new Error("RGB target size differs; set matching decoded width/height in both slots");
+          throw new Error(
+            `Sizes differ (A ${decodedA.width}×${decodedA.height}, B ${decodedB.width}×${decodedB.height}); diff needs the same size`
+          );
         }
 
         const key = `A${slotA.id}:${slotA.decodedKey}|B${slotB.id}:${slotB.decodedKey}`;
@@ -3671,6 +3875,7 @@
           thumb: null,
           thumbFor: "",
           thumbError: "",
+          image: null,
           isExample: false
         };
       }
@@ -3723,6 +3928,10 @@
         return Math.max(from, slots.length);
       }
 
+      function imageLabel(slot) {
+        return `${slot.image.type} · ${slot.image.width}×${slot.image.height}`;
+      }
+
       function shortFormat(s) {
         const info = formatInfo(s.format);
         if (info.kind === "bayer") {
@@ -3735,6 +3944,7 @@
 
       function sizeState(slot) {
         if (!slot || !slot.bytes) return null;
+        if (slot.image) return { expected: slot.bytes.length, delta: 0, ok: true };
         const expected = estimateBytes(slot.settings);
         const delta = slot.bytes.length - expected;
         return { expected, delta, ok: delta === 0 };
@@ -3748,13 +3958,18 @@
         return nums.length > 6 ? `${nums.slice(0, 5).join(", ")}, …` : nums.join(", ");
       }
 
-      function putBytesInSlot(slot, name, bytes, settings, presetName) {
+      function putBytesInSlot(slot, name, bytes, settings, presetName, image = null) {
         slot.bytes = bytes;
+        slot.image = image;
         slot.fileName = name;
         slot.fileSize = bytes.length;
         slot.loadSeq = ++loadSeqCounter;
         slot.settings = { ...defaults, ...settings };
-        slot.presetName = presetName || "";
+        if (image) {
+          slot.settings.width = image.width;
+          slot.settings.height = image.height;
+        }
+        slot.presetName = image ? "" : presetName || "";
         slot.isExample = false;
         slot.thumbFor = "";
         slot.thumbError = "";
@@ -3763,6 +3978,7 @@
 
       function clearSlot(slot) {
         slot.bytes = null;
+        slot.image = null;
         slot.fileName = "";
         slot.fileSize = 0;
         slot.loadSeq = 0;
@@ -4005,7 +4221,7 @@
 
       function editSlots() {
         const slot = focusedSlot();
-        return slot && slot.bytes ? [slot] : [];
+        return slot && slot.bytes && !slot.image ? [slot] : [];
       }
 
       function primarySlot(list) {
@@ -4120,8 +4336,24 @@
         const fam = familyOf(s);
         syncingControls = true;
 
-        panelFields.disabled = list.length === 0;
-        if (primary) {
+        const fslot = focusedSlot();
+        const imageSlot = fslot && fslot.bytes && fslot.image ? fslot : null;
+        panelEl.classList.toggle("is-image", !!imageSlot);
+        panelFields.disabled = list.length === 0 && !imageSlot;
+        if (imageSlot) {
+          const im = imageSlot.image;
+          editingLine.innerHTML =
+            `<span class="mono">${slotNumber(imageSlot)}</span><span class="lbl">-</span>` +
+            `<span class="ed-name" title="${escapeHtml(imageSlot.fileName)}">${escapeHtml(imageSlot.fileName)}</span>`;
+          imageInfoKv.innerHTML = [
+            ["Type", im.type],
+            ["Size", `${im.width} × ${im.height}`],
+            ["Alpha", im.hasAlpha ? "yes" : "none (opaque)"],
+            ["File", `${fmtInt(imageSlot.bytes.length)} B`]
+          ]
+            .map(([k, v]) => `<span class="lbl">${k}</span><span class="v">${escapeHtml(v)}</span>`)
+            .join("");
+        } else if (primary) {
           editingLine.innerHTML =
             `<span class="mono">${slotNumber(primary)}</span><span class="lbl">-</span>` +
             `<span class="ed-name" title="${escapeHtml(primary.fileName)}">${escapeHtml(primary.fileName)}</span>`;
@@ -4399,8 +4631,9 @@
         const preset = presetByName(name);
         const source = primarySlot(editSlots());
         const groups = [];
-        if (isMulti()) groups.push(["Slots in view", shownIds().map(slotById).filter((s) => s && s.bytes)]);
-        groups.push(["All loaded slots", loadedSlots()]);
+        const rawLoaded = loadedSlots().filter((s) => !s.image);
+        if (isMulti()) groups.push(["Slots in view", shownIds().map(slotById).filter((s) => s && s.bytes && !s.image)]);
+        groups.push(["All loaded slots", rawLoaded]);
         const items = [{ title: preset ? `Apply “${preset.name}” to` : source ? `Copy slot ${slotNumber(source)} settings to` : "Apply to" }];
         for (const [label, list] of groups) {
           items.push({
@@ -4410,7 +4643,7 @@
             onClick: () => (preset ? applyPresetToSlots(preset, list) : copySettingsToSlots(source, list))
           });
         }
-        items.push({ label: "Auto-detect all from file names", disabled: !loadedSlots().length, onClick: () => autoDetectSlots(loadedSlots()) });
+        items.push({ label: "Auto-detect all from file names", disabled: !rawLoaded.length, onClick: () => autoDetectSlots(rawLoaded) });
         return items;
       }
 
@@ -4644,14 +4877,23 @@
         return { ...base, offset: 0, stride0: 0, stride1: 0, stride2: 0, msbAligned: false };
       }
 
-      async function loadSingle(file, index, cellIndex) {
+      // Settings a new raw file starts from: the focused slot's, unless that is an image.
+      function rawBaseSettings() {
         const base = focusedSlot();
-        const settings = freshSettings(base && base.bytes ? base.settings : defaults);
+        if (base && base.bytes && !base.image) return base.settings;
+        const raw = shownIds().map(slotById).find((x) => x && x.bytes && !x.image);
+        return raw ? raw.settings : defaults;
+      }
+
+      async function loadSingle(file, index, cellIndex) {
+        const settings = freshSettings(rawBaseSettings());
         guessSettingsFromFilename(file.name, settings);
         adjustForFormat(settings);
         const bytes = new Uint8Array(await file.arrayBuffer());
+        const image = await decodeImageFile(file.name, bytes);
+        if (!image && IMAGE_EXT.test(file.name)) toast(`${file.name}: the browser could not decode it; loaded as raw bytes`);
         const slot = ensureSlotAt(index);
-        putBytesInSlot(slot, file.name, bytes, settings, "");
+        putBytesInSlot(slot, file.name, bytes, settings, "", image);
         setGuessOverlayVisible(false);
         if (cellIndex != null && !isCombined() && cellIndex < view.cells.length) view.focused = cellIndex;
         if (isCombined() && cellIndex != null) view.focused = 0;
@@ -4669,7 +4911,7 @@
           showGrid: false,
           overrides: new Map()
         };
-        const currentBase = { ...(focus && focus.bytes ? focus.settings : defaults) };
+        const currentBase = { ...rawBaseSettings() };
 
         const ordered = () =>
           st.natural
@@ -4708,6 +4950,7 @@
         };
 
         const check = (file, s) => {
+          if (IMAGE_EXT.test(file.name)) return { ok: true, text: "image · decoded by the browser" };
           const expected = estimateBytes(s);
           const delta = file.size - expected;
           if (delta === 0) return { ok: true, text: "matches" };
@@ -4744,7 +4987,7 @@
         modeSeg.append(presetBtn, autoBtn);
 
         const presetSel = h("select", { "aria-label": "Preset" });
-        presetSel.append(h("option", { value: "__current", text: focus && focus.bytes ? `Current settings (slot ${slotNumber(focus)})` : "Default settings" }));
+        presetSel.append(h("option", { value: "__current", text: focus && focus.bytes && !focus.image ? `Current settings (slot ${slotNumber(focus)})` : "Default settings" }));
         for (const p of savedProfiles) presetSel.append(h("option", { value: p.name, text: p.name }));
         presetSel.value = st.preset;
         presetSel.addEventListener("change", () => {
@@ -4878,8 +5121,9 @@
           const ids = [];
           for (let k = 0; k < list.length; k += 1) {
             const bytes = new Uint8Array(await list[k].arrayBuffer());
+            const image = await decodeImageFile(list[k].name, bytes);
             const slot = ensureSlotAt(tg[k]);
-            putBytesInSlot(slot, list[k].name, bytes, plans[k].settings, plans[k].presetName);
+            putBytesInSlot(slot, list[k].name, bytes, plans[k].settings, plans[k].presetName, image);
             ids.push(slot.id);
           }
           modal.close();
@@ -4951,7 +5195,9 @@
         const statusClass = slot.thumbError ? "err" : st.ok ? "ok" : "warn";
         const statusText = slot.thumbError
           ? `Decode error: ${slot.thumbError}`
-          : st.ok
+          : slot.image
+            ? "Image decoded by the browser"
+            : st.ok
             ? "Size matches the settings"
             : `File is ${fmtInt(Math.abs(st.delta))} B ${st.delta > 0 ? "larger" : "smaller"} than the settings expect`;
         const thumb = h("div", { class: "thumb" });
@@ -4980,7 +5226,7 @@
             tabindex: "0",
             draggable: "true",
             "aria-label": `Slot ${index + 1}: ${slot.fileName}${letter ? `, shown as ${letter}` : ""}`,
-            title: `${slot.fileName}\n${formatInfo(s.format).label} · ${s.width}×${s.height}\n${fmtInt(slot.bytes.length)} B · ${statusText}`,
+            title: `${slot.fileName}\n${slot.image ? imageLabel(slot) : `${formatInfo(s.format).label} · ${s.width}×${s.height}`}\n${fmtInt(slot.bytes.length)} B · ${statusText}`,
             dataset: { index: String(index), id: String(slot.id) }
           },
           thumb,
@@ -4988,7 +5234,7 @@
             "div",
             { class: "meta" },
             h("div", { class: "nm", text: slot.fileName }),
-            h("div", { class: "sub" }, h("span", { text: `${shortFormat(s)} · ${s.width}×${s.height}` }), h("span", { class: `dot ${statusClass}`, title: statusText }))
+            h("div", { class: "sub" }, h("span", { text: slot.image ? imageLabel(slot) : `${shortFormat(s)} · ${s.width}×${s.height}` }), h("span", { class: `dot ${statusClass}`, title: statusText }))
           )
         );
         card.addEventListener("click", (ev) => onCardActivate(slot, ev));
@@ -5098,7 +5344,7 @@
         const key = decodeKeyOf(slot);
         const wasDecoded = !!slot.decoded && slot.decodedKey === key;
         let decoded = null;
-        if (wasDecoded || view.cells.includes(slot.id)) {
+        if (wasDecoded || slot.image || view.cells.includes(slot.id)) {
           decoded = ensureDecoded(slot);
         } else {
           try {
@@ -5688,7 +5934,8 @@
           parts.push(`<span class="pb-entry">${swatchHtml(rgb)}<span class="lbl">RGB</span> ${rgb.join(" ")}</span>`);
           const raw = rawHtml(decoded, p.x, p.y);
           if (raw) parts.push(`<span class="pb-entry">${raw}</span>`);
-          const loc = sampleLocation(slot.settings, p.x, p.y);
+          if (slot.image) parts.push(`<span class="pb-entry"><span class="lbl">${slot.image.type}</span></span>`);
+          const loc = slot.image ? null : sampleLocation(slot.settings, p.x, p.y);
           if (loc) {
             const hex = [];
             for (let k = 0; k < Math.min(loc.length, 6); k += 1) {
@@ -5948,7 +6195,7 @@
 
       async function runGuessMode() {
         const slot = focusedSlot();
-        if (!slot || !slot.bytes) return;
+        if (!slot || !slot.bytes || slot.image) return;
         // A new run (or closing the overlay) cancels the previous one.
         const run = ++guessRun;
 
