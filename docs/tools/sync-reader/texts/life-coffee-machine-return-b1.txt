@@ -1,0 +1,200 @@
+id: life-kaffeemaschine-reklamation-b1-v1
+title: Кофемашина с характером / Die Kaffeemaschine mit Charakter
+level: B1
+topic: покупки, интернет-магазин, возврат, гарантия, жалоба
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Lena]1 [hatte]2 [lange]3 [gespart]2, [bevor]4 [sie]5 [sich]6 [im]7 [November]7 [endlich]8 [einen]9 [Kaffeevollautomaten]9 [kaufte]6.
+RU: [Лена]1 [долго]3 [копила]2, [прежде чем]4 [в]7 [ноябре]7 [она]5 [наконец]8 [купила]6 [себе]6 [кофемашину]9.
+2 form: Plusquamperfekt: hatte gespart — действие произошло раньше другого действия в прошлом.
+4 note: Bevor: прежде чем; глагол в придаточном уходит в конец.
+9 note: Der Kaffeevollautomat: автоматическая кофемашина, которая сама мелет зёрна.
+
+DE: [Im]1 [Online-Shop]1 [kostete]2 [er]3 [statt]4 [neunhundert]5 [nur]6 [sechshundert]7 [Euro]7, [weil]8 [gerade]9 [Black Friday]10 [war]11.
+RU: [В]1 [интернет-магазине]1 [она]3 [стоила]2 [всего]6 [шестьсот]7 [евро]7 [вместо]4 [девятисот]5, [потому что]8 [как раз]9 [была]11 [чёрная пятница]10.
+4 note: Statt (anstatt): вместо.
+9 note: Gerade: как раз, именно сейчас.
+
+DE: [Sie]1 [klickte]2 [auf]3 [„Jetzt]4 [kaufen“]4, [bevor]5 [sie]6 [es]7 [sich]8 [anders]9 [überlegen]8 [konnte]10.
+RU: [Она]1 [нажала]2 [на]3 [«Купить сейчас»]4, [пока]5 [она]6 [не]0 [успела]10 [передумать]7,8,9.
+8 note: Es sich anders überlegen: передумать.
+
+DE: [Die]1 [ersten]2 [drei]3 [Wochen]4 [waren]5 [wunderbar]6.
+RU: [Первые]2 [три]3 [недели]1,4 [были]5 [чудесными]6.
+
+DE: [Jeden]1 [Morgen]1 [machte]2 [die]3 [Maschine]3 [einen]4 [perfekten]5 [Cappuccino]4, [und]6 [die]7 [ganze]8 [Wohnung]7 [roch]9 [nach]10 [frischem]11 [Kaffee]12.
+RU: [Каждое]1 [утро]1 [машина]3 [готовила]2 [идеальный]5 [капучино]4, [и]6 [вся]8 [квартира]7 [пахла]9 [свежим]10,11 [кофе]12.
+9 form: Инфинитив riechen: es riecht; Präteritum: roch; Perfekt: hat gerochen.
+10 note: Riechen nach + Dativ: пахнуть чем-то.
+
+== p2
+DE: [Dann]1, [an]2 [einem]2 [Montag]2 [um]3 [halb]4 [sieben]4, [machte]5 [die]6 [Maschine]6 [ein]7 [seltsames]8 [Geräusch]7.
+RU: [А потом]1, [в]2 [один]2 [понедельник]2 [в]3 [половине]4 [седьмого]4, [машина]6 [издала]5 [странный]8 [звук]7.
+4 note: Halb sieben: половина седьмого, то есть 6:30.
+8 note: Seltsam: странный.
+7 note: Das Geräusch: шум, звук.
+
+DE: [Erst]1 [brummte]2 [sie]3, [dann]4 [blinkte]5 [ein]6 [rotes]7 [Licht]6, [und]8 [unter]9 [dem]9 [Gerät]10 [bildete]11 [sich]11 [eine]12 [braune]13 [Pfütze]12.
+RU: [Сначала]1 [она]3 [загудела]2, [потом]4 [замигал]5 [красный]7 [огонёк]6, [и]8 [под]9 [прибором]10 [образовалась]11 [коричневая]13 [лужа]12.
+2 note: Brummen: гудеть, жужжать.
+11 note: Sich bilden: образовываться.
+12 note: Die Pfütze: лужа.
+
+DE: [Lena]1 [zog]2 [den]3 [Stecker]3 [und]4 [starrte]5 [eine]6 [Weile]6 [auf]7 [die]8 [Pfütze]8.
+RU: [Лена]1 [выдернула]2 [вилку]3 [из розетки]2 [и]4 [какое-то]6 [время]6 [смотрела]5 [на]7 [лужу]8.
+2 note: Den Stecker ziehen: выдернуть вилку из розетки.
+2 form: Инфинитив ziehen: er zieht; Präteritum: zog; Perfekt: hat gezogen.
+5 note: Starren: пристально смотреть, уставиться.
+
+DE: [Ohne]1 [Kaffee]2 [fuhr]3 [sie]4 [zur]5 [Arbeit]5, [und]6 [das]7 [war]8 [für]9 [alle]10 [Kollegen]11 [ein]12 [schlechter]13 [Tag]12.
+RU: [Без]1 [кофе]2 [она]4 [поехала]3 [на]5 [работу]5, [и]6 [это]7 [был]8 [плохой]13 [день]12 [для]9 [всех]10 [коллег]11.
+8 sent: Шутка: без кофе у Лены плохое настроение, и коллеги это чувствуют.
+
+== p3
+DE: [In]1 [der]1 [Mittagspause]1 [schrieb]2 [sie]3 [dem]4 [Online-Shop]4 [eine]5 [E-Mail]5.
+RU: [В]1 [обеденный]1 [перерыв]1 [она]3 [написала]2 [письмо]5 [в]4 [интернет-магазин]4.
+2 form: Инфинитив schreiben: er schreibt; Präteritum: schrieb; Perfekt: hat geschrieben.
+
+DE: [Die]1 [Antwort]1 [kam]2 [schnell]3, [war]4 [aber]5 [nicht]6 [besonders]7 [hilfreich]8.
+RU: [Ответ]1 [пришёл]2 [быстро]3, [но]5 [был]4 [не]6 [особенно]7 [полезным]8.
+8 note: Hilfreich: полезный, помогающий.
+
+DE: [„Bitte]1 [wenden]2 [Sie]3 [sich]2 [direkt]4 [an]5 [den]6 [Hersteller]6“, [stand]7 [da]8.
+RU: [«Пожалуйста]1, [обратитесь]2,3 [напрямую]4 [к]5 [производителю]6», [было]7 [там]8 [написано]7.
+2 note: Sich wenden an + Akkusativ: обращаться к кому-то.
+6 note: Der Hersteller: производитель.
+
+DE: [Lena]1 [ärgerte]2 [sich]2, [denn]3 [sie]4 [hatte]5 [die]6 [Maschine]6 [ja]7 [nicht]8 [beim]9 [Hersteller]9 [gekauft]5.
+RU: [Лена]1 [разозлилась]2, [ведь]3,7 [она]4 [купила]5 [машину]6 [не]8 [у]9 [производителя]9.
+7 note: Ja в утвердительном предложении: ведь, же (всем известно).
+
+DE: [Ihre]1 [Freundin]2 [Merve]3, [die]4 [Jura]5 [studiert]6, [erklärte]7 [ihr]8 [am]9 [Abend]9 [den]10 [Unterschied]10 [zwischen]11 [Garantie]12 [und]13 [Gewährleistung]14.
+RU: [Её]1 [подруга]2 [Мерве]3, [которая]4 [учится]6 [на]5 [юриста]5, [вечером]9 [объяснила]7 [ей]8 [разницу]10 [между]11 [гарантией]12 [производителя]12 [и]13 [гарантией]14 [продавца]14.
+4 sent: Относительное предложение: die Jura studiert — глагол в конце.
+12 note: Die Garantie: добровольное обещание производителя.
+14 note: Die Gewährleistung: обязанность продавца по закону (в Германии два года).
+
+DE: [„Der]1 [Shop]1 [muss]2 [sich]3 [kümmern]3“, [sagte]4 [Merve]5.
+RU: [«Магазин]1 [обязан]2 [этим]3 [заняться]3», [сказала]4 [Мерве]5.
+3 note: Sich kümmern um + Akkusativ: заботиться, заниматься чем-то.
+
+DE: [„Du]1 [hast]2 [sie]3 [bei]4 [ihm]4 [gekauft]2, [also]5 [ist]6 [er]7 [in]8 [den]8 [ersten]8 [zwei]8 [Jahren]8 [dein]9 [Ansprechpartner]10.“
+RU: [«Ты]1 [купила]2 [её]3 [у]4 [него]4, [значит]5, [в]8 [первые]8 [два]8 [года]8 [именно]0 [он]7 [—]6 [твой]9 [контактный]10 [партнёр]10.»
+10 note: Der Ansprechpartner: человек или организация, к которым обращаются.
+
+== p4
+DE: [Am]1 [nächsten]1 [Tag]1 [rief]2 [Lena]3 [die]4 [Hotline]4 [an]2.
+RU: [На]1 [следующий]1 [день]1 [Лена]3 [позвонила]2 [на]4 [горячую]4 [линию]4.
+
+DE: [Eine]1 [Computerstimme]1 [sagte]2: [„Ihr]3 [Anruf]4 [ist]5 [uns]6 [wichtig]5.“
+RU: [Компьютерный]1 [голос]1 [сказал]2: [«Ваш]3 [звонок]4 [важен]5 [для]6 [нас]6.»
+
+DE: [Dann]1 [hörte]2 [sie]3 [vierzig]4 [Minuten]4 [lang]4 [dieselbe]5 [Musik]6.
+RU: [Затем]1 [она]3 [сорок]4 [минут]4 [слушала]2 [одну и ту же]5 [музыку]6.
+5 note: Derselbe, dieselbe, dasselbe: тот же самый.
+
+DE: [Sie]1 [hing]2 [in]3 [der]3 [Warteschleife]3, [kochte]4 [Tee]5, [putzte]6 [das]7 [Bad]7 [und]8 [summte]9 [die]10 [Melodie]10 [schon]11 [mit]9.
+RU: [Она]1 [висела]2 [на]3 [линии]3 [ожидания]3, [заварила]4 [чай]5, [помыла]6 [ванную]7 [и]8 [уже]11 [подпевала]9 [мелодии]10.
+3 note: Die Warteschleife: ожидание на линии под музыку.
+9 note: Mitsummen: напевать вместе (без слов).
+
+DE: [Endlich]1 [meldete]2 [sich]2 [ein]3 [Mann]3 [namens]4 [Herr]5 [Kowalski]5.
+RU: [Наконец]1 [ответил]2 [мужчина]3 [по имени]4 [господин]5 [Ковальски]5.
+2 note: Sich melden: отозваться, ответить; также выйти на связь.
+4 note: Namens: по имени (официальный стиль).
+
+DE: [Er]1 [war]2 [freundlich]2, [aber]3 [er]4 [brauchte]5 [die]6 [Bestellnummer]6, [die]7 [Seriennummer]7 [und]8 [ein]9 [Foto]9 [vom]10 [Typenschild]10.
+RU: [Он]1 [был]2 [вежлив]2, [но]3 [ему]4 [нужны]5 [были]5 [номер]6 [заказа]6, [серийный]7 [номер]7 [и]8 [фото]9 [заводской]10 [таблички]10.
+10 note: Das Typenschild: табличка с моделью и номером на приборе.
+5 sent: По-немецки «он нуждался»: er brauchte; по-русски «ему было нужно».
+
+DE: [Das]1 [Typenschild]1 [befand]2 [sich]2 [natürlich]3 [ganz]4 [hinten]5 [unten]6 [an]7 [der]7 [Maschine]7.
+RU: [Табличка]1 [находилась]2, [конечно]3, [в]0 [самом]4 [низу]6 [на задней стороне]5 [машины]7.
+2 note: Sich befinden: находиться.
+
+DE: [Lena]1 [lag]2 [auf]3 [dem]3 [Küchenboden]3, [das]4 [Handy]4 [in]5 [der]5 [einen]6 [Hand]5, [die]7 [Taschenlampe]7 [in]8 [der]8 [anderen]9.
+RU: [Лена]1 [лежала]2 [на]3 [полу]3 [кухни]3, [с]0 [телефоном]4 [в]5 [одной]6 [руке]5 [и]0 [фонариком]7 [в]8 [другой]9.
+7 note: Die Taschenlampe: карманный фонарик.
+
+== p5
+DE: [Herr]1 [Kowalski]1 [versprach]2, [dass]3 [ein]4 [Paketdienst]4 [die]5 [Maschine]5 [abholen]6 [würde]6.
+RU: [Господин]1 [Ковальски]1 [пообещал]2, [что]3 [служба]4 [доставки]4 [заберёт]6 [машину]5.
+2 form: Инфинитив versprechen: er verspricht; Präteritum: versprach; Perfekt: hat versprochen.
+6 form: Würde + инфинитив: будущее в прошлом (заберёт).
+
+DE: [Sie]1 [sollte]2 [sie]3 [gut]4 [verpacken]5, [am besten]6 [im]7 [Originalkarton]7.
+RU: [Ей]1 [нужно]2 [было]2 [хорошо]4 [её]3 [упаковать]5, [лучше всего]6 [в]7 [оригинальную]7 [коробку]7.
+6 note: Am besten: лучше всего.
+7 note: Der Karton: картонная коробка.
+
+DE: [Den]1 [Karton]1 [hatte]2 [sie]3 [aber]4 [schon]5 [längst]5 [zum]6 [Altpapier]6 [gebracht]2.
+RU: [Но]4 [коробку]1 [она]3 [давно]5 [уже]5 [отнесла]2 [в]6 [макулатуру]6.
+2 form: Plusquamperfekt: hatte gebracht — это случилось раньше.
+6 note: Das Altpapier: макулатура; в Германии бумагу сортируют в синий контейнер.
+
+DE: [Also]1 [ging]2 [sie]3 [in]4 [den]4 [Supermarkt]4 [und]5 [fragte]6 [nach]6 [einem]7 [großen]8 [Karton]7.
+RU: [Поэтому]1 [она]3 [пошла]2 [в]4 [супермаркет]4 [и]5 [попросила]6 [большую]8 [коробку]7.
+6 note: Fragen nach + Dativ: спрашивать о чём-то, просить что-то.
+
+DE: [Der]1 [Kassierer]1 [gab]2 [ihr]3 [eine]4 [Kiste]4, [in]5 [der]5 [vorher]6 [Bananen]7 [gewesen]8 [waren]8.
+RU: [Кассир]1 [дал]2 [ей]3 [ящик]4, [в]5 [котором]5 [раньше]6 [были]8 [бананы]7.
+5 sent: Относительное предложение с предлогом: in der — в котором.
+
+DE: [Zwei]1 [Wochen]1 [später]2 [kam]3 [die]4 [Maschine]4 [zurück]3, [repariert]5 [und]6 [sauber]7.
+RU: [Через]2 [две]1 [недели]1 [машина]4 [вернулась]3, [отремонтированная]5 [и]6 [чистая]7.
+3 note: Zurückkommen: возвращаться.
+
+DE: [Lena]1 [freute]2 [sich]2 [wie]3 [ein]4 [Kind]4.
+RU: [Лена]1 [радовалась]2 [как]3 [ребёнок]4.
+
+== p6
+DE: [Drei]1 [Tage]1 [lang]1 [funktionierte]2 [alles]3.
+RU: [Три]1 [дня]1 [всё]3 [работало]2.
+
+DE: [Am]1 [vierten]2 [Tag]1 [hörte]3 [sie]4 [wieder]5 [das]6 [Brummen]6.
+RU: [На]1 [четвёртый]2 [день]1 [она]4 [снова]5 [услышала]3 [гудение]6.
+
+DE: [Diesmal]1 [rief]2 [Lena]3 [nicht]4 [an]2, [sondern]5 [schrieb]6 [einen]7 [Brief]7, [ruhig]8, [höflich]9 [und]10 [sehr]11 [klar]12.
+RU: [На этот раз]1 [Лена]3 [не]4 [стала]0 [звонить]2, [а]5 [написала]6 [письмо]7: [спокойное]8, [вежливое]9 [и]10 [очень]11 [ясное]12.
+5 note: Nicht …, sondern …: не …, а …
+
+DE: [Sie]1 [verlangte]2 [ihr]3 [Geld]3 [zurück]2 [und]4 [setzte]5 [eine]6 [Frist]6 [von]7 [vierzehn]8 [Tagen]8.
+RU: [Она]1 [потребовала]2 [вернуть]2 [свои]3 [деньги]3 [и]4 [установила]5 [срок]6 [в]7 [четырнадцать]8 [дней]8.
+2 note: Zurückverlangen: требовать назад.
+6 note: Eine Frist setzen: установить срок.
+
+DE: [Merve]1 [las]2 [den]3 [Brief]3 [und]4 [nickte]5 [zufrieden]6.
+RU: [Мерве]1 [прочитала]2 [письмо]3 [и]4 [довольно]6 [кивнула]5.
+2 form: Инфинитив lesen: er liest; Präteritum: las; Perfekt: hat gelesen.
+
+DE: [Nach]1 [neun]2 [Tagen]2 [war]3 [das]4 [Geld]4 [auf]5 [ihrem]6 [Konto]7.
+RU: [Через]1 [девять]2 [дней]2 [деньги]4 [были]3 [на]5 [её]6 [счёте]7.
+7 note: Das Konto: банковский счёт.
+
+== p7
+DE: [Am]1 [Samstag]1 [ging]2 [Lena]3 [in]4 [ein]5 [kleines]6 [Elektrogeschäft]5 [in]7 [ihrer]8 [Straße]9.
+RU: [В]1 [субботу]1 [Лена]3 [пошла]2 [в]4 [маленький]6 [магазин]5 [электроники]5 [на]7 [своей]8 [улице]9.
+
+DE: [Der]1 [Besitzer]1, [ein]2 [älterer]3 [Herr]2 [mit]4 [Brille]5, [zeigte]6 [ihr]7 [drei]8 [Maschinen]9 [und]10 [ließ]11 [sie]12 [bei]13 [jeder]13 [einen]14 [Espresso]14 [probieren]11.
+RU: [Владелец]1, [пожилой]3 [мужчина]2 [в]4 [очках]5, [показал]6 [ей]7 [три]8 [машины]9 [и]10 [дал]11 [ей]12 [попробовать]11 [эспрессо]14 [из]13 [каждой]13.
+1 note: Der Besitzer: владелец.
+11 note: Jemanden etwas tun lassen: позволить кому-то что-то сделать.
+11 form: Инфинитив lassen: er lässt; Präteritum: ließ; Perfekt: hat gelassen.
+
+DE: [Die]1 [Maschine]1, [die]2 [sie]3 [am Ende]4 [kaufte]5, [war]6 [fünfzig]7 [Euro]7 [teurer]8 [als]9 [im]10 [Internet]10.
+RU: [Машина]1, [которую]2 [она]3 [в итоге]4 [купила]5, [была]6 [на]0 [пятьдесят]7 [евро]7 [дороже]8, [чем]9 [в]10 [интернете]10.
+8 form: Teuer — teurer — am teuersten (буква e выпадает).
+
+DE: [„Wenn]1 [etwas]2 [kaputtgeht]3“, [sagte]4 [der]5 [Mann]5, [„kommen]6 [Sie]7 [einfach]8 [vorbei]6.“
+RU: [«Если]1 [что-то]2 [сломается]3», [сказал]4 [мужчина]5, [«просто]8 [заходите]6,7.»
+3 note: Kaputtgehen: сломаться.
+6 note: Vorbeikommen: зайти, заглянуть.
+
+DE: [Lena]1 [hat]2 [seitdem]3 [keine]4 [Warteschleife]5 [mehr]4 [gehört]2.
+RU: [С тех пор]3 [Лена]1 [больше]4 [ни разу]4 [не]4 [слышала]2 [музыки]5 [ожидания]5.
+3 note: Seitdem: с тех пор.
+
+DE: [Nur]1 [manchmal]2, [wenn]3 [sie]4 [unter]5 [der]5 [Dusche]5 [steht]6, [summt]7 [sie]8 [plötzlich]9 [diese]10 [Melodie]10.
+RU: [Только]1 [иногда]2, [когда]3 [она]4 [стоит]6 [под]5 [душем]5, [она]8 [вдруг]9 [напевает]7 [ту самую]10 [мелодию]10.

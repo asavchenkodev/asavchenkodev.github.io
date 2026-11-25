@@ -1,0 +1,185 @@
+id: money-utility-bill-b1-v1
+title: Толстое письмо / Die Nebenkostenabrechnung
+level: B1
+topic: деньги, аренда, коммунальные платежи, права арендатора
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Olga]1 [wohnt]2 [seit]3 [zwei]4 [Jahren]5 [in]6 [einer]7 [kleinen]8 [Zweizimmerwohnung]7 [in]9 [Leipzig]10.
+RU: [Ольга]1 [уже]3 [два]4 [года]5 [живёт]2 [в]6 [маленькой]8 [двухкомнатной]7 [квартире]7 [в]9 [Лейпциге]10.
+3 note: Seit + Dativ: действие длится до сих пор, поэтому по-немецки настоящее время.
+7 note: Die Zweizimmerwohnung: двухкомнатная квартира.
+
+DE: [Die]1 [Miete]1 [ist]2 [fair]3, [der]4 [Vermieter]4 [ist]5 [freundlich]6, [und]7 [vom]8 [Balkon]9 [aus]8 [sieht]10 [sie]11 [einen]12 [alten]13 [Park]12.
+RU: [Аренда]1 [честная]2,3, [хозяин]4 [квартиры]4 [приветливый]5,6, [а]7 [с]8 [балкона]9 [она]11 [видит]10 [старый]13 [парк]12.
+1 note: Die Miete: арендная плата.
+4 note: Der Vermieter: арендодатель.
+8 note: Von ... aus: откуда (точка обзора); vom = von dem.
+10 form: Инфинитив sehen: ich sehe, er sieht, wir sehen; Präteritum: sah; Perfekt: hat gesehen.
+
+DE: [An]1 [einem]1 [grauen]2 [Dienstag]1 [im]3 [März]3 [liegt]4 [ein]5 [dicker]6 [Brief]5 [im]7 [Briefkasten]7.
+RU: [В]1 [один]1 [серый]2 [вторник]1 [в]3 [марте]3 [в]7 [почтовом]7 [ящике]7 [лежит]4 [толстое]6 [письмо]5.
+1 note: An + Dativ с днями недели: an einem Dienstag.
+7 note: Der Briefkasten: почтовый ящик.
+
+DE: [Absender]1 [ist]0 [die]2 [Hausverwaltung]2, [und]3 [auf]4 [dem]5 [Umschlag]5 [steht]6: „[Betriebskostenabrechnung]7 [2025]8".
+RU: [Отправитель]1 — [управляющая]2 [компания]2, [а]3 [на]4 [конверте]5 [написано]6: «[Расчёт]7 [коммунальных]7 [платежей]7 [за]8 [2025]8».
+1 note: Der Absender: отправитель.
+2 note: Die Hausverwaltung: управляющая компания дома.
+5 note: Der Umschlag: конверт.
+7 note: Betriebskosten = Nebenkosten: вода, отопление, мусор и другие расходы на дом сверх аренды.
+
+== p2
+DE: [Olga]1 [öffnet]2 [den]3 [Brief]3 [noch]4 [im]5 [Treppenhaus]5.
+RU: [Ольга]1 [открывает]2 [письмо]3 [прямо]4 [на]5 [лестнице]5.
+4 note: Noch im Treppenhaus: ещё не дойдя до квартиры.
+5 note: Das Treppenhaus: подъезд, лестничная клетка.
+
+DE: [Auf]1 [der]2 [letzten]3 [Seite]2 [steht]4 [eine]5 [Zahl]5, [die]6 [ihr]7 [den]8 [Atem]8 [nimmt]9: [Nachzahlung]10 [486,30]11 [Euro]12.
+RU: [На]1 [последней]3 [странице]2 [стоит]4 [цифра]5, [от]9 [которой]6 [у]7 [неё]7 [перехватывает]9 [дыхание]8: [доплата]10 [486,30]11 [евро]12.
+6 sent: Относительное предложение: die ... nimmt, глагол в конце.
+9 note: Jemandem den Atem nehmen: у кого-то перехватывает дыхание.
+10 note: Die Nachzahlung: доплата.
+
+DE: [Sie]1 [soll]2 [den]3 [Betrag]3 [innerhalb]4 [von]4 [vier]5 [Wochen]6 [überweisen]7.
+RU: [Она]1 [должна]2 [перевести]7 [сумму]3 [в]4 [течение]4 [четырёх]5 [недель]6.
+2 note: Sollen: быть должным по чужому требованию.
+3 note: Der Betrag: сумма.
+7 form: Инфинитив überweisen: ich überweise, er überweist; Präteritum: überwies; Perfekt: hat überwiesen.
+
+DE: [Außerdem]1 [steigt]2 [ihre]3 [monatliche]4 [Vorauszahlung]5 [ab]6 [Mai]7 [um]8 [40]9 [Euro]10.
+RU: [Кроме]1 [того]1, [с]6 [мая]7 [её]3 [ежемесячная]4 [предоплата]5 [вырастет]2 [на]8 [40]9 [евро]10.
+2 form: Инфинитив steigen: er steigt; Präteritum: stieg; Perfekt: ist gestiegen.
+5 note: Die Vorauszahlung: ежемесячная предоплата за коммунальные услуги.
+8 note: Steigen um: вырасти на (сколько).
+
+== p3
+DE: [Am]1 [Abend]1 [ruft]2 [sie]3 [ihren]4 [Bruder]5 [an]2, [der]6 [in]7 [Hamburg]8 [Steuerberater]9 [ist]10.
+RU: [Вечером]1 [она]3 [звонит]2 [своему]4 [брату]5, [который]6 [работает]10 [налоговым]9 [консультантом]9 [в]7 [Гамбурге]8.
+2 form: Anrufen + Akkusativ (ihren Bruder), по-русски дательный (брату). Perfekt: hat angerufen.
+9 note: Der Steuerberater: налоговый консультант.
+
+DE: „[Bevor]1 [du]2 [zahlst]3, [prüf]4 [die]5 [Abrechnung]5 [genau]6", [sagt]7 [er]8.
+RU: «[Прежде]1 [чем]1 [платить]2,3, [внимательно]6 [проверь]4 [расчёт]5», — [говорит]7 [он]8.
+1 sent: Bevor: прежде чем; глагол в придаточном стоит в конце.
+4 form: Императив от prüfen: prüf! / prüfe!
+5 note: Die Abrechnung: расчёт, итоговый счёт.
+
+DE: „[Fehler]1 [sind]2 [häufiger]3, [als]4 [man]5 [denkt]6."
+RU: «[Ошибки]1 [бывают]2 [чаще]3, [чем]4 [думают]5,6».
+3 note: Häufiger: сравнительная степень от häufig (частый).
+5 note: Man: неопределённо-личное местоимение.
+
+DE: [Olga]1 [kocht]2 [sich]3 [einen]4 [Tee]4, [legt]5 [die]6 [Abrechnung]6 [neben]7 [den]8 [Laptop]8 [und]9 [beginnt]10 [zu]11 [lesen]12.
+RU: [Ольга]1 [заваривает]2 [себе]3 [чай]4, [кладёт]5 [расчёт]6 [рядом]7 [с]7 [ноутбуком]8 [и]9 [начинает]10 [читать]11,12.
+2 note: Tee kochen: заваривать чай.
+7 form: Neben + Akkusativ: куда? — neben den Laptop.
+11 sent: Beginnen + zu + Infinitiv.
+
+== p4
+DE: [Die]1 [meisten]1 [Posten]2 [sind]3 [normal]4: [Wasser]5, [Müllabfuhr]6, [Hausmeister]7, [Treppenhausreinigung]8.
+RU: [Большинство]1 [пунктов]2 [обычные]3,4: [вода]5, [вывоз]6 [мусора]6, [завхоз]7, [уборка]8 [подъезда]8.
+2 note: Der Posten: пункт, статья в счёте.
+7 note: Der Hausmeister: смотритель дома, завхоз.
+
+DE: [Dann]1 [sieht]2 [sie]3 [die]4 [Heizkosten]4, [und]5 [plötzlich]6 [wird]7 [sie]8 [misstrauisch]9.
+RU: [Затем]1 [она]3 [видит]2 [расходы]4 [на]4 [отопление]4, [и]5 [вдруг]6 [у]8 [неё]8 [появляются]7 [подозрения]9.
+4 note: Die Heizkosten: расходы на отопление.
+7 form: Инфинитив werden: ich werde, er wird; Präteritum: wurde; Perfekt: ist geworden.
+9 note: Misstrauisch werden: начать подозревать.
+
+DE: [Laut]1 [Abrechnung]2 [hat]3 [sie]4 [9.800]5 [Kilowattstunden]6 [verbraucht]3.
+RU: [Согласно]1 [расчёту]2, [она]4 [израсходовала]3 [9800]5 [киловатт-часов]6.
+1 note: Laut: согласно (в документах).
+3 form: Verbrauchen: расходовать; Perfekt: hat verbraucht.
+
+DE: [Im]1 [letzten]2 [Jahr]1 [waren]3 [es]3 [nur]4 [5.200]5, [und]6 [sie]7 [war]8 [im]9 [Winter]9 [sogar]10 [sechs]11 [Wochen]12 [bei]13 [ihrer]14 [Familie]15.
+RU: [В]1 [прошлом]2 [году]1 [было]3 [всего]4 [5200]5, [и]6 [зимой]9 [она]7 [даже]10 [провела]8 [шесть]11 [недель]12 [у]13 [своей]14 [семьи]15.
+3 note: Es waren: было (о количестве).
+8 form: Sein в Präteritum: ich war, sie war, wir waren.
+13 note: Bei + Dativ: у кого-то (в гостях).
+
+== p5
+DE: [Am]1 [nächsten]2 [Morgen]1 [klingelt]3 [sie]4 [bei]5 [Herrn]6 [Köhler]6, [ihrem]7 [Nachbarn]8 [im]9 [dritten]10 [Stock]9.
+RU: [На]1 [следующее]2 [утро]1 [она]4 [звонит]3 [в]5 [дверь]5 [господину]6 [Кёлеру]6, [своему]7 [соседу]8 [с]9 [третьего]10 [этажа]9.
+3 note: Bei jemandem klingeln: звонить кому-то в дверь.
+6 form: Herr → Herrn: n-склонение, Dativ.
+8 form: Der Nachbar → ihrem Nachbarn: n-склонение, Dativ.
+9 note: Im dritten Stock: третий этаж над первым; по-русски это обычно четвёртый этаж.
+
+DE: [Er]1 [ist]2 [Rentner]3, [liest]4 [jede]5 [Rechnung]6 [dreimal]7 [und]8 [hat]9 [einen]10 [Ordner]10 [für]11 [alles]12.
+RU: [Он]1 [пенсионер]2,3, [читает]4 [каждый]5 [счёт]6 [по]7 [три]7 [раза]7, [и]8 [у]9 [него]9 [есть]9 [папка]10 [для]11 [всего]12.
+3 note: Der Rentner: пенсионер.
+4 form: Инфинитив lesen: ich lese, er liest, wir lesen; Präteritum: las; Perfekt: hat gelesen.
+6 note: Die Rechnung: счёт к оплате.
+10 note: Der Ordner: папка-регистратор.
+
+DE: [Zusammen]1 [vergleichen]2 [sie]3 [die]4 [Abrechnungen]4.
+RU: [Вместе]1 [они]3 [сравнивают]2 [расчёты]4.
+2 form: Инфинитив vergleichen: ich vergleiche, er vergleicht; Präteritum: verglich; Perfekt: hat verglichen.
+
+DE: [Herr]1 [Köhler]1 [zeigt]2 [auf]3 [eine]4 [Zeile]4: „[Hier]5 [steht]6 [bei]7 [Ihnen]7 [74]8 [Quadratmeter]9. [Ihre]10 [Wohnung]11 [hat]12 [aber]13 [nur]14 [54]15."
+RU: [Господин]1 [Кёлер]1 [показывает]2 [на]3 [строчку]4: «[Здесь]5 [у]7 [вас]7 [указано]6 [74]8 [квадратных]9 [метра]9. [Но]13 [в]12 [вашей]10 [квартире]11 [только]14 [54]15».
+2 note: Zeigen auf + Akkusativ: показывать на что-то.
+7 note: Bei Ihnen: у вас, в вашей графе.
+9 note: Der Quadratmeter: квадратный метр.
+
+DE: [Olga]1 [schaut]2 [in]3 [ihren]4 [Mietvertrag]5, [und]6 [er]7 [hat]8 [recht]8.
+RU: [Ольга]1 [смотрит]2 [в]3 [свой]4 [договор]5 [аренды]5 — [и]6 [он]7 [прав]8.
+5 note: Der Mietvertrag: договор аренды.
+8 note: Recht haben: быть правым.
+
+== p6
+DE: [Am]1 [Wochenende]1 [schreibt]2 [sie]3 [einen]4 [höflichen]5, [aber]6 [klaren]7 [Brief]4 [an]8 [die]9 [Hausverwaltung]9.
+RU: [На]1 [выходных]1 [она]3 [пишет]2 [вежливое]5, [но]6 [чёткое]7 [письмо]4 [в]8 [управляющую]9 [компанию]9.
+5 note: Höflich: вежливый.
+7 note: Klar: ясный, чёткий.
+
+DE: [Sie]1 [erklärt]2 [den]3 [Fehler]3, [legt]4 [eine]5 [Kopie]5 [des]6 [Mietvertrags]6 [bei]4 [und]7 [bittet]8 [um]8 [eine]9 [neue]10 [Abrechnung]9.
+RU: [Она]1 [объясняет]2 [ошибку]3, [прикладывает]4 [копию]5 [договора]6 [аренды]6 [и]7 [просит]8 [новый]10 [расчёт]9.
+4 form: Beilegen: прикладывать; приставка bei стоит в конце. Perfekt: hat beigelegt.
+6 form: Genitiv: des Mietvertrags.
+8 form: Bitten um + Akkusativ: просить о чём-то. Präteritum: bat; Perfekt: hat gebeten.
+
+DE: [Außerdem]1 [möchte]2 [sie]3 [die]4 [Belege]4 [sehen]5, [denn]6 [als]7 [Mieterin]8 [hat]9 [sie]10 [das]11 [Recht]11 [dazu]12.
+RU: [Кроме]1 [того]1, [она]3 [хочет]2 [увидеть]5 [подтверждающие]4 [документы]4, [ведь]6 [как]7 [арендатор]8 [она]10 [имеет]9 [на]12 [это]12 [право]11.
+4 note: Der Beleg, die Belege: квитанция, подтверждающий документ.
+8 note: Die Mieterin: арендатор, квартиросъёмщица.
+11 note: Das Recht auf etwas: право на что-то; dazu = на это.
+
+DE: [Sie]1 [schickt]2 [den]3 [Brief]3 [per]4 [Einschreiben]4, [so]5 [wie]5 [Herr]6 [Köhler]6 [es]0 [empfohlen]7 [hat]7.
+RU: [Она]1 [отправляет]2 [письмо]3 [заказным]4, [как]5 [и]5 [советовал]7 [господин]6 [Кёлер]6.
+4 note: Per Einschreiben: заказным письмом, с подтверждением доставки.
+7 form: Инфинитив empfehlen: ich empfehle, er empfiehlt; Präteritum: empfahl; Perfekt: hat empfohlen.
+
+== p7
+DE: [Drei]1 [Wochen]2 [später]3 [kommt]4 [die]5 [Antwort]5.
+RU: [Через]3 [три]1 [недели]2 [приходит]4 [ответ]5.
+3 note: Später: позже; drei Wochen später — через три недели.
+
+DE: [Die]1 [Hausverwaltung]1 [entschuldigt]2 [sich]2 [für]3 [den]4 [Tippfehler]4 [und]5 [schickt]6 [eine]7 [korrigierte]8 [Abrechnung]7.
+RU: [Управляющая]1 [компания]1 [извиняется]2 [за]3 [опечатку]4 [и]5 [присылает]6 [исправленный]8 [расчёт]7.
+2 note: Sich entschuldigen für + Akkusativ: извиняться за что-то.
+4 note: Der Tippfehler: опечатка.
+
+DE: [Statt]1 [486]2 [Euro]3 [muss]4 [Olga]5 [jetzt]6 [nur]7 [61]8 [Euro]9 [nachzahlen]10.
+RU: [Вместо]1 [486]2 [евро]3 [Ольге]5 [теперь]6 [нужно]4 [доплатить]10 [всего]7 [61]8 [евро]9.
+1 note: Statt: вместо.
+10 form: Nachzahlen: доплачивать; Perfekt: hat nachgezahlt.
+
+DE: [Sie]1 [kauft]2 [eine]3 [Schachtel]3 [Pralinen]4 [und]5 [klingelt]6 [wieder]7 [im]8 [dritten]9 [Stock]8.
+RU: [Она]1 [покупает]2 [коробку]3 [конфет]4 [и]5 [снова]7 [звонит]6 [в]6 [дверь]6 [на]8 [третьем]9 [этаже]8.
+3 note: Die Schachtel: коробка.
+4 note: Die Praline, die Pralinen: шоколадные конфеты.
+
+== p8
+DE: [Seitdem]1 [legt]2 [Olga]3 [jeden]4 [Monat]4 [30]5 [Euro]6 [auf]7 [ein]8 [extra]9 [Konto]8, [ihr]10 „[Nebenkosten-Polster]11".
+RU: [С]1 [тех]1 [пор]1 [Ольга]3 [каждый]4 [месяц]4 [откладывает]2 [30]5 [евро]6 [на]7 [отдельный]9 [счёт]8 — [свою]10 «[подушку]11 [для]11 [коммуналки]11».
+2 note: Geld auf ein Konto legen: откладывать деньги на счёт.
+11 note: Das Polster: подушка; здесь — финансовый резерв.
+
+DE: [Und]1 [jedes]2 [Jahr]2 [im]3 [März]3 [liest]4 [sie]5 [den]6 [dicken]7 [Brief]6 [ganz]8 [in]8 [Ruhe]8, [mit]9 [Tee]10 [und]11 [Taschenrechner]12.
+RU: [А]1 [каждый]2 [год]2 [в]3 [марте]3 [она]5 [читает]4 [толстое]7 [письмо]6 [совершенно]8 [спокойно]8, [с]9 [чаем]10 [и]11 [калькулятором]12.
+8 note: In Ruhe: спокойно, не торопясь.
+12 note: Der Taschenrechner: калькулятор.

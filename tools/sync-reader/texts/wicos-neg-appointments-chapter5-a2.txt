@@ -1,0 +1,196 @@
+id: a2-wicos-neg-kapitel5-termine-v2
+title: Wicos Neg A2: Termine und Pläne / Встречи и планы
+level: A2
+topic: записи, врач, ведомство, планирование
+source: user generated
+hintLanguage: ru
+folderId: wicos-neg
+
+== p1
+DE: [Diese]1 [Woche]1 [ist]2 [Miras]3 [Kalender]3 [ziemlich]4 [voll]2.
+RU: [На]1 [этой]1 [неделе]1 [календарь]3 [Миры]3 [довольно]4 [полный]2.
+3 note: Miras Kalender: Genitiv с именем, без артикля.
+4 note: Ziemlich: довольно.
+
+DE: [Bald]1 [beginnt]2 [ihr]3 [Urlaub]3, [und]4 [vorher]5 [muss]6 [sie]7 [viel]8 [organisieren]9.
+RU: [Скоро]1 [начинается]2 [её]3 [отпуск]3, [и]4 [до]5 [этого]5 [она]7 [должна]6 [многое]8 [организовать]9.
+2 form: Инфинитив beginnen: ich beginne, er beginnt, wir beginnen; Präteritum: begann; Perfekt: hat begonnen.
+3 note: Der Urlaub: отпуск.
+5 note: Vorher: до этого, заранее.
+6 form: Модальный глагол: инфинитив organisieren в конце. Инфинитив müssen: ich muss, er muss, wir müssen; Präteritum: musste; Perfekt: hat gemusst.
+9 form: Инфинитив organisieren: ich organisiere, er organisiert, wir organisieren; Präteritum: organisierte; Perfekt: hat organisiert.
+
+DE: [Am]1 [Montag]1 [tut]2 [ihr]3 [plötzlich]4 [ein]5 [Zahn]5 [weh]2.
+RU: [В]1 [понедельник]1 [у]3 [неё]3 [вдруг]4 [болит]2 [зуб]5.
+2 note: Wehtun: болеть.
+2 form: Weh стоит в конце: tut ... weh. Инфинитив wehtun (+ Dativ): es tut mir weh; Präteritum: tat weh; Perfekt: hat wehgetan.
+3 form: Dativ: у кого болит.
+5 note: Der Zahn: зуб.
+
+DE: [Sie]1 [ruft]2 [in]3 [der]3 [Zahnarztpraxis]3 [an]2 [und]4 [bittet]5 [um]5 [einen]6 [schnellen]7 [Termin]6.
+RU: [Она]1 [звонит]2 [в]3 [стоматологическую]3 [практику]3 [и]4 [просит]5 [быстрый]7 [приём]6.
+2 form: Anrufen: приставка an в конце части предложения. Инфинитив anrufen: ich rufe an, er ruft an, wir rufen an; Präteritum: rief an; Perfekt: hat angerufen.
+3 note: Die Zahnarztpraxis: кабинет стоматолога.
+5 form: Bitten um + Akkusativ: просить о чём-то. Инфинитив bitten: ich bitte, er bittet, wir bitten; Präteritum: bat; Perfekt: hat gebeten.
+6 note: Der Termin: запись, приём, встреча.
+
+== p2
+DE: [Die]1 [Praxis]1 [hat]1 [nur]2 [am]3 [Mittwoch]3 [um]4 [zehn]4 [Uhr]4 [einen]5 [Platz]5 [frei]6.
+RU: [У]1 [практики]1 [есть]1 [свободное]6 [место]5 [только]2 [в]3 [среду]3 [в]4 [десять]4 [часов]4.
+1 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+6 note: Frei: свободный.
+
+DE: [Aber]1 [genau]2 [dann]3 [hat]4 [Mira]4 [eine]5 [wichtige]6 [Besprechung]5 [mit]7 [ihrer]7 [Chefin]7.
+RU: [Но]1 [именно]2 [тогда]3 [у]4 [Миры]4 [важное]6 [совещание]5 [с]7 [её]7 [начальницей]7.
+4 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+5 note: Die Besprechung: совещание.
+7 note: Die Chefin: начальница.
+
+DE: [Was]1 [ist]2 [wichtiger]2: [der]3 [Zahn]3 [oder]4 [der]5 [Job]5?
+RU: [Что]1 [важнее]2: [зуб]3 [или]4 [работа]5?
+2 form: Сравнительная степень: wichtig — wichtiger.
+5 note: Der Job: работа, разговорно.
+
+DE: [Mira]1 [fragt]2 [ehrlich]3 [im]4 [Büro]4, [und]5 [die]6 [Chefin]6 [reagiert]7 [entspannt]8.
+RU: [Мира]1 [честно]3 [спрашивает]2 [в]4 [офисе]4, [и]5 [начальница]6 [реагирует]7 [спокойно]8.
+2 form: Инфинитив fragen: ich frage, er fragt, wir fragen; Präteritum: fragte; Perfekt: hat gefragt.
+3 note: Ehrlich: честно.
+4 note: Das Büro: офис.
+7 note: Reagieren: реагировать.
+7 form: Инфинитив reagieren: ich reagiere, er reagiert, wir reagieren; Präteritum: reagierte; Perfekt: hat reagiert.
+8 note: Entspannt: расслабленно, спокойно.
+
+DE: [Sie]1 [verschieben]2 [die]3 [Besprechung]3 [einfach]4 [auf]5 [den]5 [Nachmittag]5.
+RU: [Они]1 [просто]4 [переносят]2 [совещание]3 [на]5 [вторую]5 [половину]5 [дня]5.
+2 note: Verschieben: переносить на другое время.
+2 form: Инфинитив verschieben: ich verschiebe, er verschiebt, wir verschieben; Präteritum: verschob; Perfekt: hat verschoben.
+5 note: Der Nachmittag: время после обеда.
+5 form: Verschieben auf + Akkusativ.
+
+== p3
+DE: [Am]1 [Mittwoch]1 [sitzt]2 [Mira]3 [pünktlich]4 [im]5 [Wartezimmer]5.
+RU: [В]1 [среду]1 [Мира]3 [вовремя]4 [сидит]2 [в]5 [приёмной]5.
+2 form: Инфинитив sitzen: ich sitze, er sitzt, wir sitzen; Präteritum: saß; Perfekt: hat gesessen.
+4 note: Pünktlich: пунктуально, вовремя.
+5 note: Das Wartezimmer: комната ожидания у врача.
+
+DE: [Sie]1 [gibt]2 [ihre]3 [Versichertenkarte]3 [ab]2 [und]4 [füllt]5 [ein]6 [Formular]6 [aus]5.
+RU: [Она]1 [отдаёт]2 [свою]3 [страховую]3 [карту]3 [и]4 [заполняет]5 [формуляр]6.
+2 note: Abgeben: отдавать, сдавать.
+2 form: Приставка ab стоит после дополнения. Инфинитив abgeben: ich gebe ab, er gibt ab, wir geben ab; Präteritum: gab ab; Perfekt: hat abgegeben.
+3 note: Die Versichertenkarte: карта медицинского страхования.
+5 form: Инфинитив ausfüllen: ich fülle aus, er füllt aus, wir füllen aus; Präteritum: füllte aus; Perfekt: hat ausgefüllt.
+
+DE: [Der]1 [Zahnarzt]1 [findet]2 [ein]3 [kleines]4 [Loch]3 [und]5 [repariert]6 [es]7 [gleich]8.
+RU: [Стоматолог]1 [находит]2 [маленькую]4 [дырку]3 [и]5 [сразу]8 [её]7 [лечит]6.
+1 note: Der Zahnarzt: зубной врач.
+2 form: Инфинитив finden: ich finde, er findet, wir finden; Präteritum: fand; Perfekt: hat gefunden.
+3 note: Das Loch: дырка.
+6 note: Reparieren: чинить; здесь — лечить зуб.
+6 form: Инфинитив reparieren: ich repariere, er repariert, wir reparieren; Präteritum: reparierte; Perfekt: hat repariert.
+7 form: Das Loch — средний род, поэтому es.
+8 note: Gleich: сразу, тут же.
+
+DE: [Nach]1 [einer]1 [halben]1 [Stunde]1 [ist]2 [alles]3 [vorbei]2.
+RU: [Через]1 [полчаса]1 [всё]3 [позади]2.
+1 note: Eine halbe Stunde: полчаса.
+2 note: Vorbei: позади, закончилось.
+
+DE: [Der]1 [Zahn]1 [tut]2 [nicht]3 [mehr]3 [weh]2, [und]4 [Mira]5 [ist]6 [erleichtert]6.
+RU: [Зуб]1 [больше]3 [не]3 [болит]2, [и]4 [Мира]5 [чувствует]6 [облегчение]6.
+2 form: Инфинитив wehtun (+ Dativ): es tut mir weh; Präteritum: tat weh; Perfekt: hat wehgetan.
+3 note: Nicht mehr: больше не.
+6 note: Erleichtert: с облегчением.
+
+== p4
+DE: [Der]1 [nächste]2 [Termin]1 [ist]3 [am]3 [Freitag]3 [im]4 [Bürgeramt]4.
+RU: [Следующая]2 [запись]1 — [в]3 [пятницу]3 [в]4 [ведомстве]4 [для]4 [граждан]4.
+4 note: Das Bürgeramt: ведомство, где оформляют документы.
+
+DE: [Miras]1 [alter]2 [Ausweis]1 [läuft]3 [bald]4 [ab]3, [sie]5 [braucht]6 [einen]7 [neuen]7.
+RU: [Старое]2 [удостоверение]1 [Миры]1 [скоро]4 [истекает]3, [ей]5 [нужно]6 [новое]7.
+3 note: Ablaufen: истекать, заканчиваться.
+3 form: Приставка ab в конце части предложения. Инфинитив ablaufen: der Ausweis läuft ab; Präteritum: lief ab; Perfekt: ist abgelaufen.
+6 form: Инфинитив brauchen: ich brauche, er braucht, wir brauchen; Präteritum: brauchte; Perfekt: hat gebraucht.
+7 form: Einen neuen: существительное Ausweis опущено.
+
+DE: [Sie]1 [hat]2 [den]3 [Termin]3 [schon]4 [vor]5 [drei]5 [Wochen]5 [online]6 [gebucht]2.
+RU: [Она]1 [забронировала]2 [эту]3 [запись]3 [онлайн]6 [уже]4 [три]5 [недели]5 [назад]5.
+2 note: Buchen: бронировать.
+2 form: Perfekt: haben + Partizip II в конце рамки. Инфинитив buchen: ich buche, er bucht, wir buchen; Präteritum: buchte; Perfekt: hat gebucht.
+5 form: Vor + время: сколько времени назад.
+
+DE: [Im]1 [Amt]1 [zieht]2 [sie]3 [wieder]4 [eine]5 [Nummer]5 [und]6 [wartet]7 [nur]8 [kurz]9.
+RU: [В]1 [ведомстве]1 [она]3 [снова]4 [берёт]2 [номерок]5 [и]6 [ждёт]7 [совсем]8 [недолго]9.
+1 note: Das Amt: ведомство.
+2 form: Инфинитив ziehen: ich ziehe, er zieht, wir ziehen; Präteritum: zog; Perfekt: hat gezogen.
+7 form: Инфинитив warten: ich warte, er wartet, wir warten; Präteritum: wartete; Perfekt: hat gewartet.
+
+DE: [Foto]1, [Unterschrift]2, [Gebühr]3: [Nach]4 [fünfzehn]4 [Minuten]4 [ist]5 [der]6 [Antrag]6 [fertig]5.
+RU: [Фото]1, [подпись]2, [пошлина]3: [через]4 [пятнадцать]4 [минут]4 [заявление]6 [готово]5.
+3 note: Die Gebühr: пошлина, сбор.
+6 note: Der Antrag: заявление.
+
+== p5
+DE: [Jetzt]1 [fehlt]2 [nur]3 [noch]3 [der]4 [Urlaub]4 [für]5 [den]6 [August]6.
+RU: [Теперь]1 [не]2 [хватает]2 [только]3 [отпуска]4 [на]5 [август]6.
+2 note: Fehlen: недоставать, не хватать.
+2 form: Инфинитив fehlen: ich fehle, er fehlt, wir fehlen; Präteritum: fehlte; Perfekt: hat gefehlt.
+
+DE: [Mira]1 [beantragt]2 [zehn]3 [freie]4 [Tage]5, [und]6 [die]7 [Chefin]7 [sagt]8 [sofort]9 [Ja]10.
+RU: [Мира]1 [запрашивает]2 [десять]3 [свободных]4 [дней]5, [и]6 [начальница]7 [сразу]9 [говорит]8 «[да]10».
+2 note: Beantragen: подавать заявление на что-то.
+2 form: Инфинитив beantragen: ich beantrage, er beantragt, wir beantragen; Präteritum: beantragte; Perfekt: hat beantragt.
+8 form: Инфинитив sagen: ich sage, er sagt, wir sagen; Präteritum: sagte; Perfekt: hat gesagt.
+
+DE: [Danach]1 [bucht]2 [sie]3 [die]4 [Zugtickets]4 [für]5 [die]6 [Reise]6 [nach]7 [Hause]7.
+RU: [После]1 [этого]1 [она]3 [бронирует]2 [железнодорожные]4 [билеты]4 [для]5 [поездки]6 [домой]7.
+1 note: Danach: после этого.
+2 form: Инфинитив buchen: ich buche, er bucht, wir buchen; Präteritum: buchte; Perfekt: hat gebucht.
+
+DE: [Das]1 [Geld]1 [dafür]2 [liegt]3 [schon]4 [auf]5 [dem]5 [Sparkonto]5.
+RU: [Деньги]1 [для]2 [этого]2 [уже]4 [лежат]3 [на]5 [сберегательном]5 [счёте]5.
+3 form: Инфинитив liegen: ich liege, er liegt, wir liegen; Präteritum: lag; Perfekt: hat gelegen.
+5 note: Das Sparkonto: счёт для накоплений.
+
+DE: [Paul]1 [schickt]2 [ein]3 [Foto]3 [von]4 [der]4 [bestellten]5 [Torte]4: [Sie]6 [ist]7 [riesig]7.
+RU: [Пауль]1 [присылает]2 [фото]3 [заказанного]5 [торта]4: [он]6 [огромный]7.
+2 note: Schicken: посылать.
+2 form: Инфинитив schicken: ich schicke, er schickt, wir schicken; Präteritum: schickte; Perfekt: hat geschickt.
+5 form: Partizip II как прилагательное: bestellt — заказанный.
+6 form: Die Torte — женский род в немецком, поэтому sie.
+7 note: Riesig: огромный.
+
+DE: [Die]1 [Tante]1 [hat]2 [schon]3 [vierzig]4 [alte]5 [Fotos]6 [für]7 [das]8 [Album]8 [gefunden]2.
+RU: [Тётя]1 [уже]3 [нашла]2 [сорок]4 [старых]5 [фотографий]6 [для]7 [альбома]8.
+2 form: Perfekt: haben + Partizip II в конце рамки. Инфинитив finden: ich finde, er findet, wir finden; Präteritum: fand; Perfekt: hat gefunden.
+
+== p6
+DE: [Am]1 [Sonntag]1 [schaut]2 [Mira]3 [auf]4 [ihren]4 [Kalender]4 [und]5 [lächelt]6.
+RU: [В]1 [воскресенье]1 [Мира]3 [смотрит]2 [в]4 [свой]4 [календарь]4 [и]5 [улыбается]6.
+2 form: Инфинитив schauen: ich schaue, er schaut, wir schauen; Präteritum: schaute; Perfekt: hat geschaut.
+4 form: Schauen auf + Akkusativ.
+6 form: Инфинитив lächeln: ich lächle, er lächelt, wir lächeln; Präteritum: lächelte; Perfekt: hat gelächelt.
+
+DE: [Zahnarzt]1: [erledigt]2. [Ausweis]3: [beantragt]4. [Urlaub]5: [genehmigt]6.
+RU: [Стоматолог]1: [сделано]2. [Удостоверение]3: [подано]4. [Отпуск]5: [одобрен]6.
+2 note: Erledigt: сделано, выполнено.
+2 form: Инфинитив erledigen: ich erledige, er erledigt, wir erledigen; Präteritum: erledigte; Perfekt: hat erledigt.
+4 form: Инфинитив beantragen: ich beantrage, er beantragt, wir beantragen; Präteritum: beantragte; Perfekt: hat beantragt.
+6 note: Genehmigen: официально одобрять.
+6 form: Инфинитив genehmigen: ich genehmige, er genehmigt, wir genehmigen; Präteritum: genehmigte; Perfekt: hat genehmigt.
+
+DE: [In]1 [vier]1 [Wochen]1 [sitzt]2 [sie]3 [im]4 [Zug]4 [nach]5 [Hause]5.
+RU: [Через]1 [четыре]1 [недели]1 [она]3 [будет]2 [сидеть]2 [в]4 [поезде]4 [домой]5.
+1 form: In + время: через.
+2 form: Präsens вместо будущего: время уже названо. Инфинитив sitzen: ich sitze, er sitzt, wir sitzen; Präteritum: saß; Perfekt: hat gesessen.
+
+DE: [Im]1 [Rucksack]1: [das]2 [fertige]3 [Fotoalbum]2 [und]4 [ein]5 [Kleid]5 [für]6 [das]7 [Fest]7.
+RU: [В]1 [рюкзаке]1: [готовый]3 [фотоальбом]2 [и]4 [платье]5 [для]6 [праздника]7.
+5 note: Das Kleid: платье.
+
+DE: [Gute]1 [Planung]2 [ist]3 [die]3 [halbe]3 [Reise]3, [denkt]4 [Mira]5 [zufrieden]6.
+RU: [Хорошее]1 [планирование]2 — [половина]3 [путешествия]3, [довольно]6 [думает]4 [Мира]5.
+2 note: Die Planung: планирование.
+4 form: Инфинитив denken: ich denke, er denkt, wir denken; Präteritum: dachte; Perfekt: hat gedacht.
+6 note: Zufrieden: довольный.

@@ -1,0 +1,161 @@
+id: work-lost-luggage-b1-v1
+title: Чемодан улетел без меня / Der Koffer, der nicht ankam
+level: B1
+topic: путешествие, аэропорт, потерянный багаж, свадьба друга
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Moritz]1 [hatte]2 [alles]3 [genau]4 [geplant]2.
+RU: [Мориц]1 [всё]3 [точно]4 [спланировал]2.
+2 form: Plusquamperfekt: hatte + geplant — всё было спланировано заранее, до событий рассказа.
+
+DE: [Sein bester Freund Tiago]1 [heiratete]2 [am Samstag]3 [in Lissabon]4, [und]5 [Moritz]6 [war]7 [sein Trauzeuge]8.
+RU: [Его лучший друг Тиаго]1 [женился]2 [в субботу]3 [в Лиссабоне]4, [и]5 [Мориц]6 [был]7 [его свидетелем]8.
+2 note: Heiraten: жениться, выходить замуж; heiraten + Akkusativ: er heiratet sie.
+8 note: Der Trauzeuge: свидетель на свадьбе.
+
+DE: [Im Koffer]1 [lagen]2 [sein neuer Anzug]3, [die Ringe]4 [für das Brautpaar]5 [und]6 [eine Rede]7 [auf Portugiesisch]8, [die]9 [er]10 [drei Wochen lang]11 [geübt hatte]12.
+RU: [В чемодане]1 [лежали]2 [его новый костюм]3, [кольца]4 [для жениха и невесты]5 [и]6 [речь]7 [на португальском]8, [которую]9 [он]10 [три недели]11 [репетировал]12.
+3 note: Der Anzug: мужской костюм.
+5 note: Das Brautpaar: жених и невеста вместе; die Braut — невеста, der Bräutigam — жених.
+9 sent: Die — относительное местоимение к die Rede, глагол hatte в конце.
+
+DE: [Nein]1, [die Ringe]2 [nicht]3.
+RU: [Нет]1, [кольца]2 [нет]3.
+3 note: Nicht в короткой реплике: «только не кольца».
+
+DE: [Die]1 [trug]2 [er]3 [zum Glück]4 [in der Jackentasche]5.
+RU: [Их]1 [он]3, [к счастью]4, [носил]2 [в кармане куртки]5.
+1 note: Die здесь — указательное местоимение «их, эти» (die Ringe).
+2 form: Präteritum от tragen: ich trug, er trug; Perfekt: hat getragen. Здесь «носить при себе».
+4 note: Zum Glück: к счастью.
+
+== p2
+DE: [In Lissabon]1 [stand]2 [Moritz]3 [eine Stunde]4 [am Gepäckband]5.
+RU: [В Лиссабоне]1 [Мориц]3 [час]4 [простоял]2 [у багажной ленты]5.
+5 note: Das Gepäckband: лента выдачи багажа.
+
+DE: [Koffer]1 [um Koffer]1 [kam]2 [heraus]2, [rote]3, [schwarze]4, [einer]5 [mit Leopardenmuster]6, [aber]7 [nicht]8 [seiner]9.
+RU: [Чемодан]1 [за чемоданом]1 [выезжал]2: [красные]3, [чёрные]4, [один]5 [с леопардовым узором]6, [но]7 [не]8 [его]9.
+1 note: Koffer um Koffer: чемодан за чемоданом.
+9 note: Seiner: его (чемодан), притяжательное местоимение без существительного.
+
+DE: [Dann]1 [blieb]2 [das Band]3 [stehen]2.
+RU: [Потом]1 [лента]3 [остановилась]2.
+2 note: Stehen bleiben: остановиться. Präteritum: blieb stehen; Perfekt: ist stehen geblieben.
+
+DE: [Am Schalter]1 [für verlorenes Gepäck]2 [wartete]3 [schon]4 [eine Schlange]5 [müder Menschen]6.
+RU: [У стойки]1 [потерянного багажа]2 [уже]4 [стояла]3 [очередь]5 [уставших людей]6.
+1 note: Der Schalter: стойка, окошко обслуживания.
+3 note: Warten здесь «ждать, стоять в ожидании».
+5 note: Die Schlange: очередь (буквально «змея»).
+6 note: Müder Menschen — Genitiv множественного числа без артикля.
+
+DE: [Eine freundliche Mitarbeiterin]1 [tippte]2 [seine Nummer]3 [in den Computer]4 [und]5 [runzelte]6 [die Stirn]6.
+RU: [Приветливая сотрудница]1 [ввела]2 [его номер]3 [в компьютер]4 [и]5 [нахмурилась]6.
+2 note: Tippen: набирать на клавиатуре.
+6 note: Die Stirn runzeln: хмуриться (буквально «морщить лоб»).
+
+DE: „[Ihr Koffer]1 [ist]2 [leider]3 [in Zürich]4 [geblieben]2.
+RU: «[Ваш чемодан]1, [к сожалению]3, [остался]2 [в Цюрихе]4.
+2 form: Bleiben → Perfekt с sein: ist geblieben.
+
+DE: [Er]1 [kommt]2 [mit der Maschine]3 [morgen Abend]4.“
+RU: [Он]1 [прилетит]2 [рейсом]3 [завтра вечером]4.»
+3 note: Die Maschine: здесь самолёт, рейс.
+2 sent: Презенс kommt часто означает будущее, если есть указание времени (morgen Abend).
+
+DE: [Die Hochzeit]1 [begann]2 [aber]3 [schon]6 [am nächsten Tag]4 [um vier]5.
+RU: [Но]3 [свадьба]1 [начиналась]2 [уже]6 [на следующий день]4 [в четыре]5.
+1 note: Die Hochzeit: свадьба.
+3 note: Aber в середине предложения: «однако, но».
+
+== p3
+DE: [Er]1 [füllte]2 [ein langes Formular]3 [aus]2 [und]4 [bekam]5 [ein kleines Paket]6 [mit Zahnbürste]7 [und]8 [einem T-Shirt]9 [in Größe XXL]10.
+RU: [Он]1 [заполнил]2 [длинный бланк]3 [и]4 [получил]5 [маленький пакет]6 [с зубной щёткой]7 [и]8 [футболкой]9 [размера XXL]10.
+2 note: Ein Formular ausfüllen: заполнить бланк.
+5 form: Präteritum от bekommen: bekam; Perfekt: hat bekommen. Bekommen = получать (не «становиться»!).
+
+DE: [Am Abend]1 [saß]2 [er]3 [in Tiagos Küche]4 [und]5 [erzählte]6 [die Geschichte]7.
+RU: [Вечером]1 [он]3 [сидел]2 [на кухне у Тиаго]4 [и]5 [рассказывал]6 [эту историю]7.
+4 note: Tiagos Küche: Genitiv с именем.
+
+DE: [Tiago]1 [wurde]2 [blass]2, [aber]3 [seine Großmutter Dona Lurdes]4 [stand]5 [sofort]6 [auf]5.
+RU: [Тиаго]1 [побледнел]2, [но]3 [его бабушка, дона Лурдеш]4, [сразу]6 [встала]5.
+2 note: Blass werden: побледнеть.
+5 note: Aufstehen: вставать. Präteritum: stand auf; Perfekt: ist aufgestanden.
+
+DE: [Sie]1 [verschwand]2 [im Schlafzimmer]3 [und]4 [kam]5 [mit einem dunkelblauen Anzug]6 [zurück]5.
+RU: [Она]1 [исчезла]2 [в спальне]3 [и]4 [вернулась]5 [с тёмно-синим костюмом]6.
+2 form: Verschwinden: исчезать. Präteritum: verschwand; Perfekt: ist verschwunden.
+5 note: Zurückkommen: возвращаться.
+
+DE: „[Der]1 [gehörte]2 [meinem Mann]3“, [sagte]4 [sie]5. „[Er]6 [hat]7 [ihn]8 [nur]9 [einmal]10 [getragen]7, [zu unserer Hochzeit]11, [1968]12.“
+RU: «[Он]1 [принадлежал]2 [моему мужу]3, — [сказала]4 [она]5. — [Он]6 [надевал]7 [его]8 [только]9 [один раз]10, [на нашу свадьбу]11, [в 1968 году]12.»
+2 note: Gehören + Dativ: принадлежать кому-то.
+1 note: Der — указательное местоимение: «этот (костюм)».
+
+== p4
+DE: [Der Anzug]1 [war]2 [an den Schultern]3 [zu breit]4 [und]5 [an den Beinen]6 [zu kurz]7.
+RU: [Костюм]1 [был]2 [слишком широким]4 [в плечах]3 [и]5 [слишком коротким]7 [в ногах]6.
+4 note: Zu + прилагательное: слишком. Zu breit — слишком широкий.
+
+DE: [Dona Lurdes]1 [holte]2 [Nadel und Faden]3 [und]4 [nähte]5 [bis Mitternacht]6.
+RU: [Дона Лурдеш]1 [принесла]2 [иголку с ниткой]3 [и]4 [шила]5 [до полуночи]6.
+2 note: Holen: сходить и принести.
+5 note: Nähen: шить.
+
+DE: [Dabei]1 [erzählte]2 [sie]3 [von ihrem Mann]4, [der]5 [Straßenbahnfahrer]6 [gewesen war]7 [und]8 [schrecklich]9 [getanzt hatte]10.
+RU: [При этом]1 [она]3 [рассказывала]2 [о своём муже]4, [который]5 [был]7 [водителем трамвая]6 [и]8 [ужасно]9 [танцевал]10.
+1 note: Dabei: при этом, одновременно.
+5 sent: Der — относительное местоимение, оба глагола в Plusquamperfekt стоят в конце.
+9 note: Schrecklich: ужасно, кошмарно.
+
+DE: [Moritz]1 [übte]2 [seine Rede]3 [noch einmal]4, [diesmal]5 [für sie]6.
+RU: [Мориц]1 [ещё раз]4 [прорепетировал]2 [свою речь]3, [на этот раз]5 [для неё]6.
+2 note: Üben: тренироваться, репетировать.
+
+DE: [Sie]1 [korrigierte]2 [seine Aussprache]3 [und]4 [strich]5 [einen Witz]6, [der]7 [auf Portugiesisch]8 [etwas]9 [ganz anderes]10 [bedeutete]11.
+RU: [Она]1 [исправила]2 [его произношение]3 [и]4 [вычеркнула]5 [одну шутку]6, [которая]7 [по-португальски]8 [означала]11 [нечто]9 [совсем другое]10.
+3 note: Die Aussprache: произношение.
+5 form: Streichen: вычёркивать. Präteritum: strich; Perfekt: hat gestrichen.
+10 note: Etwas ganz anderes: нечто совсем другое.
+
+== p5
+DE: [Am Samstag]1 [stand]2 [Moritz]3 [in einem Anzug]4 [von 1968]5 [neben dem Brautpaar]6.
+RU: [В субботу]1 [Мориц]3 [стоял]2 [рядом с женихом и невестой]6 [в костюме]4 [1968 года]5.
+6 note: Neben + Dativ: рядом с (где?).
+
+DE: [Als]1 [er]2 [mit seiner Rede]3 [fertig]4 [war]4, [weinten]5 [drei Tanten]6 [und]7 [Dona Lurdes]8.
+RU: [Когда]1 [он]2 [закончил]4 [свою речь]3, [заплакали]5 [три тёти]6 [и]7 [дона Лурдеш]8.
+1 sent: Als + Präteritum: один раз в прошлом; глагол war в конце придаточного.
+4 note: Mit etwas fertig sein: закончить что-то.
+
+DE: „[Du]1 [siehst]2 [aus]2 [wie]3 [mein Joaquim]4“, [flüsterte]5 [sie]6.
+RU: «[Ты]1 [выглядишь]2 [как]3 [мой Жоаким]4», — [прошептала]5 [она]6.
+2 note: Aussehen wie: выглядеть как. Präteritum: sah aus; Perfekt: hat ausgesehen.
+5 note: Flüstern: шептать.
+
+DE: „[Nur]1 [bitte]2 [tanz]3 [nicht]4 [wie er]5.“
+RU: «[Только]1, [пожалуйста]2, [не]4 [танцуй]3 [как он]5.»
+3 form: Императив на «ты» от tanzen: tanz!
+
+== p6
+DE: [Der Koffer]1 [kam]2 [erst]4 [am Sonntagmorgen]3 [an]2.
+RU: [Чемодан]1 [прибыл]2 [только]4 [в воскресенье утром]3.
+4 note: Erst: только, не раньше (о времени).
+
+DE: [Der neue Anzug]1 [war]2 [perfekt]3 [und]4 [nicht einmal]5 [zerknittert]6.
+RU: [Новый костюм]1 [был]2 [идеальным]3 [и]4 [даже не]5 [помятым]6.
+6 note: Zerknittert: помятый.
+
+DE: [Moritz]1 [hat]2 [ihn]3 [bis heute]4 [nie]5 [getragen]2.
+RU: [Мориц]1 [до сих пор]4 [ни разу]5 [его]3 [не]5 [надел]2.
+4 note: Bis heute: до сих пор.
+5 note: Nie: никогда; в русском двойное отрицание «ни разу не».
+
+DE: [Aber]1 [an seiner Wand]2 [hängt]3 [ein Foto]4: [ein junger Mann]5 [in einem alten blauen Anzug]6 [und]7 [eine kleine alte Frau]8, [die]9 [lacht]10.
+RU: [Но]1 [на его стене]2 [висит]3 [фотография]4: [молодой человек]5 [в старом синем костюме]6 [и]7 [маленькая пожилая женщина]8, [которая]9 [смеётся]10.
+3 note: Hängen: висеть (где? Dativ: an seiner Wand).
+9 sent: Die — относительное местоимение к die Frau, глагол lacht в конце.

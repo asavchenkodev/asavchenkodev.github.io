@@ -21,7 +21,7 @@ I wanted the app to stay serverless, without accounts, subscriptions, or paid us
 - Local library with folders, rename, move, and delete actions.
 - Locally stored texts, folders, saved words, and study history.
 - Built-in grammar rules view for A1-B1 German basics.
-- Import texts generated with Claude, ChatGPT, Gemini, or another LLM in a sentence-scoped JSON format.
+- Import texts generated with Claude, ChatGPT, Gemini, or another LLM in a simple line-based format where linked words are marked like `[Schrank]4` (see [FORMAT.md](FORMAT.md)). Problems are reported per line instead of breaking the whole import.
 - Validation script to check that generated texts have complete word mappings.
 
 ## Local Data

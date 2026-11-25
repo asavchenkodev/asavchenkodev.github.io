@@ -1,0 +1,216 @@
+id: a2-wicos-neg-kapitel4-transport-v2
+title: Wicos Neg A2: Reise und Verkehr / Поездка и транспорт
+level: A2
+topic: транспорт, путешествие, город
+source: user generated
+hintLanguage: ru
+folderId: wicos-neg
+
+== p1
+DE: [Am]1 [Samstag]1 [will]2 [Mira]3 [ihre]4 [Freundin]4 [Nadja]5 [in]6 [Leipzig]7 [besuchen]8.
+RU: [В]1 [субботу]1 [Мира]3 [хочет]2 [навестить]8 [свою]4 [подругу]4 [Надю]5 [в]6 [Лейпциге]7.
+2 form: Модальный глагол: инфинитив besuchen в конце. Инфинитив wollen: ich will, er will, wir wollen; Präteritum: wollte; Perfekt: hat gewollt.
+8 form: Инфинитив besuchen: ich besuche, er besucht, wir besuchen; Präteritum: besuchte; Perfekt: hat besucht.
+
+DE: [In]1 [ihrem]1 [Rucksack]1 [liegt]2 [ein]3 [Geschenk]3: [zwei]4 [Karten]5 [für]6 [ein]7 [Konzert]7 [am]8 [Abend]8.
+RU: [В]1 [её]1 [рюкзаке]1 [лежит]2 [подарок]3: [два]4 [билета]5 [на]6 [вечерний]8 [концерт]7.
+1 note: Der Rucksack: рюкзак.
+2 form: Инфинитив liegen: ich liege, er liegt, wir liegen; Präteritum: lag; Perfekt: hat gelegen.
+5 note: Die Karte, die Karten: здесь — билет.
+
+DE: [Ihre]1 [Fahrkarte]1 [kauft]2 [sie]3 [diesmal]4 [schon]5 [am]6 [Automaten]6 [im]7 [Bahnhof]7.
+RU: [Билет]1 [на]1 [поезд]1 [она]3 [покупает]2 [в]4 [этот]4 [раз]4 [заранее]5 [в]6 [автомате]6 [на]7 [вокзале]7.
+1 note: Die Fahrkarte: проездной билет.
+1 sent: Дополнение стоит на позиции 1, подлежащее sie после глагола.
+2 form: Инфинитив kaufen: ich kaufe, er kauft, wir kaufen; Präteritum: kaufte; Perfekt: hat gekauft.
+4 note: Diesmal: в этот раз.
+7 note: Der Bahnhof: вокзал.
+
+DE: [Der]1 [Zug]1 [nach]2 [Leipzig]3 [fährt]4 [um]5 [neun]5 [Uhr]5 [von]6 [Gleis]7 [fünf]8 [ab]4.
+RU: [Поезд]1 [на]2 [Лейпциг]3 [отправляется]4 [в]5 [девять]5 [часов]5 [с]6 [пятого]8 [пути]7.
+2 note: Nach: направление в город.
+4 note: Abfahren: отправляться.
+4 form: Приставка ab стоит в самом конце. Инфинитив abfahren: ich fahre ab, er fährt ab, wir fahren ab; Präteritum: fuhr ab; Perfekt: ist abgefahren.
+5 form: Um + время: во сколько.
+7 note: Das Gleis: путь на вокзале.
+
+== p2
+DE: [Im]1 [Zug]1 [hört]2 [Mira]3 [Musik]4 [und]5 [schaut]6 [aus]7 [dem]7 [Fenster]7.
+RU: [В]1 [поезде]1 [Мира]3 [слушает]2 [музыку]4 [и]5 [смотрит]6 [в]7 [окно]7.
+2 form: Инфинитив hören: ich höre, er hört, wir hören; Präteritum: hörte; Perfekt: hat gehört.
+6 note: Schauen: смотреть.
+6 form: Инфинитив schauen: ich schaue, er schaut, wir schauen; Präteritum: schaute; Perfekt: hat geschaut.
+7 note: Aus dem Fenster schauen: смотреть из окна.
+
+DE: [Plötzlich]1 [kommt]2 [eine]3 [Durchsage]3: [Der]4 [Zug]4 [hält]5 [wegen]6 [einer]7 [Störung]7 [in]8 [Naumburg]9.
+RU: [Вдруг]1 [звучит]2 [объявление]3: [поезд]4 [останавливается]5 [из-за]6 [неисправности]7 [в]8 [Наумбурге]9.
+2 form: Инфинитив kommen: ich komme, er kommt, wir kommen; Präteritum: kam; Perfekt: ist gekommen.
+3 note: Die Durchsage: объявление по громкой связи.
+5 note: Halten: останавливаться.
+5 form: Сильный глагол: du hältst, er hält. Инфинитив halten: ich halte, er hält, wir halten; Präteritum: hielt; Perfekt: hat gehalten.
+6 form: Wegen + Genitiv: из-за.
+7 note: Die Störung: неисправность, сбой.
+
+DE: [Alle]1 [Fahrgäste]2 [müssen]3 [dort]4 [aussteigen]5.
+RU: [Все]1 [пассажиры]2 [должны]3 [там]4 [выйти]5.
+2 note: Der Fahrgast, die Fahrgäste: пассажир.
+3 form: Инфинитив müssen: ich muss, er muss, wir müssen; Präteritum: musste; Perfekt: hat gemusst.
+5 note: Aussteigen: выходить из транспорта.
+5 form: Инфинитив aussteigen: ich steige aus, er steigt aus, wir steigen aus; Präteritum: stieg aus; Perfekt: ist ausgestiegen.
+
+DE: [So]1 [verpasst]2 [Mira]3 [ihren]4 [Anschlusszug]4 [nach]5 [Leipzig]6.
+RU: [Так]1 [Мира]3 [опаздывает]2 [на]2 [свою]4 [пересадку]4 [на]5 [Лейпциг]6.
+2 note: Verpassen: пропустить, не успеть.
+2 form: Инфинитив verpassen: ich verpasse, er verpasst, wir verpassen; Präteritum: verpasste; Perfekt: hat verpasst.
+4 note: Der Anschlusszug: поезд для пересадки.
+
+DE: [Auf]1 [der]1 [Anzeige]1 [stehen]2 [nur]3 [zwei]4 [Wörter]5: [Zug]6 [fällt]7 [aus]7.
+RU: [На]1 [табло]1 [стоят]2 [только]3 [два]4 [слова]5: [поезд]6 [отменён]7.
+1 note: Die Anzeige: табло, дисплей.
+2 form: Инфинитив stehen: ich stehe, er steht, wir stehen; Präteritum: stand; Perfekt: hat gestanden.
+5 note: Das Wort, die Wörter: слово.
+7 note: Ausfallen: отменяться.
+7 form: Приставка aus стоит в конце. Инфинитив ausfallen: der Zug fällt aus; Präteritum: fiel aus; Perfekt: ist ausgefallen.
+
+== p3
+DE: [Mira]1 [bleibt]2 [ruhig]3 [und]4 [sucht]5 [nach]5 [einer]6 [anderen]7 [Verbindung]6.
+RU: [Мира]1 [остаётся]2 [спокойной]3 [и]4 [ищет]5 [другой]7 [маршрут]6.
+2 form: Инфинитив bleiben: ich bleibe, er bleibt, wir bleiben; Präteritum: blieb; Perfekt: ist geblieben.
+5 form: Suchen nach + Dativ: искать что-то. Инфинитив suchen: ich suche, er sucht, wir suchen; Präteritum: suchte; Perfekt: hat gesucht.
+6 note: Die Verbindung: здесь — маршрут, соединение.
+
+DE: [Eine]1 [App]1 [zeigt]2 [ihr]3 [einen]4 [Ersatzbus]4 [direkt]5 [nach]6 [Leipzig]7.
+RU: [Приложение]1 [показывает]2 [ей]3 [автобус-замену]4 [прямо]5 [до]6 [Лейпцига]7.
+1 note: Die App: приложение.
+2 form: Инфинитив zeigen: ich zeige, er zeigt, wir zeigen; Präteritum: zeigte; Perfekt: hat gezeigt.
+3 form: Dativ: показывает кому.
+4 note: Der Ersatzbus: автобус вместо отменённого поезда.
+
+DE: [Sie]1 [rennt]2 [zur]3 [Haltestelle]3 [und]4 [erreicht]5 [den]6 [Bus]6 [in]7 [letzter]7 [Minute]7.
+RU: [Она]1 [бежит]2 [к]3 [остановке]3 [и]4 [успевает]5 [на]5 [автобус]6 [в]7 [последнюю]7 [минуту]7.
+2 note: Rennen: бежать быстро.
+2 form: Инфинитив rennen: ich renne, er rennt, wir rennen; Präteritum: rannte; Perfekt: ist gerannt.
+3 note: Die Haltestelle: остановка.
+5 note: Erreichen: успеть, добраться.
+5 form: Инфинитив erreichen: ich erreiche, er erreicht, wir erreichen; Präteritum: erreichte; Perfekt: hat erreicht.
+7 note: In letzter Minute: в последний момент.
+
+DE: [Im]1 [Bus]1 [schreibt]2 [sie]3 [Nadja]4 [eine]5 [kurze]6 [Nachricht]5 [über]7 [die]7 [Verspätung]7.
+RU: [В]1 [автобусе]1 [она]3 [пишет]2 [Наде]4 [короткое]6 [сообщение]5 [об]7 [опоздании]7.
+2 form: Инфинитив schreiben: ich schreibe, er schreibt, wir schreiben; Präteritum: schrieb; Perfekt: hat geschrieben.
+7 note: Die Verspätung: опоздание, задержка.
+
+DE: [Nadja]1 [antwortet]2 [mit]3 [einem]3 [lachenden]4 [Smiley]3: [Kein]5 [Stress]5, [ich]6 [warte]7 [am]8 [Markt]8.
+RU: [Надя]1 [отвечает]2 [смеющимся]4 [смайликом]3: [без]5 [паники]5, [я]6 [жду]7 [на]8 [рынке]8.
+2 form: Инфинитив antworten: ich antworte, er antwortet, wir antworten; Präteritum: antwortete; Perfekt: hat geantwortet.
+5 note: Kein Stress: не переживай.
+7 form: Инфинитив warten: ich warte, er wartet, wir warten; Präteritum: wartete; Perfekt: hat gewartet.
+8 note: Der Markt: рынок, рыночная площадь.
+
+== p4
+DE: [In]1 [Leipzig]2 [steigt]3 [Mira]4 [aus]3 [und]5 [will]6 [das]7 [Geschenk]7 [kontrollieren]8.
+RU: [В]1 [Лейпциге]2 [Мира]4 [выходит]3 [и]5 [хочет]6 [проверить]8 [подарок]7.
+3 form: Aussteigen: приставка aus после подлежащего в конце части. Инфинитив aussteigen: ich steige aus, er steigt aus, wir steigen aus; Präteritum: stieg aus; Perfekt: ist ausgestiegen.
+6 form: Инфинитив wollen: ich will, er will, wir wollen; Präteritum: wollte; Perfekt: hat gewollt.
+8 form: Инфинитив kontrollieren: ich kontrolliere, er kontrolliert, wir kontrollieren; Präteritum: kontrollierte; Perfekt: hat kontrolliert.
+
+DE: [Ihr]1 [Herz]1 [bleibt]2 [fast]3 [stehen]2: [Der]4 [Rucksack]4 [ist]5 [noch]5 [im]6 [Bus]6.
+RU: [Её]1 [сердце]1 [почти]3 [останавливается]2: [рюкзак]4 [всё]5 [ещё]5 [в]6 [автобусе]6.
+1 note: Das Herz: сердце.
+2 note: Stehen bleiben: остановиться.
+2 form: Инфинитив stehen bleiben: ich bleibe stehen, er bleibt stehen, wir bleiben stehen; Präteritum: blieb stehen; Perfekt: ist stehen geblieben.
+
+DE: [Zum]1 [Glück]1 [steht]2 [der]3 [Bus]3 [noch]4 [an]5 [der]5 [Ampel]5.
+RU: [К]1 [счастью]1, [автобус]3 [ещё]4 [стоит]2 [на]5 [светофоре]5.
+1 note: Zum Glück: к счастью.
+2 form: Инфинитив stehen: ich stehe, er steht, wir stehen; Präteritum: stand; Perfekt: hat gestanden.
+5 note: Die Ampel: светофор.
+
+DE: [Mira]1 [winkt]2, [und]3 [der]4 [Fahrer]4 [öffnet]5 [die]6 [Tür]6 [noch]7 [einmal]7.
+RU: [Мира]1 [машет]2, [и]3 [водитель]4 [ещё]7 [раз]7 [открывает]5 [дверь]6.
+2 note: Winken: махать рукой.
+2 form: Инфинитив winken: ich winke, er winkt, wir winken; Präteritum: winkte; Perfekt: hat gewinkt.
+4 note: Der Fahrer: водитель.
+5 form: Инфинитив öffnen: ich öffne, er öffnet, wir öffnen; Präteritum: öffnete; Perfekt: hat geöffnet.
+7 note: Noch einmal: ещё раз.
+
+DE: [Sie]1 [bedankt]2 [sich]2 [dreimal]3 [und]4 [hält]5 [den]6 [Rucksack]6 [jetzt]7 [ganz]8 [fest]5.
+RU: [Она]1 [трижды]3 [благодарит]2 [и]4 [теперь]7 [держит]5 [рюкзак]6 [совсем]8 [крепко]5.
+2 note: Sich bedanken: благодарить.
+2 form: Инфинитив sich bedanken: ich bedanke mich, er bedankt sich, wir bedanken uns; Präteritum: bedankte sich; Perfekt: hat sich bedankt.
+3 note: Dreimal: три раза.
+5 note: Festhalten: крепко держать.
+5 form: Приставка fest стоит в конце. Инфинитив festhalten: ich halte fest, er hält fest, wir halten fest; Präteritum: hielt fest; Perfekt: hat festgehalten.
+
+== p5
+DE: [Endlich]1 [treffen]2 [sich]2 [die]3 [zwei]4 [Freundinnen]3 [am]5 [Markt]5.
+RU: [Наконец]1 [две]4 [подруги]3 [встречаются]2 [на]5 [рынке]5.
+2 note: Sich treffen: встречаться.
+2 form: Инфинитив sich treffen: ich treffe mich, er trifft sich, wir treffen uns; Präteritum: traf sich; Perfekt: hat sich getroffen.
+
+DE: [Zuerst]1 [bummeln]2 [sie]3 [über]4 [den]5 [Flohmarkt]5 [hinter]6 [der]7 [alten]8 [Messe]7.
+RU: [Сначала]1 [они]3 [гуляют]2 [по]4 [блошиному]5 [рынку]5 [за]6 [старой]8 [ярмаркой]7.
+2 note: Bummeln: гулять не спеша.
+2 form: Инфинитив bummeln: ich bummle, er bummelt, wir bummeln; Präteritum: bummelte; Perfekt: ist gebummelt.
+5 note: Der Flohmarkt: блошиный рынок.
+6 form: Hinter + Dativ: место где.
+7 note: Die Messe: ярмарка, выставка.
+
+DE: [Mira]1 [findet]2 [dort]3 [eine]4 [kleine]5 [Lampe]4 [für]6 [ihr]7 [Zimmer]7.
+RU: [Мира]1 [находит]2 [там]3 [маленькую]5 [лампу]4 [для]6 [своей]7 [комнаты]7.
+2 form: Инфинитив finden: ich finde, er findet, wir finden; Präteritum: fand; Perfekt: hat gefunden.
+
+DE: [Sie]1 [handelt]2 [sogar]3 [ein]4 [bisschen]4 [und]5 [spart]6 [drei]7 [Euro]8.
+RU: [Она]1 [даже]3 [немного]4 [торгуется]2 [и]5 [экономит]6 [три]7 [евро]8.
+2 note: Handeln: торговаться о цене.
+2 form: Инфинитив handeln: ich handle, er handelt, wir handeln; Präteritum: handelte; Perfekt: hat gehandelt.
+6 note: Sparen: экономить, копить.
+6 form: Инфинитив sparen: ich spare, er spart, wir sparen; Präteritum: sparte; Perfekt: hat gespart.
+
+DE: [Am]1 [Abend]1 [gehen]2 [sie]3 [zusammen]4 [zum]5 [Konzert]5 [in]6 [einer]7 [alten]8 [Fabrik]7.
+RU: [Вечером]1 [они]3 [вместе]4 [идут]2 [на]5 [концерт]5 [в]6 [старой]8 [фабрике]7.
+2 form: Инфинитив gehen: ich gehe, er geht, wir gehen; Präteritum: ging; Perfekt: ist gegangen.
+7 note: Die Fabrik: фабрика, завод.
+
+DE: [Die]1 [Band]1 [spielt]2 [laut]3, [und]4 [alle]5 [tanzen]6 [bis]7 [Mitternacht]7.
+RU: [Группа]1 [играет]2 [громко]3, [и]4 [все]5 [танцуют]6 [до]7 [полуночи]7.
+2 form: Инфинитив spielen: ich spiele, er spielt, wir spielen; Präteritum: spielte; Perfekt: hat gespielt.
+6 form: Инфинитив tanzen: ich tanze, er tanzt, wir tanzen; Präteritum: tanzte; Perfekt: hat getanzt.
+7 note: Die Mitternacht: полночь.
+
+== p6
+DE: [Auf]1 [der]1 [Rückfahrt]1 [ist]2 [der]3 [Zug]3 [fast]4 [leer]2.
+RU: [На]1 [обратном]1 [пути]1 [поезд]3 [почти]4 [пустой]2.
+1 note: Die Rückfahrt: обратная дорога.
+
+DE: [Mira]1 [schaut]2 [auf]3 [die]4 [dunklen]5 [Felder]4 [und]6 [denkt]7 [an]8 [den]8 [Tag]8.
+RU: [Мира]1 [смотрит]2 [на]3 [тёмные]5 [поля]4 [и]6 [думает]7 [об]8 [этом]8 [дне]8.
+2 form: Инфинитив schauen: ich schaue, er schaut, wir schauen; Präteritum: schaute; Perfekt: hat geschaut.
+4 note: Das Feld, die Felder: поле.
+7 form: Инфинитив denken: ich denke, er denkt, wir denken; Präteritum: dachte; Perfekt: hat gedacht.
+8 form: Denken an + Akkusativ: думать о.
+
+DE: [Ohne]1 [Plan]2 [B]2 [geht]3 [es]3 [bei]4 [der]4 [Bahn]4 [nicht]3, [denkt]5 [sie]6 [und]7 [lächelt]8.
+RU: [Без]1 [плана]2 [Б]2 [на]4 [железной]4 [дороге]4 [никак]3, [думает]5 [она]6 [и]7 [улыбается]8.
+1 form: Ohne + Akkusativ: без.
+3 note: Es geht nicht: так не получится.
+4 note: Die Bahn: железная дорога.
+5 form: Инфинитив denken: ich denke, er denkt, wir denken; Präteritum: dachte; Perfekt: hat gedacht.
+8 note: Lächeln: улыбаться.
+8 form: Инфинитив lächeln: ich lächle, er lächelt, wir lächeln; Präteritum: lächelte; Perfekt: hat gelächelt.
+
+DE: [Zu]1 [Hause]1 [erzählt]2 [sie]3 [Aylin]4 [und]5 [Tom]6 [die]7 [ganze]8 [Geschichte]7.
+RU: [Дома]1 [она]3 [рассказывает]2 [Айлин]4 [и]5 [Тому]6 [всю]8 [историю]7.
+1 note: Zu Hause: дома, место где.
+2 form: Инфинитив erzählen: ich erzähle, er erzählt, wir erzählen; Präteritum: erzählte; Perfekt: hat erzählt.
+
+DE: [Tom]1 [lacht]2: [Du]3 [und]4 [der]5 [Rucksack]5, [das]6 [ist]7 [schon]7 [ein]8 [kleines]9 [Drama]8.
+RU: [Том]1 [смеётся]2: [ты]3 [и]4 [рюкзак]5 — [это]6 [уже]7 [маленькая]9 [драма]8.
+2 form: Инфинитив lachen: ich lache, er lacht, wir lachen; Präteritum: lachte; Perfekt: hat gelacht.
+
+DE: [Das]1 [nächste]1 [Mal]1, [sagt]2 [Mira]3, [fahre]4 [ich]5 [einfach]6 [mit]7 [dem]7 [Fahrrad]7.
+RU: [В]1 [следующий]1 [раз]1, [говорит]2 [Мира]3, [я]5 [просто]6 [поеду]4 [на]7 [велосипеде]7.
+1 note: Das nächste Mal: в следующий раз.
+2 form: Инфинитив sagen: ich sage, er sagt, wir sagen; Präteritum: sagte; Perfekt: hat gesagt.
+4 form: Инфинитив fahren: ich fahre, er fährt, wir fahren; Präteritum: fuhr; Perfekt: ist gefahren.
+7 note: Das Fahrrad: велосипед.

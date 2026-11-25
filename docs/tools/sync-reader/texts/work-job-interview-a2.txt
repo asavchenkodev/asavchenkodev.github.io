@@ -1,0 +1,168 @@
+id: work-job-interview-a2-v1
+title: Собеседование под дождём / Das Vorstellungsgespräch
+level: A2
+topic: работа, собеседование, опоздание, первая работа в Германии
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Daria]1 [ist]0 [vierunddreißig Jahre alt]2 [und]3 [wohnt]4 [seit einem Jahr]5 [in Leipzig]6.
+RU: [Дарье]1 [тридцать четыре года]2, [и]3 [она живёт]4 [в Лейпциге]6 [уже год]5.
+2 note: Возраст: ich bin 34 Jahre alt — мне 34 года.
+4 form: Инфинитив wohnen: ich wohne, er wohnt, wir wohnen; Präteritum: wohnte; Perfekt: hat gewohnt.
+5 note: Seit + Dativ: действие началось в прошлом и продолжается сейчас.
+
+DE: [In Riga]1 [hat]2 [sie]3 [zehn Jahre]4 [als Buchhalterin]5 [gearbeitet]2.
+RU: [В Риге]1 [она]3 [десять лет]4 [работала]2 [бухгалтером]5.
+2 form: Perfekt: hat + gearbeitet, причастие стоит в конце. Инфинитив arbeiten: ich arbeite, er arbeitet; Präteritum: arbeitete.
+5 note: Als + профессия без артикля: als Buchhalterin — бухгалтером.
+
+DE: [Jetzt]1 [sucht]2 [sie]3 [eine neue Stelle]4, [und]5 [heute]6 [hat sie]7 [ihr]8 [erstes]9 [Vorstellungsgespräch]8 [in Deutschland]10.
+RU: [Сейчас]1 [она]3 [ищет]2 [новую работу]4, [и]5 [сегодня]6 [у неё]7 [первое]9 [собеседование]8 [в Германии]10.
+4 note: Die Stelle: место работы, вакансия.
+8 note: Das Vorstellungsgespräch: собеседование при приёме на работу.
+
+DE: [Die Firma]1 [heißt]2 [„Radwerk“]3 [und]4 [verkauft]5 [Fahrräder]6 [und]7 [Ersatzteile]8 [im Internet]9.
+RU: [Фирма]1 [называется]2 [«Радверк»]3 [и]4 [продаёт]5 [велосипеды]6 [и]7 [запчасти]8 [в интернете]9.
+5 form: Инфинитив verkaufen: ich verkaufe, er verkauft; Präteritum: verkaufte; Perfekt: hat verkauft.
+8 note: Das Ersatzteil, die Ersatzteile: запчасть.
+
+DE: [Sie]1 [suchen]2 [jemanden]3 [für]4 [die Buchhaltung]5 [und]6 [den Kundenservice]7.
+RU: [Они]1 [ищут]2 [человека]3 [для]4 [бухгалтерии]5 [и]6 [клиентского сервиса]7.
+3 note: Jemand: кто-то, кто-нибудь; jemanden — Akkusativ.
+5 note: Die Buchhaltung: бухгалтерия.
+
+== p2
+DE: [Das Gespräch]1 [beginnt]2 [um zehn Uhr]3, [aber]4 [um halb zehn]5 [steht]6 [Daria]7 [noch]8 [an der Haltestelle]9.
+RU: [Разговор]1 [начинается]2 [в десять часов]3, [но]4 [в половине десятого]5 [Дарья]7 [всё ещё]8 [стоит]6 [на остановке]9.
+5 note: Halb zehn — 9:30, буквально «половина десятого».
+9 note: Die Haltestelle: остановка; an der — Dativ, вопрос «где?».
+
+DE: [Die Straßenbahn]1 [kommt]2 [nicht]3, [und]4 [es]0 [regnet]5 [stark]6.
+RU: [Трамвай]1 [не]3 [приходит]2, [и]4 [идёт]5 [сильный]6 [дождь]5.
+5 note: Es regnet: идёт дождь; es — формальное подлежащее.
+
+DE: [Sie]1 [hat]2 [keinen Regenschirm]3 [dabei]2.
+RU: [У неё]1 [нет]3 [с собой]2 [зонта]3.
+2 note: Etwas dabeihaben: иметь что-то при себе.
+3 note: Der Regenschirm: зонт; keinen — отрицание в Akkusativ.
+
+DE: [Um zehn nach zehn]1 [kommt]2 [sie]3 [endlich]4 [an]2, [mit nassen Haaren]5 [und]6 [rotem Gesicht]7.
+RU: [В десять минут одиннадцатого]1 [она]3 [наконец]4 [приходит]2, [с мокрыми волосами]5 [и]6 [красным лицом]7.
+1 note: Zehn nach zehn — 10:10.
+2 form: Ankommen: приставка an уходит в конец. Präteritum: kam an; Perfekt: ist angekommen.
+5 note: Nass: мокрый; mit + Dativ: mit nassen Haaren.
+
+DE: „[Es tut mir]1 [so]2 [leid]1“, [sagt]3 [sie]4 [an der Rezeption]5.
+RU: «[Мне]1 [так]2 [жаль]1», — [говорит]3 [она]4 [на ресепшене]5.
+1 note: Es tut mir leid: мне жаль, извините.
+
+== p3
+DE: [Da]1 [geht]2 [die Tür]3 [auf]2, [und]4 [ein Mann]5 [kommt]6 [herein]6.
+RU: [Тут]1 [открывается]2 [дверь]3, [и]4 [входит]6 [мужчина]5.
+2 note: Aufgehen: открываться (о двери).
+6 note: Hereinkommen: входить внутрь.
+
+DE: [Er]1 [ist]0 [genauso]2 [nass]3 [wie]4 [sie]5.
+RU: [Он]1 [такой же]2 [мокрый]3, [как]4 [она]5.
+2 note: Genauso ... wie: так же ... как.
+
+DE: „[Die Straßenbahn]1, [oder]2?“, [fragt]3 [er]4 [und]5 [lacht]6.
+RU: «[Трамвай]1, [да]2?» — [спрашивает]3 [он]4 [и]5 [смеётся]6.
+2 note: ..., oder? в конце фразы: «да?», «правда?».
+
+DE: [Das]1 [ist]1 [Herr Brandt]2, [der Chef]3 [von Radwerk]4.
+RU: [Это]1 [господин Брандт]2, [начальник]3 [«Радверка»]4.
+3 note: Der Chef, die Chefin: начальник, начальница.
+
+DE: [Auf einmal]1 [ist]0 [Daria]2 [nicht mehr]3 [so]4 [nervös]5.
+RU: [Вдруг]1 [Дарья]2 [уже не]3 [так]4 [нервничает]5.
+1 note: Auf einmal: вдруг, внезапно.
+3 note: Nicht mehr: больше не, уже не.
+
+== p4
+DE: [Im Büro]1 [stellt]2 [Herr Brandt]3 [viele]4 [Fragen]2.
+RU: [В кабинете]1 [господин Брандт]3 [задаёт]2 [много]4 [вопросов]2.
+2 note: Eine Frage stellen: задать вопрос.
+
+DE: „[Warum]1 [möchten]2 [Sie]3 [bei uns]4 [arbeiten]2?“
+RU: «[Почему]1 [вы]3 [хотите]2 [работать]2 [у нас]4?»
+2 form: Möchten + инфинитив в конце предложения.
+
+DE: [Daria]1 [erzählt]2 [von ihrer Arbeit]3 [in Riga]4 [und]5 [von ihrem alten Fahrrad]6, [mit dem]7 [sie]8 [jeden Tag]9 [zur Arbeit]10 [fährt]11.
+RU: [Дарья]1 [рассказывает]2 [о своей работе]3 [в Риге]4 [и]5 [о своём старом велосипеде]6, [на котором]7 [она]8 [каждый день]9 [ездит]11 [на работу]10.
+2 note: Erzählen von + Dativ: рассказывать о чём-то.
+7 sent: Mit dem — относительное местоимение, поэтому глагол fährt стоит в конце.
+
+DE: [Dann]1 [kommt]2 [die schwierige Frage]3: „[Was]4 [sind]5 [Ihre Schwächen]6?“
+RU: [Потом]1 [звучит]2 [трудный вопрос]3: «[Какие]4 [у вас]5 [слабые стороны]6?»
+6 note: Die Schwäche: слабость, слабая сторона; Ihre с большой буквы — вежливое «ваши».
+
+DE: [Daria]1 [denkt]2 [kurz]3 [nach]2.
+RU: [Дарья]1 [ненадолго]3 [задумывается]2.
+2 form: Nachdenken: приставка nach в конце. Präteritum: dachte nach; Perfekt: hat nachgedacht.
+
+DE: „[Mein Deutsch]1 [ist]2 [noch]3 [nicht]4 [perfekt]2.
+RU: «[Мой немецкий]1 [ещё]3 [не]4 [идеален]2.
+
+DE: [Am Telefon]1 [verstehe]2 [ich]3 [nicht]4 [immer]5 [alles]6.
+RU: [По телефону]1 [я]3 [не]4 [всегда]5 [всё]6 [понимаю]2.
+
+DE: [Aber]1 [ich]2 [lerne]3 [jeden Abend]4, [und]5 [ich]6 [frage]7 [lieber]8 [zweimal]9 [als]10 [einmal]11 [falsch]12.“
+RU: [Но]1 [я]2 [занимаюсь]3 [каждый вечер]4, [и]5 [я]6 [лучше]8 [спрошу]7 [дважды]9, [чем]10 [один раз]11 [ошибусь]12.»
+8 note: Lieber ... als: лучше ..., чем.
+12 note: Falsch: неправильно; здесь «сделаю неправильно, ошибусь».
+
+DE: [Herr Brandt]1 [nickt]2 [und]3 [schreibt]4 [etwas]5 [auf]4.
+RU: [Господин Брандт]1 [кивает]2 [и]3 [что-то]5 [записывает]4.
+4 note: Aufschreiben: записывать.
+
+== p5
+DE: [Am Ende]1 [fragt]2 [er]3: „[Haben Sie]4 [noch]5 [Fragen]6 [an uns]7?“
+RU: [В конце]1 [он]3 [спрашивает]2: «[У вас есть]4 [ещё]5 [вопросы]6 [к нам]7?»
+7 note: Eine Frage an + Akkusativ: вопрос к кому-то.
+
+DE: [Daria]1 [fragt]2 [nach dem Team]3, [nach den Arbeitszeiten]4 [und]5 [ob]6 [man]7 [auch]8 [von zu Hause]9 [arbeiten]10 [kann]7.
+RU: [Дарья]1 [спрашивает]2 [о команде]3, [о рабочем времени]4 [и]5 [можно]7 [ли]6 [иногда]8 [работать]10 [из дома]9.
+3 note: Fragen nach + Dativ: спрашивать о чём-то.
+6 sent: Ob — косвенный вопрос «ли», глагол kann уходит в конец.
+7 note: Man kann: можно.
+
+DE: [Diese Fragen]1 [hat]2 [sie]3 [am Abend vorher]4 [auf einen Zettel]5 [geschrieben]2.
+RU: [Эти вопросы]1 [она]3 [накануне вечером]4 [записала]2 [на листок]5.
+5 note: Der Zettel: листок, записка.
+
+DE: [Herr Brandt]1 [lächelt]2: „[Gut]3 [vorbereitet]4.
+RU: [Господин Брандт]1 [улыбается]2: «[Хорошо]3 [подготовились]4.
+4 note: Vorbereiten: подготовить; vorbereitet — причастие.
+
+DE: [Das]1 [mögen]2 [wir]3.“
+RU: [Это]1 [нам]3 [нравится]2.»
+2 note: Mögen: любить, нравиться. Das mögen wir — нам это нравится.
+
+== p6
+DE: [Drei Tage]1 [später]2 [klingelt]3 [Darias Handy]4.
+RU: [Три дня]1 [спустя]2 [звонит]3 [телефон Дарьи]4.
+3 note: Klingeln: звонить (о телефоне, звонке).
+4 note: Darias Handy: Genitiv с именем без артикля.
+
+DE: [Sie]1 [steht]2 [gerade]3 [an der Kasse]4 [im Supermarkt]5.
+RU: [Она]1 [как раз]3 [стоит]2 [у кассы]4 [в супермаркете]5.
+3 note: Gerade: как раз, в этот момент.
+
+DE: „[Wir]1 [möchten]2 [Sie]3 [gern]2 [einstellen]4“, [sagt]5 [Herr Brandt]6.
+RU: «[Мы]1 [хотели бы]2 [взять]4 [вас]3 [на работу]4», — [говорит]5 [господин Брандт]6.
+4 note: Einstellen: принять на работу. Противоположность: kündigen, entlassen.
+
+DE: „[Die Probezeit]1 [dauert]2 [sechs Monate]3, [und]4 [Sie]5 [fangen]6 [am ersten Dezember]7 [an]6.“
+RU: «[Испытательный срок]1 [длится]2 [шесть месяцев]3, [и]4 [вы]5 [начинаете]6 [первого декабря]7.»
+1 note: Die Probezeit: испытательный срок.
+6 form: Anfangen: приставка an в конце. Präteritum: fing an; Perfekt: hat angefangen.
+
+DE: [Daria]1 [bezahlt]2 [ihre Milch]3 [und]4 [ihr Brot]5, [geht]6 [hinaus]6 [und]7 [lacht]8 [laut]9 [im Regen]10.
+RU: [Дарья]1 [платит]2 [за молоко]3 [и]4 [хлеб]5, [выходит на улицу]6 [и]7 [громко]9 [смеётся]8 [под дождём]10.
+6 note: Hinausgehen: выходить наружу.
+
+DE: [Diesmal]1 [ist]2 [ihr]3 [der Regen]4 [egal]2.
+RU: [На этот раз]1 [ей]3 [всё равно]2, [что]0 [идёт]0 [дождь]4.
+2 note: Egal sein + Dativ: быть всё равно. Das ist mir egal — мне всё равно.

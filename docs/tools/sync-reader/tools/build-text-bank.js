@@ -1,18 +1,13 @@
 const fs = require("fs");
 const path = require("path");
+const { root, textsDir, listedTextFiles, readTextFile } = require("./text-files.js");
 
-const root = path.resolve(__dirname, "..");
-const textsDir = path.join(root, "texts");
-const indexPath = path.join(textsDir, "index.json");
 const outputPath = path.join(textsDir, "text-bank.js");
 
-const files = JSON.parse(fs.readFileSync(indexPath, "utf8"))
-  .map((file) => String(file).trim())
-  .filter(Boolean);
-
-const texts = files.map((file) => {
-  const textPath = path.join(textsDir, file);
-  return JSON.parse(fs.readFileSync(textPath, "utf8"));
+const texts = listedTextFiles().map((file) => {
+  const { doc, errors } = readTextFile(file);
+  if (errors.length) throw new Error(`${file}: ${errors.map((entry) => entry.message).join(" ")}`);
+  return doc;
 });
 
 fs.writeFileSync(outputPath, `window.SYNC_READER_TEXTS = ${JSON.stringify(texts)};\n`);

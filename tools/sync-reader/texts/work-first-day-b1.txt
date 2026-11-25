@@ -1,0 +1,166 @@
+id: work-first-day-b1-v1
+title: Первый рабочий день / Der erste Arbeitstag
+level: B1
+topic: работа, коллеги, офис, «ты» и «вы», ошибки
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Am ersten Dezember]1 [stand]2 [Daria]3 [um Viertel vor acht]4 [vor der Tür]5 [von Radwerk]6, [obwohl]7 [sie]8 [erst]9 [um halb neun]10 [anfangen]11 [musste]12.
+RU: [Первого декабря]1 [Дарья]3 [без четверти восемь]4 [стояла]2 [у дверей]5 [«Радверка»]6, [хотя]7 [ей]8 [нужно было]12 [начинать]11 [только]9 [в половине девятого]10.
+4 note: Viertel vor acht: без четверти восемь, 7:45.
+7 sent: Obwohl: хотя; глагол musste стоит в конце придаточного.
+9 note: Erst: только, не раньше.
+
+DE: [Diesmal]1 [regnete]2 [es]0 [nicht]3, [und]4 [die Straßenbahn]5 [war]6 [pünktlich]7.
+RU: [На этот раз]1 [дождя]2 [не]3 [было]2, [и]4 [трамвай]5 [пришёл]6 [вовремя]7.
+7 note: Pünktlich: вовремя, пунктуально.
+
+DE: [In ihrer Tasche]1 [hatte]2 [sie]3 [einen Apfelkuchen]4 [nach dem Rezept]5 [ihrer Mutter]6.
+RU: [В сумке]1 [у неё]2,3 [был]2 [яблочный пирог]4 [по рецепту]5 [её мамы]6.
+5 note: Nach dem Rezept: по рецепту; nach здесь «согласно».
+6 note: Ihrer Mutter — Genitiv: её мамы.
+
+DE: [Eine Kollegin]1 [hatte]2 [ihr]3 [am Telefon]4 [verraten]2, [dass]5 [man]6 [bei Radwerk]7 [am ersten Tag]8 [Kuchen]9 [mitbringt]10.
+RU: [Одна коллега]1 [выдала]2 [ей]3 [по телефону]4 [секрет]2, [что]5 [в «Радверке»]7 [в первый день]8 [принято]6 [приносить]10 [пирог]9.
+2 note: Verraten: выдать (секрет), рассказать по секрету.
+5 sent: Dass вводит придаточное, глагол mitbringt стоит в конце.
+6 note: Man + глагол часто переводится безлично: «принято, приносят».
+
+== p2
+DE: [Herr Brandt]1 [zeigte]2 [ihr]3 [das Büro]4: [sechs Schreibtische]5, [eine Kaffeemaschine]6, [die]7 [lauter]8 [war]9 [als]10 [ein Flugzeug]11, [und]12 [überall]13 [Fahrradteile]14.
+RU: [Господин Брандт]1 [показал]2 [ей]3 [офис]4: [шесть письменных столов]5, [кофемашину]6, [которая]7 [была]9 [громче]8, [чем]10 [самолёт]11, [и]12 [повсюду]13 [велосипедные детали]14.
+7 sent: Die — относительное местоимение к die Kaffeemaschine, глагол war в конце.
+8 note: Laut, lauter: громкий, громче; сравнение с als.
+
+DE: „[Hier]1 [duzen]2 [sich]3 [alle]4“, [sagte]5 [er]6. „[Ich]7 [bin]0 [Thomas]9.“
+RU: «[Здесь]1 [все]4 [на «ты»]2,3, — [сказал]5 [он]6. — [Я]7 [Томас]9.»
+2 note: Duzen: обращаться на «ты»; siezen — на «вы». Sich duzen — быть на «ты» друг с другом.
+
+DE: [Daria]1 [nickte]2, [aber]3 [den ganzen Vormittag]4 [sagte]5 [sie]6 [aus Versehen]7 [weiter]8 „[Herr Brandt]9“.
+RU: [Дарья]1 [кивнула]2, [но]3 [всё утро]4 [она]6 [по привычке]7 [продолжала]8 [говорить]5 «[господин Брандт]9».
+7 note: Aus Versehen: нечаянно, по ошибке; здесь в переводе «по привычке».
+8 note: Weiter + глагол: продолжать что-то делать.
+
+DE: [Ihr Schreibtisch]1 [stand]2 [neben dem von Kemal]3, [der]4 [seit acht Jahren]5 [im Kundenservice]6 [arbeitete]7.
+RU: [Её письменный стол]1 [стоял]2 [рядом со столом Кемаля]3, [который]4 [уже восемь лет]5 [работал]7 [в клиентском сервисе]6.
+3 note: Neben dem von Kemal: рядом с тем, что у Кемаля; dem заменяет повторное dem Schreibtisch.
+
+DE: [Er]1 [trug]2 [Kopfhörer]3 [und]4 [sprach]5 [mit Kunden]6 [so ruhig]7 [wie]8 [ein Arzt]9.
+RU: [Он]1 [носил]2 [наушники]3 [и]4 [говорил]5 [с клиентами]6 [так спокойно]7, [как]8 [врач]9.
+3 note: Der Kopfhörer, die Kopfhörer: наушники.
+7 note: So ... wie: так ..., как (сравнение равенства).
+
+== p3
+DE: [Der Vormittag]1 [verging]2 [mit Passwörtern]3.
+RU: [Утро]1 [прошло]2 [за паролями]3.
+2 note: Vergehen: проходить (о времени). Präteritum: verging; Perfekt: ist vergangen.
+
+DE: [Das erste]1 [war]2 [zu kurz]3, [das zweite]4 [hatte]5 [keine Zahl]6, [und]7 [das dritte]8 [hatte]9 [sie]10 [nach fünf Minuten]11 [vergessen]9.
+RU: [Первый]1 [был]2 [слишком коротким]3, [во втором]4 [не было]5 [цифры]6, [а]7 [третий]8 [она]10 [через пять минут]11 [забыла]9.
+3 note: Zu kurz: слишком короткий.
+6 note: Die Zahl: число, цифра; keine Zahl — ни одной цифры.
+
+DE: [Nach dem Mittagessen]1 [durfte]2 [sie]3 [endlich]4 [richtig]5 [arbeiten]2: [Rechnungen]6 [prüfen]7 [und]8 [an Kunden]9 [schicken]10.
+RU: [После обеда]1 [ей]3 [наконец]4 [разрешили]2 [по-настоящему]5 [работать]2: [проверять]7 [счета]6 [и]8 [отправлять]10 [их]0 [клиентам]9.
+2 form: Dürfen: мочь, иметь разрешение. Präteritum: durfte; Perfekt: hat gedurft.
+6 note: Die Rechnung: счёт, накладная.
+
+DE: [Das]1 [kannte]2 [sie]3. [Das]4 [konnte]5 [sie]6.
+RU: [Это]1 [она]3 [знала]2. [Это]4 [она]6 [умела]5.
+2 note: Kennen: знать, быть знакомым с чем-то.
+5 note: Können здесь «уметь».
+
+DE: [Um drei Uhr]1 [klickte]2 [sie]3 [auf]4 „[Senden]5“ [und]6 [merkte]7 [im selben Moment]8 [ihren Fehler]9.
+RU: [В три часа]1 [она]3 [нажала]2 [на]4 «[Отправить]5» [и]6 [в тот же момент]8 [заметила]7 [свою ошибку]9.
+7 note: Merken: заметить, понять.
+8 note: Im selben Moment: в тот же момент.
+
+DE: [Eine Rechnung]1 [über achtzig Euro]2 [war]3 [mit einer zusätzlichen Null]4 [an einen Kunden]5 [in Dresden]6 [gegangen]3.
+RU: [Счёт]1 [на восемьдесят евро]2 [ушёл]3 [к клиенту]5 [в Дрезден]6 [с лишним нулём]4.
+2 note: Eine Rechnung über + Akkusativ: счёт на какую-то сумму.
+4 note: Zusätzlich: дополнительный, лишний.
+
+DE: [Achthundert Euro]1 [für einen Fahrradsattel]2.
+RU: [Восемьсот евро]1 [за велосипедное седло]2.
+2 note: Der Sattel: седло.
+
+== p4
+DE: [Daria]1 [wurde]2 [heiß]2.
+RU: [Дарью]1 [бросило в жар]2.
+2 note: Ihr wurde heiß: ей стало жарко, её бросило в жар.
+
+DE: [In Riga]1 [hätte]2 [sie]3 [so einen Fehler]4 [niemals]5 [gemacht]2.
+RU: [В Риге]1 [она]3 [никогда]5 [бы]2 [не]5 [сделала]2 [такую ошибку]4.
+2 form: Konjunktiv II прошедшего: hätte ... gemacht — сделала бы.
+4 note: So einen: такой (разговорное).
+
+DE: [Sie]1 [überlegte]2 [kurz]3, [ob]4 [sie]0 [es]6 [einfach]7 [verschweigen]8 [sollte]9.
+RU: [Она]1 [на секунду]3 [задумалась]2, [не]9 [стоит]9 [ли]4 [просто]7 [промолчать]8 [об этом]6.
+4 sent: Ob: косвенный вопрос «ли», глагол sollte в конце.
+8 note: Verschweigen: умолчать, скрыть.
+
+DE: [Dann]1 [drehte]2 [sie]3 [sich]2 [zu Kemal]4 [um]2.
+RU: [Потом]1 [она]3 [повернулась]2 [к Кемалю]4.
+2 note: Sich umdrehen: повернуться, обернуться.
+
+DE: „[Ich]1 [glaube]2, [ich]3 [habe]4 [gerade]5 [einen Kunden]6 [sehr]7 [erschreckt]4.“
+RU: «[Кажется]1,2, [я]3 [только что]5 [очень]7 [напугала]4 [одного клиента]6.»
+2 note: Ich glaube: мне кажется, думаю.
+4 note: Erschrecken: напугать (кого-то, schwach: erschreckte, hat erschreckt).
+
+DE: [Kemal]1 [nahm]2 [die Kopfhörer]3 [ab]2, [sah]4 [auf ihren Bildschirm]5 [und]6 [lachte]7.
+RU: [Кемаль]1 [снял]2 [наушники]3, [посмотрел]4 [на её экран]5 [и]6 [засмеялся]7.
+2 note: Abnehmen: снимать (наушники, очки, шапку).
+5 note: Der Bildschirm: экран, монитор.
+
+DE: „[Das]1 [ist]2 [nichts]3.
+RU: «[Это]1 [ерунда]2,3.
+3 note: Das ist nichts: это пустяк, ерунда.
+
+DE: [Ich]1 [habe]2 [in meiner ersten Woche]3 [hundert Fahrräder]4 [nach Österreich]5 [geschickt]2, [statt]6 [zehn]7.“
+RU: [Я]1 [на первой неделе]3 [отправил]2 [в Австрию]5 [сто велосипедов]4 [вместо]6 [десяти]7.»
+6 note: Statt: вместо.
+
+== p5
+DE: [Zusammen]1 [riefen]2 [sie]3 [den Kunden]4 [in Dresden]5 [an]2.
+RU: [Вместе]1 [они]3 [позвонили]2 [клиенту]4 [в Дрезден]5.
+2 form: Anrufen + Akkusativ: jemanden anrufen. Präteritum: rief an; Perfekt: hat angerufen.
+
+DE: [Der Mann]1 [war]2 [Rentner]3 [und]4 [hatte]5 [die Rechnung]6 [noch gar nicht]7 [geöffnet]5.
+RU: [Мужчина]1 [был]2 [пенсионером]3 [и]4 [ещё вообще не]7 [открывал]5 [счёт]6.
+3 note: Der Rentner: пенсионер.
+7 note: Noch gar nicht: ещё совсем не.
+
+DE: [Er]1 [fand]2 [die Geschichte]3 [so lustig]4, [dass]5 [er]6 [gleich]7 [noch]8 [eine Klingel]9 [bestellte]10.
+RU: [Ему]1 [история]3 [показалась]2 [такой смешной]4, [что]5 [он]6 [сразу]7 [заказал]10 [ещё]8 [и звонок]9.
+2 note: Etwas lustig finden: находить что-то смешным.
+5 sent: So ..., dass: так ..., что; глагол bestellte в конце.
+9 note: Die Klingel: здесь велосипедный звонок.
+
+DE: [Um vier]1 [schnitt]2 [Daria]3 [ihren Kuchen]4 [an]2.
+RU: [В четыре]1 [Дарья]3 [разрезала]2 [свой пирог]4.
+2 note: Anschneiden: начать резать (торт, пирог).
+
+DE: [Thomas]1 [nahm]2 [zwei Stücke]3 [und]4 [fragte]5 [nach dem Rezept]6.
+RU: [Томас]1 [взял]2 [два куска]3 [и]4 [спросил]5 [рецепт]6.
+6 note: Fragen nach + Dativ: спрашивать о чём-то.
+
+DE: [Kemal]1 [schrieb]2 [eine Nachricht]3 [in den Team-Chat]4: „[Neue Regel]5: [Wer]6 [eine Null]7 [zu viel]8 [schreibt]9, [bringt]10 [Kuchen]11 [mit]10.“
+RU: [Кемаль]1 [написал]2 [сообщение]3 [в командный чат]4: «[Новое правило]5: [кто]6 [напишет]9 [лишний]8 [ноль]7, [приносит]10 [пирог]11.»
+6 sent: Wer ..., (der) ...: кто ..., тот ...; глагол schreibt в конце придаточного.
+8 note: Zu viel: слишком много, лишний.
+
+== p6
+DE: [Am Abend]1 [fuhr]2 [Daria]3 [mit der Straßenbahn]4 [nach Hause]5.
+RU: [Вечером]1 [Дарья]3 [поехала]2 [домой]5 [на трамвае]4.
+
+DE: [Sie]1 [war]2 [müde]3, [ihr Kopf]4 [war]5 [voll]6 [mit neuen Wörtern]7, [und]8 [sie]9 [wusste]10 [immer noch]11 [nicht]12 [ihr drittes Passwort]13.
+RU: [Она]1 [устала]2,3, [её голова]4 [была]5 [полна]6 [новых слов]7, [и]8 [она]9 [всё ещё]11 [не]12 [помнила]10 [свой третий пароль]13.
+10 note: Wissen: знать (факт); здесь «помнить».
+11 note: Immer noch: всё ещё.
+
+DE: [Aber]1 [zum ersten Mal]2 [seit einem Jahr]3 [fühlte]4 [sich]4 [Leipzig]5 [nicht]6 [mehr]6 [wie eine fremde Stadt]7 [an]4.
+RU: [Но]1 [впервые]2 [за год]3 [Лейпциг]5 [больше не]6 [казался]4 [чужим городом]7.
+4 note: Sich anfühlen wie: ощущаться как, казаться.
+6 note: Nicht mehr: больше не.

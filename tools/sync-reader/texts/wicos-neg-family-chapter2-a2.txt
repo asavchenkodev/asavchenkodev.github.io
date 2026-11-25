@@ -1,0 +1,216 @@
+id: a2-wicos-neg-kapitel2-family-v2
+title: Wicos Neg A2: Familie und Feste / Семья и праздники
+level: A2
+topic: семья, праздники, планы
+source: user generated
+hintLanguage: ru
+folderId: wicos-neg
+
+== p1
+DE: [Am]1 [Sonntag]1 [hat]2 [Mira]2 [endlich]3 [Zeit]4 [für]5 [ihre]6 [Familie]6.
+RU: [В]1 [воскресенье]1 [у]2 [Миры]2 [наконец]3 [есть]2 [время]4 [для]5 [её]6 [семьи]6.
+2 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+
+DE: [Sie]1 [kocht]2 [einen]3 [Tee]3 [und]4 [startet]5 [den]6 [Videoanruf]6.
+RU: [Она]1 [заваривает]2 [чай]3 [и]4 [запускает]5 [видеозвонок]6.
+2 note: Tee kochen: заваривать чай.
+2 form: Инфинитив kochen: ich koche, er kocht, wir kochen; Präteritum: kochte; Perfekt: hat gekocht.
+5 form: Инфинитив starten: ich starte, er startet, wir starten; Präteritum: startete; Perfekt: hat gestartet.
+6 note: Der Videoanruf: видеозвонок.
+
+DE: [Auf]1 [dem]1 [Bildschirm]1 [erscheinen]2 [ihre]3 [Eltern]3 [und]4 [winken]5 [fröhlich]6.
+RU: [На]1 [экране]1 [появляются]2 [её]3 [родители]3 [и]4 [весело]6 [машут]5.
+1 note: Der Bildschirm: экран.
+2 note: Erscheinen: появляться.
+2 form: Инфинитив erscheinen: ich erscheine, er erscheint, wir erscheinen; Präteritum: erschien; Perfekt: ist erschienen.
+5 note: Winken: махать рукой.
+5 form: Инфинитив winken: ich winke, er winkt, wir winken; Präteritum: winkte; Perfekt: hat gewinkt.
+
+DE: [Die]1 [Verbindung]1 [ist]2 [heute]3 [gut]2, [das]4 [Bild]4 [ist]5 [klar]5.
+RU: [Связь]1 [сегодня]3 [хорошая]2, [картинка]4 [чёткая]5.
+1 note: Die Verbindung: связь, соединение.
+
+== p2
+DE: [Zuerst]1 [erzählt]2 [die]3 [Mutter]3 [eine]4 [große]5 [Neuigkeit]4.
+RU: [Сначала]1 [мама]3 [рассказывает]2 [большую]5 [новость]4.
+2 form: Инфинитив erzählen: ich erzähle, er erzählt, wir erzählen; Präteritum: erzählte; Perfekt: hat erzählt.
+4 note: Die Neuigkeit: новость.
+
+DE: [Die]1 [Großmutter]1 [wird]2 [im]3 [August]3 [achtzig]4 [Jahre]5 [alt]2.
+RU: [Бабушке]1 [в]3 [августе]3 [исполняется]2 [восемьдесят]4 [лет]5.
+2 note: Alt werden: становиться старше.
+2 form: Werden: du wirst, er wird. Инфинитив werden: ich werde, er wird, wir werden; Präteritum: wurde; Perfekt: ist geworden.
+
+DE: [Die]1 [ganze]2 [Familie]1 [plant]3 [deshalb]4 [ein]5 [großes]6 [Fest]5 [im]7 [Garten]7.
+RU: [Поэтому]4 [вся]2 [семья]1 [планирует]3 [большой]6 [праздник]5 [в]7 [саду]7.
+3 form: Инфинитив planen: ich plane, er plant, wir planen; Präteritum: plante; Perfekt: hat geplant.
+5 note: Das Fest: праздник.
+
+DE: [Es]1 [soll]2 [eine]3 [Überraschung]3 [sein]2, [also]4 [darf]5 [niemand]6 [etwas]7 [verraten]8.
+RU: [Это]1 [должен]2 [быть]2 [сюрприз]3, [поэтому]4 [никто]6 [не]5 [может]5 [ничего]7 [выдать]8.
+2 form: Sollen: так запланировано. Инфинитив sollen: ich soll, er soll, wir sollen; Präteritum: sollte; Perfekt: hat gesollt.
+3 note: Die Überraschung: сюрприз.
+4 note: Also: значит, поэтому.
+5 note: Dürfen: иметь разрешение; с niemand — никому нельзя.
+5 form: Инфинитив dürfen: ich darf, er darf, wir dürfen; Präteritum: durfte; Perfekt: hat gedurft.
+7 note: В немецком одно отрицание: niemand уже отрицает, поэтому etwas, а не nichts.
+8 note: Verraten: выдать секрет.
+8 form: Инфинитив verraten: ich verrate, er verrät, wir verraten; Präteritum: verriet; Perfekt: hat verraten.
+
+DE: [Der]1 [Vater]1 [lacht]2 [und]3 [sagt]4: [Oma]5 [merkt]6 [doch]7 [alles]8.
+RU: [Папа]1 [смеётся]2 [и]3 [говорит]4: [бабушка]5 [ведь]7 [замечает]6 [всё]8.
+2 form: Инфинитив lachen: ich lache, er lacht, wir lachen; Präteritum: lachte; Perfekt: hat gelacht.
+4 form: Инфинитив sagen: ich sage, er sagt, wir sagen; Präteritum: sagte; Perfekt: hat gesagt.
+5 note: Die Oma: бабушка, разговорно.
+6 note: Merken: замечать.
+6 form: Инфинитив merken: ich merke, er merkt, wir merken; Präteritum: merkte; Perfekt: hat gemerkt.
+7 note: Doch: усилительная частица.
+
+== p3
+DE: [Dann]1 [kommt]2 [die]3 [Schwester]3 [Lena]4 [ins]5 [Bild]5.
+RU: [Потом]1 [в]5 [кадре]5 [появляется]2 [сестра]3 [Лена]4.
+2 form: Инфинитив kommen: ich komme, er kommt, wir kommen; Präteritum: kam; Perfekt: ist gekommen.
+5 note: Ins Bild kommen: появиться в кадре.
+
+DE: [Sie]1 [hat]2 [ein]3 [Praktikum]3 [in]4 [Spanien]5 [bekommen]2 [und]6 [beginnt]7 [im]8 [Oktober]8.
+RU: [Она]1 [получила]2 [стажировку]3 [в]4 [Испании]5 [и]6 [начинает]7 [в]8 [октябре]8.
+2 form: Perfekt: haben + Partizip II в конце рамки. Инфинитив bekommen: ich bekomme, er bekommt, wir bekommen; Präteritum: bekam; Perfekt: hat bekommen.
+3 note: Das Praktikum: стажировка, практика.
+7 form: Инфинитив beginnen: ich beginne, er beginnt, wir beginnen; Präteritum: begann; Perfekt: hat begonnen.
+
+DE: [Mira]1 [gratuliert]2 [ihr]3 [von]4 [Herzen]4.
+RU: [Мира]1 [поздравляет]2 [её]3 [от]4 [всего]4 [сердца]4.
+2 form: Gratulieren + Dativ: поздравлять кого-то. Инфинитив gratulieren: ich gratuliere, er gratuliert, wir gratulieren; Präteritum: gratulierte; Perfekt: hat gratuliert.
+4 note: Von Herzen: от души.
+
+DE: [Der]1 [Bruder]1 [Paul]2 [soll]3 [die]4 [Torte]4 [für]5 [das]6 [Fest]6 [bestellen]7.
+RU: [Брат]1 [Пауль]2 [должен]3 [заказать]7 [торт]4 [для]5 [праздника]6.
+3 form: Модальный глагол: инфинитив bestellen в конце. Инфинитив sollen: ich soll, er soll, wir sollen; Präteritum: sollte; Perfekt: hat gesollt.
+4 note: Die Torte: торт.
+7 note: Bestellen: заказывать.
+7 form: Инфинитив bestellen: ich bestelle, er bestellt, wir bestellen; Präteritum: bestellte; Perfekt: hat bestellt.
+
+DE: [Aber]1 [Paul]2 [vergisst]3 [oft]4 [wichtige]5 [Dinge]6.
+RU: [Но]1 [Пауль]2 [часто]4 [забывает]3 [важные]5 [вещи]6.
+3 note: Vergessen: забывать.
+3 form: Сильный глагол: du vergisst, er vergisst. Инфинитив vergessen: ich vergesse, er vergisst, wir vergessen; Präteritum: vergaß; Perfekt: hat vergessen.
+6 note: Das Ding, die Dinge: вещь.
+
+DE: [Darum]1 [schreibt]2 [Mira]3 [ihm]4 [sofort]5 [eine]6 [Erinnerung]6.
+RU: [Поэтому]1 [Мира]3 [сразу]5 [пишет]2 [ему]4 [напоминание]6.
+1 note: Darum = deshalb: поэтому.
+2 form: Инфинитив schreiben: ich schreibe, er schreibt, wir schreiben; Präteritum: schrieb; Perfekt: hat geschrieben.
+4 form: Dativ: schreiben + кому.
+6 note: Die Erinnerung: напоминание; воспоминание.
+
+== p4
+DE: [Mira]1 [hat]1 [auch]2 [eine]3 [Idee]3 [für]4 [ein]5 [besonderes]6 [Geschenk]5.
+RU: [У]1 [Миры]1 [тоже]2 [есть]1 [идея]3 [для]4 [особенного]6 [подарка]5.
+1 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+6 form: Окончание -es: средний род после ein.
+
+DE: [Sie]1 [möchte]2 [ein]3 [Fotoalbum]3 [über]4 [das]5 [Leben]5 [der]6 [Großmutter]6 [machen]7.
+RU: [Она]1 [хочет]2 [сделать]7 [фотоальбом]3 [о]4 [жизни]5 [бабушки]6.
+2 note: Möchten: хотел бы, вежливое желание.
+2 form: Möchten: ich möchte, er möchte, wir möchten; прошедшее время берёт формы wollen: wollte.
+4 note: Über + Akkusativ: о чём.
+6 form: Genitiv: der Großmutter — чья жизнь.
+7 form: Инфинитив machen: ich mache, er macht, wir machen; Präteritum: machte; Perfekt: hat gemacht.
+
+DE: [Dafür]1 [braucht]2 [sie]2 [alte]3 [Fotos]4 [aus]5 [vielen]6 [Jahren]7.
+RU: [Для]1 [этого]1 [ей]2 [нужны]2 [старые]3 [фотографии]4 [за]5 [многие]6 [годы]7.
+1 note: Dafür: для этого.
+2 note: Brauchen + Akkusativ: нуждаться в чём-то.
+2 form: Инфинитив brauchen: ich brauche, er braucht, wir brauchen; Präteritum: brauchte; Perfekt: hat gebraucht.
+7 form: Dativ Plural: окончание -n.
+
+DE: [Die]1 [Tante]1 [Swetlana]1 [hat]1 [zu]2 [Hause]2 [viele]3 [Kartons]4 [mit]5 [Bildern]5.
+RU: [У]1 [тёти]1 [Светланы]1 [дома]2 [много]3 [коробок]4 [с]5 [фотографиями]5.
+1 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+4 note: Der Karton: коробка.
+5 note: Das Bild, die Bilder: картинка, фото.
+
+DE: [Sie]1 [verspricht]2, [die]3 [schönsten]4 [Fotos]3 [zu]5 [suchen]5 [und]6 [zu]7 [schicken]7.
+RU: [Она]1 [обещает]2 [найти]5 [и]6 [прислать]7 [самые]4 [красивые]4 [фотографии]3.
+2 form: Инфинитив versprechen: ich verspreche, er verspricht, wir versprechen; Präteritum: versprach; Perfekt: hat versprochen.
+2 sent: Инфинитивная группа с zu стоит после запятой.
+4 form: Превосходная степень: schön — der schönste.
+5 form: Zu-инфинитив после versprechen. Инфинитив suchen: ich suche, er sucht, wir suchen; Präteritum: suchte; Perfekt: hat gesucht.
+7 note: Schicken: посылать.
+7 form: Инфинитив schicken: ich schicke, er schickt, wir schicken; Präteritum: schickte; Perfekt: hat geschickt.
+
+== p5
+DE: [Nach]1 [dem]1 [Anruf]1 [ist]2 [Mira]3 [ein]4 [bisschen]4 [traurig]2.
+RU: [После]1 [звонка]1 [Мира]3 [немного]4 [грустная]2.
+1 form: Nach + Dativ: после.
+
+DE: [Sie]1 [vermisst]2 [ihre]3 [Heimat]3 [und]4 [den]5 [Geruch]5 [von]6 [Omas]6 [Küche]7.
+RU: [Она]1 [скучает]2 [по]2 [родине]3 [и]4 [запаху]5 [бабушкиной]6 [кухни]7.
+2 note: Vermissen: скучать по кому-то или чему-то.
+2 form: Инфинитив vermissen: ich vermisse, er vermisst, wir vermissen; Präteritum: vermisste; Perfekt: hat vermisst.
+3 note: Die Heimat: родина.
+5 note: Der Geruch: запах.
+6 note: Omas Küche: разговорный вариант вместо Genitiv.
+
+DE: [Aber]1 [dann]2 [denkt]3 [sie]4 [an]5 [den]6 [August]6 [und]7 [freut]8 [sich]8.
+RU: [Но]1 [потом]2 [она]4 [думает]3 [об]5 [августе]6 [и]7 [радуется]8.
+3 form: Denken an + Akkusativ: думать о. Инфинитив denken: ich denke, er denkt, wir denken; Präteritum: dachte; Perfekt: hat gedacht.
+8 note: Sich freuen: радоваться.
+8 form: Инфинитив sich freuen: ich freue mich, er freut sich, wir freuen uns; Präteritum: freute sich; Perfekt: hat sich gefreut.
+
+DE: [Für]1 [die]2 [Reise]2 [nach]3 [Hause]3 [hat]4 [sie]4 [schon]5 [einen]6 [Plan]6 [und]7 [ein]8 [Sparkonto]8.
+RU: [Для]1 [поездки]2 [домой]3 [у]4 [неё]4 [уже]5 [есть]4 [план]6 [и]7 [сберегательный]8 [счёт]8.
+3 note: Nach Hause: домой, направление.
+4 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+
+DE: [Sie]1 [will]2 [zehn]3 [Tage]3 [bleiben]4 [und]5 [viel]6 [Zeit]7 [mit]8 [der]8 [Familie]8 [verbringen]9.
+RU: [Она]1 [хочет]2 [остаться]4 [на]3 [десять]3 [дней]3 [и]5 [провести]9 [много]6 [времени]7 [с]8 [семьёй]8.
+2 form: Модальный глагол: инфинитивы bleiben и verbringen в конце. Инфинитив wollen: ich will, er will, wir wollen; Präteritum: wollte; Perfekt: hat gewollt.
+4 form: Инфинитив bleiben: ich bleibe, er bleibt, wir bleiben; Präteritum: blieb; Perfekt: ist geblieben.
+9 note: Zeit verbringen: проводить время.
+9 form: Инфинитив verbringen: ich verbringe, er verbringt, wir verbringen; Präteritum: verbrachte; Perfekt: hat verbracht.
+
+== p6
+DE: [Am]1 [Ende]1 [des]2 [Gesprächs]2 [gibt]3 [es]3 [noch]4 [eine]5 [Überraschung]5.
+RU: [В]1 [конце]1 [разговора]2 [есть]3 [ещё]4 [один]5 [сюрприз]5.
+2 note: Das Gespräch: разговор.
+2 form: Genitiv: des Gesprächs.
+3 note: Es gibt: есть, имеется.
+3 form: Оборот es gibt (geben): только es gibt; Präteritum: es gab; Perfekt: es hat gegeben.
+
+DE: [Die]1 [Eltern]1 [möchten]2 [Mira]3 [im]4 [Herbst]4 [in]5 [Jena]6 [besuchen]7.
+RU: [Родители]1 [хотят]2 [навестить]7 [Миру]3 [осенью]4 [в]5 [Йене]6.
+2 form: Möchten: ich möchte, er möchte, wir möchten; прошедшее время берёт формы wollen: wollte.
+4 note: Der Herbst: осень.
+7 note: Besuchen: навещать.
+7 form: Инфинитив besuchen: ich besuche, er besucht, wir besuchen; Präteritum: besuchte; Perfekt: hat besucht.
+
+DE: [Sie]1 [wollen]2 [ihre]3 [Stadt]3, [ihre]4 [Arbeit]4 [und]5 [ihre]6 [Freunde]6 [kennenlernen]7.
+RU: [Они]1 [хотят]2 [познакомиться]7 [с]3 [её]3 [городом]3, [её]4 [работой]4 [и]5 [её]6 [друзьями]6.
+2 form: Инфинитив wollen: ich will, er will, wir wollen; Präteritum: wollte; Perfekt: hat gewollt.
+7 note: Kennenlernen: познакомиться с кем-то или чем-то.
+7 form: Инфинитив kennenlernen: ich lerne kennen, er lernt kennen, wir lernen kennen; Präteritum: lernte kennen; Perfekt: hat kennengelernt.
+
+DE: [Mira]1 [notiert]2 [sofort]3 [mögliche]4 [Termine]5 [in]6 [ihrem]7 [Kalender]7.
+RU: [Мира]1 [сразу]3 [записывает]2 [возможные]4 [даты]5 [в]6 [свой]7 [календарь]7.
+2 note: Notieren: записывать.
+2 form: Инфинитив notieren: ich notiere, er notiert, wir notieren; Präteritum: notierte; Perfekt: hat notiert.
+5 note: Der Termin, die Termine: назначенная дата, встреча.
+
+DE: [Nach]1 [dem]1 [Anruf]1 [schreibt]2 [sie]3 [eine]4 [Liste]4: [Torte]5, [Fotos]6, [Zugticket]7, [Geschenkpapier]8.
+RU: [После]1 [звонка]1 [она]3 [пишет]2 [список]4: [торт]5, [фотографии]6, [билет]7 [на]7 [поезд]7, [упаковочная]8 [бумага]8.
+2 form: Инфинитив schreiben: ich schreibe, er schreibt, wir schreiben; Präteritum: schrieb; Perfekt: hat geschrieben.
+8 note: Das Geschenkpapier: бумага для упаковки подарков.
+
+DE: [Solche]1 [Pläne]2 [machen]3 [ihr]4 [gute]3 [Laune]3.
+RU: [Такие]1 [планы]2 [поднимают]3 [ей]4 [настроение]3.
+2 note: Der Plan, die Pläne: план.
+3 note: Gute Laune machen: поднимать настроение.
+3 form: Инфинитив machen: ich mache, er macht, wir machen; Präteritum: machte; Perfekt: hat gemacht.
+4 form: Dativ: кому.
+
+DE: [Bis]1 [August]1 [ist]2 [noch]3 [Zeit]2, [aber]4 [Mira]5 [zählt]6 [schon]7 [die]8 [Wochen]8.
+RU: [До]1 [августа]1 [ещё]3 [есть]2 [время]2, [но]4 [Мира]5 [уже]7 [считает]6 [недели]8.
+1 note: Bis: до какого времени.
+6 note: Zählen: считать.
+6 form: Инфинитив zählen: ich zähle, er zählt, wir zählen; Präteritum: zählte; Perfekt: hat gezählt.

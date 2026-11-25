@@ -1,0 +1,155 @@
+id: work-sick-day-a2-v1
+title: Больничный / Krank im Bett
+level: A2
+topic: здоровье, врач, больничный, аптека, коллеги
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Ana]1 [kommt]2 [aus Porto]3 [und]4 [arbeitet]5 [in einem kleinen Café]6 [in Köln]7.
+RU: [Ана]1 [из Порту]2,3 [и]4 [работает]5 [в маленьком кафе]6 [в Кёльне]7.
+2 note: Kommen aus: быть родом из.
+6 note: Das Café: кафе; in einem kleinen Café — Dativ.
+
+DE: [Ihre Schicht]1 [beginnt]2 [jeden Morgen]3 [um sechs]4.
+RU: [Её смена]1 [начинается]2 [каждое утро]3 [в шесть]4.
+1 note: Die Schicht: смена.
+
+DE: [Heute]1 [klingelt]2 [der Wecker]3 [um fünf]4, [aber]5 [Ana]6 [kann]7 [kaum]8 [die Augen]9 [öffnen]7.
+RU: [Сегодня]1 [будильник]3 [звонит]2 [в пять]4, [но]5 [Ана]6 [едва]8 [может]7 [открыть]7 [глаза]9.
+3 note: Der Wecker: будильник.
+8 note: Kaum: едва, почти не.
+
+DE: [Ihr Kopf]1 [tut weh]2, [ihr Hals]3 [kratzt]4, [und]5 [ihr]6 [ist]0 [abwechselnd]7 [heiß]8 [und]9 [kalt]10.
+RU: [Голова]1 [болит]2, [в горле]3 [першит]4, [и]5 [ей]6 [то]7 [жарко]8, [то]9 [холодно]10.
+2 note: Wehtun: болеть. Mein Kopf tut weh — у меня болит голова.
+4 note: Der Hals kratzt: в горле першит.
+6 note: Mir ist kalt / heiß: мне холодно / жарко (Dativ).
+7 note: Abwechselnd: попеременно, то ... то.
+9 note: Und между heiß и kalt в русском заменяется вторым «то».
+
+DE: [Das Thermometer]1 [zeigt]2 [achtunddreißig Komma fünf]3.
+RU: [Градусник]1 [показывает]2 [тридцать восемь и пять]3.
+1 note: Das Thermometer: градусник.
+3 note: Komma: запятая в десятичных числах, 38,5.
+
+== p2
+DE: [Ana]1 [möchte]2 [ihre Kollegen]3 [nicht]4 [allein lassen]2.
+RU: [Ана]1 [не]4 [хочет]2 [оставлять]2 [своих коллег]3 [одних]2.
+2 note: Allein lassen: оставить одного, бросить.
+
+DE: [Am Freitag]1 [ist]2 [das Café]3 [immer]4 [voll]2.
+RU: [По пятницам]1 [кафе]3 [всегда]4 [полное]2.
+
+DE: [Trotzdem]1 [schreibt]2 [sie]3 [ihrer Chefin]4 [eine Nachricht]5: „[Ich]6 [bin]7 [krank]7 [und]8 [kann]9 [heute]10 [leider]11 [nicht]12 [kommen]9.“
+RU: [Всё-таки]1 [она]3 [пишет]2 [своей начальнице]4 [сообщение]5: «[Я]6 [заболела]7 [и]8 [сегодня]10, [к сожалению]11, [не]12 [смогу]9 [прийти]9.»
+1 note: Trotzdem: несмотря на это, всё-таки.
+4 note: Schreiben + Dativ (кому): ihrer Chefin.
+11 note: Leider: к сожалению.
+
+DE: [Frau Weber]1 [antwortet]2 [sofort]3: „[Bleib]4 [im Bett]5!
+RU: [Фрау Вебер]1 [сразу]3 [отвечает]2: «[Оставайся]4 [в постели]5!
+4 form: Императив на «ты»: bleib! (bleiben).
+
+DE: [Wir]1 [schaffen]2 [das]3.
+RU: [Мы]1 [справимся]2,3.
+2 note: Etwas schaffen: справиться с чем-то.
+
+DE: [Aber]1 [geh]2 [bitte]3 [zum Arzt]4, [du]5 [brauchst]6 [eine Krankschreibung]7.“
+RU: [Но]1 [сходи]2, [пожалуйста]3, [к врачу]4, [тебе]5 [нужен]6 [больничный]7.»
+4 note: Zum Arzt gehen: идти к врачу; zum = zu dem.
+7 note: Die Krankschreibung: больничный лист от врача.
+7 sent: В Германии больничный нужен работодателю обычно с третьего дня болезни, но многие начальники просят его сразу.
+
+== p3
+DE: [Um acht]1 [ruft]2 [Ana]3 [in der Hausarztpraxis]4 [an]2.
+RU: [В восемь]1 [Ана]3 [звонит]2 [в кабинет семейного врача]4.
+2 form: Anrufen: приставка an в конце. Präteritum: rief an; Perfekt: hat angerufen.
+4 note: Der Hausarzt: семейный врач, терапевт, к которому идут в первую очередь.
+
+DE: [Sie]1 [hört]2 [Musik]3 [und]4 [eine Stimme]5: „[Sie]6 [sind]0 [Nummer zwölf]8 [in der Warteschlange]9.“
+RU: [Она]1 [слышит]2 [музыку]3 [и]4 [голос]5: «[Вы]6 [двенадцатый]8 [в очереди]9.»
+9 note: Die Warteschlange: очередь (в том числе телефонная).
+
+DE: [Nach zwanzig Minuten]1 [spricht]2 [sie]3 [endlich]4 [mit einer Arzthelferin]5.
+RU: [Через двадцать минут]1 [она]3 [наконец]4 [говорит]2 [с медсестрой]5.
+1 note: Nach + Dativ (о времени): через, спустя.
+5 note: Die Arzthelferin: помощница врача, медсестра на ресепшене практики.
+
+DE: „[Kommen Sie]1 [um elf]2, [und]3 [bringen Sie]4 [Ihre Versichertenkarte]5 [mit]4.“
+RU: «[Приходите]1 [в одиннадцать]2 [и]3 [возьмите с собой]4 [вашу страховую карту]5.»
+1 form: Вежливый императив: kommen Sie, bringen Sie — глагол на первом месте.
+4 note: Mitbringen: приносить с собой.
+5 note: Die Versichertenkarte: карточка медицинской страховки (Krankenkassenkarte).
+
+== p4
+DE: [Das Wartezimmer]1 [ist]2 [voll]2 [mit hustenden Menschen]3.
+RU: [Приёмная]1 [полна]2 [кашляющих людей]3.
+1 note: Das Wartezimmer: комната ожидания у врача.
+3 note: Husten: кашлять; hustend — кашляющий (причастие).
+
+DE: [Ein kleiner Junge]1 [neben ihr]2 [malt]3 [ein Bild]4 [von einem Krokodil]5.
+RU: [Маленький мальчик]1 [рядом с ней]2 [рисует]3 [картинку]4 [с крокодилом]5.
+2 note: Neben + Dativ: рядом с кем-то.
+3 note: Malen: рисовать красками или карандашами.
+
+DE: „[Das Krokodil]1 [ist]0 [auch]2 [krank]3“, [erklärt]4 [er]5 [ernst]6.
+RU: «[Крокодил]1 [тоже]2 [болеет]3», — [серьёзно]6 [объясняет]4 [он]5.
+4 form: Инфинитив erklären: ich erkläre, er erklärt; Präteritum: erklärte; Perfekt: hat erklärt.
+
+DE: [Ana]1 [muss]2 [zum ersten Mal]3 [an diesem Tag]4 [lachen]2.
+RU: [Ана]1 [впервые]3 [за этот день]4 [не может]2 [не]2 [рассмеяться]2.
+2 note: Lachen müssen: не удержаться от смеха.
+
+DE: [Die Ärztin]1 [hört]2 [ihre Lunge]3 [ab]2, [schaut]4 [in ihren Hals]5 [und]6 [stellt]7 [ein paar Fragen]8.
+RU: [Врач]1 [слушает]2 [её лёгкие]3, [смотрит]4 [ей в горло]5 [и]6 [задаёт]7 [несколько вопросов]8.
+2 note: Abhören: прослушивать (стетоскопом).
+3 note: Die Lunge: лёгкие.
+
+DE: „[Eine Grippe]1“, [sagt]2 [sie]3. „[Sie]4 [bleiben]5 [bis Mittwoch]6 [zu Hause]7.
+RU: «[Грипп]1», — [говорит]2 [она]3. — «[Вы]4 [остаётесь]5 [дома]7 [до среды]6.
+1 note: Die Grippe: грипп; eine Erkältung — простуда.
+
+DE: [Die Krankmeldung]1 [bekommt]2 [Ihr Arbeitgeber]3 [elektronisch]4.“
+RU: [Больничный]1 [ваш работодатель]3 [получит]2 [в электронном виде]4.»
+1 note: Die Krankmeldung: сообщение о болезни, больничный.
+3 note: Der Arbeitgeber: работодатель; der Arbeitnehmer — работник.
+4 sent: С 2023 года врач в Германии передаёт больничный в страховую электронно, бумажку работодателю нести не нужно.
+
+== p5
+DE: [In der Apotheke]1 [kauft]2 [Ana]3 [Tabletten]4 [gegen Fieber]5 [und]6 [Tee]7 [mit Salbei]8.
+RU: [В аптеке]1 [Ана]3 [покупает]2 [таблетки]4 [от температуры]5 [и]6 [чай]7 [с шалфеем]8.
+5 note: Gegen + Akkusativ: от (лекарство от чего-то); das Fieber — температура, жар.
+8 note: Der Salbei: шалфей.
+
+DE: [Der Apotheker]1 [sagt]2: „[Viel]3 [trinken]4, [viel]5 [schlafen]6 [und]7 [kein Handy]8!“
+RU: [Аптекарь]1 [говорит]2: «[Много]3 [пить]4, [много]5 [спать]6 [и]7 [никакого телефона]8!»
+4 sent: Инфинитив в роли совета или инструкции: viel trinken! — пейте много!
+
+DE: [Den letzten Rat]1 [ignoriert]2 [sie]3.
+RU: [Последний совет]1 [она]3 [игнорирует]2.
+1 note: Der Rat: совет; den letzten Rat — Akkusativ, стоит первым для акцента.
+
+DE: [Zu Hause]1 [schläft]2 [Ana]3 [fast]4 [den ganzen Tag]5.
+RU: [Дома]1 [Ана]3 [спит]2 [почти]4 [весь день]5.
+5 note: Den ganzen Tag: весь день, Akkusativ времени.
+
+== p6
+DE: [Am Abend]1 [klingelt]2 [es]0 [an der Tür]3.
+RU: [Вечером]1 [звонят]2 [в дверь]3.
+2 note: Es klingelt: звонят (в дверь); es — формальное подлежащее.
+
+DE: [Draußen]1 [steht]2 [niemand]3, [aber]4 [vor der Tür]5 [steht]6 [eine Tüte]7.
+RU: [Снаружи]1 [никого]3 [нет]2, [но]4 [перед дверью]5 [стоит]6 [пакет]7.
+3 note: Niemand: никто.
+7 note: Die Tüte: пакет.
+
+DE: [Darin]1 [sind]0 [eine Suppe]3, [zwei Croissants]4 [und]5 [ein Zettel]6: „[Gute Besserung]7! [Dein Café-Team]8.“
+RU: [В нём]1 [суп]3, [два круассана]4 [и]5 [записка]6: «[Выздоравливай]7! [Твоя команда кафе]8.»
+1 note: Darin: в нём, внутри.
+7 note: Gute Besserung: скорейшего выздоровления.
+
+DE: [Ana]1 [isst]2 [die Suppe]3 [im Bett]4 [und]5 [denkt]6: [Vielleicht]7 [ist]8 [Köln]9 [doch]10 [schon]11 [ein bisschen]12 [mein Zuhause]13.
+RU: [Ана]1 [ест]2 [суп]3 [в постели]4 [и]5 [думает]6: [может быть]7, [Кёльн]9 [и правда]10 [уже]11 [немного]12 [мой дом]13,8.
+10 note: Doch здесь усиливает: «всё-таки, и правда».
+13 note: Das Zuhause: дом в смысле «родное место»; zu Hause — дома.

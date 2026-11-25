@@ -1,0 +1,234 @@
+id: a2-wicos-neg-kapitel1-bank-v4
+title: Wicos Neg A2: Geld und Bank / Деньги и банк
+level: A2
+topic: деньги, банк, городская жизнь
+source: user generated
+hintLanguage: ru
+folderId: wicos-neg
+
+== p1
+DE: [Seit]1 [einem]1 [Monat]1 [wohnt]2 [Mira]3 [in]4 [Jena]5, [denn]6 [sie]7 [hat]8 [dort]9 [ihre]10 [erste]11 [Stelle]10 [gefunden]8.
+RU: [Уже]1 [месяц]1 [Мира]3 [живёт]2 [в]4 [Йене]5, [потому]6 [что]6 [она]7 [нашла]8 [там]9 [свою]10 [первую]11 [работу]10.
+1 note: Seit + Dativ: с какого времени длится действие.
+2 form: Инфинитив wohnen: ich wohne, er wohnt, wir wohnen; Präteritum: wohnte; Perfekt: hat gewohnt.
+6 note: Denn = потому что; после denn прямой порядок слов.
+8 form: Perfekt: haben + Partizip II в конце рамки. Инфинитив finden: ich finde, er findet, wir finden; Präteritum: fand; Perfekt: hat gefunden.
+10 note: Die Stelle: рабочее место, должность.
+
+DE: [Sie]1 [arbeitet]2 [in]3 [einer]4 [Mediothek]4 [und]5 [verdient]6 [ihr]7 [eigenes]8 [Geld]7.
+RU: [Она]1 [работает]2 [в]3 [медиатеке]4 [и]5 [зарабатывает]6 [свои]7 [собственные]8 [деньги]7.
+2 form: Инфинитив arbeiten: ich arbeite, er arbeitet, wir arbeiten; Präteritum: arbeitete; Perfekt: hat gearbeitet.
+4 form: Dativ после in: место где.
+6 note: Verdienen: зарабатывать деньги.
+6 form: Инфинитив verdienen: ich verdiene, er verdient, wir verdienen; Präteritum: verdiente; Perfekt: hat verdient.
+
+DE: [Ihr]1 [Gehalt]1 [kommt]2 [bald]3, [aber]4 [sie]5 [hat]5 [noch]6 [kein]7 [Konto]7 [in]8 [Deutschland]9.
+RU: [Её]1 [зарплата]1 [придёт]2 [скоро]3, [но]4 [у]5 [неё]5 [ещё]6 [нет]7 [счёта]7 [в]8 [Германии]9.
+1 note: Das Gehalt: месячная зарплата.
+2 form: Инфинитив kommen: ich komme, er kommt, wir kommen; Präteritum: kam; Perfekt: ist gekommen.
+5 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+7 form: Kein отрицает существительное: нет счёта.
+
+DE: [Deshalb]1 [geht]2 [sie]3 [am]4 [Montag]4 [zur]5 [Bank]5 [am]6 [Marktplatz]6.
+RU: [Поэтому]1 [в]4 [понедельник]4 [она]3 [идёт]2 [в]5 [банк]5 [на]6 [рыночной]6 [площади]6.
+1 sent: Deshalb стоит на позиции 1, глагол на позиции 2.
+2 form: Инфинитив gehen: ich gehe, er geht, wir gehen; Präteritum: ging; Perfekt: ist gegangen.
+4 note: am = an dem: с днями недели.
+5 note: zur = zu der.
+5 form: Zu + Dativ: направление к учреждению.
+6 note: Der Marktplatz: рыночная площадь.
+
+== p2
+DE: [In]1 [der]2 [Bank]2 [zieht]3 [Mira]4 [eine]5 [Nummer]5 [und]6 [wartet]7 [zwanzig]8 [Minuten]9.
+RU: [В]1 [банке]2 [Мира]4 [берёт]3 [номерок]5 [и]6 [ждёт]7 [двадцать]8 [минут]9.
+2 form: Dativ: место где.
+3 note: Eine Nummer ziehen: взять талон электронной очереди.
+3 form: Инфинитив ziehen: ich ziehe, er zieht, wir ziehen; Präteritum: zog; Perfekt: hat gezogen.
+7 form: Инфинитив warten: ich warte, er wartet, wir warten; Präteritum: wartete; Perfekt: hat gewartet.
+
+DE: [Dann]1 [ruft]2 [ein]3 [Mitarbeiter]3 [sie]4 [auf]2.
+RU: [Затем]1 [сотрудник]3 [вызывает]2 [её]4.
+2 note: Aufrufen: вызвать по номеру.
+2 form: Отделяемая приставка auf стоит в конце предложения. Инфинитив aufrufen: ich rufe auf, er ruft auf, wir rufen auf; Präteritum: rief auf; Perfekt: hat aufgerufen.
+
+DE: [Herr]1 [Weber]1 [ist]2 [freundlich]2 [und]3 [erklärt]4 [die]5 [Kontomodelle]5.
+RU: [Господин]1 [Вебер]1 [приветлив]2 [и]3 [объясняет]4 [виды]5 [счетов]5.
+4 form: Инфинитив erklären: ich erkläre, er erklärt, wir erklären; Präteritum: erklärte; Perfekt: hat erklärt.
+5 note: Das Kontomodell: вид банковского счёта.
+
+DE: [Das]1 [normale]2 [Girokonto]1 [kostet]3 [vier]4 [Euro]5 [Gebühr]6 [im]7 [Monat]7.
+RU: [Обычный]2 [расчётный]1 [счёт]1 [стоит]3 [четыре]4 [евро]5 [комиссии]6 [в]7 [месяц]7.
+1 note: Das Girokonto: текущий счёт для зарплаты и платежей.
+3 form: Инфинитив kosten: es kostet; Präteritum: kostete; Perfekt: hat gekostet.
+6 note: Die Gebühr: плата за услугу.
+7 note: im = in dem.
+
+DE: [Das]1 [Online-Konto]1 [ist]2 [kostenlos]2, [aber]3 [es]4 [gibt]4 [weniger]4 [Service]5 [in]6 [der]7 [Filiale]7.
+RU: [Онлайн-счёт]1 [бесплатный]2, [но]3 [в]6 [отделении]7 [меньше]4 [обслуживания]5.
+4 note: Es gibt: имеется, есть.
+4 form: Оборот es gibt (geben): только es gibt; Präteritum: es gab; Perfekt: es hat gegeben.
+7 note: Die Filiale: отделение банка.
+
+DE: [Mira]1 [vergleicht]2 [beide]3 [Angebote]4 [und]5 [wählt]6 [das]7 [Online-Konto]7.
+RU: [Мира]1 [сравнивает]2 [оба]3 [предложения]4 [и]5 [выбирает]6 [онлайн-счёт]7.
+2 note: Vergleichen: сравнивать варианты.
+2 form: Инфинитив vergleichen: ich vergleiche, er vergleicht, wir vergleichen; Präteritum: verglich; Perfekt: hat verglichen.
+4 note: Das Angebot, die Angebote: предложение.
+6 form: Инфинитив wählen: ich wähle, er wählt, wir wählen; Präteritum: wählte; Perfekt: hat gewählt.
+
+== p3
+DE: [Sie]1 [füllt]2 [ein]3 [langes]4 [Formular]3 [aus]2 [und]5 [zeigt]6 [ihren]7 [Ausweis]7.
+RU: [Она]1 [заполняет]2 [длинный]4 [формуляр]3 [и]5 [показывает]6 [своё]7 [удостоверение]7.
+2 form: Ausfüllen: приставка aus стоит в конце части предложения. Инфинитив ausfüllen: ich fülle aus, er füllt aus, wir füllen aus; Präteritum: füllte aus; Perfekt: hat ausgefüllt.
+4 form: Окончание -es: средний род после ein.
+6 form: Инфинитив zeigen: ich zeige, er zeigt, wir zeigen; Präteritum: zeigte; Perfekt: hat gezeigt.
+7 note: Der Ausweis: удостоверение личности.
+7 form: Akkusativ: ihren для мужского рода.
+
+DE: [Herr]1 [Weber]1 [prüft]2 [die]3 [Daten]3 [und]4 [bittet]5 [um]5 [eine]6 [Unterschrift]6.
+RU: [Господин]1 [Вебер]1 [проверяет]2 [данные]3 [и]4 [просит]5 [подпись]6.
+2 note: Prüfen: проверять.
+2 form: Инфинитив prüfen: ich prüfe, er prüft, wir prüfen; Präteritum: prüfte; Perfekt: hat geprüft.
+5 form: Bitten um + Akkusativ: просить о чём-то. Инфинитив bitten: ich bitte, er bittet, wir bitten; Präteritum: bat; Perfekt: hat gebeten.
+6 note: Die Unterschrift: подпись.
+
+DE: [Die]1 [Bankkarte]1 [kommt]2 [in]3 [einer]4 [Woche]4 [mit]5 [der]5 [Post]5.
+RU: [Банковская]1 [карта]1 [придёт]2 [через]3 [неделю]4 [по]5 [почте]5.
+2 form: Инфинитив kommen: ich komme, er kommt, wir kommen; Präteritum: kam; Perfekt: ist gekommen.
+3 note: In + время: через неделю.
+
+DE: [Die]1 [Geheimzahl]1 [bekommt]2 [sie]3 [in]4 [einem]5 [extra]6 [Brief]5.
+RU: [Пин-код]1 [она]3 [получит]2 [в]4 [отдельном]6 [письме]5.
+1 note: Die Geheimzahl: PIN-код карты.
+1 sent: Дополнение стоит на позиции 1, поэтому sie идёт после глагола.
+2 form: Инфинитив bekommen: ich bekomme, er bekommt, wir bekommen; Präteritum: bekam; Perfekt: hat bekommen.
+
+DE: [Mira]1 [bedankt]2 [sich]2 [und]3 [fühlt]4 [sich]4 [sehr]5 [erwachsen]6.
+RU: [Мира]1 [благодарит]2 [и]3 [чувствует]4 [себя]4 [очень]5 [взрослой]6.
+2 note: Sich bedanken: благодарить.
+2 form: Инфинитив sich bedanken: ich bedanke mich, er bedankt sich, wir bedanken uns; Präteritum: bedankte sich; Perfekt: hat sich bedankt.
+4 form: Инфинитив sich fühlen: ich fühle mich, er fühlt sich, wir fühlen uns; Präteritum: fühlte sich; Perfekt: hat sich gefühlt.
+
+== p4
+DE: [Eine]1 [Woche]1 [später]2 [richtet]3 [sie]4 [im]5 [Internet]5 [einen]6 [Dauerauftrag]6 [für]7 [die]8 [Miete]8 [ein]3.
+RU: [Неделю]1 [спустя]2 [она]4 [настраивает]3 [в]5 [интернете]5 [постоянное]6 [поручение]6 [для]7 [аренды]8.
+3 note: Einrichten: настроить, оформить.
+3 form: Отделяемая приставка ein закрывает предложение. Инфинитив einrichten: ich richte ein, er richtet ein, wir richten ein; Präteritum: richtete ein; Perfekt: hat eingerichtet.
+6 note: Der Dauerauftrag: автоматический регулярный платёж.
+8 note: Die Miete: плата за квартиру.
+
+DE: [Jetzt]1 [überweist]2 [die]3 [Bank]3 [das]4 [Geld]4 [automatisch]5 [am]6 [ersten]7 [Tag]6 [des]8 [Monats]8.
+RU: [Теперь]1 [банк]3 [переводит]2 [деньги]4 [автоматически]5 [в]6 [первый]7 [день]6 [месяца]8.
+2 note: Überweisen: переводить деньги со счёта на счёт.
+2 form: Инфинитив überweisen: ich überweise, er überweist, wir überweisen; Präteritum: überwies; Perfekt: hat überwiesen.
+8 form: Genitiv: des Monats — день чего.
+
+DE: [Am]1 [Automaten]1 [hebt]2 [Mira]3 [zum]4 [ersten]4 [Mal]4 [Bargeld]5 [ab]2.
+RU: [В]1 [банкомате]1 [Мира]3 [впервые]4 [снимает]2 [наличные]5.
+1 note: Der Automat: банкомат.
+1 form: Dativ после an: место где.
+2 note: Abheben: снимать деньги со счёта.
+2 form: Приставка ab уходит в конец. Инфинитив abheben: ich hebe ab, er hebt ab, wir heben ab; Präteritum: hob ab; Perfekt: hat abgehoben.
+4 note: Zum ersten Mal: в первый раз.
+5 note: Das Bargeld: наличные деньги.
+
+DE: [Sie]1 [steckt]2 [die]3 [Karte]3 [ein]2, [tippt]4 [die]5 [Geheimzahl]5 [und]6 [nimmt]7 [die]8 [Scheine]8.
+RU: [Она]1 [вставляет]2 [карту]3, [набирает]4 [пин-код]5 [и]6 [берёт]7 [купюры]8.
+2 note: Einstecken: вставить карту в банкомат.
+2 form: Инфинитив einstecken: ich stecke ein, er steckt ein, wir stecken ein; Präteritum: steckte ein; Perfekt: hat eingesteckt.
+4 note: Tippen: набирать на клавиатуре.
+4 form: Инфинитив tippen: ich tippe, er tippt, wir tippen; Präteritum: tippte; Perfekt: hat getippt.
+7 form: Инфинитив nehmen: ich nehme, er nimmt, wir nehmen; Präteritum: nahm; Perfekt: hat genommen.
+8 note: Der Schein, die Scheine: купюра.
+
+DE: [Alles]1 [klappt]2, [und]3 [sie]4 [ist]5 [stolz]5.
+RU: [Всё]1 [получается]2, [и]3 [она]4 [горда]5.
+2 note: Klappen: удаваться, получаться.
+2 form: Инфинитив klappen: es klappt; Präteritum: klappte; Perfekt: hat geklappt.
+
+== p5
+DE: [Am]1 [Ende]1 [des]2 [Monats]2 [liest]3 [Mira]4 [ihren]5 [Kontoauszug]5 [am]6 [Handy]6.
+RU: [В]1 [конце]1 [месяца]2 [Мира]4 [читает]3 [свою]5 [выписку]5 [со]5 [счёта]5 [в]6 [телефоне]6.
+3 form: Инфинитив lesen: ich lese, er liest, wir lesen; Präteritum: las; Perfekt: hat gelesen.
+5 note: Der Kontoauszug: выписка со счёта.
+6 note: Das Handy: мобильный телефон.
+
+DE: [Plötzlich]1 [sieht]2 [sie]3 [ein]4 [Problem]4: [Die]5 [Firma]5 [für]6 [Strom]7 [hat]8 [den]9 [Betrag]9 [zweimal]10 [abgebucht]8.
+RU: [Вдруг]1 [она]3 [видит]2 [проблему]4: [фирма]5 [за]6 [электричество]7 [списала]8 [сумму]9 [дважды]10.
+2 form: Инфинитив sehen: ich sehe, er sieht, wir sehen; Präteritum: sah; Perfekt: hat gesehen.
+7 note: Der Strom: электричество, ток.
+8 note: Abbuchen: списывать деньги со счёта.
+8 form: Perfekt: haben + Partizip II в конце. Инфинитив abbuchen: ich buche ab, er bucht ab, wir buchen ab; Präteritum: buchte ab; Perfekt: hat abgebucht.
+9 note: Der Betrag: сумма денег.
+
+DE: [Mira]1 [erschrickt]2, [denn]3 [achtzig]4 [Euro]5 [fehlen]6 [auf]7 [dem]7 [Konto]7.
+RU: [Мира]1 [пугается]2, [ведь]3 [на]7 [счёте]7 [не]6 [хватает]6 [восьмидесяти]4 [евро]5.
+2 note: Erschrecken: испугаться.
+2 form: Сильный глагол: du erschrickst, er erschrickt. Инфинитив erschrecken: ich erschrecke, er erschrickt, wir erschrecken; Präteritum: erschrak; Perfekt: ist erschrocken.
+6 note: Fehlen: отсутствовать, не хватать.
+6 form: Инфинитив fehlen: ich fehle, er fehlt, wir fehlen; Präteritum: fehlte; Perfekt: hat gefehlt.
+
+DE: [Sie]1 [ruft]2 [sofort]3 [die]4 [Hotline]4 [der]5 [Bank]5 [an]2.
+RU: [Она]1 [сразу]3 [звонит]2 [на]4 [горячую]4 [линию]4 [банка]5.
+2 note: Anrufen + Akkusativ: звонить куда-то или кому-то.
+2 form: Приставка an стоит в конце. Инфинитив anrufen: ich rufe an, er ruft an, wir rufen an; Präteritum: rief an; Perfekt: hat angerufen.
+5 form: Genitiv: der Bank — чья линия.
+
+DE: [Eine]1 [Mitarbeiterin]1 [entschuldigt]2 [sich]2 [für]3 [den]4 [Fehler]4.
+RU: [Сотрудница]1 [извиняется]2 [за]3 [ошибку]4.
+1 note: Die Mitarbeiterin: сотрудница.
+2 form: Sich entschuldigen für + Akkusativ: извиняться за что-то. Инфинитив sich entschuldigen: ich entschuldige mich, er entschuldigt sich, wir entschuldigen uns; Präteritum: entschuldigte sich; Perfekt: hat sich entschuldigt.
+
+DE: [Sie]1 [verspricht]2: [Das]3 [Geld]3 [ist]4 [in]5 [drei]6 [Tagen]7 [wieder]4 [da]4.
+RU: [Она]1 [обещает]2: [деньги]3 [вернутся]4 [через]5 [три]6 [дня]7.
+2 note: Versprechen: обещать.
+2 form: Инфинитив versprechen: ich verspreche, er verspricht, wir versprechen; Präteritum: versprach; Perfekt: hat versprochen.
+4 note: Wieder da sein: снова быть на месте.
+5 note: In + время: через три дня.
+7 form: Dativ Plural с окончанием -n.
+
+DE: [Wirklich]1: [Am]2 [Donnerstag]2 [stimmt]3 [der]4 [Kontostand]4 [wieder]5.
+RU: [Действительно]1: [в]2 [четверг]2 [остаток]4 [на]4 [счёте]4 [снова]5 [верный]3.
+3 note: Stimmen: быть правильным, сходиться.
+3 form: Инфинитив stimmen: es stimmt; Präteritum: stimmte; Perfekt: hat gestimmt.
+4 note: Der Kontostand: остаток на счёте.
+
+== p6
+DE: [Am]1 [Abend]1 [erzählt]2 [Mira]3 [ihrer]4 [Mitbewohnerin]4 [Aylin]5 [von]6 [dem]6 [Fehler]6.
+RU: [Вечером]1 [Мира]3 [рассказывает]2 [своей]4 [соседке]4 [по]4 [квартире]4 [Айлин]5 [об]6 [этой]6 [ошибке]6.
+2 form: Erzählen von + Dativ: рассказывать о чём-то. Инфинитив erzählen: ich erzähle, er erzählt, wir erzählen; Präteritum: erzählte; Perfekt: hat erzählt.
+4 note: Die Mitbewohnerin: соседка по квартире.
+
+DE: [Aylin]1 [lacht]2 [und]3 [sagt]4: [Du]5 [musst]6 [deine]7 [Auszüge]7 [immer]8 [kontrollieren]9.
+RU: [Айлин]1 [смеётся]2 [и]3 [говорит]4: [ты]5 [должна]6 [всегда]8 [проверять]9 [свои]7 [выписки]7.
+2 form: Инфинитив lachen: ich lache, er lacht, wir lachen; Präteritum: lachte; Perfekt: hat gelacht.
+4 form: Инфинитив sagen: ich sage, er sagt, wir sagen; Präteritum: sagte; Perfekt: hat gesagt.
+6 form: Модальный глагол: инфинитив kontrollieren уходит в конец. Инфинитив müssen: ich muss, er muss, wir müssen; Präteritum: musste; Perfekt: hat gemusst.
+7 note: Der Auszug, die Auszüge: выписка.
+9 form: Инфинитив kontrollieren: ich kontrolliere, er kontrolliert, wir kontrollieren; Präteritum: kontrollierte; Perfekt: hat kontrolliert.
+
+DE: [Mira]1 [hat]1 [noch]2 [einen]3 [Plan]3: [Im]4 [August]4 [feiert]5 [ihre]6 [Großmutter]6 [einen]7 [runden]8 [Geburtstag]7.
+RU: [У]1 [Миры]1 [есть]1 [ещё]2 [один]3 [план]3: [в]4 [августе]4 [её]6 [бабушка]6 [празднует]5 [круглый]8 [день]7 [рождения]7.
+1 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+5 form: Инфинитив feiern: ich feiere, er feiert, wir feiern; Präteritum: feierte; Perfekt: hat gefeiert.
+8 note: Ein runder Geburtstag: юбилей — 30, 40, 80 лет.
+8 form: Окончание -en после einen в Akkusativ.
+
+DE: [Für]1 [die]2 [Reise]2 [und]3 [das]4 [Geschenk]4 [spart]5 [sie]6 [jeden]7 [Monat]7 [fünfzig]8 [Euro]9.
+RU: [На]1 [поездку]2 [и]3 [подарок]4 [она]6 [откладывает]5 [каждый]7 [месяц]7 [пятьдесят]8 [евро]9.
+1 form: Für + Akkusativ: цель.
+5 note: Sparen: копить, экономить.
+5 form: Инфинитив sparen: ich spare, er spart, wir sparen; Präteritum: sparte; Perfekt: hat gespart.
+
+DE: [Dafür]1 [eröffnet]2 [sie]3 [online]4 [ein]5 [extra]6 [Sparkonto]5.
+RU: [Для]1 [этого]1 [она]3 [открывает]2 [онлайн]4 [отдельный]6 [сберегательный]5 [счёт]5.
+1 note: Dafür: для этого.
+2 note: Ein Konto eröffnen: открыть счёт.
+2 form: Инфинитив eröffnen: ich eröffne, er eröffnet, wir eröffnen; Präteritum: eröffnete; Perfekt: hat eröffnet.
+5 note: Das Sparkonto: счёт для накоплений.
+
+DE: [Sparen]1 [ist]2 [nicht]2 [leicht]2, [aber]3 [das]4 [Ziel]4 [motiviert]5 [sie]6.
+RU: [Копить]1 [нелегко]2, [но]3 [цель]4 [мотивирует]5 [её]6.
+1 form: Инфинитив как подлежащее. Инфинитив sparen: ich spare, er spart, wir sparen; Präteritum: sparte; Perfekt: hat gespart.
+4 note: Das Ziel: цель.
+5 form: Инфинитив motivieren: ich motiviere, er motiviert, wir motivieren; Präteritum: motivierte; Perfekt: hat motiviert.

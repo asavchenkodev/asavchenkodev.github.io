@@ -1,23 +1,17 @@
-const fs = require("fs");
 const path = require("path");
-const { validateDocuments } = require("../src/text-format.js");
+const { root, listedTextFiles, readTextFile } = require("./text-files.js");
 
-const root = path.resolve(__dirname, "..");
-const textsDir = path.join(root, "texts");
 const requested = process.argv.slice(2);
-const files = requested.length ? requested : JSON.parse(fs.readFileSync(path.join(textsDir, "index.json"), "utf8"));
+const files = requested.length ? requested : listedTextFiles();
 let problemCount = 0;
 
 files.forEach((requestedFile) => {
-  const filePath = path.isAbsolute(requestedFile) ? requestedFile : path.join(textsDir, requestedFile);
+  const { filePath, doc, errors, warnings } = readTextFile(requestedFile);
   const displayPath = path.relative(root, filePath);
-  const parsed = JSON.parse(fs.readFileSync(filePath, "utf8"));
-  validateDocuments(parsed).forEach((result, documentIndex) => {
-    const name = result.doc?.id || `document ${documentIndex + 1}`;
-    result.errors.forEach((entry) => report("ERROR", displayPath, name, entry));
-    result.warnings.forEach((entry) => report("WARN", displayPath, name, entry));
-    problemCount += result.errors.length + result.warnings.length;
-  });
+  const name = doc?.id || "document";
+  errors.forEach((entry) => report("ERROR", displayPath, name, entry));
+  warnings.forEach((entry) => report("WARN", displayPath, name, entry));
+  problemCount += errors.length + warnings.length;
 });
 
 if (problemCount) {

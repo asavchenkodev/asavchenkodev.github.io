@@ -1,0 +1,212 @@
+id: tech-b1-freitag-bug-v1
+title: Ошибка в пятницу / Der Fehler am Freitag
+level: B1
+topic: работа в IT, программист, ошибка, команда, стартап
+source: original story
+hintLanguage: ru
+
+== p1
+DE: [Arman]1 [kam]2 [vor]3 [zwei]4 [Jahren]5 [aus]6 [Almaty]7 [nach]8 [Berlin]9.
+RU: [Арман]1 [приехал]2 [из]6 [Алматы]7 [в]8 [Берлин]9 [два]4 [года]5 [назад]3.
+2 form: Инфинитив kommen: ich komme, er kommt, wir kommen; Präteritum: kam; Perfekt: ist gekommen.
+3 note: Vor + Dativ (о времени): … назад. Vor zwei Jahren — два года назад.
+
+DE: [Er]1 [hatte]2 [einen]3 [Online-Kurs]3 [gemacht]2, [viele]4 [Nächte]5 [programmiert]6 [und]7 [über]8 [hundert]9 [Bewerbungen]10 [geschrieben]11.
+RU: [Он]1 [прошёл]2 [онлайн-курс]3, [много]4 [ночей]5 [программировал]6 [и]7 [написал]11 [больше]8 [ста]9 [откликов]10 [на вакансии]10.
+2 form: Plusquamperfekt: hatte + Partizip II — действие до другого действия в прошлом.
+10 note: Die Bewerbung: заявление о приёме на работу, отклик на вакансию.
+11 form: Инфинитив schreiben: ich schreibe, er schreibt; Präteritum: schrieb; Perfekt: hat geschrieben.
+
+DE: [Im]1 [September]1 [bekam]2 [er]3 [endlich]4 [seine]5 [erste]6 [Stelle]5 [als]7 [Junior-Entwickler]8.
+RU: [В]1 [сентябре]1 [он]3 [наконец]4 [получил]2 [свою]5 [первую]6 [должность]5 [—]7 [младшего]8 [разработчика]8.
+2 form: Инфинитив bekommen: ich bekomme, er bekommt; Präteritum: bekam; Perfekt: hat bekommen.
+7 note: Als + профессия: в качестве, как.
+8 note: Der Entwickler: разработчик; Junior — начинающий.
+
+DE: [Die]1 [Firma]1 [war]2 [klein]3: [neun]4 [Leute]5, [ein]6 [Büro]6 [über]7 [einem]8 [Fahrradladen]8 [und]9 [eine]10 [Kaffeemaschine]10, [die]11 [laut]12 [wie]13 [ein]14 [Flugzeug]14 [war]15.
+RU: [Фирма]1 [была]2 [маленькой]3: [девять]4 [человек]5, [офис]6 [над]7 [веломагазином]8 [и]9 [кофемашина]10, [которая]11 [была]15 [громкой]12, [как]13 [самолёт]14.
+7 form: Über + Dativ (где?): над чем-то.
+11 sent: Относительное придаточное: die … war — глагол в конце.
+
+DE: [Sie]1 [entwickelten]2 [eine]3 [App]3 [für]4 [Bäckereien]5: [Kunden]6 [konnten]7 [abends]8 [Brötchen]9 [bestellen]10 [und]11 [sie]12 [morgens]13 [abholen]14.
+RU: [Они]1 [разрабатывали]2 [приложение]3 [для]4 [пекарен]5: [клиенты]6 [могли]7 [вечером]8 [заказать]10 [булочки]9 [и]11 [утром]13 [их]12 [забрать]14.
+2 form: Инфинитив entwickeln: ich entwick(e)le, er entwickelt; Präteritum: entwickelte; Perfekt: hat entwickelt.
+9 note: Das Brötchen: булочка — основа немецкого завтрака.
+14 form: Инфинитив abholen: ich hole ab, er holt ab; Präteritum: holte ab; Perfekt: hat abgeholt.
+
+== p2
+DE: [Die]1 [ersten]2 [Wochen]1 [liefen]3 [gut]4.
+RU: [Первые]2 [недели]1 [прошли]3 [хорошо]4.
+3 note: Gut laufen: идти хорошо, складываться удачно.
+3 form: Инфинитив laufen: ich laufe, er läuft; Präteritum: lief; Perfekt: ist gelaufen.
+
+DE: [Arman]1 [reparierte]2 [kleine]3 [Fehler]4, [stellte]5 [viele]6 [Fragen]7 [und]8 [lernte]9 [jeden]10 [Tag]11 [etwas]12 [Neues]13.
+RU: [Арман]1 [исправлял]2 [мелкие]3 [ошибки]4, [задавал]5 [много]6 [вопросов]7 [и]8 [каждый]10 [день]11 [узнавал]9 [что-то]12 [новое]13.
+5 note: Fragen stellen: задавать вопросы.
+13 form: Etwas Neues: прилагательное после etwas пишется с большой буквы и получает -es.
+
+DE: [Seine]1 [Teamleiterin]1 [Sabine]2 [sagte]3 [oft]4: „[Es]5 [gibt]5 [keine]6 [dummen]7 [Fragen]8, [nur]9 [teure]10 [Fehler]11."
+RU: [Его]1 [руководитель]1 [команды]1 [Сабина]2 [часто]4 [говорила]3: «[Не бывает]5,6 [глупых]7 [вопросов]8, [бывают]0 [только]9 [дорогие]10 [ошибки]11.»
+1 note: Die Teamleiterin: руководительница команды.
+5 note: Es gibt + Akkusativ: есть, бывает.
+
+DE: [Damals]1 [verstand]2 [er]3 [den]4 [Satz]4 [noch]5 [nicht]6 [ganz]7.
+RU: [Тогда]1 [он]3 [ещё]5 [не]6 [совсем]7 [понимал]2 [эту]4 [фразу]4.
+2 form: Инфинитив verstehen: ich verstehe, er versteht; Präteritum: verstand; Perfekt: hat verstanden.
+
+DE: [An]1 [einem]2 [Freitag]2 [im]3 [November]3 [bekam]4 [er]5 [eine]6 [einfache]7 [Aufgabe]6.
+RU: [В]1 [одну]2 [из пятниц]2 [в]3 [ноябре]3 [он]5 [получил]4 [простую]7 [задачу]6.
+1 form: An + Dativ с днями недели: am Freitag, an einem Freitag.
+
+DE: [Die]1 [Preise]1 [in]2 [der]3 [App]3 [sollten]4 [schöner]5 [aussehen]6: „[1,20]7 [€]7" [statt]8 „[1.2]9 [EUR]9".
+RU: [Цены]1 [в]2 [приложении]3 [должны были]4 [выглядеть]6 [красивее]5: «[1,20]7 [€]7» [вместо]8 «[1.2]9 [EUR]9».
+4 form: Präteritum от sollen: ich sollte, er sollte, sie sollten.
+8 note: Statt + Genitiv или просто перед словом: вместо.
+
+DE: [Um]1 [halb]2 [fünf]2 [war]3 [er]4 [fertig]3.
+RU: [В]1 [половине]2 [пятого]2 [он]4 [закончил]3.
+3 note: Fertig sein: закончить, быть готовым.
+
+DE: [Die]1 [Tests]1 [waren]2 [grün]3, [die]4 [Kollegen]4 [packten]5 [schon]6 [ihre]7 [Rucksäcke]7, [und]8 [Arman]9 [dachte]10: „[Warum]11 [bis]12 [Montag]13 [warten]14?"
+RU: [Тесты]1 [были]2 [зелёными]3, [коллеги]4 [уже]6 [собирали]5 [рюкзаки]7, [и]8 [Арман]9 [подумал]10: «[Зачем]11 [ждать]14 [до]12 [понедельника]13?»
+3 note: Grüne Tests: все автоматические тесты прошли успешно.
+10 form: Инфинитив denken: ich denke, er denkt; Präteritum: dachte; Perfekt: hat gedacht.
+
+DE: [Er]1 [drückte]2 [auf]3 „[Deploy]4", [die]5 [neue]6 [Version]5 [ging]7 [online]8, [und]9 [er]10 [fuhr]11 [zufrieden]12 [nach]13 [Hause]13.
+RU: [Он]1 [нажал]2 [на]3 «[Deploy]4», [новая]6 [версия]5 [вышла]7 [в]8 [сеть]8, [и]9 [он]10 [довольный]12 [поехал]11 [домой]13.
+4 note: Deploy (Deployment): выкладка новой версии программы на сервер.
+11 form: Инфинитив fahren: ich fahre, er fährt; Präteritum: fuhr; Perfekt: ist gefahren.
+
+== p3
+DE: [Am]1 [Samstag]1 [um]2 [6:12]3 [Uhr]3 [klingelte]4 [sein]5 [Handy]5.
+RU: [В]1 [субботу]1 [в]2 [6:12]3 [зазвонил]4 [его]5 [телефон]5.
+4 form: Инфинитив klingeln: es klingelt; Präteritum: klingelte; Perfekt: hat geklingelt.
+
+DE: [Es]1 [war]2 [Frau]3 [Brandt]3 [von]4 [der]5 [Bäckerei]5 [Brandt]6 [in]7 [Pankow]8, [ihre]9 [erste]10 [Kundin]9.
+RU: [Это]1 [была]2 [госпожа]3 [Брандт]3 [из]4 [пекарни]5 «[Брандт]6» [в]7 [Панкове]8, [их]9 [первая]10 [клиентка]9.
+
+DE: „[Junger]1 [Mann]1, [hier]2 [stehen]3 [vierzig]4 [Leute]5 [in]6 [der]7 [Schlange]7, [und]8 [alle]9 [haben]10 [ihre]11 [Brötchen]11 [für]12 [null]13 [Euro]14 [bestellt]10!"
+RU: «[Молодой]1 [человек]1, [тут]2 [стоят]3 [в]6 [очереди]7 [сорок]4 [человек]5, [и]8 [все]9 [заказали]10 [свои]11 [булочки]11 [за]12 [ноль]13 [евро]14!»
+6 note: In der Schlange stehen: стоять в очереди (die Schlange — змея и очередь).
+10 form: Perfekt: haben … bestellt. Инфинитив bestellen: ich bestelle; Präteritum: bestellte; Perfekt: hat bestellt.
+
+DE: [Arman]1 [öffnete]2 [mit]3 [zitternden]4 [Händen]5 [den]6 [Laptop]6.
+RU: [Арман]1 [дрожащими]4 [руками]3,5 [открыл]2 [ноутбук]6.
+4 note: Zitternd: дрожащий (Partizip I от zittern).
+3 form: Mit + Dativ Plural: mit zitternden Händen.
+
+DE: [Sie]1 [hatte]2 [recht]2.
+RU: [Она]1 [была]2 [права]2.
+2 note: Recht haben: быть правым.
+
+DE: [Sein]1 [kleines]2 [Komma]1 [hatte]3 [alle]4 [Preise]5 [in]6 [der]7 [Datenbank]7 [auf]8 [null]9 [gesetzt]3.
+RU: [Его]1 [маленькая]2 [запятая]1 [обнулила]3,8,9 [все]4 [цены]5 [в]6 [базе данных]7.
+3 note: Auf null setzen: обнулить.
+3 form: Plusquamperfekt: hatte … gesetzt.
+7 note: Die Datenbank: база данных.
+
+DE: [In]1 [ganz]2 [Berlin]3 [bekamen]4 [Menschen]5 [gerade]6 [kostenlose]7 [Brötchen]8.
+RU: [По]1 [всему]2 [Берлину]3 [люди]5 [как раз]6 [получали]4 [бесплатные]7 [булочки]8.
+6 note: Gerade: как раз сейчас, в этот момент.
+
+== p4
+DE: [Er]1 [rief]2 [Sabine]3 [an]2, [und]4 [er]5 [schämte]6 [sich]6 [so]7 [sehr]8, [dass]9 [er]10 [kaum]11 [sprechen]12 [konnte]13.
+RU: [Он]1 [позвонил]2 [Сабине]3, [и]4 [ему]5 [было]6 [так]7 [стыдно]6,8, [что]9 [он]10 [едва]11 [мог]13 [говорить]12.
+6 note: Sich schämen: стыдиться.
+9 sent: So …, dass …: так …, что … Модальный глагол konnte стоит в конце придаточного.
+
+DE: [Sabine]1 [hörte]2 [ruhig]3 [zu]2.
+RU: [Сабина]1 [спокойно]3 [выслушала]2.
+2 form: Инфинитив zuhören: ich höre zu, er hört zu; Präteritum: hörte zu; Perfekt: hat zugehört.
+
+DE: „[Okay]1. [Wir]2 [machen]3 [einen]4 [Rollback]4, [das]5 [dauert]6 [fünf]7 [Minuten]8."
+RU: «[Окей]1. [Мы]2 [делаем]3 [откат]4, [это]5 [займёт]6 [пять]7 [минут]8.»
+4 note: Der Rollback: откат к предыдущей версии программы.
+
+DE: [Sie]1 [zeigte]2 [ihm]3 [am]4 [Telefon]4 [jeden]5 [Schritt]6.
+RU: [Она]1 [по]4 [телефону]4 [показала]2 [ему]3 [каждый]5 [шаг]6.
+
+DE: [Um]1 [6:31]2 [Uhr]2 [kosteten]3 [die]4 [Brötchen]4 [wieder]5 [Geld]6.
+RU: [В]1 [6:31]2 [булочки]4 [снова]5 [стоили]3 [денег]6.
+
+DE: [Dann]1 [sagte]2 [sie]3 [etwas]4, [das]5 [Arman]6 [nie]7 [vergessen]8 [wird]9.
+RU: [Потом]1 [она]3 [сказала]2 [то]4, [что]5 [Арман]6 [никогда]7 [не]0 [забудет]8,9.
+9 form: Futur I: werden + инфинитив — будущее время.
+
+DE: „[In]1 [meinem]2 [ersten]3 [Job]2 [habe]4 [ich]5 [aus]6 [Versehen]6 [die]7 [Datenbank]7 [von]8 [einem]9 [Online-Shop]9 [gelöscht]4."
+RU: «[На]1 [моей]2 [первой]3 [работе]2 [я]5 [случайно]6 [удалила]4 [базу данных]7 [одного]9 [интернет-магазина]8,9.»
+6 note: Aus Versehen: случайно, по ошибке.
+4 form: Инфинитив löschen: ich lösche, er löscht; Präteritum: löschte; Perfekt: hat gelöscht.
+
+DE: „[Komplett]1. [Am]2 [Black]3 [Friday]3."
+RU: «[Полностью]1. [В]2 [Чёрную]3 [пятницу]3.»
+3 note: Black Friday: день больших скидок в ноябре.
+
+DE: „[Ein]1 [Fehler]1 [ist]2 [kein]3 [Problem]3. [Ein]4 [Fehler]4, [den]5 [man]6 [versteckt]7, [ist]8 [ein]9 [Problem]9."
+RU: «[Ошибка]1 [—]2 [это]2 [не]3 [проблема]3. [Ошибка]4, [которую]5 [скрывают]6,7, [—]8 [вот]8 [это]8 [проблема]9.»
+5 sent: Относительное придаточное в Akkusativ: den man versteckt — которую прячут.
+7 note: Verstecken: прятать, скрывать.
+
+== p5
+DE: [Am]1 [Montag]1 [machte]2 [das]3 [Team]3 [eine]4 [Retrospektive]4.
+RU: [В]1 [понедельник]1 [команда]3 [провела]2 [ретроспективу]4.
+4 note: Die Retrospektive: встреча команды, где обсуждают, что прошло хорошо и что плохо.
+
+DE: [Arman]1 [hatte]2 [Angst]2, [aber]3 [niemand]4 [schimpfte]5.
+RU: [Арман]1 [боялся]2, [но]3 [никто]4 [не]0 [ругался]5.
+2 note: Angst haben: бояться.
+5 note: Schimpfen: ругаться, ворчать.
+
+DE: [Stattdessen]1 [stellten]2 [alle]3 [nur]4 [eine]5 [Frage]5: „[Warum]6 [hat]7 [kein]8 [Test]8 [das]9 [gemerkt]7?"
+RU: [Вместо этого]1 [все]3 [задали]2 [только]4 [один]5 [вопрос]5: «[Почему]6 [ни один]8 [тест]8 [этого]9 [не]0 [заметил]7?»
+7 note: Merken: замечать.
+
+DE: [Die]1 [Antwort]1 [war]2 [einfach]3: [Es]4 [gab]4 [keinen]5 [Test]5 [für]6 [die]7 [Preise]7.
+RU: [Ответ]1 [был]2 [простым]3: [теста]5 [для]6 [цен]7 [не было]4,5.
+4 form: Es gab: Präteritum от es gibt.
+
+DE: [Arman]1 [schrieb]2 [ihn]3 [selbst]4, [noch]5 [am]6 [selben]7 [Tag]6.
+RU: [Арман]1 [сам]4 [написал]2 [его]3 [ещё]5 [в]6 [тот же]7 [день]6.
+5 note: Noch am selben Tag: ещё в тот же день.
+
+DE: [Außerdem]1 [gab]2 [es]2 [eine]3 [neue]4 [Regel]3, [die]5 [Sabine]6 [mit]7 [rotem]8 [Stift]7 [an]9 [die]10 [Kaffeemaschine]10 [klebte]11: „[Freitags]12 [nach]13 [15]14 [Uhr]14: [kein]15 [Deploy]15."
+RU: [Кроме того]1 [появилось]2 [новое]4 [правило]3, [которое]5 [Сабина]6 [красным]8 [маркером]7 [написала]11 [и]0 [приклеила]11 [на]9 [кофемашину]10: «[По пятницам]12 [после]13 [15:00]14 [—]0 [никаких]15 [деплоев]15.»
+11 form: Инфинитив kleben: ich klebe, er klebt; Präteritum: klebte; Perfekt: hat geklebt.
+12 note: Freitags: по пятницам (наречие).
+
+== p6
+DE: [Zwei]1 [Wochen]2 [später]3 [kam]4 [Frau]5 [Brandt]5 [persönlich]6 [ins]7 [Büro]7.
+RU: [Через]3 [две]1 [недели]2 [госпожа]5 [Брандт]5 [лично]6 [пришла]4 [в]7 [офис]7.
+7 note: Ins = in das (куда?).
+
+DE: [Sie]1 [brachte]2 [eine]3 [große]4 [Tüte]3 [Brötchen]5 [mit]2.
+RU: [Она]1 [принесла]2 [большой]4 [пакет]3 [булочек]5.
+2 form: Инфинитив mitbringen: ich bringe mit, er bringt mit; Präteritum: brachte mit; Perfekt: hat mitgebracht.
+
+DE: „[Wegen]1 [Ihrer]2 [Null-Euro-Brötchen]2 [kennt]3 [jetzt]4 [ganz]5 [Pankow]6 [meine]7 [Bäckerei]7", [sagte]8 [sie]9.
+RU: «[Из-за]1 [ваших]2 [булочек]2 [за]2 [ноль]2 [евро]2 [теперь]4 [мою]7 [пекарню]7 [знает]3 [весь]5 [Панков]6», — [сказала]8 [она]9.
+1 form: Wegen + Genitiv: wegen Ihrer Brötchen.
+
+DE: „[Ich]1 [habe]2 [dreißig]3 [neue]4 [Stammkunden]5."
+RU: «[У]2 [меня]1 [тридцать]3 [новых]4 [постоянных]5 [клиентов]5.»
+5 note: Der Stammkunde: постоянный клиент.
+
+DE: [Dann]1 [sah]2 [sie]3 [Arman]4 [streng]5 [an]2: „[Aber]6 [das]7 [machen]8 [wir]9 [nicht]10 [noch]11 [einmal]11, [verstanden]12?"
+RU: [Потом]1 [она]3 [строго]5 [посмотрела]2 [на]2 [Армана]4: «[Но]6 [больше]11 [мы]9 [так]7 [не]10 [делаем]8, [понятно]12?»
+2 form: Инфинитив ansehen: ich sehe an, er sieht an; Präteritum: sah an; Perfekt: hat angesehen.
+11 note: Noch einmal: ещё раз.
+
+DE: [Arman]1 [nickte]2.
+RU: [Арман]1 [кивнул]2.
+
+DE: [Am]1 [nächsten]2 [Montag]1 [fand]3 [sein]4 [neuer]5 [Test]4 [einen]6 [Fehler]6 [im]7 [Code]7 [eines]8 [Senior-Entwicklers]8.
+RU: [В]1 [следующий]2 [понедельник]1 [его]4 [новый]5 [тест]4 [нашёл]3 [ошибку]6 [в]7 [коде]7 [старшего]8 [разработчика]8.
+3 form: Инфинитив finden: ich finde, er findet; Präteritum: fand; Perfekt: hat gefunden.
+8 form: Genitiv: eines Senior-Entwicklers — чей код?
+
+DE: [Es]1 [war]2 [ein]3 [Freitag]3, [kurz]4 [vor]4 [drei]5.
+RU: [Это]1 [была]2 [пятница]3, [почти]4 [три]5 [часа]5.
+
+DE: [Arman]1 [sagte]2 [nichts]3, [zeigte]4 [nur]5 [auf]6 [das]7 [Schild]7 [an]8 [der]9 [Kaffeemaschine]9 [und]10 [lächelte]11.
+RU: [Арман]1 [ничего]3 [не]0 [сказал]2, [только]5 [показал]4 [на]6 [табличку]7 [на]8 [кофемашине]9 [и]10 [улыбнулся]11.
+6 note: Auf etwas zeigen: показать на что-то.

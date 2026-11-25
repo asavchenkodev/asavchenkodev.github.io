@@ -1,0 +1,155 @@
+id: seed-a2-library-v2
+title: Новая утренняя библиотека / Die neue Morgenbibliothek
+level: A2
+topic: городская новость
+source: pair sample
+hintLanguage: ru
+
+== a2p1
+DE: [Heute]1 [öffnet]2 [die Stadtbibliothek]3 [um sieben Uhr morgens]4.
+RU: [Сегодня]1 [городская библиотека]3 [открывается]2 [в семь утра]4.
+2 form: Öffnet: 3-е лицо ед. числа, потому что подлежащее die Stadtbibliothek. Инфинитив öffnen: ich öffne, er öffnet, wir öffnen; Präteritum: öffnete; Perfekt: hat geöffnet.
+3 form: Die: женский род, именительный падеж.
+4 form: Um используется для точного времени.
+
+DE: [Früher]1 [öffneten]2 [die Türen]3 [erst um neun]4.
+RU: [Раньше]1 [двери]3 [открывались]2 [только в девять]4.
+2 form: Öffneten: прошедшее время Präteritum, множественное число к die Türen.
+3 form: Die Türen: множественное число.
+4 note: Erst здесь значит «не раньше девяти».
+4 form: Um снова указывает точное время.
+
+DE: [Der neue Plan]1 [hilft]2 [den Menschen]3, [vor der Arbeit]4 [zu lesen]5.
+RU: [Новый режим]1 [помогает]2 [людям]3 [читать]5 [перед работой]4.
+1 form: Der: мужской род, именительный падеж; neue имеет слабое окончание после der.
+2 form: Helfen требует дательного падежа. Инфинитив helfen: ich helfe, er hilft, wir helfen; Präteritum: half; Perfekt: hat geholfen.
+3 form: Den Menschen: дательный падеж множественного числа после hilft.
+4 form: Vor + дательный падеж обозначает время: перед работой.
+5 form: Zu стоит перед инфинитивом после hilft. Инфинитив lesen: ich lese, er liest, wir lesen; Präteritum: las; Perfekt: hat gelesen.
+
+DE: [Auch]1 [Schüler]2 [können]3 [vor dem Unterricht]4 [kommen]5.
+RU: [Школьники]2 [тоже]1 [могут]3 [прийти]5 [до уроков]4.
+3 form: Können: модальный глагол стоит на позиции 2. Инфинитив können: ich kann, er kann, wir können; Präteritum: konnte; Perfekt: hat gekonnt.
+4 form: Vor dem Unterricht: дательный падеж как временное выражение.
+5 form: Инфинитив kommen: ich komme, er kommt, wir kommen; Präteritum: kam; Perfekt: ist gekommen.
+5 sent: Инфинитив kommen стоит в конце после модального können.
+
+DE: [Im ersten Saal]1 [stehen]2 [ruhige Tische]3.
+RU: [В первом зале]1 [стоят]2 [тихие столы]3.
+1 form: Im = in dem; дательный падеж, потому что это место.
+2 form: Инфинитив stehen: ich stehe, er steht, wir stehen; Präteritum: stand; Perfekt: hat gestanden.
+3 form: Ruhige: окончание прилагательного во множественном числе.
+
+DE: [Auf den Tischen]1 [liegen]2 [frische Zeitungen]3.
+RU: [На столах]1 [лежат]2 [свежие газеты]3.
+1 form: Auf + дательный падеж отвечает на вопрос где?
+2 form: Инфинитив liegen: ich liege, er liegt, wir liegen; Präteritum: lag; Perfekt: hat gelegen.
+3 form: Frische: окончание прилагательного во множественном числе.
+
+== a2p2
+DE: [Am Eingang]1 [begrüßt]2 [die Bibliothekarin]3 [die Besucher]4.
+RU: [У входа]1 [библиотекарь]3 [встречает]2 [посетителей]4.
+1 form: Am = an dem; дательный падеж для места.
+2 form: Инфинитив begrüßen: ich begrüße, er begrüßt, wir begrüßen; Präteritum: begrüßte; Perfekt: hat begrüßt.
+3 form: Die: женский род, именительный падеж.
+4 form: Здесь die Besucher - винительный падеж множественного числа.
+
+DE: [Sie]1 [spricht]2 [langsam]3 [und]5 [sehr freundlich]4.
+RU: [Она]1 [говорит]2 [медленно]3 [и]5 [очень дружелюбно]4.
+2 form: Spricht: неправильная форма 3-го лица от sprechen. Инфинитив sprechen: ich spreche, er spricht, wir sprechen; Präteritum: sprach; Perfekt: hat gesprochen.
+
+DE: [Viele]1 [fragen]2 [nach Büchern]3 [auf Russisch und Deutsch]4.
+RU: [Многие]1 [спрашивают]2 [книги]3 [на русском и немецком языках]4.
+2 form: Инфинитив fragen: ich frage, er fragt, wir fragen; Präteritum: fragte; Perfekt: hat gefragt.
+3 form: Fragen nach требует nach + дательный падеж.
+4 form: Auf используется в выражении для языка.
+
+DE: [Für Anfänger]1 [gibt es]2 [kurze Geschichten]3.
+RU: [Для начинающих]1 [есть]2 [короткие рассказы]3.
+1 form: Für требует винительный падеж.
+2 form: Es gibt = есть/имеется; объект стоит в винительный падеж. Оборот es gibt (geben): только es gibt; Präteritum: es gab; Perfekt: es hat gegeben.
+
+DE: [Daneben]1 [steht]2 [ein kleiner Teekocher]3.
+RU: [Рядом]1 [стоит]2 [маленький чайник]3.
+2 form: Инфинитив stehen: ich stehe, er steht, wir stehen; Präteritum: stand; Perfekt: hat gestanden.
+3 form: Ein kleiner: мужской род, именительный падеж.
+
+DE: [Der Tee]1 [ist kostenlos]2, [aber]3 [die Tasse]4 [muss]5 [man]6 [zurückgeben]7.
+RU: [Чай]1 [бесплатный]2, [но]3 [чашку]4 [нужно]5,6 [вернуть]7.
+5 form: Müssen как модальный глагол стоит на позиции 2. Инфинитив müssen: ich muss, er muss, wir müssen; Präteritum: musste; Perfekt: hat gemusst.
+7 form: Zurückgeben здесь инфинитив после muss, поэтому приставка не отделяется. Инфинитив zurückgeben: ich gebe zurück, er gibt zurück, wir geben zurück; Präteritum: gab zurück; Perfekt: hat zurückgegeben.
+7 sent: Muss стоит на позиции 2, zurückgeben уходит в конец.
+
+== a2p3
+DE: [Der Rentner Anton]1 [kommt]2 [jeden Dienstag]3.
+RU: [Пенсионер Антон]1 [приходит]2 [каждый вторник]3.
+1 form: Der: мужской род, именительный падеж.
+2 form: Инфинитив kommen: ich komme, er kommt, wir kommen; Präteritum: kam; Perfekt: ist gekommen.
+3 form: Jeden Dienstag: винительный падеж времени для повторяющегося дня.
+
+DE: [Er]1 [liest]2 [Nachrichten]3 [und]6 [macht Notizen]4 [in ein Heft]5.
+RU: [Он]1 [читает]2 [новости]3 [и]6 [делает заметки]4 [в тетради]5.
+2 form: Liest: неправильная форма 3-го лица от lesen. Инфинитив lesen: ich lese, er liest, wir lesen; Präteritum: las; Perfekt: hat gelesen.
+4 form: Инфинитив machen: ich mache, er macht, wir machen; Präteritum: machte; Perfekt: hat gemacht.
+5 form: In ein Heft: винительный падеж, потому что заметки попадают в тетрадь.
+
+DE: [Die Studentin Lena]1 [lernt]2 [neue Wörter]3 [vor dem Kurs]4.
+RU: [Студентка Лена]1 [учит]2 [новые слова]3 [перед занятием]4.
+1 form: Die: женский род, именительный падеж.
+2 form: Инфинитив lernen: ich lerne, er lernt, wir lernen; Präteritum: lernte; Perfekt: hat gelernt.
+4 form: Vor + дательный падеж для времени.
+
+DE: [Ihr gefällt]1 [der ruhige Raum]2 [am Fenster]3.
+RU: [Ей нравится]1 [тихая комната]2 [у окна]3.
+1 form: Gefallen требует дательный падеж: ihr = ей. Инфинитив gefallen (+ Dativ): es gefällt mir; Präteritum: gefiel; Perfekt: hat gefallen.
+2 form: Der ruhige Raum - подлежащее в именительном падеже.
+3 form: Am = an dem; дательный падеж для места.
+
+DE: [Die Stadt]1 [prüft]2 [den neuen Plan]3 [einen Monat lang]4.
+RU: [Город]1 [проверит]2 [новый режим]3 [один месяц]4.
+2 form: Инфинитив prüfen: ich prüfe, er prüft, wir prüfen; Präteritum: prüfte; Perfekt: hat geprüft.
+3 form: Den: мужской винительный падеж; neuen после den.
+4 form: винительный падеж длительности.
+
+DE: [Danach]1 [zählen]2 [die Mitarbeiter]3 [die Besucher]4.
+RU: [Потом]1 [сотрудники]3 [посчитают]2 [посетителей]4.
+1 sent: Danach стоит в начале, поэтому zählen остается на позиции 2.
+2 form: Инфинитив zählen: ich zähle, er zählt, wir zählen; Präteritum: zählte; Perfekt: hat gezählt.
+
+== a2p4
+DE: [Wenn]1 [morgens]2 [viele Menschen]3 [kommen]4, [behält]5 [die Bibliothek]6 [den neuen Zeitplan]7.
+RU: [Если]1 [утром]2 [придет]4 [много людей]3, [библиотека]6 [оставит]5 [новый график]7.
+1 sent: Wenn начинает придаточное, поэтому kommen уходит в конец.
+4 form: Инфинитив kommen: ich komme, er kommt, wir kommen; Präteritum: kam; Perfekt: ist gekommen.
+5 form: Behält: 3-е лицо ед. числа от behalten. Инфинитив behalten: ich behalte, er behält, wir behalten; Präteritum: behielt; Perfekt: hat behalten.
+7 form: Den neuen: мужской винительный падеж.
+
+DE: [Das Rathaus]1 [möchte]2 [auch]3 [einen kleinen Buchklub]4 [eröffnen]5.
+RU: [Мэрия]1 [также]3 [хочет]2 [открыть]5 [маленький книжный клуб]4.
+2 form: Möchte - вежливая форма желания. Möchten: ich möchte, er möchte, wir möchten; прошедшее время берёт формы wollen: wollte.
+4 form: Einen kleinen: мужской винительный падеж.
+5 form: Инфинитив eröffnen: ich eröffne, er eröffnet, wir eröffnen; Präteritum: eröffnete; Perfekt: hat eröffnet.
+5 sent: Инфинитив eröffnen стоит в конце после möchte.
+
+DE: [Im Klub]1 [werden]2 [die Menschen]3 [über einfache Artikel]4 [sprechen]5.
+RU: [В клубе]1 [люди]3 [будут]2 [говорить]5 [о простых статьях]4.
+1 form: Im = in dem; дательный падеж места.
+2 form: Инфинитив werden: ich werde, er wird, wir werden; Präteritum: wurde; Perfekt: ist geworden.
+2 sent: Werden образует будущее; смысловой sprechen стоит в конце.
+4 form: Über вводит тему разговора.
+5 form: Инфинитив sprechen: ich spreche, er spricht, wir sprechen; Präteritum: sprach; Perfekt: hat gesprochen.
+
+DE: [Jeder Teilnehmer]1 [kann]2 [seine eigene Geschichte]3 [mitbringen]4.
+RU: [Каждый участник]1 [сможет]2 [принести]4 [свою историю]3.
+2 form: Инфинитив können: ich kann, er kann, wir können; Präteritum: konnte; Perfekt: hat gekonnt.
+3 form: Seine согласуется с Teilnehmer: мужской род.
+4 form: Mitbringen в инфинитиве не отделяется. Инфинитив mitbringen: ich bringe mit, er bringt mit, wir bringen mit; Präteritum: brachte mit; Perfekt: hat mitgebracht.
+
+DE: [So]1 [wird]2 [die Bibliothek]3 [ein Ort]4 [zum Lesen und Reden]5.
+RU: [Так]1 [библиотека]3 [станет]2 [местом]4 [для чтения и общения]5.
+2 form: Инфинитив werden: ich werde, er wird, wir werden; Präteritum: wurde; Perfekt: ist geworden.
+5 form: Zum = zu dem; выражает назначение.
+
+DE: [Für den Stadtteil]1 [ist das]2 [eine]3 [kleine]4, [aber]5 [angenehme]6 [Nachricht]3.
+RU: [Для района]1 [это]2 [небольшая]4, [но]5 [приятная]6 [новость]3.
+1 form: Für требует винительный падеж.

@@ -1,0 +1,240 @@
+id: life-nachbarin-paket-a2-v1
+title: Посылка у соседки / Das Paket bei Frau Berger
+level: A2
+topic: соседи, посылки, одиночество, дружба
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Daniel]1 [ist]2 [neunundzwanzig]2 [und]3 [wohnt]4 [seit]5 [drei]6 [Monaten]6 [in]7 [Leipzig]8.
+RU: [Даниэлю]1 [двадцать девять лет]2, [и]3 [он]0 [уже]5 [три]6 [месяца]6 [живёт]4 [в]7 [Лейпциге]8.
+5 note: Seit + Dativ: уже, с какого-то времени (действие продолжается сейчас).
+5 sent: По-немецки здесь настоящее время: wohnt seit drei Monaten — живёт уже три месяца.
+
+DE: [Er]1 [arbeitet]2 [in]3 [einem]3 [Büro]3 [und]4 [kommt]5 [oft]6 [erst]7 [um]8 [sieben]8 [Uhr]8 [abends]9 [nach Hause]10.
+RU: [Он]1 [работает]2 [в]3 [офисе]3 [и]4 [часто]6 [приходит]5 [домой]10 [только]7 [в]8 [семь]8 [вечера]9.
+7 note: Erst: только, лишь (позже, чем хотелось бы).
+10 note: Nach Hause: домой (куда?). Zu Hause: дома (где?).
+
+DE: [Daniel]1 [bestellt]2 [viel]3 [im]4 [Internet]4: [Bücher]5, [Kaffee]6, [einmal]7 [sogar]8 [eine]9 [Lampe]9.
+RU: [Даниэль]1 [много]3 [заказывает]2 [в]4 [интернете]4: [книги]5, [кофе]6, [однажды]7 [даже]8 [лампу]9.
+2 form: Инфинитив bestellen: ich bestelle, er bestellt, wir bestellen; Präteritum: bestellte; Perfekt: hat bestellt.
+8 note: Sogar: даже.
+
+DE: [Aber]1 [der]2 [Paketbote]2 [kommt]3 [immer]4 [am]5 [Vormittag]5, [wenn]6 [Daniel]7 [nicht]8 [da]9 [ist]9.
+RU: [Но]1 [курьер]2 [всегда]4 [приходит]3 [до]5 [обеда]5, [когда]6 [Даниэля]7 [нет]8 [дома]9.
+2 note: Der Paketbote: почтальон, который приносит посылки.
+6 sent: Wenn открывает придаточное: глагол ist уходит в конец.
+
+DE: [Deshalb]1 [liegt]2 [fast]3 [jeden]4 [Tag]4 [ein]5 [Zettel]5 [in]6 [seinem]7 [Briefkasten]6: [„Ihr]8 [Paket]9 [ist]10 [bei]11 [Frau]12 [Berger]12, [Erdgeschoss]13.“
+RU: [Поэтому]1 [почти]3 [каждый]4 [день]4 [в]6 [его]7 [почтовом ящике]6 [лежит]2 [записка]5: [«Ваша]8 [посылка]9 [у]10,11 [фрау]12 [Бергер]12, [первый этаж]13.»
+1 note: Deshalb: поэтому. После него глагол стоит сразу на втором месте.
+5 note: Der Zettel: записка, бумажка.
+10 note: Ist bei … : находится у кого-то.
+13 note: Das Erdgeschoss: первый (наземный) этаж.
+
+== p2
+DE: [Frau]1 [Berger]1 [ist]2 [achtundsiebzig]3 [Jahre]3 [alt]2 [und]4 [wohnt]5 [allein]6.
+RU: [Фрау]1 [Бергер]1 [семьдесят восемь]3 [лет]2,3, [и]4 [она]0 [живёт]5 [одна]6.
+2 note: Jahre alt sein: быть в каком-то возрасте.
+6 note: Allein: одна, в одиночестве.
+
+DE: [Wenn]1 [Daniel]2 [klingelt]3, [öffnet]4 [sie]5 [sofort]6 [die]7 [Tür]7.
+RU: [Когда]1 [Даниэль]2 [звонит]3, [она]5 [сразу]6 [открывает]4 [дверь]7.
+3 note: Klingeln: звонить в дверь.
+3 form: Инфинитив klingeln: ich klingle, er klingelt, wir klingeln; Präteritum: klingelte; Perfekt: hat geklingelt.
+4 sent: После придаточного с wenn главное предложение начинается с глагола: öffnet sie.
+
+DE: [Aber]1 [sie]2 [gibt]3 [ihm]4 [das]5 [Paket]5 [nicht]6 [einfach]7 [so]7.
+RU: [Но]1 [она]2 [не]6 [отдаёт]3 [ему]4 [посылку]5 [просто]7 [так]7.
+4 form: Ihm: дательный падеж от er (кому? ему).
+
+DE: [Zuerst]1 [fragt]2 [sie]3: [„Was]4 [haben]5 [Sie]6 [denn]7 [diesmal]8 [bestellt]5?“
+RU: [Сначала]1 [она]3 [спрашивает]2: [«Что]4 [же]7 [вы]6 [заказали]5 [на этот раз]8?»
+5 form: Perfekt: haben + bestellt. Вспомогательный глагол на втором месте, причастие в конце.
+7 note: Denn в вопросе: частица интереса, «же», «а».
+8 note: Diesmal: на этот раз.
+
+DE: [Daniel]1 [ist]2 [müde]2 [und]3 [möchte]4 [nur]5 [seine]6 [Ruhe]6 [haben]6.
+RU: [Даниэль]1 [устал]2, [и]3 [он]0 [хочет]4 [только]5 [покоя]6.
+6 note: Seine Ruhe haben wollen: хотеть, чтобы тебя оставили в покое.
+
+DE: [„Nur]1 [Kaffee]2“, [sagt]3 [er]4 [kurz]5 [und]6 [geht]7 [schnell]8 [nach oben]9.
+RU: [«Только]1 [кофе]2», [коротко]5 [говорит]3 [он]4 [и]6 [быстро]8 [уходит]7 [наверх]9.
+9 note: Nach oben: наверх. Oben: наверху.
+
+== p3
+DE: [An]1 [einem]1 [Freitag]1 [ist]2 [das]3 [Paket]3 [sehr]4 [schwer]5.
+RU: [В]1 [одну]1 [пятницу]1 [посылка]3 [очень]4 [тяжёлая]2,5.
+1 note: An + день недели: в пятницу.
+5 note: Schwer: тяжёлый; также трудный.
+
+DE: [„Das]1 [sind]2 [aber]3 [keine]4 [Bücher]5“, [lacht]6 [Frau]7 [Berger]7.
+RU: [«Это]1 [уж]3 [точно]3 [не]4 [книги]2,5», [смеётся]6 [фрау]7 [Бергер]7.
+3 note: Aber в утвердительном предложении: усилительная частица, «ну и», «уж».
+
+DE: [Es]1 [ist]2 [ein]3 [Regal]3, [und]4 [Daniel]5 [muss]6 [es]7 [allein]8 [in]9 [den]9 [dritten]9 [Stock]9 [tragen]10.
+RU: [Это]1 [стеллаж]2,3, [и]4 [Даниэлю]5 [приходится]6 [одному]8 [нести]10 [его]7 [на]9 [четвёртый]9 [этаж]9.
+3 note: Das Regal: полка, стеллаж.
+9 note: Dritter Stock в Германии — это четвёртый этаж по-русски.
+10 form: Инфинитив tragen: ich trage, er trägt, wir tragen; Präteritum: trug; Perfekt: hat getragen.
+
+DE: [Frau]1 [Berger]1 [schaut]2 [ihm]3 [nach]2 [und]4 [sagt]5: [„Kommen]6 [Sie]7 [doch]8 [am]9 [Sonntag]9 [zum]10 [Kaffee]10.“
+RU: [Фрау]1 [Бергер]1 [смотрит]2 [ему]3 [вслед]2 [и]4 [говорит]5: [«Приходите]6,7 [же]8 [в]9 [воскресенье]9 [на]10 [кофе]10.»
+2 note: Nachschauen + Dativ: смотреть вслед кому-то.
+8 note: Doch в просьбе делает её мягче и теплее.
+10 note: Zum Kaffee kommen: прийти на кофе с пирогом (немецкая традиция Kaffee und Kuchen).
+
+DE: [„Ich]1 [backe]2 [einen]3 [Kuchen]3.“
+RU: [«Я]1 [испеку]2 [пирог]3.»
+2 form: Инфинитив backen: ich backe, er backt/bäckt, wir backen; Präteritum: backte; Perfekt: hat gebacken.
+2 sent: Настоящее время часто означает будущее: ich backe — я испеку.
+
+DE: [Daniel]1 [will]2 [Nein]3 [sagen]3, [aber]4 [er]5 [findet]6 [keine]7 [Ausrede]8.
+RU: [Даниэль]1 [хочет]2 [отказаться]3, [но]4 [он]5 [не]7 [находит]6 [никакой]7 [отговорки]8.
+3 note: Nein sagen: сказать «нет», отказаться.
+8 note: Die Ausrede: отговорка, предлог.
+
+== p4
+DE: [Am]1 [Sonntag]1 [sitzt]2 [er]3 [in]4 [einer]5 [kleinen]6 [Küche]5 [mit]7 [Blumen]8 [am]9 [Fenster]10.
+RU: [В]1 [воскресенье]1 [он]3 [сидит]2 [в]4 [маленькой]6 [кухне]5 [с]7 [цветами]8 [на]9 [окне]10.
+5 form: Die Küche: женский род; in einer Küche — дательный падеж (где?).
+
+DE: [Es]1 [gibt]1 [Apfelkuchen]2 [mit]3 [Sahne]4, [und]5 [der]6 [Kuchen]6 [schmeckt]7 [wie]8 [bei]9 [seiner]10 [Oma]11.
+RU: [На столе]1 [яблочный пирог]2 [со]3 [сливками]4, [и]5 [пирог]6 [на вкус]7 [как]8 [у]9 [его]10 [бабушки]11.
+1 note: Es gibt: есть, имеется (подают).
+4 note: Die Sahne: сливки; Schlagsahne — взбитые сливки.
+7 note: Schmecken: иметь вкус; Das schmeckt gut — это вкусно.
+
+DE: [An]1 [der]2 [Wand]2 [hängen]3 [viele]4 [Fotos]5.
+RU: [На]1 [стене]2 [висит]3 [много]4 [фотографий]5.
+3 note: Hängen: висеть (где?) — Dativ: an der Wand.
+
+DE: [„Das]1 [ist]2 [mein]3 [Sohn]4 [Thomas]5“, [erklärt]6 [Frau]7 [Berger]7.
+RU: [«Это]1,2 [мой]3 [сын]4 [Томас]5», [объясняет]6 [фрау]7 [Бергер]7.
+
+DE: [„Er]1 [lebt]2 [seit]3 [zwanzig]4 [Jahren]4 [in]5 [Kanada]6.“
+RU: [«Он]1 [уже]3 [двадцать]4 [лет]4 [живёт]2 [в]5 [Канаде]6.»
+3 form: Seit + Dativ: seit zwanzig Jahren (окончание -n в дательном падеже множественного числа).
+
+DE: [Er]1 [ruft]2 [jeden]3 [Sonntag]3 [an]2, [aber]4 [er]5 [kommt]6 [nur]7 [selten]8 [nach]9 [Deutschland]10.
+RU: [Он]1 [звонит]2 [каждое]3 [воскресенье]3, [но]4 [он]5 [приезжает]6 [в]9 [Германию]10 [лишь]7 [изредка]8.
+2 form: Anrufen: приставка an в конце. Инфинитив anrufen: ich rufe an, er ruft an; Präteritum: rief an; Perfekt: hat angerufen.
+8 note: Selten: редко.
+
+DE: [Ihr]1 [Mann]2 [ist]3 [vor]4 [fünf]5 [Jahren]5 [gestorben]3.
+RU: [Её]1 [муж]2 [умер]3 [пять]5 [лет]5 [назад]4.
+3 form: Инфинитив sterben: ich sterbe, er stirbt; Präteritum: starb; Perfekt: ist gestorben.
+4 note: Vor + Dativ о времени: тому назад.
+
+DE: [Plötzlich]1 [versteht]2 [Daniel]3, [warum]4 [sie]5 [immer]6 [so]7 [viele]7 [Fragen]8 [stellt]8.
+RU: [Вдруг]1 [Даниэль]3 [понимает]2, [почему]4 [она]5 [всегда]6 [задаёт]8 [так]7 [много]7 [вопросов]8.
+8 note: Eine Frage stellen: задать вопрос.
+4 sent: Косвенный вопрос с warum: глагол stellt в конце.
+
+DE: [Sie]1 [spricht]2 [manchmal]3 [den]4 [ganzen]4 [Tag]4 [mit]5 [niemandem]6.
+RU: [Иногда]3 [она]1 [весь]4 [день]4 [ни]6 [с]5 [кем]6 [не]6 [разговаривает]2.
+6 form: Niemand — никто; mit niemandem — дательный падеж.
+6 sent: В немецком одно отрицание (niemandem), в русском двойное: ни с кем не.
+
+== p5
+DE: [Von da an]1 [bleibt]2 [Daniel]3 [oft]4 [ein paar]5 [Minuten]6 [länger]7, [wenn]8 [er]9 [sein]10 [Paket]10 [abholt]11.
+RU: [С тех пор]1 [Даниэль]3 [часто]4 [задерживается]2 [на]0 [несколько]5 [минут]6 [дольше]7, [когда]8 [он]9 [забирает]11 [свою]10 [посылку]10.
+1 note: Von da an: с тех пор, с того момента.
+11 note: Abholen: забирать (что-то, что ждёт тебя).
+11 form: В придаточном приставка не отделяется: wenn er abholt. Perfekt: hat abgeholt.
+
+DE: [Er]1 [erzählt]2 [von]3 [seiner]4 [Arbeit]5, [und]6 [sie]7 [erzählt]8 [von]9 [Leipzig]10 [vor]11 [vierzig]12 [Jahren]12.
+RU: [Он]1 [рассказывает]2 [о]3 [своей]4 [работе]5, [а]6 [она]7 [рассказывает]8 [о]9 [Лейпциге]10 [сорок]12 [лет]12 [назад]11.
+2 note: Erzählen von + Dativ: рассказывать о чём-то.
+
+DE: [Sie]1 [gibt]2 [ihm]3 [Tipps]4: [wo]5 [es]6 [das]7 [beste]7 [Brot]8 [gibt]6 [und]9 [welcher]10 [Markt]11 [am]12 [Samstag]12 [günstig]13 [ist]13.
+RU: [Она]1 [даёт]2 [ему]3 [советы]4: [где]5 [продаётся]6 [самый]7 [лучший]7 [хлеб]8 [и]9 [какой]10 [рынок]11 [по]12 [субботам]12 [недорогой]13.
+13 note: Günstig: недорогой, выгодный.
+7 form: Gut — besser — am besten; das beste Brot: самый лучший хлеб.
+
+DE: [Er]1 [repariert]2 [ihren]3 [Fernseher]4 [und]5 [zeigt]6 [ihr]7, [wie]8 [man]9 [mit]10 [dem]10 [Handy]10 [Fotos]11 [schickt]12.
+RU: [Он]1 [чинит]2 [её]3 [телевизор]4 [и]5 [показывает]6 [ей]7, [как]8 [отправлять]9,12 [фотографии]11 [с]10 [телефона]10.
+4 note: Der Fernseher: телевизор.
+9 note: Man: безличное «люди», «ты»; в русском часто передаётся инфинитивом.
+
+== p6
+DE: [Im]1 [November]1 [ist]2 [etwas]3 [anders]4.
+RU: [В]1 [ноябре]1 [что-то]3 [идёт]2 [не так]4.
+4 note: Anders: иначе, по-другому.
+
+DE: [Auf]1 [dem]2 [Zettel]2 [steht]3 [wieder]4: [„Ihr]5 [Paket]6 [ist]7 [bei]8 [Frau]9 [Berger]9.“
+RU: [В]1 [записке]2 [снова]4 [написано]3: [«Ваша]5 [посылка]6 [у]7,8 [фрау]9 [Бергер]9.»
+3 note: Auf dem Zettel steht …: в записке написано … (stehen о тексте).
+
+DE: [Daniel]1 [klingelt]2 [einmal]3, [zweimal]4, [dreimal]5, [aber]6 [niemand]7 [öffnet]8.
+RU: [Даниэль]1 [звонит]2 [один раз]3, [два раза]4, [три раза]5, [но]6 [никто]7 [не]7 [открывает]8.
+
+DE: [Auch]1 [am]2 [nächsten]2 [Morgen]2 [ist]3 [es]0 [still]4 [in]5 [der]5 [Wohnung]5.
+RU: [И]1 [на]2 [следующее]2 [утро]2 [в]5 [квартире]5 [тихо]3,4.
+4 note: Still: тихо, тихий.
+
+DE: [Daniel]1 [macht]2 [sich]2 [Sorgen]2 [und]3 [ruft]4 [die]5 [Hausverwaltung]5 [an]4.
+RU: [Даниэль]1 [волнуется]2 [и]3 [звонит]4 [в]5 [управляющую]5 [компанию]5.
+2 note: Sich Sorgen machen: волноваться, беспокоиться.
+5 note: Die Hausverwaltung: управляющая компания дома.
+
+DE: [Dort]1 [erfährt]2 [er]3, [dass]4 [Frau]5 [Berger]5 [im]6 [Krankenhaus]6 [ist]7.
+RU: [Там]1 [он]3 [узнаёт]2, [что]4 [фрау]5 [Бергер]5 [лежит]7 [в]6 [больнице]6.
+2 form: Инфинитив erfahren: ich erfahre, er erfährt; Präteritum: erfuhr; Perfekt: hat erfahren.
+2 note: Erfahren: узнать (новость).
+
+DE: [Sie]1 [ist]2 [in]3 [der]3 [Küche]3 [gefallen]2 [und]4 [hat]5 [sich]6 [das]7 [Bein]7 [gebrochen]5.
+RU: [Она]1 [упала]2 [на]3 [кухне]3 [и]4 [сломала]5,6 [ногу]7.
+2 form: Инфинитив fallen: er fällt; Präteritum: fiel; Perfekt: ist gefallen.
+5 form: Sich (Dativ) das Bein brechen: сломать себе ногу. Perfekt: hat gebrochen.
+
+== p7
+DE: [Am]1 [Nachmittag]1 [fährt]2 [Daniel]3 [mit]4 [der]4 [Straßenbahn]4 [ins]5 [Krankenhaus]5.
+RU: [Днём]1 [Даниэль]3 [едет]2 [на]4 [трамвае]4 [в]5 [больницу]5.
+4 note: Die Straßenbahn: трамвай.
+
+DE: [Er]1 [bringt]2 [Blumen]3 [und]4 [ein]5 [Stück]5 [Kuchen]6 [vom]7 [Bäcker]7 [mit]2.
+RU: [Он]1 [приносит]2 [цветы]3 [и]4 [кусок]5 [пирога]6 [из]7 [пекарни]7.
+2 note: Mitbringen: принести с собой. Приставка mit уходит в конец.
+7 note: Vom Bäcker: из пекарни (букв. «от пекаря»).
+
+DE: [„Der]1 [ist]2 [nicht]3 [so]4 [gut]5 [wie]6 [Ihrer]7“, [sagt]8 [er]9, [und]10 [Frau]11 [Berger]11 [lacht]12.
+RU: [«Он]1 [не]3 [такой]4 [вкусный]2,5, [как]6 [ваш]7», [говорит]8 [он]9, [и]10 [фрау]11 [Бергер]11 [смеётся]12.
+4 sent: So … wie: такой же …, как (сравнение равенства).
+7 note: Ihrer: ваш (пирог), заменяет Ihr Kuchen.
+
+DE: [Sie]1 [gibt]2 [ihm]3 [ihren]4 [Schlüssel]5 [und]6 [bittet]7 [ihn]8, [ihre]9 [Pflanzen]10 [zu]11 [gießen]11.
+RU: [Она]1 [даёт]2 [ему]3 [свой]4 [ключ]5 [и]6 [просит]7 [его]8 [поливать]11 [её]9 [растения]10.
+7 note: Jemanden bitten, etwas zu tun: просить кого-то что-то сделать.
+11 form: Инфинитив gießen: ich gieße, er gießt; Präteritum: goss; Perfekt: hat gegossen.
+
+DE: [Drei]1 [Wochen]1 [lang]1 [gießt]2 [Daniel]3 [die]4 [Blumen]4 [und]5 [holt]6 [ihre]7 [Post]8.
+RU: [Три]1 [недели]1 [Даниэль]3 [поливает]2 [цветы]4 [и]5 [забирает]6 [её]7 [почту]8.
+1 note: Drei Wochen lang: в течение трёх недель.
+
+== p8
+DE: [Jetzt]1 [ist]2 [Frau]3 [Berger]3 [wieder]4 [zu Hause]5, [aber]6 [sie]7 [geht]8 [noch]9 [langsam]10.
+RU: [Теперь]1 [фрау]3 [Бергер]3 [снова]4 [дома]2,5, [но]6 [она]7 [ещё]9 [ходит]8 [медленно]10.
+
+DE: [Am]1 [Samstag]1 [kauft]2 [Daniel]3 [für]4 [sie]5 [ein]2, [und]6 [am]7 [Sonntag]7 [trinken]8 [sie]9 [zusammen]10 [Kaffee]11.
+RU: [В]1 [субботу]1 [Даниэль]3 [ходит]2 [для]4 [неё]5 [за покупками]2, [а]6 [в]7 [воскресенье]7 [они]9 [вместе]10 [пьют]8 [кофе]11.
+2 note: Einkaufen: делать покупки. Приставка ein в конце: er kauft ein.
+
+DE: [Thomas]1 [hat]2 [aus]3 [Kanada]4 [angerufen]2 [und]5 [sich]6 [bei]7 [Daniel]8 [bedankt]6.
+RU: [Томас]1 [позвонил]2 [из]3 [Канады]4 [и]5 [поблагодарил]6 [Даниэля]7,8.
+6 note: Sich bei jemandem bedanken: поблагодарить кого-то.
+6 form: Perfekt: hat sich bedankt.
+
+DE: [Daniel]1 [bestellt]2 [immer]3 [noch]3 [viel]4 [im]5 [Internet]5.
+RU: [Даниэль]1 [всё]3 [ещё]3 [много]4 [заказывает]2 [в]5 [интернете]5.
+3 note: Immer noch: всё ещё.
+
+DE: [Aber]1 [wenn]2 [der]3 [Zettel]3 [im]4 [Briefkasten]4 [liegt]5, [ärgert]6 [er]7 [sich]6 [nicht]8 [mehr]8.
+RU: [Но]1 [когда]2 [в]4 [почтовом ящике]4 [лежит]5 [записка]3, [он]7 [больше]8 [не]8 [злится]6.
+6 note: Sich ärgern: злиться, раздражаться.
+8 note: Nicht mehr: больше не.
+
+DE: [Er]1 [freut]2 [sich]2 [sogar]3 [ein]4 [bisschen]4.
+RU: [Он]1 [даже]3 [немного]4 [радуется]2.
+2 note: Sich freuen: радоваться.

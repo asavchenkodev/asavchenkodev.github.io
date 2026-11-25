@@ -1,0 +1,179 @@
+id: life-pelmeni-einkaufen-a2-v1
+title: Пельмени для всего курса / Pelmeni für den ganzen Kurs
+level: A2
+topic: супермаркет, покупки, продукты, готовка, гости
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Olga]1 [macht]2 [seit]3 [einem]4 [Jahr]4 [einen]5 [Deutschkurs]5 [an]6 [der]6 [Volkshochschule]6.
+RU: [Ольга]1 [уже]3 [год]4 [ходит]2 [на]5 [курсы]5 [немецкого]5 [в]6 [народном]6 [университете]6.
+6 note: Die Volkshochschule (VHS): недорогие курсы для взрослых в каждом немецком городе.
+
+DE: [Am]1 [Freitag]1 [ist]2 [die]3 [letzte]4 [Stunde]3, [und]5 [alle]6 [bringen]7 [etwas]8 [zu]9 [essen]9 [mit]7.
+RU: [В]1 [пятницу]1 [последний]4 [урок]2,3, [и]5 [все]6 [приносят]7 [что-нибудь]8 [поесть]9.
+2 note: Ist в русском не переводится: «в пятницу последний урок».
+7 note: Mitbringen: приносить с собой. Приставка mit в конце.
+
+DE: [Olga]1 [will]2 [Pelmeni]3 [machen]4, [wie]5 [ihre]6 [Mutter]7 [in]8 [Kasan]9.
+RU: [Ольга]1 [хочет]2 [сделать]4 [пельмени]3, [как]5 [её]6 [мама]7 [в]8 [Казани]9.
+
+DE: [Das]1 [Problem]1: [Im]2 [Kurs]2 [sind]3 [vierzehn]4 [Leute]5, [und]6 [Olga]7 [hat]8 [noch]9 [nie]10 [für]11 [so]12 [viele]12 [Menschen]13 [gekocht]8.
+RU: [Проблема]1: [на]2 [курсе]2 [четырнадцать]4 [человек]3,5, [а]6 [Ольга]7 [ещё]9 [никогда]10 [не]10 [готовила]8 [на]11 [столько]12 [людей]13.
+10 note: Noch nie: ещё никогда.
+8 form: Perfekt: hat gekocht. Инфинитив kochen: ich koche, er kocht; Präteritum: kochte.
+
+== p2
+DE: [Am]1 [Donnerstag]1 [nach]2 [der]3 [Arbeit]3 [geht]4 [sie]5 [in]6 [den]6 [Supermarkt]6.
+RU: [В]1 [четверг]1 [после]2 [работы]3 [она]5 [идёт]4 [в]6 [супермаркет]6.
+
+DE: [Sie]1 [hat]2 [eine]3 [lange]4 [Einkaufsliste]3: [zwei]5 [Kilo]5 [Hackfleisch]6, [drei]7 [Kilo]7 [Mehl]8, [Eier]9, [Zwiebeln]10, [Butter]11 [und]12 [saure]13 [Sahne]13.
+RU: [У неё]1 [есть]2 [длинный]4 [список]3 [покупок]3: [два]5 [килограмма]5 [фарша]6, [три]7 [килограмма]7 [муки]8, [яйца]9, [лук]10, [масло]11 [и]12 [сметана]13.
+6 note: Das Hackfleisch: фарш.
+13 note: Saure Sahne: сметана. Похожие продукты в Германии: Schmand, Crème fraîche.
+
+DE: [Das]1 [Hackfleisch]1 [findet]2 [sie]3 [sofort]4, [aber]5 [beim]6 [Mehl]6 [steht]7 [sie]8 [lange]9 [vor]10 [dem]10 [Regal]10.
+RU: [Фарш]1 [она]3 [находит]2 [сразу]4, [а]5 [вот]0 [перед]10 [полкой]10 [с]6 [мукой]6 [она]8 [стоит]7 [долго]9.
+7 note: Vor dem Regal stehen: стоять перед полкой.
+
+DE: [Es]1 [gibt]1 [Mehl]2 [Typ]3 [405]4, [Typ]5 [550]6, [Typ]7 [1050]8 [und]9 [noch]10 [fünf]11 [andere]12.
+RU: [Есть]1 [мука]2 [типа]3 [405]4, [типа]5 [550]6, [типа]7 [1050]8 [и]9 [ещё]10 [пять]11 [других]12.
+3 note: Typ у муки: чем меньше число, тем белее и мельче мука. Для теста подходит 405 или 550.
+
+DE: [Eine]1 [ältere]2 [Frau]1 [sieht]3 [ihr]4 [Gesicht]5 [und]6 [lacht]7.
+RU: [Пожилая]2 [женщина]1 [видит]3 [её]4 [лицо]5 [и]6 [смеётся]7.
+
+DE: [„Für]1 [Nudelteig]2 [nehmen]3 [Sie]4 [am]5 [besten]5 [den]6 [hier]7“, [sagt]8 [sie]9 [und]10 [gibt]11 [Olga]12 [eine]13 [Packung]13.
+RU: [«Для]1 [теста]2 [для]2 [лапши]2 [лучше]5 [всего]5 [возьмите]3,4 [вот]7 [эту]6», [говорит]8 [она]9 [и]10 [даёт]11 [Ольге]12 [пачку]13.
+5 note: Am besten: лучше всего.
+13 note: Die Packung: пачка, упаковка.
+
+== p3
+DE: [Saure]1 [Sahne]1 [gibt]2 [es]2, [aber]3 [keinen]4 [frischen]5 [Dill]6.
+RU: [Сметана]1 [есть]2, [но]3 [свежего]5 [укропа]6 [нет]4.
+6 note: Der Dill: укроп.
+4 form: Kein + Akkusativ: keinen Dill (мужской род).
+
+DE: [Olga]1 [fragt]2 [einen]3 [Mitarbeiter]3, [der]4 [Joghurt]5 [ins]6 [Kühlregal]6 [räumt]7.
+RU: [Ольга]1 [спрашивает]2 [сотрудника]3, [который]4 [раскладывает]7 [йогурты]5 [в]6 [холодильник]6.
+6 note: Das Kühlregal: холодильная витрина в магазине.
+7 note: Räumen: раскладывать, убирать на место.
+
+DE: [„Dill]1? [Den]2 [haben]3 [wir]4 [nur]5 [tiefgekühlt]6“, [sagt]7 [er]8.
+RU: [«Укроп]1? [Он]2 [у]3 [нас]4 [есть]3 [только]5 [замороженный]6», [говорит]7 [он]8.
+6 note: Tiefgekühlt: замороженный. Die Tiefkühltruhe: морозильный ларь.
+
+DE: [„Aber]1 [probieren]2 [Sie]3 [es]4 [mal]5 [im]6 [türkischen]7 [Laden]6 [an]8 [der]8 [Ecke]8.“
+RU: [«Но]1 [попробуйте]2,3,5 [поискать]4 [в]6 [турецком]7 [магазине]6 [на]8 [углу]8.»
+5 note: Mal в просьбе делает её мягче: «-ка», «попробуйте».
+6 note: Der Laden: небольшой магазин.
+
+== p4
+DE: [An]1 [der]1 [Kasse]1 [ist]2 [eine]3 [lange]4 [Schlange]3.
+RU: [У]1 [кассы]1 [длинная]4 [очередь]2,3.
+3 note: Die Schlange: очередь (а также змея).
+
+DE: [Olga]1 [geht]2 [zur]3 [Selbstbedienungskasse]3, [weil]4 [sie]5 [es]6 [eilig]6 [hat]6.
+RU: [Ольга]1 [идёт]2 [к]3 [кассе]3 [самообслуживания]3, [потому что]4 [она]5 [торопится]6.
+6 note: Es eilig haben: торопиться.
+
+DE: [Die]1 [Zwiebeln]1 [haben]2 [keinen]3 [Strichcode]4, [und]5 [die]6 [Maschine]6 [sagt]7 [immer]8 [wieder]8: [„Unbekannter]9 [Artikel]10 [im]11 [Ablagebereich]11.“
+RU: [У]0 [лука]1 [нет]2,3 [штрихкода]4, [и]5 [автомат]6 [снова]8 [и]8 [снова]8 [говорит]7: [«Неизвестный]9 [товар]10 [в]11 [зоне]11 [выкладки]11.»
+8 note: Immer wieder: снова и снова.
+
+DE: [Eine]1 [Kassiererin]1 [kommt]2, [tippt]3 [etwas]4 [ein]3 [und]5 [sagt]6 [freundlich]7: [„Das]8 [passiert]9 [jeden]10 [Tag]10.“
+RU: [Подходит]2 [кассирша]1, [что-то]4 [вводит]3 [и]5 [дружелюбно]7 [говорит]6: [«Такое]8 [случается]9 [каждый]10 [день]10.»
+3 note: Eintippen: вводить (на клавиатуре).
+
+DE: [Zum]1 [Schluss]1 [bezahlt]2 [Olga]3 [dreiundvierzig]4 [Euro]4 [und]5 [zwölf]6 [Cent]6.
+RU: [В]1 [конце]1 [Ольга]3 [платит]2 [сорок три]4 [евро]4 [и]5 [двенадцать]6 [центов]6.
+
+== p5
+DE: [Der]1 [türkische]2 [Laden]1 [ist]3 [klein]4 [und]5 [voll]6 [bis]7 [unter]7 [die]7 [Decke]7.
+RU: [Турецкий]2 [магазинчик]1 [маленький]3,4 [и]5 [забит]6 [до]7 [самого]7 [потолка]7.
+
+DE: [Es]1 [riecht]2 [nach]3 [Gewürzen]4, [frischem]5 [Brot]6 [und]7 [Orangen]8.
+RU: [Пахнет]1,2 [специями]3,4, [свежим]5 [хлебом]6 [и]7 [апельсинами]8.
+4 note: Das Gewürz: пряность, специя.
+
+DE: [Herr]1 [Yilmaz]1 [hat]2 [nicht]3 [nur]4 [Dill]5, [er]6 [hat]7 [auch]8 [Smetana]9 [aus]10 [Polen]11.
+RU: [У]2 [господина]1 [Йылмаза]1 [есть]2 [не]3 [только]4 [укроп]5, [у]7 [него]6 [есть]7 [и]8 [сметана]9 [из]10 [Польши]11.
+
+DE: [Olga]1 [ist]2 [so]3 [glücklich]4, [dass]5 [sie]6 [ihm]7 [von]8 [ihrem]9 [Kurs]10 [erzählt]11.
+RU: [Ольга]1 [так]3 [рада]2,4, [что]5 [она]6 [рассказывает]11 [ему]7 [о]8 [своём]9 [курсе]10.
+5 sent: So …, dass: так …, что. Глагол erzählt в конце придаточного.
+
+DE: [Er]1 [schenkt]2 [ihr]3 [noch]4 [ein]5 [Bund]5 [Petersilie]6 [und]7 [sagt]8: [„Viel]9 [Erfolg]9 [beim]10 [Kochen]11!“
+RU: [Он]1 [дарит]2 [ей]3 [ещё]4 [пучок]5 [петрушки]6 [и]7 [говорит]8: [«Удачи]9 [в]10 [готовке]11!»
+5 note: Das Bund: пучок (зелени).
+9 note: Viel Erfolg!: удачи! успехов!
+
+== p6
+DE: [Am]1 [Abend]1 [steht]2 [Olga]3 [in]4 [ihrer]5 [kleinen]6 [Küche]4 [und]7 [macht]8 [den]9 [Teig]9.
+RU: [Вечером]1 [Ольга]3 [стоит]2 [на]4 [своей]5 [маленькой]6 [кухне]4 [и]7 [делает]8 [тесто]9.
+9 note: Der Teig: тесто.
+
+DE: [Nach]1 [zwei]2 [Stunden]2 [hat]3 [sie]4 [hundert]5 [Pelmeni]6 [fertig]7, [und]8 [ihr]9 [Rücken]10 [tut]11 [weh]11.
+RU: [Через]1 [два]2 [часа]2 [у]0 [неё]4 [готово]3,7 [сто]5 [пельменей]6, [и]8 [у]0 [неё]9 [болит]11 [спина]10.
+11 note: Wehtun: болеть. Mir tut der Rücken weh — у меня болит спина.
+
+DE: [Sie]1 [braucht]2 [aber]3 [mindestens]4 [dreihundert]5.
+RU: [Но]3 [ей]1 [нужно]2 [как минимум]4 [триста]5.
+4 note: Mindestens: как минимум, по меньшей мере.
+
+DE: [Sie]1 [schreibt]2 [in]3 [die]3 [WhatsApp-Gruppe]3 [vom]4 [Kurs]4: [„Hat]5 [jemand]6 [heute]7 [Abend]7 [Zeit]5? [Ich]8 [brauche]9 [Hilfe]10!“
+RU: [Она]1 [пишет]2 [в]3 [группу]3 [курса]4 [в]3 [WhatsApp]3: [«Есть]5 [у]6 [кого-нибудь]6 [сегодня]7 [вечером]7 [время]5? [Мне]8 [нужна]9 [помощь]10!»
+6 note: Jemand: кто-то, кто-нибудь.
+
+== p7
+DE: [Eine]1 [halbe]2 [Stunde]1 [später]3 [klingelt]4 [es]0.
+RU: [Через]3 [полчаса]1,2 [раздаётся]4 [звонок]4 [в]0 [дверь]0.
+4 note: Es klingelt: звонят в дверь.
+
+DE: [Vor]1 [der]1 [Tür]1 [stehen]2 [Ahmad]3 [aus]4 [Syrien]5, [Lucía]6 [aus]7 [Kolumbien]8 [und]9 [Mai]10 [aus]11 [Vietnam]12.
+RU: [За]1 [дверью]1 [стоят]2 [Ахмад]3 [из]4 [Сирии]5, [Лусия]6 [из]7 [Колумбии]8 [и]9 [Май]10 [из]11 [Вьетнама]12.
+
+DE: [Olga]1 [zeigt]2 [ihnen]3, [wie]4 [man]5 [die]6 [Pelmeni]6 [formt]7.
+RU: [Ольга]1 [показывает]2 [им]3, [как]4 [лепить]5,7 [пельмени]6.
+7 note: Formen: лепить, придавать форму.
+
+DE: [„Das]1 [ist]2 [wie]3 [bei]4 [uns]5 [Teigtaschen]6“, [sagt]7 [Ahmad]8.
+RU: [«Это]1,2 [как]3 [наши]4,5 [пирожки]6», [говорит]7 [Ахмад]8.
+6 note: Die Teigtasche: кармашек из теста, пирожок с начинкой.
+
+DE: [Lucía]1 [sagt]2, [ihre]3 [Oma]4 [macht]5 [Empanadas]6, [und]7 [Mai]8 [erzählt]9 [von]10 [Dumplings]11 [zum]12 [Neujahrsfest]13.
+RU: [Лусия]1 [говорит]2, [что]0 [её]3 [бабушка]4 [делает]5 [эмпанадас]6, [а]7 [Май]8 [рассказывает]9 [о]10 [пельменях]11 [на]12 [Новый год]13.
+13 note: Das Neujahrsfest: праздник Нового года; во Вьетнаме — Тэт, по лунному календарю.
+
+DE: [Es]1 [scheint]2, [dass]3 [die]4 [ganze]5 [Welt]4 [Fleisch]6 [in]7 [Teig]8 [packt]9.
+RU: [Кажется]1,2, [что]3 [весь]5 [мир]4 [заворачивает]9 [мясо]6 [в]7 [тесто]8.
+2 note: Es scheint: кажется.
+9 note: Packen: паковать, класть.
+
+DE: [Um]1 [Mitternacht]2 [liegen]3 [dreihundertzwanzig]4 [Pelmeni]5 [im]6 [Gefrierfach]6.
+RU: [В]1 [полночь]2 [в]6 [морозилке]6 [лежат]3 [триста двадцать]4 [пельменей]5.
+6 note: Das Gefrierfach: морозильная камера в холодильнике.
+
+DE: [Manche]1 [sind]2 [schön]3, [manche]4 [sehen]5 [ein]6 [bisschen]6 [komisch]7 [aus]5.
+RU: [Некоторые]1 [красивые]2,3, [некоторые]4 [выглядят]5 [немного]6 [странно]7.
+5 note: Aussehen: выглядеть. Приставка aus в конце.
+
+== p8
+DE: [Am]1 [Freitag]1 [ist]2 [der]3 [Tisch]3 [im]4 [Kursraum]4 [voll]5.
+RU: [В]1 [пятницу]1 [стол]3 [в]4 [классе]4 [заставлен]2,5 [едой]0.
+
+DE: [Es]1 [gibt]1 [Hummus]2, [Empanadas]3, [Frühlingsrollen]4, [Kartoffelsalat]5 [und]6 [einen]7 [großen]8 [Topf]7 [Pelmeni]9 [mit]10 [Smetana]11 [und]12 [Dill]13.
+RU: [Здесь]1 [хумус]2, [эмпанадас]3, [спринг-роллы]4, [картофельный]5 [салат]5 [и]6 [большая]8 [кастрюля]7 [пельменей]9 [со]10 [сметаной]11 [и]12 [укропом]13.
+7 note: Der Topf: кастрюля.
+
+DE: [Frau]1 [Hartmann]1, [die]3 [Lehrerin]3, [isst]4 [drei]5 [Teller]6 [und]7 [fragt]8 [nach]9 [dem]10 [Rezept]10.
+RU: [Фрау]1 [Хартман]1, [учительница]3, [съедает]4 [три]5 [тарелки]6 [и]7 [спрашивает]8 [рецепт]9,10.
+4 form: Инфинитив essen: ich esse, er isst; Präteritum: aß; Perfekt: hat gegessen.
+
+DE: [Olga]1 [schreibt]2 [es]3 [auf]2, [auf]4 [Deutsch]5, [ohne]6 [Wörterbuch]7.
+RU: [Ольга]1 [записывает]2 [его]3 — [на]4 [немецком]5, [без]6 [словаря]7.
+2 note: Aufschreiben: записывать.
+
+DE: [Das]1 [ist]2 [vielleicht]3 [ihre]4 [beste]5 [Prüfung]6 [in]7 [diesem]8 [Jahr]9.
+RU: [Это]1,2, [пожалуй]3, [её]4 [лучший]5 [экзамен]6 [в]7 [этом]8 [году]9.
+6 note: Die Prüfung: экзамен.

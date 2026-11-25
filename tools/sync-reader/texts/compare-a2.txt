@@ -1,0 +1,237 @@
+id: vergleichen-a2-v2
+title: Сравнения в городе / Vergleiche in der Stadt
+level: A2
+topic: comparative degree objects preferences
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [In]1 [unserem]2 [Viertel]2 [gibt]3 [es]4 [zwei]5 [Parks]6.
+RU: [В]1 [нашем районе]2 [есть]3,4 [два]5 [парка]6.
+1 note: Место: in + Dativ.
+2 note: Das Viertel: средний род, Dativ после in.
+3 note: Es gibt = есть/имеется.
+3 form: Инфинитив geben: ich gebe, er gibt, wir geben; Präteritum: gab; Perfekt: hat gegeben.
+4 note: Формальное es в конструкции es gibt.
+6 note: Plural: die Parks.
+
+DE: [Der]1 [alte]1 [Park]1 [ist]2 [größer]3 [als]4 [der]5 [neue]5 [Park]5.
+RU: [Старый парк]1 [больше]2,3, [чем]4 [новый парк]5.
+1 note: Der Park: мужской род, Nominativ; alte с окончанием -e после der.
+2 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+3 note: Сравнительная степень от groß.
+4 note: Сравнение с Komparativ: größer als.
+5 note: Der Park: мужской род, Nominativ; neue после der.
+
+DE: [Aber]1 [der]2 [neue]2 [Park]2 [ist]3 [sauberer]4 [und]5 [ruhiger]6.
+RU: [Но]1 [новый парк]2 [чище]3,4 [и]5 [тише]6.
+2 note: Der Park: мужской род, Nominativ.
+3 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+4 note: Сравнительная степень от sauber.
+6 note: Сравнительная степень от ruhig.
+
+DE: [Anna]1 [mag]2 [den]3 [alten]3 [Park]3, [weil]4 [es]5 [dort]6 [mehr]7 [Bäume]8 [gibt]9.
+RU: [Анна]1 [любит]2 [старый парк]3, [потому что]4 [там]5,6 [больше]7 [деревьев]8,9.
+2 form: Инфинитив mögen: ich mag, er mag, wir mögen; Präteritum: mochte; Perfekt: hat gemocht.
+3 note: Der Park: мужской род, Akkusativ; alten после den.
+4 note: После weil глагол уходит в конец.
+5 note: Формальное es в es gibt.
+7 note: Mehr = больше, без окончания.
+8 note: Plural: die Bäume.
+9 note: Глагол стоит в конце придаточного после weil.
+9 form: Инфинитив geben: ich gebe, er gibt, wir geben; Präteritum: gab; Perfekt: hat gegeben.
+
+DE: [Im Sommer]1 [geht]2 [sie]3 [öfter]4 [dorthin]5 [als]6 [im Winter]7.
+RU: [Летом]1 [она]3 [ходит]2 [туда]5 [чаще]4, [чем]6 [зимой]7.
+1 note: im = in dem.
+1 form: Dativ: in dem Sommer.
+2 form: Инфинитив gehen: ich gehe, er geht, wir gehen; Präteritum: ging; Perfekt: ist gegangen.
+4 note: Сравнительная степень от oft.
+6 note: Сравнение: öfter ... als.
+7 note: im = in dem.
+7 form: Dativ: in dem Winter.
+
+== p2
+DE: [Max]1 [hat]2 [ein]3 [Fahrrad]3 [und]4 [einen]5 [Roller]5.
+RU: [У]1 [Макса]1 [есть]2 [велосипед]3 [и]4 [самокат]5.
+2 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+3 note: Das Fahrrad: средний род, Akkusativ.
+5 note: Der Roller: мужской род, Akkusativ.
+
+DE: [Das]1 [Fahrrad]1 [ist]2 [schneller]3 [als]4 [der]5 [Roller]5.
+RU: [Велосипед]1 [быстрее]2,3, [чем]4 [самокат]5.
+1 note: Das Fahrrad: средний род, Nominativ.
+2 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+3 note: Сравнительная степень от schnell.
+4 note: Сравнение с Komparativ: schneller als.
+5 note: Der Roller: мужской род, Nominativ.
+
+DE: [Der]1 [Roller]1 [ist]2 [leichter]3 [und]4 [billiger]5.
+RU: [Самокат]1 [легче]2,3 [и]4 [дешевле]5.
+1 note: Der Roller: мужской род, Nominativ.
+2 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+3 note: Сравнительная степень от leicht.
+5 note: Сравнительная степень от billig.
+
+DE: [Zur Schule]1 [fährt]2 [Max]3 [am liebsten]4 [mit]5 [dem]6 [Fahrrad]6.
+RU: [До школы]1 [Макс]3 [едет]2 [на]5 [велосипеде]6 [охотнее всего]4.
+1 note: zur = zu der.
+1 form: Dativ: zu der Schule.
+2 form: Инфинитив fahren: ich fahre, er fährt, wir fahren; Präteritum: fuhr; Perfekt: ist gefahren.
+4 note: Superlativ для предпочтения: am liebsten = больше всего нравится делать.
+5 note: Mit требует Dativ.
+6 note: Das Fahrrad: Dativ после mit.
+
+DE: [Aber]1 [für]2 [kurze]3 [Wege]4 [nimmt]5 [er]6 [den]7 [Roller]7 [genauso]8 [oft]9 [wie]10 [das]11 [Fahrrad]11.
+RU: [Но]1 [для]2 [коротких]3 [поездок]4 [он]6 [берёт]5 [самокат]7 [так же]8 [часто]9, [как]10 [велосипед]11.
+2 note: Für требует Akkusativ.
+3 note: Akkusativ plural без артикля: kurze Wege.
+4 note: Plural: die Wege.
+5 form: Инфинитив nehmen: ich nehme, er nimmt, wir nehmen; Präteritum: nahm; Perfekt: hat genommen.
+7 note: Der Roller: Akkusativ.
+8 note: В сравнении: genauso ... wie.
+10 note: Сравнение равенства: genauso oft wie.
+11 note: Das Fahrrad: Akkusativ.
+
+== p3
+DE: [Im Café]1 [stehen]2 [ein]3 [kleiner]3 [Tisch]3 [und]4 [ein]5 [großer]5 [Tisch]5.
+RU: [В кафе]1 [стоят]2 [маленький стол]3 [и]4 [большой стол]5.
+1 note: im = in dem.
+1 form: Dativ: in dem Café.
+2 form: Инфинитив stehen: ich stehe, er steht, wir stehen; Präteritum: stand; Perfekt: hat gestanden.
+3 note: Der Tisch: мужской род, Nominativ; kleiner после ein.
+5 note: Der Tisch: мужской род, Nominativ; großer после ein.
+
+DE: [Der]1 [große]1 [Tisch]1 [ist]2 [bequemer]3 [für]4 [eine]5 [Familie]5.
+RU: [Большой стол]1 [удобнее]2,3 [для]4 [семьи]5.
+1 note: Der Tisch: мужской род, Nominativ; große после der.
+2 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+3 note: Сравнительная степень от bequem.
+4 note: Für требует Akkusativ.
+5 note: Die Familie: женский род, Akkusativ.
+
+DE: [Der]1 [kleine]1 [Tisch]1 [steht]2 [näher]3 [am Fenster]4.
+RU: [Маленький стол]1 [стоит]2 [ближе]3 [к окну]4.
+1 note: Der Tisch: мужской род, Nominativ.
+2 form: Инфинитив stehen: ich stehe, er steht, wir stehen; Präteritum: stand; Perfekt: hat gestanden.
+3 note: Сравнительная степень от nah.
+4 note: am = an dem.
+4 form: Dativ: an dem Fenster.
+
+DE: [Kaffee]1 [ist]2 [hier]3 [teurer]4 [als]5 [Tee]6, [aber]7 [leckerer]8.
+RU: [Кофе]1 [здесь]3 [дороже]2,4, [чем]5 [чай]6, [но]7 [вкуснее]8.
+1 note: Der Kaffee, здесь без артикля как напиток.
+2 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+4 note: Сравнительная степень от teuer.
+5 note: Сравнение: teurer als.
+6 note: Der Tee, здесь без артикля как напиток.
+8 note: Сравнительная степень от lecker.
+
+DE: [Lena]1 [bestellt]2 [Tee]3 [genauso]4 [oft]5 [wie]6 [Kaffee]7.
+RU: [Лена]1 [заказывает]2 [чай]3 [так же]4 [часто]5, [как]6 [кофе]7.
+2 form: Инфинитив bestellen: ich bestelle, er bestellt, wir bestellen; Präteritum: bestellte; Perfekt: hat bestellt.
+4 note: В сравнении: genauso ... wie.
+
+== p4
+DE: [Im Zimmer]1 [gibt]2 [es]3 [einen]4 [alten]4 [Stuhl]4, [einen]5 [neuen]6 [Sessel]7 [und]8 [ein]9 [weiches]9 [Sofa]9.
+RU: [В комнате]1 [есть]2,3 [старый стул]4, [новое]5,6 [кресло]7 [и]8 [мягкий диван]9.
+1 note: im = in dem.
+1 form: Dativ: in dem Zimmer.
+2 note: Es gibt = есть/имеется.
+2 form: Инфинитив geben: ich gebe, er gibt, wir geben; Präteritum: gab; Perfekt: hat gegeben.
+3 note: Формальное es.
+4 note: Der Stuhl: мужской род, Akkusativ; alten после einen.
+5 note: Der Sessel: мужской род, Akkusativ.
+6 note: Окончание -en после einen.
+7 note: Der Sessel.
+9 note: Das Sofa: средний род, Akkusativ; weiches после ein.
+
+DE: [Der]1 [Sessel]1 [ist]2 [weicher]3 [als]4 [der]5 [Stuhl]5, [aber]6 [das]7 [Sofa]7 [ist]8 [am bequemsten]9.
+RU: [Кресло]1 [мягче]2,3, [чем]4 [стул]5, [но]6 [диван]7 [самый удобный]8,9.
+1 note: Der Sessel: мужской род, Nominativ.
+2 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+3 note: Сравнительная степень от weich.
+4 note: Сравнение: weicher als.
+5 note: Der Stuhl: Nominativ.
+7 note: Das Sofa: средний род, Nominativ.
+8 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+9 note: Superlativ: am + прилагательное + -sten.
+
+DE: [Der]1 [Bruder]1 [sitzt]2 [am liebsten]3 [auf]4 [dem]5 [Sofa]5.
+RU: [Брат]1 [охотнее всего]3 [сидит]2 [на]4 [диване]5.
+1 note: Der Bruder: мужской род, Nominativ.
+2 form: Инфинитив sitzen: ich sitze, er sitzt, wir sitzen; Präteritum: saß; Perfekt: hat gesessen.
+3 note: Am liebsten = больше всего предпочитает.
+4 note: Место: auf + Dativ.
+5 note: Das Sofa: Dativ после auf.
+
+DE: [Die]1 [Schwester]1 [liest]2 [lieber]3 [im Sessel]4.
+RU: [Сестра]1 [охотнее]3 [читает]2 [в кресле]4.
+1 note: Die Schwester: женский род, Nominativ.
+2 form: Инфинитив lesen: ich lese, er liest, wir lesen; Präteritum: las; Perfekt: hat gelesen.
+3 note: Lieber = предпочтительнее, сравнительная форма от gern.
+4 note: im = in dem.
+4 form: Dativ: in dem Sessel.
+
+DE: [Der]1 [Stuhl]1 [braucht]2 [weniger]3 [Platz]4, [deshalb]5 [ist]6 [er]7 [praktischer]8.
+RU: [Стул]1 [занимает]2 [меньше]3 [места]4, [поэтому]5 [он]7 [практичнее]6,8.
+1 note: Der Stuhl: мужской род, Nominativ.
+2 form: Инфинитив brauchen: ich brauche, er braucht, wir brauchen; Präteritum: brauchte; Perfekt: hat gebraucht.
+3 note: Weniger = меньше.
+4 note: Der Platz, здесь без артикля.
+5 note: После deshalb глагол стоит на позиции 2.
+6 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+8 note: Сравнительная степень от praktisch.
+
+== p5
+DE: [Am Ende]1 [des]2 [Tages]2 [vergleichen]3 [die]4 [Freunde]4 [ihre]5 [Einkäufe]5.
+RU: [В конце]1 [дня]2 [друзья]4 [сравнивают]3 [свои покупки]5.
+1 note: am = an dem.
+1 form: Dativ: an dem Ende.
+2 note: Der Tag: Genitiv des Tages.
+3 form: Инфинитив vergleichen: ich vergleiche, er vergleicht, wir vergleichen; Präteritum: verglich; Perfekt: hat verglichen.
+4 note: Plural Nominativ: die Freunde.
+5 note: Plural Akkusativ; ihre = свои/их.
+
+DE: [Anna]1 [hat]2 [weniger]3 [Sachen]4 [gekauft]5 [als]6 [Max]7.
+RU: [Анна]1 [купила]2,5 [меньше]3 [вещей]4, [чем]6 [Макс]7.
+2 note: В Perfekt вспомогательный глагол haben стоит на позиции 2.
+2 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+4 note: Plural: die Sachen.
+5 note: Partizip II от kaufen.
+5 form: В Perfekt смысловой глагол стоит в конце. Инфинитив kaufen: ich kaufe, er kauft, wir kaufen; Präteritum: kaufte; Perfekt: hat gekauft.
+6 note: Сравнение: weniger ... als.
+
+DE: [Aber]1 [ihre]2 [Sachen]2 [waren]3 [nützlicher]4.
+RU: [Но]1 [её вещи]2 [были]3 [полезнее]4.
+2 note: Plural Nominativ; ihre = её.
+3 note: Präteritum от sein.
+3 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+4 note: Сравнительная степень от nützlich.
+
+DE: [Max]1 [hat]2 [mehr]3 [Geld]4 [ausgegeben]5, [weil]6 [seine]7 [Tasche]7 [teurer]8 [war]9.
+RU: [Макс]1 [потратил]2,5 [больше]3 [денег]4, [потому что]6 [его сумка]7 [была]9 [дороже]8.
+2 note: Perfekt с haben.
+2 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+4 note: Das Geld, обычно без артикля.
+5 note: Partizip II от ausgeben.
+5 form: Инфинитив ausgeben: ich gebe aus, er gibt aus, wir geben aus; Präteritum: gab aus; Perfekt: hat ausgegeben.
+6 note: После weil глагол стоит в конце.
+7 note: Die Tasche: женский род, Nominativ; seine = его.
+8 note: Сравнительная степень от teuer.
+9 note: Глагол стоит в конце придаточного после weil.
+9 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+
+DE: [Beide]1 [sind]2 [zufrieden]3, [weil]4 [jeder]5 [gewählt]6 [hat]7, [was]8 [ihm]9 [am besten]10 [gefällt]11.
+RU: [Оба]1 [довольны]2,3, [потому что]4 [каждый]5 [выбрал]6,7 [то, что]8 [ему]9 [больше всего]10 [нравится]11.
+2 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+4 note: После weil глагол стоит в конце.
+6 note: Partizip II от wählen.
+6 form: Инфинитив wählen: ich wähle, er wählt, wir wählen; Präteritum: wählte; Perfekt: hat gewählt.
+7 note: В придаточном после weil вспомогательный глагол стоит в конце.
+7 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+8 note: Вводит придаточное предложение.
+9 note: Dativ: кому? ему.
+10 note: Superlativ от gut: am besten.
+11 note: Gefallen требует Dativ: ihm gefällt.
+11 form: Глагол стоит в конце придаточного после was. Инфинитив gefallen (+ Dativ): es gefällt mir; Präteritum: gefiel; Perfekt: hat gefallen.

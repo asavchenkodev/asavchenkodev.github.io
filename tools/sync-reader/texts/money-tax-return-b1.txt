@@ -1,0 +1,156 @@
+id: money-tax-return-b1-v1
+title: Коробка с чеками / Der Schuhkarton voller Quittungen
+level: B1
+topic: деньги, налоги, налоговая декларация, вычеты
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Marta]1 [kommt]2 [aus]3 [Polen]4 [und]5 [arbeitet]6 [seit]7 [drei]8 [Jahren]9 [als]10 [Physiotherapeutin]11 [in]12 [Köln]13.
+RU: [Марта]1 [родом]2 [из]3 [Польши]4, [и]5 [уже]7 [три]8 [года]9 [она]0 [работает]6 [физиотерапевтом]10,11 [в]12 [Кёльне]13.
+2 note: Aus einem Land kommen: быть родом из страны.
+7 sent: Seit + Dativ с настоящим временем: работает до сих пор.
+10 note: Als + профессия без артикля: als Physiotherapeutin.
+
+DE: [Jedes]1 [Jahr]1 [im]2 [Frühling]2 [fragen]3 [ihre]4 [Kolleginnen]5 [in]6 [der]7 [Praxis]7: „[Hast]8 [du]9 [deine]10 [Steuererklärung]11 [schon]12 [gemacht]8?"
+RU: [Каждый]1 [год]1 [весной]2 [её]4 [коллеги]5 [в]6 [кабинете]7 [спрашивают]3: «[Ты]9 [уже]12 [сделала]8 [свою]10 [налоговую]11 [декларацию]11?»
+5 note: Die Kollegin, die Kolleginnen: коллега (женщина).
+7 note: Die Praxis: кабинет врача или физиотерапевта.
+11 note: Die Steuererklärung: налоговая декларация.
+
+DE: [Und]1 [jedes]2 [Jahr]2 [antwortet]3 [Marta]4: „[Nein]5, [das]6 [lohnt]7 [sich]7 [bei]8 [mir]8 [nicht]9."
+RU: [И]1 [каждый]2 [год]2 [Марта]4 [отвечает]3: «[Нет]5, [мне]8 [это]6 [не]9 [выгодно]7».
+7 note: Sich lohnen: окупаться, иметь смысл.
+8 note: Bei mir: в моём случае.
+
+DE: [In]1 [Wahrheit]1 [hat]2 [sie]3 [einfach]4 [Angst]2 [vor]5 [den]6 [Formularen]6.
+RU: [На]1 [самом]1 [деле]1 [она]3 [просто]4 [боится]2,5 [бланков]6.
+1 note: In Wahrheit: на самом деле.
+2 note: Angst haben vor + Dativ: бояться чего-то.
+
+== p2
+DE: [In]1 [ihrer]2 [Kommode]3 [steht]4 [ein]5 [Schuhkarton]5 [voller]6 [Quittungen]7, [Rechnungen]8 [und]9 [Briefe]10.
+RU: [В]1 [её]2 [комоде]3 [стоит]4 [обувная]5 [коробка]5, [полная]6 [чеков]7, [счетов]8 [и]9 [писем]10.
+5 note: Der Schuhkarton: коробка из-под обуви.
+6 note: Voller: полный чего-то.
+7 note: Die Quittung: чек, квитанция.
+
+DE: [Sie]1 [sammelt]2 [alles]3, [aber]4 [sie]0 [schaut]5 [nie]6 [hinein]5.
+RU: [Она]1 [собирает]2 [всё]3, [но]4 [никогда]6 [туда]5 [не]6 [заглядывает]5.
+5 note: Hineinschauen: заглядывать внутрь.
+
+DE: [Im]1 [April]1 [erzählt]2 [ihr]3 [Kollege]4 [Kemal]5, [dass]6 [er]7 [fast]8 [neunhundert]9 [Euro]10 [vom]11 [Finanzamt]12 [zurückbekommen]13 [hat]13.
+RU: [В]1 [апреле]1 [её]3 [коллега]4 [Кемаль]5 [рассказывает]2, [что]6 [он]7 [получил]13 [обратно]13 [от]11 [налоговой]12 [почти]8 [девятьсот]9 [евро]10.
+12 note: Das Finanzamt: налоговая инспекция.
+13 form: Zurückbekommen: получить обратно; Perfekt: hat zurückbekommen. В придаточном с dass hat стоит в конце.
+
+DE: [Marta]1 [ist]2 [überrascht]2.
+RU: [Марта]1 [удивлена]2.
+
+DE: „[Du]1 [verdienst]2 [doch]3 [genauso]4 [viel]4 [wie]5 [ich]6!"
+RU: «[Ты]1 [же]3 [зарабатываешь]2 [столько]4 [же]4, [сколько]5 [и]0 [я]6!»
+4 note: Genauso viel wie: столько же, сколько.
+
+DE: „[Eben]1", [sagt]2 [Kemal]3 [und]4 [grinst]5. „[Komm]6 [am]7 [Sonntag]7 [vorbei]6 [und]8 [bring]9 [deinen]10 [Karton]11 [mit]9."
+RU: «[Вот]1 [именно]1», — [говорит]2 [Кемаль]3 [и]4 [ухмыляется]5. «[Заходи]6 [в]7 [воскресенье]7 [и]8 [принеси]9 [свою]10 [коробку]11».
+1 note: Eben: вот именно.
+6 form: Vorbeikommen: заходить; Императив: komm ... vorbei!
+9 form: Mitbringen: приносить с собой; Императив: bring ... mit!
+
+== p3
+DE: [Am]1 [Sonntag]1 [sitzen]2 [sie]3 [an]4 [Kemals]5 [Küchentisch]6, [mit]7 [Kaffee]8, [Laptop]9 [und]10 [dem]11 [Schuhkarton]11.
+RU: [В]1 [воскресенье]1 [они]3 [сидят]2 [за]4 [кухонным]6 [столом]6 [Кемаля]5 — [с]7 [кофе]8, [ноутбуком]9 [и]10 [обувной]11 [коробкой]11.
+5 form: Kemals: притяжательная форма имени (как Genitiv): стол Кемаля.
+
+DE: [Kemal]1 [öffnet]2 [ELSTER]3, [das]4 [Online-Portal]4 [des]5 [Finanzamts]5.
+RU: [Кемаль]1 [открывает]2 [ELSTER]3 — [онлайн-портал]4 [налоговой]5.
+3 note: ELSTER: официальный портал для подачи налоговой декларации онлайн.
+
+DE: „[Zuerst]1 [die]2 [einfachen]3 [Sachen]2", [sagt]4 [er]5.
+RU: «[Сначала]1 [простые]3 [вещи]2», — [говорит]4 [он]5.
+
+DE: „[Wie]1 [weit]2 [ist]3 [deine]4 [Praxis]5 [von]6 [deiner]7 [Wohnung]8 [entfernt]2?"
+RU: «[Как]1 [далеко]2 [от]6 [твоей]7 [квартиры]8 [находится]3 [твоя]4 [работа]5?»
+2 note: Weit entfernt sein von: находиться далеко от.
+
+DE: „[Achtzehn]1 [Kilometer]2. [Ich]3 [fahre]4 [jeden]5 [Tag]5 [mit]6 [dem]7 [Auto]7."
+RU: «[Восемнадцать]1 [километров]2. [Я]3 [каждый]5 [день]5 [езжу]4 [на]6 [машине]7».
+4 form: Инфинитив fahren: ich fahre, er fährt, wir fahren; Präteritum: fuhr; Perfekt: ist gefahren.
+
+DE: [Kemal]1 [rechnet]2: [Für]3 [jeden]4 [Arbeitstag]5 [gibt]6 [es]6 [eine]7 [Pauschale]7 [pro]8 [Kilometer]9, [und]10 [das]11 [summiert]12 [sich]12.
+RU: [Кемаль]1 [считает]2: [за]3 [каждый]4 [рабочий]5 [день]5 [полагается]6 [фиксированная]7 [сумма]7 [за]8 [километр]9, [и]10 [это]11 [набегает]12.
+7 note: Die Pauschale (Pendlerpauschale): фиксированный налоговый вычет за дорогу на работу.
+12 note: Sich summieren: набегать, складываться в большую сумму.
+
+== p4
+DE: [Dann]1 [öffnen]2 [sie]3 [den]4 [Karton]4.
+RU: [Затем]1 [они]3 [открывают]2 [коробку]4.
+
+DE: [Marta]1 [findet]2 [die]3 [Rechnung]3 [für]4 [einen]5 [Kurs]5 [in]0 [Lymphdrainage]6, [den]7 [sie]8 [selbst]9 [bezahlt]10 [hat]10: [sechshundert]11 [Euro]12.
+RU: [Марта]1 [находит]2 [счёт]3 [за]4 [курс]5 [лимфодренажа]6, [который]7 [она]8 [оплатила]10 [сама]9: [шестьсот]11 [евро]12.
+7 sent: Относительное предложение: den (der Kurs, Akkusativ) ... bezahlt hat.
+9 note: Selbst: сама, из своего кармана.
+
+DE: „[Fortbildung]1", [sagt]2 [Kemal]3 [zufrieden]4. „[Das]5 [sind]6 [Werbungskosten]7."
+RU: «[Повышение]1 [квалификации]1», — [довольно]4 [говорит]2 [Кемаль]3. «[Это]5,6 [расходы]7, [связанные]7 [с]7 [работой]7».
+1 note: Die Fortbildung: повышение квалификации.
+7 note: Die Werbungskosten: расходы, связанные с работой; они уменьшают налог.
+
+DE: [Auch]1 [neue]2 [Arbeitsschuhe]3, [Fachbücher]4 [und]5 [ein]6 [Teil]6 [ihrer]7 [Internetkosten]8 [kommen]9 [in]10 [die]11 [Erklärung]11.
+RU: [Новая]2 [рабочая]3 [обувь]3, [профессиональные]4 [книги]4 [и]5 [часть]6 [её]7 [расходов]8 [на]8 [интернет]8 [тоже]1 [попадают]9 [в]10 [декларацию]11.
+4 note: Das Fachbuch: специальная, профессиональная книга.
+
+DE: [Marta]1 [hatte]2 [keine]3 [Ahnung]4, [dass]5 [man]6 [so]7 [etwas]7 [angeben]8 [kann]9.
+RU: [Марта]1 [понятия]4 [не]3 [имела]2, [что]5 [такое]7 [можно]6,9 [указывать]8.
+4 note: Keine Ahnung haben: не иметь понятия.
+8 note: Angeben: указывать (в документе).
+
+== p5
+DE: [Nach]1 [drei]2 [Stunden]3 [und]4 [zwei]5 [Kannen]6 [Kaffee]6 [klickt]7 [Kemal]8 [auf]9 „[Absenden]10".
+RU: [Через]1 [три]2 [часа]3 [и]4 [два]5 [кофейника]6 [Кемаль]8 [нажимает]7 [на]9 «[Отправить]10».
+6 note: Die Kanne: кувшин, кофейник.
+10 note: Absenden: отправлять.
+
+DE: [Das]1 [Programm]1 [zeigt]2 [eine]3 [Schätzung]3: [ungefähr]4 [sechshundertvierzig]5 [Euro]6 [Erstattung]7.
+RU: [Программа]1 [показывает]2 [оценку]3: [около]4 [шестисот]5 [сорока]5 [евро]6 [возврата]7.
+3 note: Die Schätzung: оценка, примерный расчёт.
+7 note: Die Erstattung: возврат денег.
+
+DE: [Marta]1 [glaubt]2 [es]3 [nicht]4.
+RU: [Марта]1 [не]4 [верит]2 [этому]3.
+
+DE: „[Und]1 [das]2 [Geld]2 [habe]3 [ich]4 [drei]5 [Jahre]6 [lang]6 [einfach]7 [verschenkt]3?", [fragt]8 [sie]9.
+RU: «[И]1 [эти]2 [деньги]2 [я]4 [три]5 [года]6 [подряд]6 [просто]7 [дарила]3?» — [спрашивает]8 [она]9.
+3 note: Verschenken: дарить, отдавать даром.
+
+DE: „[Nicht]1 [ganz]2", [sagt]3 [Kemal]4. „[Du]5 [kannst]6 [die]7 [Erklärung]7 [bis]8 [zu]8 [vier]9 [Jahre]10 [rückwirkend]11 [machen]12."
+RU: «[Не]1 [совсем]2», — [говорит]3 [Кемаль]4. «[Ты]5 [можешь]6 [подать]12 [декларацию]7 [задним]11 [числом]11 [до]8 [четырёх]9 [лет]10».
+11 note: Rückwirkend: задним числом, за прошлые годы.
+
+== p6
+DE: [Sechs]1 [Wochen]2 [später]3 [liegt]4 [der]5 [Steuerbescheid]5 [im]6 [Briefkasten]6.
+RU: [Через]3 [шесть]1 [недель]2 [в]6 [почтовом]6 [ящике]6 [лежит]4 [налоговое]5 [уведомление]5.
+5 note: Der Steuerbescheid: официальное решение налоговой о сумме налога.
+
+DE: [Das]1 [Finanzamt]1 [überweist]2 [ihr]3 [sechshundertachtundzwanzig]4 [Euro]5.
+RU: [Налоговая]1 [переводит]2 [ей]3 [шестьсот]4 [двадцать]4 [восемь]4 [евро]5.
+2 form: Überweisen: Präteritum: überwies; Perfekt: hat überwiesen.
+
+DE: [Marta]1 [kauft]2 [davon]3 [kein]4 [neues]5 [Handy]6.
+RU: [На]3 [эти]3 [деньги]3 [Марта]1 [не]4 [покупает]2 [новый]5 [телефон]6.
+3 note: Davon: на эти деньги, из этого.
+
+DE: [Sie]1 [kauft]2 [ein]3 [gebrauchtes]4 [E-Bike]3, [damit]5 [sie]6 [im]7 [Sommer]7 [mit]8 [dem]8 [Rad]9 [zur]10 [Arbeit]10 [fahren]11 [kann]12.
+RU: [Она]1 [покупает]2 [подержанный]4 [электровелосипед]3, [чтобы]5 [летом]7 [она]6 [могла]12 [ездить]11 [на]8 [велосипеде]9 [до]10 [работы]10.
+4 note: Gebraucht: подержанный, б/у.
+5 sent: Damit: чтобы; модальный глагол kann стоит в конце.
+9 note: Das Rad = das Fahrrad: велосипед.
+
+DE: [Im]1 [nächsten]2 [Frühling]1 [macht]3 [sie]4 [ihre]5 [Steuererklärung]6 [zum]7 [ersten]7 [Mal]7 [allein]8.
+RU: [Следующей]2 [весной]1 [она]4 [впервые]7 [делает]3 [свою]5 [налоговую]6 [декларацию]6 [сама]8.
+8 note: Allein: самостоятельно, одна.
+
+DE: [Und]1 [wenn]2 [die]0 [Kolleginnen]3 [jetzt]4 [fragen]5, [sagt]6 [sie]7: „[Klar]8! [Das]9 [lohnt]10 [sich]10 [bei]11 [jedem]12."
+RU: [И]1 [когда]2 [коллеги]3 [теперь]4 [спрашивают]5, [она]7 [говорит]6: «[Конечно]8! [Это]9 [выгодно]10 [каждому]11,12».
+2 sent: Wenn-предложение стоит первым, поэтому главное начинается с глагола: sagt sie.
+12 note: Bei jedem: у каждого, в любом случае.

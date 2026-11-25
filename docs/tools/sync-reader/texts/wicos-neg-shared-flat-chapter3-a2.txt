@@ -1,0 +1,210 @@
+id: a2-wicos-neg-kapitel3-wg-v2
+title: Wicos Neg A2: WG und Haushalt / Квартира и быт
+level: A2
+topic: быт, совместная квартира, соседи
+source: user generated
+hintLanguage: ru
+folderId: wicos-neg
+
+== p1
+DE: [Mira]1 [wohnt]2 [mit]3 [Aylin]4 [und]5 [Tom]6 [in]7 [einer]8 [Wohngemeinschaft]8 [im]9 [dritten]9 [Stock]9.
+RU: [Мира]1 [живёт]2 [с]3 [Айлин]4 [и]5 [Томом]6 [в]7 [коммунальной]8 [квартире]8 [на]9 [четвёртом]9 [этаже]9.
+2 form: Инфинитив wohnen: ich wohne, er wohnt, wir wohnen; Präteritum: wohnte; Perfekt: hat gewohnt.
+8 note: Die Wohngemeinschaft (WG): квартира, где живут несколько человек.
+9 note: В Германии счёт этажей начинается после Erdgeschoss: dritter Stock — четвёртый этаж по-русски.
+
+DE: [Die]1 [Küche]1 [ist]2 [klein]2, [aber]3 [gemütlich]4.
+RU: [Кухня]1 [маленькая]2, [но]3 [уютная]4.
+4 note: Gemütlich: уютный.
+
+DE: [Am]1 [Dienstagmorgen]1 [passiert]2 [ein]3 [kleines]4 [Unglück]3.
+RU: [Во]1 [вторник]1 [утром]1 [случается]2 [маленькое]4 [несчастье]3.
+1 note: Der Dienstagmorgen: утро вторника.
+2 note: Passieren: случаться.
+2 form: Инфинитив passieren: es passiert; Präteritum: passierte; Perfekt: ist passiert.
+3 note: Das Unglück: несчастье, беда.
+
+DE: [Die]1 [Waschmaschine]1 [ist]2 [kaputt]2, [und]3 [Wasser]4 [läuft]5 [auf]6 [den]7 [Boden]7.
+RU: [Стиральная]1 [машина]1 [сломана]2, [и]3 [вода]4 [течёт]5 [на]6 [пол]7.
+2 note: Kaputt: сломанный.
+5 note: Laufen: здесь — течь.
+5 form: Инфинитив laufen: ich laufe, er läuft, wir laufen; Präteritum: lief; Perfekt: ist gelaufen.
+7 note: Der Boden: пол.
+7 form: Akkusativ после auf: направление куда.
+
+== p2
+DE: [Tom]1 [holt]2 [schnell]3 [einen]4 [Eimer]4 [und]5 [alte]6 [Handtücher]7.
+RU: [Том]1 [быстро]3 [приносит]2 [ведро]4 [и]5 [старые]6 [полотенца]7.
+2 note: Holen: принести, сходить за чем-то.
+2 form: Инфинитив holen: ich hole, er holt, wir holen; Präteritum: holte; Perfekt: hat geholt.
+4 note: Der Eimer: ведро.
+7 note: Das Handtuch, die Handtücher: полотенце.
+
+DE: [Mira]1 [wischt]2 [den]3 [Boden]3, [und]4 [Aylin]5 [dreht]6 [das]7 [Wasser]7 [ab]6.
+RU: [Мира]1 [вытирает]2 [пол]3, [а]4 [Айлин]5 [перекрывает]6 [воду]7.
+2 note: Wischen: вытирать, мыть пол.
+2 form: Инфинитив wischen: ich wische, er wischt, wir wischen; Präteritum: wischte; Perfekt: hat gewischt.
+6 note: Abdrehen: закрыть кран.
+6 form: Отделяемая приставка ab в конце. Инфинитив abdrehen: ich drehe ab, er dreht ab, wir drehen ab; Präteritum: drehte ab; Perfekt: hat abgedreht.
+
+DE: [Dann]1 [rufen]2 [sie]3 [den]4 [Hausmeister]4 [an]2.
+RU: [Потом]1 [они]3 [звонят]2 [коменданту]4.
+2 form: Anrufen: приставка an в конце. Инфинитив anrufen: ich rufe an, er ruft an, wir rufen an; Präteritum: rief an; Perfekt: hat angerufen.
+4 note: Der Hausmeister: комендант, завхоз дома.
+
+DE: [Herr]1 [Krause]1 [kommt]2 [nach]3 [einer]3 [Stunde]3 [mit]4 [seinem]4 [Werkzeug]4.
+RU: [Господин]1 [Краузе]1 [приходит]2 [через]3 [час]3 [со]4 [своим]4 [инструментом]4.
+2 form: Инфинитив kommen: ich komme, er kommt, wir kommen; Präteritum: kam; Perfekt: ist gekommen.
+3 form: Nach + Dativ: через час.
+4 note: Das Werkzeug: инструмент.
+
+DE: [Er]1 [prüft]2 [den]3 [Schlauch]3 [und]4 [findet]5 [das]6 [Problem]6 [sofort]7.
+RU: [Он]1 [проверяет]2 [шланг]3 [и]4 [сразу]7 [находит]5 [проблему]6.
+2 form: Инфинитив prüfen: ich prüfe, er prüft, wir prüfen; Präteritum: prüfte; Perfekt: hat geprüft.
+3 note: Der Schlauch: шланг.
+5 form: Инфинитив finden: ich finde, er findet, wir finden; Präteritum: fand; Perfekt: hat gefunden.
+
+DE: [Die]1 [Reparatur]1 [dauert]2 [nur]3 [zwanzig]4 [Minuten]5 [und]6 [kostet]7 [nichts]8.
+RU: [Ремонт]1 [длится]2 [только]3 [двадцать]4 [минут]5 [и]6 [ничего]8 [не]7 [стоит]7.
+1 note: Die Reparatur: ремонт.
+2 note: Dauern: длиться.
+2 form: Инфинитив dauern: es dauert; Präteritum: dauerte; Perfekt: hat gedauert.
+7 form: Инфинитив kosten: es kostet; Präteritum: kostete; Perfekt: hat gekostet.
+
+== p3
+DE: [Am]1 [Abend]1 [gibt]2 [es]2 [trotzdem]3 [eine]4 [Diskussion]4 [in]5 [der]5 [Küche]5.
+RU: [Вечером]1 [всё]3 [равно]3 [возникает]2 [дискуссия]4 [на]5 [кухне]5.
+2 note: Es gibt: есть, имеется; здесь — возникает.
+2 form: Оборот es gibt (geben): только es gibt; Präteritum: es gab; Perfekt: es hat gegeben.
+3 note: Trotzdem: несмотря на это, всё равно.
+
+DE: [Aylin]1 [ärgert]2 [sich]2 [über]3 [das]4 [Chaos]4 [im]5 [Bad]5.
+RU: [Айлин]1 [злится]2 [из-за]3 [хаоса]4 [в]5 [ванной]5.
+2 form: Sich ärgern über + Akkusativ: злиться из-за чего-то. Инфинитив sich ärgern: ich ärgere mich, er ärgert sich, wir ärgern uns; Präteritum: ärgerte sich; Perfekt: hat sich geärgert.
+5 note: Das Bad: ванная.
+
+DE: [Tom]1 [räumt]2 [selten]3 [auf]2 [und]4 [vergisst]5 [den]6 [Müll]6.
+RU: [Том]1 [редко]3 [убирается]2 [и]4 [забывает]5 [мусор]6.
+2 note: Aufräumen: наводить порядок.
+2 form: Приставка auf стоит в конце части предложения. Инфинитив aufräumen: ich räume auf, er räumt auf, wir räumen auf; Präteritum: räumte auf; Perfekt: hat aufgeräumt.
+5 form: Инфинитив vergessen: ich vergesse, er vergisst, wir vergessen; Präteritum: vergaß; Perfekt: hat vergessen.
+6 note: Der Müll: мусор.
+
+DE: [Er]1 [sagt]2: [Entschuldigung]3, [ich]4 [habe]4 [im]5 [Moment]5 [viel]6 [Stress]7 [im]8 [Studium]8.
+RU: [Он]1 [говорит]2: [извините]3, [у]4 [меня]4 [сейчас]5 [много]6 [стресса]7 [в]8 [учёбе]8.
+2 form: Инфинитив sagen: ich sage, er sagt, wir sagen; Präteritum: sagte; Perfekt: hat gesagt.
+4 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+5 note: Im Moment: сейчас, в данный момент.
+8 note: Das Studium: учёба в вузе.
+
+DE: [Mira]1 [schlägt]2 [eine]3 [einfache]4 [Lösung]3 [vor]2: [einen]5 [neuen]6 [Putzplan]5.
+RU: [Мира]1 [предлагает]2 [простое]4 [решение]3: [новый]6 [план]5 [уборки]5.
+2 note: Vorschlagen: предлагать.
+2 form: Приставка vor стоит в конце. Инфинитив vorschlagen: ich schlage vor, er schlägt vor, wir schlagen vor; Präteritum: schlug vor; Perfekt: hat vorgeschlagen.
+3 note: Die Lösung: решение.
+5 note: Der Putzplan: план уборки в WG.
+
+== p4
+DE: [Jede]1 [Woche]1 [hat]2 [jetzt]3 [jeder]4 [eine]5 [feste]6 [Aufgabe]5.
+RU: [Каждую]1 [неделю]1 [у]4 [каждого]4 [теперь]3 [есть]2 [постоянная]6 [задача]5.
+2 form: Инфинитив haben: ich habe, er hat, wir haben; Präteritum: hatte; Perfekt: hat gehabt.
+5 note: Die Aufgabe: задача.
+6 note: Fest: постоянный, фиксированный.
+
+DE: [Tom]1 [bringt]2 [den]3 [Müll]3 [raus]2 [und]4 [kauft]5 [Getränke]6.
+RU: [Том]1 [выносит]2 [мусор]3 [и]4 [покупает]5 [напитки]6.
+2 note: Rausbringen: выносить наружу.
+2 form: Приставка raus в конце части предложения. Инфинитив rausbringen: ich bringe raus, er bringt raus, wir bringen raus; Präteritum: brachte raus; Perfekt: hat rausgebracht.
+5 form: Инфинитив kaufen: ich kaufe, er kauft, wir kaufen; Präteritum: kaufte; Perfekt: hat gekauft.
+6 note: Das Getränk, die Getränke: напиток.
+
+DE: [Aylin]1 [putzt]2 [das]3 [Bad]3 [und]4 [gießt]5 [die]6 [Blumen]6.
+RU: [Айлин]1 [моет]2 [ванную]3 [и]4 [поливает]5 [цветы]6.
+2 note: Putzen: чистить, мыть.
+2 form: Инфинитив putzen: ich putze, er putzt, wir putzen; Präteritum: putzte; Perfekt: hat geputzt.
+5 note: Gießen: поливать.
+5 form: Инфинитив gießen: ich gieße, er gießt, wir gießen; Präteritum: goss; Perfekt: hat gegossen.
+
+DE: [Mira]1 [saugt]2 [die]3 [Zimmer]3 [und]4 [wischt]5 [die]6 [Küche]6.
+RU: [Мира]1 [пылесосит]2 [комнаты]3 [и]4 [моет]5 [кухню]6.
+2 note: Saugen, staubsaugen: пылесосить.
+2 form: Инфинитив saugen: ich sauge, er saugt, wir saugen; Präteritum: saugte; Perfekt: hat gesaugt.
+5 form: Инфинитив wischen: ich wische, er wischt, wir wischen; Präteritum: wischte; Perfekt: hat gewischt.
+
+DE: [Der]1 [Plan]1 [hängt]2 [jetzt]3 [am]4 [Kühlschrank]4, [gut]5 [sichtbar]6 [für]7 [alle]8.
+RU: [План]1 [теперь]3 [висит]2 [на]4 [холодильнике]4, [хорошо]5 [видный]6 [для]7 [всех]8.
+2 note: Hängen: висеть.
+2 form: Инфинитив hängen: ich hänge, er hängt, wir hängen; Präteritum: hing; Perfekt: hat gehangen.
+4 note: Der Kühlschrank: холодильник.
+6 note: Sichtbar: видимый.
+
+== p5
+DE: [Am]1 [Samstag]1 [klingelt]2 [es]2 [plötzlich]3 [an]4 [der]4 [Tür]4.
+RU: [В]1 [субботу]1 [вдруг]3 [звонят]2 [в]4 [дверь]4.
+2 note: Es klingelt: звонят в дверь.
+2 form: Инфинитив klingeln: es klingelt; Präteritum: klingelte; Perfekt: hat geklingelt.
+
+DE: [Vor]1 [der]1 [Tür]1 [steht]2 [die]3 [neue]4 [Nachbarin]3 [aus]5 [dem]5 [zweiten]5 [Stock]5.
+RU: [Перед]1 [дверью]1 [стоит]2 [новая]4 [соседка]3 [с]5 [третьего]5 [этажа]5.
+1 form: Vor + Dativ: место где.
+2 form: Инфинитив stehen: ich stehe, er steht, wir stehen; Präteritum: stand; Perfekt: hat gestanden.
+3 note: Die Nachbarin: соседка.
+5 note: Zweiter Stock: по-русски третий этаж.
+
+DE: [Sie]1 [heißt]1 [Frau]2 [Berger]2, [und]3 [sie]4 [bringt]5 [einen]6 [selbstgebackenen]7 [Kuchen]6 [mit]5.
+RU: [Её]1 [зовут]1 [госпожа]2 [Бергер]2, [и]3 [она]4 [приносит]5 [с]5 [собой]5 [домашний]7 [пирог]6.
+1 form: Инфинитив heißen: ich heiße, er heißt, wir heißen; Präteritum: hieß; Perfekt: hat geheißen.
+5 note: Mitbringen: приносить с собой.
+5 form: Приставка mit стоит в конце. Инфинитив mitbringen: ich bringe mit, er bringt mit, wir bringen mit; Präteritum: brachte mit; Perfekt: hat mitgebracht.
+7 note: Selbstgebacken: испечённый своими руками.
+
+DE: [Die]1 [drei]1 [laden]2 [sie]3 [spontan]4 [zum]5 [Abendessen]5 [ein]2.
+RU: [Трое]1 [спонтанно]4 [приглашают]2 [её]3 [на]5 [ужин]5.
+2 note: Einladen: приглашать.
+2 form: Приставка ein стоит в конце. Инфинитив einladen: ich lade ein, er lädt ein, wir laden ein; Präteritum: lud ein; Perfekt: hat eingeladen.
+5 note: Das Abendessen: ужин.
+
+DE: [Zusammen]1 [kochen]2 [sie]3 [Nudeln]4 [mit]5 [Gemüse]5 [und]6 [reden]7 [lange]8.
+RU: [Вместе]1 [они]3 [готовят]2 [пасту]4 [с]5 [овощами]5 [и]6 [долго]8 [разговаривают]7.
+2 form: Инфинитив kochen: ich koche, er kocht, wir kochen; Präteritum: kochte; Perfekt: hat gekocht.
+4 note: Die Nudeln: макароны, паста.
+5 note: Das Gemüse: овощи.
+7 note: Reden: разговаривать.
+7 form: Инфинитив reden: ich rede, er redet, wir reden; Präteritum: redete; Perfekt: hat geredet.
+
+DE: [Frau]1 [Berger]1 [erzählt]2 [lustige]3 [Geschichten]4 [über]5 [das]6 [alte]7 [Haus]6.
+RU: [Госпожа]1 [Бергер]1 [рассказывает]2 [смешные]3 [истории]4 [о]5 [старом]7 [доме]6.
+2 form: Инфинитив erzählen: ich erzähle, er erzählt, wir erzählen; Präteritum: erzählte; Perfekt: hat erzählt.
+4 note: Die Geschichte, die Geschichten: история.
+5 form: Über + Akkusativ: о чём.
+
+== p6
+DE: [Nach]1 [dem]1 [Essen]1 [fühlt]2 [sich]2 [die]3 [Wohnung]3 [wie]4 [ein]5 [Zuhause]5 [an]2.
+RU: [После]1 [ужина]1 [квартира]3 [ощущается]2 [как]4 [родной]5 [дом]5.
+1 note: Das Essen: еда, приём пищи.
+2 note: Sich anfühlen: ощущаться.
+2 form: Приставка an стоит в самом конце. Инфинитив sich anfühlen: es fühlt sich an; Präteritum: fühlte sich an; Perfekt: hat sich angefühlt.
+5 note: Das Zuhause: родной дом.
+
+DE: [Mira]1 [macht]2 [ein]3 [Foto]3 [von]4 [dem]4 [Abend]4 [für]5 [ihre]6 [Familie]6.
+RU: [Мира]1 [делает]2 [фото]3 [этого]4 [вечера]4 [для]5 [своей]6 [семьи]6.
+2 form: Инфинитив machen: ich mache, er macht, wir machen; Präteritum: machte; Perfekt: hat gemacht.
+
+DE: [Sie]1 [schreibt]2 [darunter]3: [Meine]4 [WG]4 [ist]5 [manchmal]6 [chaotisch]5, [aber]7 [nie]8 [langweilig]9.
+RU: [Она]1 [подписывает]2 [под]3 [ним]3: [моя]4 [квартира]4 [иногда]6 [хаотичная]5, [но]7 [никогда]8 [не]8 [скучная]9.
+2 form: Инфинитив schreiben: ich schreibe, er schreibt, wir schreiben; Präteritum: schrieb; Perfekt: hat geschrieben.
+3 note: Darunter: под этим.
+4 note: Die WG: сокращение от Wohngemeinschaft.
+8 note: Nie: никогда.
+
+DE: [Der]1 [Putzplan]1 [funktioniert]2 [übrigens]3 [schon]4 [eine]5 [ganze]6 [Woche]5.
+RU: [План]1 [уборки]1, [кстати]3, [работает]2 [уже]4 [целую]6 [неделю]5.
+2 note: Funktionieren: работать, функционировать.
+2 form: Инфинитив funktionieren: es funktioniert; Präteritum: funktionierte; Perfekt: hat funktioniert.
+3 note: Übrigens: кстати.
+
+DE: [Sogar]1 [Tom]2 [denkt]3 [jetzt]4 [an]5 [den]5 [Müll]5.
+RU: [Даже]1 [Том]2 [теперь]4 [помнит]3 [о]5 [мусоре]5.
+1 note: Sogar: даже.
+3 note: Denken an: помнить, думать о чём-то.
+3 form: Инфинитив denken: ich denke, er denkt, wir denken; Präteritum: dachte; Perfekt: hat gedacht.

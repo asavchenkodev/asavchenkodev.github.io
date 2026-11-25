@@ -1,0 +1,201 @@
+id: tech-b1-paket-sms-v1
+title: SMS о посылке / Die SMS vom Paket
+level: B1
+topic: мошенничество в интернете, SMS, банковская карта, безопасность
+source: original story
+hintLanguage: ru
+
+== p1
+DE: [Swetlana]1 [arbeitet]2 [als]3 [Krankenpflegerin]4 [in]5 [Hannover]6 [und]7 [hat]8 [selten]9 [Zeit]10 [für]11 [Einkäufe]12.
+RU: [Светлана]1 [работает]2 [медсестрой]3,4 [в]5 [Ганновере]6, [и]7 [у]8 [неё]8 [редко]9 [бывает]8 [время]10 [на]11 [покупки]12.
+3 note: Als + профессия: кем работать — без артикля.
+4 note: Die Krankenpflegerin: медсестра.
+
+DE: [Deshalb]1 [bestellt]2 [sie]3 [fast]4 [alles]5 [online]6, [meistens]7 [nachts]8 [nach]9 [der]10 [Schicht]10.
+RU: [Поэтому]1 [она]3 [заказывает]2 [почти]4 [всё]5 [онлайн]6, [чаще всего]7 [ночью]8 [после]9 [смены]10.
+1 sent: Deshalb на позиции 1, глагол bestellt на позиции 2.
+10 note: Die Schicht: смена на работе.
+
+DE: [Diesmal]1 [wartet]2 [sie]3 [auf]4 [ein]5 [besonderes]6 [Paket]5: [Turnschuhe]7 [für]8 [ihre]9 [Tochter]9 [Lisa]10, [die]11 [am]12 [Samstag]12 [sechzehn]13 [wird]14.
+RU: [На этот раз]1 [она]3 [ждёт]2,4 [особенную]6 [посылку]5: [кроссовки]7 [для]8 [своей]9 [дочери]9 [Лизы]10, [которой]11 [в]12 [субботу]12 [исполняется]14 [шестнадцать]13.
+2 note: Warten auf + Akkusativ: ждать чего-то.
+14 note: Sechzehn werden: исполниться шестнадцать (о возрасте).
+
+== p2
+DE: [Am]1 [Mittwochabend]1 [kommt]2 [eine]3 [SMS]3.
+RU: [В]1 [среду]1 [вечером]1 [приходит]2 [SMS]3.
+
+DE: „[Ihr]1 [Paket]1 [konnte]2 [nicht]3 [zugestellt]4 [werden]4."
+RU: «[Ваша]1 [посылка]1 [не]3 [могла]2 [быть]4 [доставлена]4.»
+4 form: Passiv: werden + Partizip II. Zustellen — доставлять (почта). Konnte … zugestellt werden — не могла быть доставлена.
+
+DE: „[Bitte]1 [bezahlen]2 [Sie]3 [1,99]4 [€]5 [Zustellgebühr]6 [unter]7 [folgendem]8 [Link]9."
+RU: «[Пожалуйста]1, [оплатите]2,3 [1,99]4 [€]5 [за доставку]6 [по]7 [следующей]8 [ссылке]9.»
+6 note: Die Gebühr: сбор, плата; die Zustellgebühr — плата за доставку.
+7 note: Unter einem Link: по ссылке (буквально «под ссылкой»).
+
+DE: [Swetlana]1 [ist]2 [müde]3, [und]4 [ein]5 [Euro]6 [neunundneunzig]7 [klingt]8 [harmlos]9.
+RU: [Светлана]1 [устала]2,3, [и]4 [один]5 [евро]6 [девяносто девять]7 [звучит]8 [безобидно]9.
+9 note: Harmlos: безобидный, безвредный.
+
+DE: [Sie]1 [klickt]2 [auf]3 [den]4 [Link]4.
+RU: [Она]1 [нажимает]2 [на]3 [ссылку]4.
+
+DE: [Die]1 [Seite]1 [sieht]2 [genau]3 [so]3 [aus]2 [wie]4 [die]5 [Seite]5 [der]6 [Post]6: [gelb]7, [ordentlich]8, [mit]9 [Logo]10.
+RU: [Сайт]1 [выглядит]2 [точно]3 [так]3 [же]3, [как]4 [сайт]5 [почты]6: [жёлтый]7, [аккуратный]8, [с]9 [логотипом]10.
+2 form: Инфинитив aussehen: ich sehe aus, er sieht aus; Präteritum: sah aus; Perfekt: hat ausgesehen.
+4 note: Genauso aussehen wie …: выглядеть точно так же, как …
+
+DE: [Sie]1 [gibt]2 [ihren]3 [Namen]3, [ihre]4 [Adresse]4 [und]5 [dann]6 [die]7 [Daten]7 [ihrer]8 [Kreditkarte]8 [ein]2.
+RU: [Она]1 [вводит]2 [своё]3 [имя]3, [свой]4 [адрес]4, [а]5 [затем]6 [данные]7 [своей]8 [кредитной]8 [карты]8.
+2 note: Eingeben: вводить (данные).
+2 form: Инфинитив eingeben: ich gebe ein, er gibt ein; Präteritum: gab ein; Perfekt: hat eingegeben.
+
+== p3
+DE: [In]1 [diesem]2 [Moment]2 [kommt]3 [Lisa]4 [in]5 [die]6 [Küche]6, [um]7 [Wasser]8 [zu]7 [holen]9.
+RU: [В]1 [этот]2 [момент]2 [Лиза]4 [заходит]3 [на]5 [кухню]6, [чтобы]7 [взять]9 [воды]8.
+7 sent: Um … zu + инфинитив: чтобы (цель).
+5 form: In + Akkusativ (куда?): in die Küche.
+
+DE: [Sie]1 [schaut]2 [ihrer]3 [Mutter]3 [über]4 [die]5 [Schulter]5 [und]6 [wird]7 [blass]7.
+RU: [Она]1 [заглядывает]2 [маме]3 [через]4 [плечо]5 [и]6 [бледнеет]7.
+2 note: Jemandem über die Schulter schauen: смотреть через плечо.
+7 note: Blass werden: побледнеть.
+
+DE: „[Mama]1, [stopp]2! [Schau]3 [mal]4 [auf]5 [die]6 [Adresse]6 [oben]7."
+RU: «[Мама]1, [стоп]2! [Посмотри]3,4 [на]5 [адрес]6 [вверху]7.»
+4 note: Mal в просьбе: смягчает, примерно «-ка».
+
+DE: [Da]1 [steht]2 [nicht]3 „[deutschepost]4 [de]4", [sondern]5 „[post-paket-info]6 [xyz]6".
+RU: [Там]1 [написано]2 [не]3 «[deutschepost]4 [de]4», [а]5 «[post-paket-info]6 [xyz]6».
+2 note: Da steht …: там написано …
+5 note: Nicht …, sondern …: не …, а …
+
+DE: [Swetlana]1 [hat]2 [aber]3 [schon]4 [auf]5 „[Bezahlen]6" [gedrückt]2.
+RU: [Но]3 [Светлана]1 [уже]4 [нажала]2 [на]5 «[Оплатить]6».
+2 form: Perfekt: hat … gedrückt. Инфинитив drücken: ich drücke; Präteritum: drückte; Perfekt: hat gedrückt.
+
+DE: [Eine]1 [Minute]2 [später]3 [kommt]4 [eine]5 [zweite]6 [SMS]5, [diesmal]7 [von]8 [ihrer]9 [echten]10 [Bank]9.
+RU: [Через]3 [минуту]1,2 [приходит]4 [вторая]6 [SMS]5, [на этот раз]7 [от]8 [её]9 [настоящего]10 [банка]9.
+10 note: Echt: настоящий, подлинный.
+
+DE: „[Bitte]1 [bestätigen]2 [Sie]3 [die]4 [Zahlung]4 [von]5 [389]6 [Euro]7 [an]8 [einen]9 [Elektronikshop]9 [in]10 [Litauen]11."
+RU: «[Пожалуйста]1, [подтвердите]2,3 [платёж]4 [на сумму]5 [389]6 [евро]7 [в]8 [магазин]9 [электроники]9 [в]10 [Литве]11.»
+2 note: Bestätigen: подтверждать.
+4 note: Die Zahlung: платёж (от zahlen — платить).
+
+== p4
+DE: [Swetlana]1 [bekommt]2 [Herzklopfen]3.
+RU: [У]2 [Светланы]1 [начинает]2 [колотиться]3 [сердце]3.
+3 note: Das Herzklopfen: сердцебиение (das Herz — сердце, klopfen — стучать).
+
+DE: [Lisa]1 [bleibt]2 [ruhig]3, [obwohl]4 [ihre]5 [Hände]5 [auch]6 [zittern]7.
+RU: [Лиза]1 [остаётся]2 [спокойной]3, [хотя]4 [у]5 [неё]5 [тоже]6 [дрожат]7 [руки]5.
+4 sent: Obwohl: хотя; глагол zittern стоит в конце придаточного.
+
+DE: „[Nicht]1 [bestätigen]2! [Wir]3 [rufen]4 [sofort]5 [den]6 [Sperr-Notruf]6 [an]4."
+RU: «[Не]1 [подтверждай]2! [Мы]3 [сейчас же]5 [звоним]4 [на]0 [номер]6 [блокировки]6 [карт]6.»
+6 note: Der Sperr-Notruf 116 116: в Германии общий номер для блокировки банковских карт.
+
+DE: [Die]1 [Nummer]1 [hat]2 [Lisa]3 [in]4 [der]5 [Schule]5 [gelernt]2: [116]6 [116]6.
+RU: [Этот]1 [номер]1 [Лиза]3 [выучила]2 [в]4 [школе]5: [116]6 [116]6.
+1 sent: Объект die Nummer вынесен на первое место для акцента, глагол hat остаётся на позиции 2.
+
+DE: [Nach]1 [zehn]2 [Minuten]3 [in]4 [der]5 [Warteschleife]5 [ist]6 [die]7 [Karte]7 [gesperrt]6.
+RU: [После]1 [десяти]2 [минут]3 [ожидания]4,5 [на линии]5 [карта]7 [заблокирована]6.
+5 note: Die Warteschleife: режим ожидания при звонке («висеть на линии»).
+6 note: Sperren: блокировать; gesperrt — заблокированный.
+
+DE: [Die]1 [Frau]1 [von]2 [der]3 [Bank]3 [sagt]4, [dass]5 [die]6 [Zahlung]6 [nicht]7 [durchgegangen]8 [ist]8.
+RU: [Женщина]1 [из]2 [банка]3 [говорит]4, [что]5 [платёж]6 [не]7 [прошёл]8.
+8 note: Durchgehen здесь: пройти (о платеже).
+5 sent: Придаточное с dass: ist durchgegangen — глагол в конце.
+
+DE: „[Sie]1 [hatten]2 [Glück]2", [sagt]3 [sie]4. „[Und]5 [eine]6 [kluge]7 [Tochter]6."
+RU: «[Вам]1 [повезло]2, — [говорит]3 [она]4. — [И]5 [у вас]0 [умная]7 [дочь]6.»
+2 note: Glück haben: повезти, иметь удачу.
+
+== p5
+DE: [Danach]1 [sitzen]2 [die]3 [beiden]3 [noch]4 [lange]5 [am]6 [Küchentisch]6.
+RU: [После этого]1 [они]3 [вдвоём]3 [ещё]4 [долго]5 [сидят]2 [за]6 [кухонным]6 [столом]6.
+3 note: Die beiden: они оба, вдвоём.
+
+DE: [Swetlana]1 [schämt]2 [sich]2.
+RU: [Светлане]1 [стыдно]2.
+2 note: Sich schämen: стыдиться.
+
+DE: „[Ich]1 [bin]2 [doch]3 [nicht]4 [dumm]5", [sagt]6 [sie]7 [leise]8.
+RU: «[Я]1 [же]3 [не]4 [дура]2,5», — [тихо]8 [говорит]6 [она]7.
+
+DE: „[Nein]1", [sagt]2 [Lisa]3, „[du]4 [warst]5 [nur]6 [müde]7. [Genau]8 [darauf]9 [warten]10 [diese]11 [Leute]11."
+RU: «[Нет]1, — [говорит]2 [Лиза]3, — [ты]4 [просто]6 [была]5 [уставшей]7. [Именно]8 [этого]9 [и]0 [ждут]10 [такие]11 [люди]11.»
+9 note: Warten auf + Akkusativ → darauf: этого, на это.
+
+DE: [Zusammen]1 [schreiben]2 [sie]3 [eine]4 [Anzeige]4 [bei]5 [der]6 [Online-Wache]6 [der]7 [Polizei]7.
+RU: [Вместе]1 [они]3 [пишут]2 [заявление]4 [в]5 [онлайн-участок]6 [полиции]7.
+4 note: Eine Anzeige schreiben / erstatten: подать заявление в полицию.
+
+DE: [Dann]1 [macht]2 [Lisa]3 [einen]4 [Zettel]4 [für]5 [den]6 [Kühlschrank]6 [mit]7 [drei]8 [Regeln]9.
+RU: [Потом]1 [Лиза]3 [делает]2 [для]5 [холодильника]6 [записку]4 [с]7 [тремя]8 [правилами]9.
+4 note: Der Zettel: записка, листок.
+
+DE: [Erstens]1: [Keine]2 [Links]3 [aus]4 [SMS]5 [öffnen]6.
+RU: [Первое]1: [не]2 [открывать]6 [ссылки]3 [из]4 [SMS]5.
+
+DE: [Zweitens]1: [Die]2 [Sendungsnummer]2 [immer]3 [selbst]4 [in]5 [der]6 [echten]7 [App]6 [prüfen]8.
+RU: [Второе]1: [номер]2 [отправления]2 [всегда]3 [проверять]8 [самому]4 [в]5 [настоящем]7 [приложении]6.
+2 note: Die Sendungsnummer: трек-номер посылки.
+
+DE: [Drittens]1: [Wenn]2 [etwas]3 [komisch]4 [ist]5, [erst]6 [Lisa]7 [fragen]8, [dann]9 [klicken]10.
+RU: [Третье]1: [если]2 [что-то]3 [кажется]5 [странным]4, [сначала]6 [спросить]8 [Лизу]7, [потом]9 [нажимать]10.
+4 note: Komisch: странный (а также смешной).
+
+== p6
+DE: [Am]1 [nächsten]2 [Tag]1 [erzählt]3 [Swetlana]4 [die]5 [Geschichte]5 [in]6 [der]7 [Pause]7 [auf]8 [der]9 [Station]9.
+RU: [На]1 [следующий]2 [день]1 [Светлана]4 [рассказывает]3 [эту]5 [историю]5 [в]6 [перерыве]7 [в]8 [отделении]9.
+9 note: Die Station: отделение в больнице.
+
+DE: [Zuerst]1 [lacht]2 [niemand]3.
+RU: [Сначала]1 [никто]3 [не]0 [смеётся]2.
+
+DE: [Dann]1 [sagt]2 [der]3 [Oberarzt]3, [ein]4 [ernster]5 [Mann]4 [mit]6 [grauen]7 [Haaren]8: „[Mir]9 [ist]10 [das]11 [letztes]12 [Jahr]12 [auch]13 [passiert]10."
+RU: [Потом]1 [старший]3 [врач]3, [серьёзный]5 [мужчина]4 [с]6 [седыми]7 [волосами]8, [говорит]2: «[Со]9 [мной]9 [это]11 [тоже]13 [случилось]10 [в прошлом году]12.»
+3 note: Der Oberarzt: старший врач, заведующий.
+10 note: Jemandem passieren: случиться с кем-то (Dativ). Perfekt: ist passiert.
+
+DE: „[Bei]1 [mir]1 [waren]2 [es]3 [allerdings]4 [zweitausend]5 [Euro]6."
+RU: «[Правда]4, [у]1 [меня]1 [это]3 [было]2 [две тысячи]5 [евро]6.»
+4 note: Allerdings: правда, впрочем, однако.
+
+DE: [Plötzlich]1 [erzählen]2 [alle]3 [ihre]4 [Geschichten]4: [falsche]5 [Anrufe]6, [falsche]7 [Gewinne]8, [ein]9 [falscher]10 [Enkel]9.
+RU: [Вдруг]1 [все]3 [рассказывают]2 [свои]4 [истории]4: [фальшивые]5 [звонки]6, [фальшивые]7 [выигрыши]8, [фальшивый]10 [внук]9.
+9 note: Der Enkeltrick: известное мошенничество, когда звонит «внук» и просит денег.
+
+== p7
+DE: [Am]1 [Freitag]1 [klingelt]2 [es]2 [an]3 [der]4 [Tür]4.
+RU: [В]1 [пятницу]1 [звонят]2 [в]3 [дверь]4.
+2 note: Es klingelt: звонят (в дверь) — безличная конструкция.
+
+DE: [Es]1 [ist]2 [Frau]3 [Kaya]3 [aus]4 [dem]5 [zweiten]6 [Stock]5.
+RU: [Это]1,2 [госпожа]3 [Кая]3 [со]4 [второго]6 [этажа]5.
+5 note: Der Stock: этаж.
+
+DE: [In]1 [den]2 [Armen]2 [hält]3 [sie]4 [einen]5 [Karton]5.
+RU: [В]1 [руках]2 [она]4 [держит]3 [коробку]5.
+
+DE: „[Den]1 [habe]2 [ich]3 [schon]4 [am]5 [Montag]5 [für]6 [Sie]7 [angenommen]2", [sagt]8 [sie]9.
+RU: «[Я]3 [её]1 [приняла]2 [для]6 [вас]7 [ещё]4 [в]5 [понедельник]5», — [говорит]8 [она]9.
+2 note: Ein Paket annehmen: принять посылку за соседа.
+2 form: Инфинитив annehmen: ich nehme an, er nimmt an; Präteritum: nahm an; Perfekt: hat angenommen.
+
+DE: „[Der]1 [Zettel]1 [vom]2 [Paketdienst]2 [ist]3 [wohl]4 [hinter]5 [Ihren]6 [Briefkasten]6 [gefallen]3."
+RU: «[Записка]1 [от]2 [курьерской]2 [службы]2, [наверное]4, [упала]3 [за]5 [ваш]6 [почтовый]6 [ящик]6.»
+4 note: Wohl: наверное, видимо.
+5 form: Hinter + Akkusativ (куда?): hinter den Briefkasten.
+
+DE: [Die]1 [Turnschuhe]1 [sind]2 [also]3 [die]4 [ganze]5 [Zeit]4 [im]6 [Haus]6 [gewesen]2.
+RU: [Значит]3, [кроссовки]1 [всё]5 [это]4 [время]4 [были]2 [в]6 [доме]6.
+3 note: Also: значит, итак (не «также»!).
+
+DE: [Kostenlos]1, [ohne]2 [Link]3 [und]4 [ohne]5 [Zustellgebühr]6.
+RU: [Бесплатно]1, [без]2 [ссылки]3 [и]4 [без]5 [платы]6 [за]6 [доставку]6.

@@ -1,0 +1,179 @@
+id: work-train-strike-b1-v1
+title: Забастовка и бабушкин юбилей / Streik vor Omas Geburtstag
+level: B1
+topic: поездка, забастовка на железной дороге, попутчики, семья
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Am Freitagmorgen]1 [wollte]2 [Jonas]3 [nur]4 [schnell]5 [seine Mails]6 [lesen]2, [bevor]7 [er]0 [zum Bahnhof]9 [fuhr]10.
+RU: [В пятницу утром]1 [Йонас]3 [хотел]2 [только]4 [быстро]5 [прочитать]2 [почту]6, [прежде чем]7 [поехать]10 [на вокзал]9.
+2 form: Präteritum от wollen: ich wollte, er wollte, wir wollten; Perfekt: hat gewollt.
+7 sent: Bevor вводит придаточное: глагол fuhr стоит в конце.
+10 form: Präteritum от fahren: ich fuhr, er fuhr, wir fuhren; Perfekt: ist gefahren.
+
+DE: [Am Samstag]1 [wurde]2 [seine Oma Erika]3 [in Freiburg]4 [neunzig]5, [und]6 [die ganze Familie]7 [wollte]8 [mit ihr]9 [feiern]8.
+RU: [В субботу]1 [его бабушке Эрике]3 [исполнялось]2 [девяносто]5 [во Фрайбурге]4, [и]6 [вся семья]7 [хотела]8 [отпраздновать]8 [с ней]9.
+2 note: Werden + возраст: Sie wird neunzig — ей исполнится девяносто.
+2 form: Präteritum от werden: ich wurde, er wurde; Perfekt: ist geworden.
+
+DE: [Das Ticket]1 [hatte]2 [er]3 [schon]4 [vor zwei Monaten]5 [gekauft]2, [günstig]6 [und]7 [mit Sitzplatz]8.
+RU: [Билет]1 [он]3 [купил]2 [ещё]4 [два месяца назад]5, [дёшево]6 [и]7 [с местом]8.
+2 form: Plusquamperfekt: hatte + gekauft — действие раньше другого действия в прошлом.
+5 note: Vor + Dativ (о времени): vor zwei Monaten — два месяца назад.
+8 note: Der Sitzplatz: сидячее место; mit Sitzplatz — с бронированием места.
+
+DE: [Dann]1 [sah]2 [er]3 [die Nachricht]4 [der Bahn]5: [„Streik]6 [ab]7 [Freitag]7, [2 Uhr]8.
+RU: [Потом]1 [он]3 [увидел]2 [сообщение]4 [железной дороги]5: [«Забастовка]6 [с]7 [пятницы]7, [2 часов ночи]8.
+2 form: Präteritum от sehen: ich sah, er sah, wir sahen; Perfekt: hat gesehen.
+5 note: Die Bahn: железная дорога, здесь компания Deutsche Bahn; der Bahn — Genitiv.
+6 note: Der Streik: забастовка; streiken — бастовать.
+
+DE: [Im Fernverkehr]1 [fallen]2 [fast alle Züge]3 [aus]2.“
+RU: [В дальнем сообщении]1 [отменены]2 [почти все поезда]3.»
+1 note: Der Fernverkehr: поезда дальнего следования; der Nahverkehr — пригородные.
+2 note: Ausfallen: отменяться, не состояться.
+
+DE: [Jonas]1 [setzte sich]2 [aufs Sofa]3 [und]4 [sagte]5 [ein Wort]6, [das]7 [seine Oma]8 [nicht]9 [hören]10 [sollte]11.
+RU: [Йонас]1 [сел]2 [на диван]3 [и]4 [сказал]5 [слово]6, [которое]7 [его бабушке]8 [не]9 [стоило]11 [слышать]10.
+2 note: Sich setzen: садиться; aufs = auf das, Akkusativ (куда?).
+7 sent: Das — относительное местоимение к das Wort, глаголы hören sollte в конце.
+
+== p2
+DE: [Zuerst]1 [versuchte]2 [er]3 [es]4 [mit dem Fernbus]5.
+RU: [Сначала]1 [он]3 [попробовал]2,4 [междугородний автобус]5.
+2 note: Es mit etwas versuchen: попробовать что-то, попытать счастья с чем-то.
+5 note: Der Fernbus: междугородний автобус.
+
+DE: [Aber]1 [alle Busse]2 [nach Süden]3 [waren]4 [ausgebucht]4, [und]5 [die Preise]6 [stiegen]7 [jede Minute]8.
+RU: [Но]1 [все автобусы]2 [на юг]3 [были распроданы]4, [а]5 [цены]6 [росли]7 [с каждой минутой]8.
+4 note: Ausgebucht: всё забронировано, мест нет.
+7 form: Steigen: расти, подниматься. Präteritum: stieg; Perfekt: ist gestiegen.
+
+DE: [Ein Mietwagen]1 [hätte]2 [dreihundert Euro]3 [gekostet]2, [und]4 [Jonas]5 [hat]6 [nicht einmal]7 [ein eigenes Auto]8.
+RU: [Машина напрокат]1 [стоила бы]2 [триста евро]3, [а]4 [у Йонаса]5,6 [нет]7 [даже]7 [собственной машины]8.
+2 form: Konjunktiv II в прошлом: hätte ... gekostet — стоило бы.
+7 note: Nicht einmal: даже не.
+
+DE: [Am Ende]1 [öffnete]2 [er]3 [eine App]4 [für Mitfahrgelegenheiten]5, [die]6 [er]7 [seit dem Studium]8 [nicht mehr]9 [benutzt]10 [hatte]10.
+RU: [В конце концов]1 [он]3 [открыл]2 [приложение]4 [для совместных поездок]5, [которым]6 [он]7 [не]9 [пользовался]10 [со времён учёбы]8.
+5 note: Die Mitfahrgelegenheit: поездка в чужой машине за часть расходов на бензин.
+8 note: Das Studium: учёба в вузе; seit dem Studium — с университетских времён.
+
+DE: [Eine Frau]1 [namens]2 [Selin]3 [fuhr]4 [um zwölf]5 [von Hamburg]6 [nach Karlsruhe]7 [und]8 [hatte]9 [noch]10 [zwei Plätze]11 [frei]12.
+RU: [Женщина]1 [по имени]2 [Селин]3 [ехала]4 [в двенадцать]5 [из Гамбурга]6 [в Карлсруэ]7, [и]8 [у неё]9 [было]9 [ещё]10 [два]11 [свободных]12 [места]11.
+2 note: Namens: по имени (Genitiv, книжное).
+
+DE: [Karlsruhe]1 [ist]0 [nicht]3 [Freiburg]4, [dachte]5 [Jonas]6, [aber]7 [es]8 [ist]0 [nah genug]10.
+RU: [Карлсруэ]1 [не]3 [Фрайбург]4, — [подумал]5 [Йонас]6, — [но]7 [это]8 [достаточно близко]10.
+3 note: Связка sein в русском опускается: Karlsruhe ist nicht Freiburg — Карлсруэ не Фрайбург.
+10 note: Genug стоит после прилагательного: nah genug — достаточно близко.
+
+== p3
+DE: [Selin]1 [war]2 [Krankenschwester]3 [und]4 [kam]5 [direkt]6 [von der Nachtschicht]7.
+RU: [Селин]1 [была]2 [медсестрой]3 [и]4 [ехала]5 [прямо]6 [с ночной смены]7.
+3 note: Die Krankenschwester: медсестра; сейчас чаще говорят die Pflegekraft.
+7 note: Die Nachtschicht: ночная смена.
+
+DE: [Der dritte Mitfahrer]1 [war]2 [Herr Okafor]3, [ein älterer Herr]4 [mit einem Cello]5 [auf dem Schoß]6.
+RU: [Третьим попутчиком]1 [был]2 [господин Окафор]3, [пожилой мужчина]4 [с виолончелью]5 [на коленях]6.
+4 note: Älterer Herr: пожилой мужчина (вежливо); älter здесь не «старше», а «пожилой».
+6 note: Der Schoß: колени (когда сидишь).
+
+DE: [Er]1 [spielte]2 [am Abend]3 [ein Konzert]4 [in Kassel]5, [und]6 [auch]7 [sein Zug]8 [war]9 [gestrichen]9.
+RU: [Он]1 [вечером]3 [играл]2 [концерт]4 [в Касселе]5, [и]6 [его поезд]8 [тоже]7 [отменили]9.
+9 note: Gestrichen: вычеркнутый, отменённый (о рейсе, поезде).
+
+DE: [Kurz]1 [hinter]2 [Hannover]3 [standen]4 [sie]5 [im Stau]6.
+RU: [Сразу]1 [за]2 [Ганновером]3 [они]5 [встали]4 [в пробку]6.
+6 note: Der Stau: пробка; im Stau stehen — стоять в пробке.
+
+DE: [Offenbar]1 [hatte]2 [halb Deutschland]3 [dieselbe Idee]4.
+RU: [Видимо]1, [у]2 [половины Германии]3 [была]2 [та же идея]4.
+1 note: Offenbar: очевидно, видимо.
+4 note: Dieselbe: та же самая (der-/die-/dasselbe пишется слитно).
+
+DE: [Selin]1 [schlug vor]2, [ein Spiel]3 [zu spielen]4: [Jeder]5 [erzählt]6 [von seiner schlimmsten Reise]7.
+RU: [Селин]1 [предложила]2 [сыграть]4 [в игру]3: [каждый]5 [рассказывает]6 [о своей самой ужасной поездке]7.
+2 form: Vorschlagen: предлагать. Präteritum: schlug vor; Perfekt: hat vorgeschlagen.
+4 sent: Zu + инфинитив после глагола vorschlagen.
+7 note: Schlimm, schlimmer, am schlimmsten: плохой, хуже, хуже всего.
+
+== p4
+DE: [Herr Okafor]1 [begann]2.
+RU: [Господин Окафор]1 [начал]2.
+2 form: Präteritum от beginnen: begann; Perfekt: hat begonnen.
+
+DE: [Neunzehnhundertachtzig]1 [war]2 [er]3 [als Student]4 [mit dem Zug]5 [von Lagos]6 [nach Kano]7 [gefahren]2, [und]8 [der Zug]9 [hatte]10 [drei Tage]11 [Verspätung]10.
+RU: [В тысяча девятьсот восьмидесятом]1 [он]3 [студентом]4 [ехал]2 [на поезде]5 [из Лагоса]6 [в Кано]7, [и]8 [поезд]9 [опоздал]10 [на три дня]11.
+1 note: Годы до 2000 читаются сотнями: neunzehnhundertachtzig — 1980; в предложении без in.
+10 note: Die Verspätung: опоздание; Verspätung haben — опаздывать (о транспорте).
+
+DE: „[Drei Stunden]1 [auf der Autobahn]2“, [sagte]3 [er]4, „[sind]0 [für mich]6 [Urlaub]7.“
+RU: «[Три часа]1 [на автобане]2, — [сказал]3 [он]4, — [для меня]6 [это]0 [отпуск]7.»
+7 note: Der Urlaub: отпуск.
+
+DE: [Selin]1 [erzählte]2 [von einer Fähre]3 [in Griechenland]4, [auf der]5 [sie]6 [seekrank]7 [geworden war]7.
+RU: [Селин]1 [рассказала]2 [о пароме]3 [в Греции]4, [на котором]5 [её]6 [укачало]7.
+5 sent: Auf der — относительное местоимение (die Fähre), глагол в конце.
+7 note: Seekrank werden: заболеть морской болезнью, «укачать».
+
+DE: [Jonas]1 [erzählte]2 [von seinem ersten Arbeitstag]3, [an dem]4 [er]5 [aus Versehen]6 [in den falschen Zug]7 [gestiegen war]8.
+RU: [Йонас]1 [рассказал]2 [о своём первом рабочем дне]3, [когда]4 [он]5 [по ошибке]6 [сел]8 [не в тот поезд]7.
+6 note: Aus Versehen: случайно, по ошибке.
+8 note: In den Zug steigen: садиться в поезд; Perfekt с sein: ist gestiegen.
+
+DE: [Sie]1 [lachten]2 [so laut]3, [dass]4 [die Leute]5 [im Auto]6 [neben ihnen]7 [herüberschauten]8.
+RU: [Они]1 [смеялись]2 [так громко]3, [что]4 [люди]5 [в машине]6 [рядом]7 [оборачивались]8 [на них]7.
+4 sent: So ..., dass: так ..., что; глагол в конце придаточного.
+8 note: Herüberschauen: смотреть в сторону говорящего, «поглядывать сюда».
+
+== p5
+DE: [In Kassel]1 [stieg]2 [Herr Okafor]3 [aus]2 [und]4 [schenkte]5 [ihnen]6 [zwei Karten]7 [für sein Konzert]8.
+RU: [В Касселе]1 [господин Окафор]3 [вышел]2 [и]4 [подарил]5 [им]6 [два билета]7 [на свой концерт]8.
+2 form: Aussteigen: выходить из транспорта. Präteritum: stieg aus; Perfekt: ist ausgestiegen.
+7 note: Die Karte: здесь билет (Eintrittskarte).
+
+DE: [Natürlich]1 [konnten]2 [sie]3 [nicht]4 [bleiben]2, [aber]5 [Jonas]6 [steckte]7 [die Karten]8 [trotzdem]9 [ein]7.
+RU: [Конечно]1, [они]3 [не]4 [могли]2 [остаться]2, [но]5 [Йонас]6 [всё равно]9 [положил]7 [билеты]8 [в карман]7.
+7 note: Einstecken: положить в карман, взять с собой.
+9 note: Trotzdem: всё равно, несмотря на это.
+
+DE: [Um halb elf]1 [abends]2 [setzte]3 [Selin]4 [ihn]5 [am Bahnhof Karlsruhe]6 [ab]3.
+RU: [В половине одиннадцатого]1 [вечера]2 [Селин]4 [высадила]3 [его]5 [у вокзала Карлсруэ]6.
+3 note: Absetzen: высадить пассажира.
+
+DE: [Dort]1 [wartete]2 [schon]3 [sein Cousin Ben]4 [mit dem alten Familienauto]5.
+RU: [Там]1 [уже]3 [ждал]2 [его двоюродный брат Бен]4 [на старой семейной машине]5.
+4 note: Der Cousin: двоюродный брат; die Cousine — двоюродная сестра.
+
+DE: [Kurz nach Mitternacht]1 [klingelten]2 [sie]3 [in Freiburg]4 [an der Tür]5.
+RU: [Вскоре после полуночи]1 [они]3 [позвонили]2 [в дверь]5 [во Фрайбурге]4.
+2 note: An der Tür klingeln: звонить в дверь.
+
+== p6
+DE: [Oma Erika]1 [öffnete]2 [im Bademantel]3, [aber]4 [sie]5 [war]6 [hellwach]6.
+RU: [Бабушка Эрика]1 [открыла]2 [в халате]3, [но]4 [она]5 [совсем не спала]6.
+3 note: Der Bademantel: банный халат.
+6 note: Hellwach: совершенно бодрый, «ни в одном глазу».
+
+DE: „[Ich]1 [habe]2 [die Nachrichten]3 [gesehen]2“, [sagte]4 [sie]5.
+RU: «[Я]1 [видела]2 [новости]3», — [сказала]4 [она]5.
+3 note: Die Nachrichten: новости.
+
+DE: „[Als]1 [ich]2 [jung]3 [war]3, [sind wir]4 [bei jedem Streik]5 [per Anhalter]6 [gefahren]4.
+RU: «[Когда]1 [я]2 [была молодой]3, [мы]4 [при каждой забастовке]5 [ездили]4 [автостопом]6.
+1 sent: Als — для одного периода в прошлом: als ich jung war — когда я была молодой.
+6 note: Per Anhalter fahren: ездить автостопом.
+
+DE: [Ihr]1 [jungen Leute]2 [habt]3 [wenigstens]4 [Apps]5.“
+RU: [У вас]1, [молодых]2, [хотя бы]4 [есть]3 [приложения]5.»
+4 note: Wenigstens: хотя бы, по крайней мере.
+
+DE: [Dann]1 [schnitt]2 [sie]3 [um halb eins]4 [nachts]5 [das erste Stück]6 [Geburtstagskuchen]7 [an]2.
+RU: [Потом]1 [в половине первого]4 [ночи]5 [она]3 [отрезала]2 [первый кусок]6 [праздничного торта]7.
+2 note: Anschneiden: начинать резать, отрезать первый кусок.
+
+DE: [Es]1 [war]2 [der beste Teil]3 [der ganzen Reise]4.
+RU: [Это]1 [была]2 [лучшая часть]3 [всей поездки]4.
+4 note: Der ganzen Reise — Genitiv: всей поездки.

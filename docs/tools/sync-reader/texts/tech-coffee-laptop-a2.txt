@@ -1,0 +1,249 @@
+id: tech-a2-kaffee-laptop-v1
+title: Кофе на клавиатуре / Kaffee auf der Tastatur
+level: A2
+topic: ноутбук, ремонт, данные, резервная копия, учёба
+source: original story
+hintLanguage: ru
+
+== p1
+DE: [Katja]1 [studiert]2 [Grafikdesign]3 [in]4 [Leipzig]5 [und]6 [wohnt]7 [mit]8 [ihrer]9 [Katze]9 [Mops]10 [in]11 [einer]12 [kleinen]13 [Wohnung]12.
+RU: [Катя]1 [изучает]2 [графический]3 [дизайн]3 [в]4 [Лейпциге]5 [и]6 [живёт]7 [со]8 [своей]9 [кошкой]9 [Мопс]10 [в]11 [маленькой]13 [квартире]12.
+2 form: Инфинитив studieren: ich studiere, er studiert, wir studieren; Präteritum: studierte; Perfekt: hat studiert.
+7 form: Инфинитив wohnen: ich wohne, er wohnt, wir wohnen; Präteritum: wohnte; Perfekt: hat gewohnt.
+9 form: Mit + Dativ: mit ihrer Katze (die Katze, женский род).
+12 form: In + Dativ (где?): in einer kleinen Wohnung.
+
+DE: [Es ist]0 [Donnerstagabend]1, [kurz vor]2 [elf Uhr]3.
+RU: [Четверг]1, [вечер]1, [почти]2 [одиннадцать часов]3.
+1 note: Der Donnerstagabend: вечер четверга, одно сложное слово.
+2 note: Kurz vor: незадолго до, почти.
+
+DE: [Morgen]1 [um]2 [zwölf]3 [muss]4 [sie]5 [ihr]6 [Semesterprojekt]6 [abgeben]4: [ein]7 [Poster]7 [und]8 [eine]9 [Präsentation]9 [für]10 [ein]11 [Café]11.
+RU: [Завтра]1 [в]2 [двенадцать]3 [она]5 [должна]4 [сдать]4 [свой]6 [семестровый]6 [проект]6: [плакат]7 [и]8 [презентацию]9 [для]10 [кафе]11.
+4 sent: Модальный глагол muss на позиции 2, инфинитив abgeben в конце предложения.
+4 form: Инфинитив abgeben: ich gebe ab, er gibt ab, wir geben ab; Präteritum: gab ab; Perfekt: hat abgegeben.
+4 note: Abgeben: сдавать работу, отдавать.
+
+DE: [Sie]1 [arbeitet]2 [schon]3 [seit]3 [sechs]4 [Stunden]5, [und]6 [neben]7 [dem]8 [Laptop]8 [steht]9 [die]10 [dritte]11 [Tasse]10 [Kaffee]12.
+RU: [Она]1 [работает]2 [уже]3 [шесть]4 [часов]5, [и]6 [рядом]7 [с]7 [ноутбуком]8 [стоит]9 [третья]11 [чашка]10 [кофе]12.
+3 note: Schon seit + Dativ: уже (сколько-то времени) и до сих пор.
+7 form: Neben + Dativ (где?): neben dem Laptop.
+
+== p2
+DE: [Plötzlich]1 [springt]2 [Mops]3 [auf]4 [den]5 [Schreibtisch]5.
+RU: [Вдруг]1 [Мопс]3 [запрыгивает]2 [на]4 [письменный]5 [стол]5.
+2 form: Инфинитив springen: ich springe, er springt, wir springen; Präteritum: sprang; Perfekt: ist gesprungen.
+5 form: Auf + Akkusativ (куда?): auf den Schreibtisch.
+
+DE: [Die]1 [Tasse]1 [fällt]2 [um]2, [und]3 [der]4 [Kaffee]4 [läuft]5 [direkt]6 [über]7 [die]8 [Tastatur]8.
+RU: [Чашка]1 [опрокидывается]2, [и]3 [кофе]4 [течёт]5 [прямо]6 [по]7 [клавиатуре]8.
+2 note: Umfallen: опрокинуться, упасть.
+2 form: Инфинитив umfallen: es fällt um; Präteritum: fiel um; Perfekt: ist umgefallen.
+5 note: Laufen здесь значит «течь» (о жидкости).
+
+DE: [Der]1 [Bildschirm]1 [flackert]2 [kurz]3, [dann]4 [wird]5 [er]6 [schwarz]5.
+RU: [Экран]1 [коротко]3 [мигает]2, [потом]4 [он]6 [становится]5 [чёрным]5.
+5 form: Werden + прилагательное: становиться. Инфинитив werden: ich werde, er wird, wir werden; Präteritum: wurde; Perfekt: ist geworden.
+
+DE: [Katja]1 [schreit]2 [so]3 [laut]4, [dass]5 [der]6 [Nachbar]6 [an]7 [die]8 [Wand]8 [klopft]9.
+RU: [Катя]1 [кричит]2 [так]3 [громко]4, [что]5 [сосед]6 [стучит]9 [в]7 [стену]8.
+5 sent: Придаточное с dass: спрягаемый глагол klopft стоит в конце.
+7 form: An + Akkusativ: an die Wand klopfen — стучать в стену.
+
+DE: [Mops]1 [sitzt]2 [ganz]3 [ruhig]4 [auf]5 [dem]6 [Bett]6 [und]7 [putzt]8 [sich]8.
+RU: [Мопс]1 [сидит]2 [совсем]3 [спокойно]4 [на]5 [кровати]6 [и]7 [умывается]8.
+8 note: Sich putzen: чиститься, умываться (о кошке).
+
+== p3
+DE: [Zuerst]1 [zieht]2 [sie]3 [das]4 [Ladekabel]4 [aus]2 [der]5 [Steckdose]5.
+RU: [Сначала]1 [она]3 [выдёргивает]2 [зарядный]4 [кабель]4 [из]5 [розетки]5.
+2 note: Etwas aus der Steckdose ziehen: вытащить из розетки.
+2 form: Инфинитив ziehen: ich ziehe, er zieht, wir ziehen; Präteritum: zog; Perfekt: hat gezogen.
+4 note: Das Ladekabel: зарядный кабель (laden — заряжать).
+
+DE: [Dann]1 [sucht]2 [sie]3 [im]4 [Internet]4: „[Kaffee]5 [auf]6 [Laptop]7, [was]8 [tun]9?"
+RU: [Потом]1 [она]3 [ищет]2 [в]4 [интернете]4: «[Кофе]5 [на]6 [ноутбук]7, [что]8 [делать]9?»
+4 note: Im = in dem.
+
+DE: [Die]1 [Tipps]1 [sind]2 [sich]2 [nicht]2 [einig]2.
+RU: [Советы]1 [противоречат друг другу]2.
+2 note: Sich einig sein: быть согласными друг с другом.
+
+DE: [Eine]1 [Seite]1 [sagt]2: „[Leg]3 [den]4 [Laptop]4 [in]5 [Reis]6!"
+RU: [Один]1 [сайт]1 [говорит]2: «[Положи]3 [ноутбук]4 [в]5 [рис]6!»
+3 form: Императив (du) от legen: leg! / lege!
+
+DE: [Eine]1 [andere]2 [Seite]1 [sagt]3: „[Auf]4 [keinen]4 [Fall]4 [Reis]5!"
+RU: [Другой]2 [сайт]1 [говорит]3: «[Ни в коем случае]4 [не]0 [рис]5!»
+4 note: Auf keinen Fall: ни в коем случае.
+
+DE: [Katja]1 [hat]2 [sowieso]3 [keinen]4 [Reis]4 [zu]5 [Hause]5, [nur]6 [Nudeln]7.
+RU: [У]2 [Кати]1 [всё равно]3 [нет]4 [риса]4 [дома]5, [только]6 [макароны]7.
+3 note: Sowieso: всё равно, и так.
+4 form: Kein + Akkusativ: keinen Reis (der Reis, мужской род).
+5 note: Zu Hause: дома (где?); nach Hause: домой (куда?).
+
+DE: [Sie]1 [dreht]2 [den]3 [Laptop]3 [um]2, [legt]4 [ihn]5 [auf]6 [ein]7 [Handtuch]7 [und]8 [geht]9 [traurig]10 [ins]11 [Bett]11.
+RU: [Она]1 [переворачивает]2 [ноутбук]3, [кладёт]4 [его]5 [на]6 [полотенце]7 [и]8 [грустная]10 [идёт]9 [спать]11.
+2 form: Инфинитив umdrehen: ich drehe um, er dreht um; Präteritum: drehte um; Perfekt: hat umgedreht.
+11 note: Ins Bett gehen: ложиться спать; ins = in das.
+
+DE: [Schlafen]1 [kann]2 [sie]3 [aber]4 [nicht]5.
+RU: [Но]4 [уснуть]1 [она]3 [не]5 [может]2.
+1 sent: Инфинитив schlafen стоит на первом месте для акцента; kann остаётся на позиции 2.
+
+== p4
+DE: [Am]1 [nächsten]2 [Morgen]1 [um]3 [acht]4 [steht]5 [sie]6 [vor]7 [dem]8 [kleinen]9 [Laden]8 „[Handy-Doktor]10" [in]11 [der]12 [Eisenbahnstraße]12.
+RU: [На]1 [следующее]2 [утро]1 [в]3 [восемь]4 [она]6 [стоит]5 [перед]7 [маленьким]9 [магазинчиком]8 «[Handy-Doktor]10» [на]11 [Айзенбанштрассе]12.
+7 form: Vor + Dativ (где?): vor dem kleinen Laden.
+10 note: Das Handy: мобильный телефон (так говорят только в Германии).
+
+DE: [Der]1 [Laden]1 [öffnet]2 [erst]3 [um]4 [neun]5, [aber]6 [Herr]7 [Yılmaz]7 [ist]8 [schon]9 [da]8 [und]10 [trinkt]11 [Tee]12.
+RU: [Магазинчик]1 [открывается]2 [только]3 [в]4 [девять]5, [но]6 [господин]7 [Йылмаз]7 [уже]9 [на месте]8 [и]10 [пьёт]11 [чай]12.
+3 note: Erst + время: только, не раньше чем.
+
+DE: [Er]1 [sieht]2 [Katjas]3 [Gesicht]3 [und]4 [macht]5 [die]6 [Tür]6 [auf]5.
+RU: [Он]1 [видит]2 [лицо]3 [Кати]3 [и]4 [открывает]5 [дверь]6.
+3 form: Katjas Gesicht: притяжательная форма с -s, как в английском.
+5 form: Инфинитив aufmachen: ich mache auf, er macht auf; Präteritum: machte auf; Perfekt: hat aufgemacht.
+
+DE: „[Kaffee]1 [oder]2 [Cola]3?", [fragt]4 [er]5 [nur]6.
+RU: «[Кофе]1 [или]2 [кола]3?» — [только]6 [спрашивает]4 [он]5.
+6 note: Nur здесь: просто, лишь.
+
+DE: „[Kaffee]1. [Mit]2 [Milch]3", [sagt]4 [Katja]5.
+RU: «[Кофе]1. [С]2 [молоком]3», — [говорит]4 [Катя]5.
+
+DE: [Herr]1 [Yılmaz]1 [seufzt]2: „[Milch]3 [ist]4 [schlecht]5, [sie]6 [klebt]7."
+RU: [Господин]1 [Йылмаз]1 [вздыхает]2: «[Молоко]3 — [это]4 [плохо]5, [оно]6 [липнет]7.»
+7 note: Kleben: липнуть, клеить.
+
+DE: [Er]1 [öffnet]2 [den]3 [Laptop]3 [mit]4 [einem]5 [winzigen]6 [Schraubenzieher]5 [und]7 [schaut]8 [lange]9 [hinein]10.
+RU: [Он]1 [вскрывает]2 [ноутбук]3 [крошечной]6 [отвёрткой]4,5 [и]7 [долго]9 [смотрит]8 [внутрь]10.
+4 form: Mit + Dativ: инструмент (чем?).
+5 note: Der Schraubenzieher: отвёртка.
+
+== p5
+DE: „[Die]1 [Tastatur]1 [ist]2 [kaputt]2", [sagt]3 [er]4 [schließlich]5.
+RU: «[Клавиатура]1 [сломана]2», — [говорит]3 [он]4 [наконец]5.
+2 note: Kaputt sein: быть сломанным.
+
+DE: „[Aber]1 [die]2 [Festplatte]2 [sieht]3 [gut]4 [aus]3."
+RU: «[Но]1 [жёсткий]2 [диск]2 [выглядит]3 [хорошо]4.»
+2 note: Die Festplatte: жёсткий диск; так в быту называют и SSD.
+3 form: Инфинитив aussehen: ich sehe aus, er sieht aus; Präteritum: sah aus; Perfekt: hat ausgesehen.
+
+DE: [Katja]1 [fragt]2 [leise]3: „[Und]4 [meine]5 [Daten]5?"
+RU: [Катя]1 [тихо]3 [спрашивает]2: «[А]4 [мои]5 [данные]5?»
+5 note: Die Daten: данные (только множественное число в этом значении).
+
+DE: [Er]1 [baut]2 [die]3 [Festplatte]3 [aus]2 [und]4 [steckt]5 [sie]6 [an]7 [seinen]8 [Computer]8.
+RU: [Он]1 [вынимает]2 [диск]3 [и]4 [подключает]5 [его]6 [к]7 [своему]8 [компьютеру]8.
+2 form: Инфинитив ausbauen: ich baue aus, er baut aus; Präteritum: baute aus; Perfekt: hat ausgebaut.
+5 note: Etwas an den Computer stecken: подключить к компьютеру.
+
+DE: [Nach]1 [zwei]2 [Minuten]3 [sieht]4 [Katja]5 [ihre]6 [Ordner]6 [auf]7 [dem]8 [Bildschirm]8.
+RU: [Через]1 [две]2 [минуты]3 [Катя]5 [видит]4 [свои]6 [папки]6 [на]7 [экране]8.
+1 note: Nach + Dativ (о времени): через, спустя.
+4 sent: Nach zwei Minuten на позиции 1, поэтому глагол sieht стоит перед подлежащим.
+
+DE: [Alles]1 [ist]2 [da]2: [Fotos]3, [Uni-Dokumente]4, [das]5 [Projekt]5.
+RU: [Всё]1 [на месте]2: [фото]3, [документы]4 [для]4 [универа]4, [проект]5.
+4 note: Die Uni: разговорное сокращение от Universität.
+
+DE: [Nur]1 [ein]2 [Problem]2 [bleibt]3.
+RU: [Остаётся]3 [только]1 [одна]2 [проблема]2.
+
+DE: [Die]1 [letzte]2 [gespeicherte]3 [Version]1 [ist]4 [von]5 [acht]6 [Uhr]6 [abends]7.
+RU: [Последняя]2 [сохранённая]3 [версия]1 [—]0 [от]4,5 [восьми]6 [часов]6 [вечера]7.
+3 note: Gespeichert: сохранённый (Partizip II от speichern).
+
+DE: [Drei]1 [Stunden]2 [Arbeit]3 [sind]4 [weg]4.
+RU: [Три]1 [часа]2 [работы]3 [пропали]4.
+4 note: Weg sein: пропасть, исчезнуть.
+
+== p6
+DE: [Katja]1 [will]2 [weinen]3, [aber]4 [Herr]5 [Yılmaz]5 [öffnet]6 [noch]7 [einen]8 [Ordner]8.
+RU: [Катя]1 [хочет]2 [заплакать]3, [но]4 [господин]5 [Йылмаз]5 [открывает]6 [ещё]7 [одну]8 [папку]8.
+2 form: Модальный глагол wollen: ich will, er will, wir wollen; Präteritum: wollte.
+
+DE: [Er]1 [heißt]2 „[AutoSave]3".
+RU: [Она]1 [называется]2 «[AutoSave]3».
+1 note: Der Ordner — мужской род, поэтому er; по-русски папка — она.
+
+DE: [Das Designprogramm]1 [hat]2 [alle]3 [zehn]4 [Minuten]5 [automatisch]6 [eine]7 [Kopie]7 [gespeichert]2.
+RU: [Программа для дизайна]1 [каждые]3 [десять]4 [минут]5 [автоматически]6 [сохраняла]2 [копию]7.
+2 form: Perfekt: hat … gespeichert. Инфинитив speichern: ich speichere, er speichert; Präteritum: speicherte; Perfekt: hat gespeichert.
+3 note: Alle zehn Minuten: каждые десять минут.
+
+DE: [Die]1 [neueste]2 [Kopie]1 [ist]3 [von]4 [zehn]5 [Uhr]5 [fünfzig]5.
+RU: [Самая свежая]2 [копия]1 [—]0 [от]3,4 [22:50]5.
+2 form: Neueste: превосходная степень от neu (neu — neuer — am neuesten).
+
+DE: „[Fünf]1 [Minuten]2 [vor]3 [der]4 [Katze]4", [sagt]5 [Herr]6 [Yılmaz]6 [und]7 [grinst]8.
+RU: «[За]3 [пять]1 [минут]2 [до]3 [кошки]4», — [говорит]5 [господин]6 [Йылмаз]6 [и]7 [ухмыляется]8.
+3 note: Vor + Dativ (о времени): до, перед.
+
+DE: [Katja]1 [möchte]2 [ihn]3 [umarmen]4, [aber]5 [sie]6 [gibt]7 [ihm]8 [nur]9 [sehr]10 [fest]11 [die]12 [Hand]12.
+RU: [Катя]1 [хочет]2 [его]3 [обнять]4, [но]5 [она]6 [только]9 [очень]10 [крепко]11 [жмёт]7 [ему]8 [руку]12.
+2 form: Möchte: вежливая форма от mögen — хотела бы.
+7 note: Jemandem die Hand geben: пожать кому-то руку.
+7 form: Инфинитив geben: ich gebe, er gibt, wir geben; Präteritum: gab; Perfekt: hat gegeben.
+
+== p7
+DE: [Er]1 [kopiert]2 [das]3 [Projekt]3 [auf]4 [einen]5 [USB-Stick]5.
+RU: [Он]1 [копирует]2 [проект]3 [на]4 [флешку]5.
+5 note: Der USB-Stick: флешка.
+
+DE: [Um]1 [halb]2 [zehn]2 [sitzt]3 [Katja]4 [in]5 [der]6 [Unibibliothek]6 [an]7 [einem]8 [fremden]9 [Computer]8.
+RU: [В]1 [половине]2 [десятого]2 [Катя]4 [сидит]3 [в]5 [университетской]6 [библиотеке]6 [за]7 [чужим]9 [компьютером]8.
+2 note: Halb zehn = 9:30, половина десятого.
+7 note: An einem Computer sitzen: сидеть за компьютером.
+
+DE: [Die]1 [Maus]1 [ist]2 [alt]2, [und]3 [die]4 [Taste]4 „[E]5" [klemmt]6, [aber]7 [das]8 [Programm]8 [funktioniert]9.
+RU: [Мышка]1 [старая]2, [и]3 [клавиша]4 «[E]5» [западает]6, [но]7 [программа]8 [работает]9.
+6 note: Klemmen: заедать, западать.
+
+DE: [Sie]1 [arbeitet]2 [schnell]3 [und]4 [konzentriert]5, [ohne]6 [Kaffee]7.
+RU: [Она]1 [работает]2 [быстро]3 [и]4 [сосредоточенно]5, [без]6 [кофе]7.
+6 form: Ohne + Akkusativ.
+
+DE: [Um]1 [11:58]2 [Uhr]2 [klickt]3 [sie]4 [auf]5 „[Abgeben]6".
+RU: [В]1 [11:58]2 [она]4 [нажимает]3 [на]5 «[Сдать]6».
+3 note: Auf etwas klicken: кликнуть по чему-то.
+
+DE: [Zwei]1 [Minuten]2 [später]3 [kommt]4 [eine]5 [E-Mail]5: „[Ihre]6 [Abgabe]6 [ist]7 [eingegangen]7."
+RU: [Через]3 [две]1 [минуты]2 [приходит]4 [письмо]5: «[Ваша]6 [работа]6 [получена]7.»
+6 note: Die Abgabe: сданная работа (от abgeben).
+7 note: Eingehen: поступить (о письме, документе). Perfekt: ist eingegangen.
+
+== p8
+DE: [Am]1 [Nachmittag]1 [holt]2 [Katja]3 [ihren]4 [Laptop]4 [ab]2.
+RU: [Днём]1 [Катя]3 [забирает]2 [свой]4 [ноутбук]4.
+2 form: Инфинитив abholen: ich hole ab, er holt ab; Präteritum: holte ab; Perfekt: hat abgeholt.
+
+DE: [Die]1 [neue]2 [Tastatur]1 [kostet]3 [hundertzwanzig]4 [Euro]5, [das]6 [ist]6 [viel]7 [Geld]8 [für]9 [eine]10 [Studentin]10.
+RU: [Новая]2 [клавиатура]1 [стоит]3 [сто двадцать]4 [евро]5, [это]6 [много]7 [денег]8 [для]9 [студентки]10.
+9 form: Für + Akkusativ.
+
+DE: [Herr]1 [Yılmaz]1 [gibt]2 [ihr]3 [noch]4 [einen]5 [Rat]5 [mit]2: „[Mach]6 [jeden]7 [Freitag]8 [ein]9 [Backup]9."
+RU: [Господин]1 [Йылмаз]1 [даёт]2 [ей]3 [напоследок]2 [ещё]4 [один]5 [совет]5: «[Делай]6 [бэкап]9 [каждую]7 [пятницу]8.»
+2 note: Mitgeben: дать с собой (в дорогу).
+9 note: Das Backup: резервная копия.
+
+DE: [Seitdem]1 [gibt]2 [es]2 [bei]3 [Katja]4 [den]5 „[Backup-Freitag]5".
+RU: [С тех пор]1 [у]3 [Кати]4 [есть]2 «[бэкап-пятница]5».
+2 note: Es gibt + Akkusativ: есть, имеется.
+
+DE: [Jeden]1 [Freitag]2 [speichert]3 [sie]4 [alles]5 [in]6 [der]7 [Cloud]7 [und]8 [auf]9 [einer]10 [externen]11 [Festplatte]10.
+RU: [Каждую]1 [пятницу]2 [она]4 [сохраняет]3 [всё]5 [в]6 [облаке]7 [и]8 [на]9 [внешнем]11 [жёстком диске]10.
+1 form: Jeden Freitag: Akkusativ времени без предлога.
+7 note: Die Cloud: облако, облачное хранилище.
+
+DE: [Und]1 [der]2 [Kaffee]2 [steht]3 [jetzt]4 [in]5 [einem]6 [Becher]6 [mit]7 [Deckel]8.
+RU: [А]1 [кофе]2 [теперь]4 [стоит]3 [в]5 [кружке]6 [с]7 [крышкой]8.
+6 note: Der Becher: кружка, стакан (часто без ручки).
+
+DE: [Mops]1 [findet]2 [das]3 [langweilig]4.
+RU: [Мопсу]1 [это]3 [кажется]2 [скучным]4.
+2 note: Finden здесь: считать, находить (мнение).

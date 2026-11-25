@@ -1,0 +1,135 @@
+id: seed-c1-science-news-v2
+title: Новости природы и науки / Nachrichten aus Natur und Wissenschaft
+level: C1
+topic: неполитические новости науки и природы, май 2026
+source: pair sample
+hintLanguage: ru
+
+== c1p1
+DE: [Im Mai 2026]1 [gewannen]2 [Naturnachrichten]3 [wieder]5 [die Aufmerksamkeit städtischer Leser]4.
+RU: [В мае 2026 года]1 [природные новости]3 [снова]5 [привлекли]2 [внимание городских читателей]4.
+1 form: Im = in dem; дательный падеж для месяца как периода.
+2 note: Gewannen используется образно с Aufmerksamkeit: «получили внимание».
+2 form: Инфинитив gewinnen: ich gewinne, er gewinnt, wir gewinnen; Präteritum: gewann; Perfekt: hat gewonnen.
+4 form: Städtischer Leser - родительный падеж множественное число.
+
+DE: [Forschende]1 [beobachteten]2 [die Rückkehr der Kiwis]3 [in den Raum Wellington]4.
+RU: [Исследователи]1 [наблюдали]2 [возвращение киви]3 [в район Веллингтона]4.
+1 note: Forschende - причастное существительное.
+2 form: Инфинитив beobachten: ich beobachte, er beobachtet, wir beobachten; Präteritum: beobachtete; Perfekt: hat beobachtet.
+3 form: Der Kiwis - родительный падеж множественное число после Rückkehr.
+4 form: In den Raum: винительный падеж направления.
+
+DE: [Nachtaktive Vögel]1 [erschlossen]2 [allmählich]3 [sichere grüne Zonen]4.
+RU: [Ночные птицы]1 [постепенно]3 [осваивали]2 [безопасные зеленые зоны]4.
+2 note: Erschließen здесь значит «осваивать/делать доступным».
+2 form: Инфинитив erschließen: ich erschließe, er erschließt, wir erschließen; Präteritum: erschloss; Perfekt: hat erschlossen.
+
+DE: [Freiwillige]1 [prüften]2 [Fallen für Raubtiere]3 [und]5 [den Zustand der Wege]4.
+RU: [Волонтеры]1 [проверяли]2 [ловушки для хищников]3 [и]5 [состояние троп]4.
+2 form: Инфинитив prüfen: ich prüfe, er prüft, wir prüfen; Präteritum: prüfte; Perfekt: hat geprüft.
+3 form: Für требует винительный падеж и показывает назначение.
+4 form: Den Zustand - винительный падеж; der Wege - родительный падеж множественное число.
+
+DE: [Stadtbewohner]1 [diskutierten]2 [neue Regeln]3 [für Hunde und abendliche Spaziergänge]4.
+RU: [Горожане]1 [обсуждали]2 [новые правила]3 [для собак и вечерних прогулок]4.
+2 form: Инфинитив diskutieren: ich diskutiere, er diskutiert, wir diskutieren; Präteritum: diskutierte; Perfekt: hat diskutiert.
+
+== c1p2
+DE: [Ein solches Projekt]1 [verlangt]2 [Geduld, genaue Daten und Vertrauen]3 [der Bewohner]4.
+RU: [Такой проект]1 [требует]2 [терпения, точных данных и доверия]3 [жителей]4.
+1 form: Solches: окончание для среднего рода в именительном падеже.
+2 form: Инфинитив verlangen: ich verlange, er verlangt, wir verlangen; Präteritum: verlangte; Perfekt: hat verlangt.
+4 form: Der Bewohner - родительный падеж множественное число.
+
+DE: [Biologen]1 [zählen]2 [jedes Nest]3, [weil]4 [ein kleiner Fehler]5 [die Brutsaison]6 [zerstören kann]7.
+RU: [Биологи]1 [считают]2 [каждое гнездо]3, [потому что]4 [маленькая ошибка]5 [может разрушить]7 [сезон размножения]6.
+2 form: Инфинитив zählen: ich zähle, er zählt, wir zählen; Präteritum: zählte; Perfekt: hat gezählt.
+3 form: Jedes: средний род, винительный падеж.
+4 sent: Weil отправляет спрягаемый глагол в конец придаточного.
+7 form: Инфинитив zerstören: ich zerstöre, er zerstört, wir zerstören; Präteritum: zerstörte; Perfekt: hat zerstört.
+7 sent: В придаточном конечный модальный глагол kann стоит в самом конце.
+
+DE: [Ingenieure]1 [installieren]2 [leise Sensoren]3, [um Tiere nicht zu stören]4.
+RU: [Инженеры]1 [устанавливают]2 [тихие датчики]3, [чтобы не тревожить животных]4.
+2 form: Инфинитив installieren: ich installiere, er installiert, wir installieren; Präteritum: installierte; Perfekt: hat installiert.
+4 form: Um ... zu выражает цель; zu стоит перед инфинитивом.
+
+DE: [Touristen]1 [erhalten]2 [einfache Anweisungen]3 [vor dem Eintritt]4 [in den Park]5.
+RU: [Туристы]1 [получают]2 [простые инструкции]3 [перед входом]4 [в парк]5.
+2 form: Инфинитив erhalten: ich erhalte, er erhält, wir erhalten; Präteritum: erhielt; Perfekt: hat erhalten.
+4 form: Vor dem Eintritt: дательный падеж как временное выражение.
+5 form: In den Park: винительный падеж направления.
+
+DE: [Stadtnatur]1 [wird nicht zur Dekoration]2, [sondern zur gemeinsamen Verantwortung]3.
+RU: [Городская природа]1 [становится не декорацией]2, [а общей ответственностью]3.
+2 form: Werden zu + дательный падеж выражает превращение во что-то.
+3 sent: Nicht ..., sondern ... противопоставляет два варианта.
+
+== c1p3
+DE: [Andere wissenschaftliche Nachrichten]1 [betrafen]2 [die]3 [Kommunikation]4 [von]5 [Tieren]6.
+RU: [Другие научные новости]1 [касались]2 [коммуникации]3,4 [животных]5,6.
+2 form: Betrafen: прошедшее время Präteritum множественного числа от betreffen.
+3 form: Die: женский род, винительный падеж к Kommunikation.
+5 form: Von требует дательный падеж и заменяет длинный родительный оборот.
+
+DE: [Moderne]1 [Mikrofone]2 [zeichnen]3 [Laute]4 [von]5 [Walen]6, [Vögeln]7, [Hunden]8 [und]10 [Katzen]9 [auf]3.
+RU: [Современные]1 [микрофоны]2 [записывают]3 [звуки]4 [китов]5,6, [птиц]7, [собак]8 [и]10 [кошек]9.
+1 form: Moderne: окончание прилагательного во множественном числе.
+3 note: Aufzeichnen = записывать звук.
+3 form: Aufzeichnen - отделяемый глагол: zeichnen стоит на позиции 2, auf уходит в конец. Инфинитив aufzeichnen: ich zeichne auf, er zeichnet auf, wir zeichnen auf; Präteritum: zeichnete auf; Perfekt: hat aufgezeichnet.
+3 sent: Приставка auf закрывает глагольную рамку.
+5 form: Von требует дательный падеж и показывает принадлежность звуков.
+
+DE: [Algorithmen]1 [vergleichen]2 [Signale]3 [mit]4 [Situation]5, [Zeit]6 [und]8 [Verhalten]7.
+RU: [Алгоритмы]1 [сравнивают]2 [сигналы]3 [с]4 [ситуацией]5, [временем]6 [и]8 [поведением]7.
+2 form: Инфинитив vergleichen: ich vergleiche, er vergleicht, wir vergleichen; Präteritum: verglich; Perfekt: hat verglichen.
+4 form: Mit требует дательный падеж.
+
+DE: [Wissenschaftler]1 [versprechen]2 [keine]3 [wörtliche]4 [Übersetzung]5, [weil]6 [Tiere]7 [nicht]8 [in]9 [menschlichen]10 [Sätzen]11 [sprechen]12.
+RU: [Ученые]1 [не]3 [обещают]2 [буквальный]4 [перевод]5, [потому что]6 [животные]7 [не]8 [говорят]12 [человеческими]10 [предложениями]9,11.
+2 form: Инфинитив versprechen: ich verspreche, er verspricht, wir versprechen; Präteritum: versprach; Perfekt: hat versprochen.
+3 form: Keine отрицает существительное Übersetzung.
+4 form: Wörtliche: окончание прилагательного перед женским существительным в винительном падеже.
+6 sent: Weil отправляет sprechen в конец придаточного.
+9 form: In + дательный падеж описывает форму речи.
+10 form: Menschlichen: окончание прилагательного во множественном числе после предлога in.
+12 form: Инфинитив sprechen: ich spreche, er spricht, wir sprechen; Präteritum: sprach; Perfekt: hat gesprochen.
+
+DE: [Sie]1 [suchen]2 [stabile]3 [Verbindungen]4 [zwischen]5 [Signal]6, [Kontext]7 [und]9 [Reaktion]8.
+RU: [Они]1 [ищут]2 [устойчивые]3 [связи]4 [между]5 [сигналом]6, [контекстом]7 [и]9 [реакцией]8.
+2 form: Инфинитив suchen: ich suche, er sucht, wir suchen; Präteritum: suchte; Perfekt: hat gesucht.
+3 form: Stabile: окончание прилагательного во множественном числе.
+5 form: Zwischen здесь с дательным падежом: между чем?
+
+== c1p4
+DE: [Solche Forschungen]1 [sind nützlich]2 [für Schulen, Museen und Naturparks]3.
+RU: [Такие исследования]1 [полезны]2 [для школ, музеев и природных парков]3.
+1 form: Solche: окончание множественного числа в именительном падеже.
+3 form: Für требует винительный падеж.
+
+DE: [Eine Lehrerin]1 [kann]2 [einen gewöhnlichen Spaziergang]3 [in eine kleine Beobachtung]4 [verwandeln]5.
+RU: [Учитель]1 [может]2 [превратить]5 [обычную прогулку]3 [в маленькое наблюдение]4.
+2 form: Инфинитив können: ich kann, er kann, wir können; Präteritum: konnte; Perfekt: hat gekonnt.
+3 form: Einen gewöhnlichen: мужской винительный падеж.
+4 form: In + винительный падеж показывает результат превращения.
+5 form: Инфинитив verwandeln: ich verwandle, er verwandelt, wir verwandeln; Präteritum: verwandelte; Perfekt: hat verwandelt.
+5 sent: После kann инфинитив verwandeln стоит в конце.
+
+DE: [Ein Museum]1 [kann]2 [Besuchern]3 [Daten]4 [zeigen]5 [und nicht nur schöne Fotos]6.
+RU: [Музей]1 [может]2 [показать]5 [посетителям]3 [данные]4, [а не только красивые фотографии]6.
+2 form: Инфинитив können: ich kann, er kann, wir können; Präteritum: konnte; Perfekt: hat gekonnt.
+3 form: Besuchern - дательный падеж множественное число: кому показывают данные.
+5 form: Инфинитив zeigen: ich zeige, er zeigt, wir zeigen; Präteritum: zeigte; Perfekt: hat gezeigt.
+
+DE: [Ein Entwickler von Sensoren]1 [sieht]2, [wie]3 [Technik]4 [die Qualität ökologischen Wissens]5 [verändert]6.
+RU: [Разработчик сенсоров]1 [видит]2, [как]3 [техника]4 [меняет]6 [качество экологического знания]5.
+1 form: Von Sensoren уточняет область без родительный падеж.
+2 form: Инфинитив sehen: ich sehe, er sieht, wir sehen; Präteritum: sah; Perfekt: hat gesehen.
+3 sent: Wie вводит придаточное; verändert уходит в конец.
+5 form: Ökologischen Wissens - родительный падеж единственное число.
+6 form: Инфинитив verändern: ich verändere, er verändert, wir verändern; Präteritum: veränderte; Perfekt: hat verändert.
+
+DE: [Eine unpolitische Nachricht]1 [über Vögel oder Laute]2 [wird zu einem Gespräch]3 [über Aufmerksamkeit, Verantwortung und Genauigkeit]4.
+RU: [Неполитическая новость]1 [о птицах или звуках]2 [становится разговором]3 [о внимании, ответственности и точности]4.
+3 form: Werden zu + дательный падеж выражает превращение.

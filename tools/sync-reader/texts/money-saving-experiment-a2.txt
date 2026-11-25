@@ -1,0 +1,154 @@
+id: money-saving-experiment-a2-v1
+title: Куда уходят деньги? / Das Sparexperiment
+level: A2
+topic: деньги, бюджет, подписки, экономия, путешествие
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Jana]1 [und]2 [Tarek]3 [wohnen]4 [zusammen]5 [in]6 [Freiburg]7 [und]8 [haben]9 [einen]10 [großen]11 [Traum]10: [im]12 [Sommer]12 [drei]13 [Wochen]14 [nach]15 [Portugal]16.
+RU: [Яна]1 [и]2 [Тарек]3 [живут]4 [вместе]5 [во]6 [Фрайбурге]7, [и]8 [у]9 [них]9 [есть]9 [большая]11 [мечта]10: [летом]12 [на]14 [три]13 [недели]14 [в]15 [Португалию]16.
+10 note: Der Traum: мечта, сон.
+15 form: Nach + страна без артикля: nach Portugal (куда?).
+
+DE: [Die]1 [Reise]1 [kostet]2 [ungefähr]3 [2.400]4 [Euro]5, [aber]6 [auf]7 [ihrem]8 [Sparkonto]9 [sind]10 [nur]11 [600]12.
+RU: [Поездка]1 [стоит]2 [примерно]3 [2400]4 [евро]5, [но]6 [на]7 [их]8 [накопительном]9 [счёте]9 [лежит]10 [только]11 [600]12.
+1 note: Die Reise: поездка, путешествие.
+3 note: Ungefähr: примерно.
+9 note: Das Sparkonto: сберегательный, накопительный счёт.
+
+DE: „[Wir]1 [verdienen]2 [doch]3 [genug]4", [sagt]5 [Tarek]6.
+RU: «[Мы]1 [же]3 [зарабатываем]2 [достаточно]4», — [говорит]5 [Тарек]6.
+2 form: Инфинитив verdienen: ich verdiene, er verdient, wir verdienen; Präteritum: verdiente; Perfekt: hat verdient.
+3 note: Doch: ведь, же (усиливает высказывание).
+
+DE: „[Wohin]1 [geht]2 [eigentlich]3 [unser]4 [Geld]5?"
+RU: «[Куда]1 [вообще]3 [уходят]2 [наши]4 [деньги]5?»
+1 note: Wohin: куда (направление).
+3 note: Eigentlich: вообще-то, собственно.
+
+DE: [Keiner]1 [von]1 [beiden]1 [kennt]2 [die]3 [Antwort]3.
+RU: [Ни]1 [один]1 [из]1 [них]1 [не]2 [знает]2 [ответа]3.
+1 note: Keiner von beiden: ни один из двоих.
+
+== p2
+DE: [Also]1 [machen]2 [sie]3 [im]4 [Januar]4 [ein]5 [Experiment]5: [Einen]6 [Monat]6 [lang]6 [schreiben]7 [sie]8 [jede]9 [Ausgabe]10 [auf]7.
+RU: [Поэтому]1 [в]4 [январе]4 [они]3 [устраивают]2 [эксперимент]5: [целый]6 [месяц]6 [они]8 [записывают]7 [каждую]9 [трату]10.
+1 note: Also: итак, поэтому (не «также»!).
+7 form: Aufschreiben: ich schreibe auf; Präteritum: schrieb auf; Perfekt: hat aufgeschrieben.
+10 note: Die Ausgabe: расход, трата.
+
+DE: [Jeden]1 [Abend]1 [sitzen]2 [sie]3 [zehn]4 [Minuten]5 [zusammen]6 [und]7 [füllen]8 [eine]9 [Tabelle]9 [aus]8.
+RU: [Каждый]1 [вечер]1 [они]3 [десять]4 [минут]5 [сидят]2 [вместе]6 [и]7 [заполняют]8 [таблицу]9.
+1 form: Akkusativ времени: jeden Abend — каждый вечер.
+8 form: Ausfüllen: ich fülle aus; Perfekt: hat ausgefüllt.
+
+DE: [Miete]1, [Lebensmittel]2, [Bus]3, [Handy]4: [Alles]5 [kommt]6 [in]7 [die]8 [Liste]8, [auch]9 [der]10 [kleinste]11 [Kaffee]10.
+RU: [Аренда]1, [продукты]2, [автобус]3, [телефон]4 — [всё]5 [попадает]6 [в]7 [список]8, [даже]9 [самый]11 [маленький]11 [кофе]10.
+2 note: Die Lebensmittel: продукты питания.
+11 form: Superlativ: klein → der kleinste.
+
+== p3
+DE: [Nach]1 [einer]2 [Woche]2 [erlebt]3 [Jana]4 [die]5 [erste]6 [Überraschung]5.
+RU: [Через]1 [неделю]2 [Яну]4 [ждёт]3 [первый]6 [сюрприз]5.
+3 note: Erleben: пережить, испытать.
+5 note: Die Überraschung: сюрприз, неожиданность.
+
+DE: [Sie]1 [kauft]2 [jeden]3 [Morgen]3 [auf]4 [dem]5 [Weg]5 [zur]6 [Arbeit]6 [einen]7 [Cappuccino]7 [für]8 [3,80]9 [Euro]10.
+RU: [Каждое]3 [утро]3 [по]4 [дороге]5 [на]6 [работу]6 [она]1 [покупает]2 [капучино]7 [за]8 [3,80]9 [евро]10.
+4 note: Auf dem Weg zu: по дороге куда-то.
+
+DE: [Das]1 [sind]2 [fast]3 [80]4 [Euro]5 [im]6 [Monat]6, [nur]7 [für]8 [Kaffee]9!
+RU: [Это]1,2 [почти]3 [80]4 [евро]5 [в]6 [месяц]6 — [только]7 [на]8 [кофе]9!
+3 note: Fast: почти.
+
+DE: [Tarek]1 [lacht]2, [aber]3 [dann]4 [findet]5 [er]0 [seine]6 [eigene]7 [Überraschung]8: [Er]9 [bestellt]10 [dreimal]11 [pro]12 [Woche]13 [Essen]14 [beim]15 [Lieferdienst]15.
+RU: [Тарек]1 [смеётся]2, [но]3 [потом]4 [находит]5 [свой]6 [собственный]7 [сюрприз]8: [он]9 [три]11 [раза]11 [в]12 [неделю]13 [заказывает]10 [еду]14 [в]15 [службе]15 [доставки]15.
+5 form: Инфинитив finden: ich finde, er findet; Präteritum: fand; Perfekt: hat gefunden.
+15 note: Der Lieferdienst: служба доставки еды.
+
+== p4
+DE: [Am]1 [Ende]1 [des]2 [Monats]2 [lesen]3 [sie]4 [gemeinsam]5 [die]6 [Kontoauszüge]6.
+RU: [В]1 [конце]1 [месяца]2 [они]4 [вместе]5 [читают]3 [выписки]6 [по]6 [счёту]6.
+5 note: Gemeinsam: вместе, сообща.
+6 note: Der Kontoauszug, die Kontoauszüge: выписка по счёту.
+
+DE: [Dort]1 [finden]2 [sie]3 [viele]4 [kleine]5 [Abbuchungen]6, [die]7 [sie]8 [fast]9 [vergessen]10 [haben]10.
+RU: [Там]1 [они]3 [находят]2 [много]4 [мелких]5 [списаний]6, [о]7 [которых]7 [они]8 [почти]9 [забыли]10.
+6 note: Die Abbuchung: списание денег со счёта.
+10 form: Vergessen: Präteritum: vergaß; Perfekt: hat vergessen.
+
+DE: [Drei]1 [Streamingdienste]2, [eine]3 [Sprach-App]3, [ein]4 [Cloud-Speicher]4 [und]5 [eine]6 [Zeitschrift]6, [die]7 [niemand]8 [liest]9.
+RU: [Три]1 [стриминговых]2 [сервиса]2, [языковое]3 [приложение]3, [облачное]4 [хранилище]4 [и]5 [журнал]6, [который]7 [никто]8 [не]8 [читает]9.
+6 note: Die Zeitschrift: журнал.
+8 note: Niemand: никто; по-немецки без второго отрицания.
+
+DE: [Zusammen]1 [kosten]2 [die]3 [Abos]3 [67]4 [Euro]5 [im]6 [Monat]6.
+RU: [Вместе]1 [подписки]3 [стоят]2 [67]4 [евро]5 [в]6 [месяц]6.
+3 note: Das Abo (Abonnement): подписка.
+
+DE: [Und]1 [dann]0 [ist]2 [da]2 [noch]3 [das]4 [Fitnessstudio]4: [39]5 [Euro]6, [aber]7 [Tarek]8 [war]9 [seit]10 [Oktober]11 [nicht]12 [mehr]12 [dort]13.
+RU: [И]1 [ещё]3 [есть]2 [фитнес-клуб]4: [39]5 [евро]6, [но]7 [Тарек]8 [не]12 [был]9 [там]13 [с]10 [октября]11.
+4 note: Das Fitnessstudio: фитнес-клуб, спортзал.
+12 note: Nicht mehr: больше не.
+
+== p5
+DE: [Tarek]1 [will]2 [den]3 [Vertrag]3 [sofort]4 [kündigen]5.
+RU: [Тарек]1 [хочет]2 [сразу]4 [расторгнуть]5 [договор]3.
+2 form: Wollen: ich will, er will, wir wollen.
+5 note: Kündigen: расторгнуть договор; также — уволиться.
+
+DE: [Aber]1 [im]2 [Vertrag]3 [steht]4 [eine]5 [Kündigungsfrist]5 [von]6 [drei]7 [Monaten]8.
+RU: [Но]1 [в]2 [договоре]3 [указан]4 [срок]5 [расторжения]5 [в]6 [три]7 [месяца]8.
+5 note: Die Kündigungsfrist: срок, за который нужно предупредить о расторжении.
+
+DE: [Er]1 [schreibt]2 [trotzdem]3 [noch]0 [am]4 [selben]4 [Abend]4 [die]5 [Kündigung]5 [und]6 [schickt]7 [sie]8 [ab]7.
+RU: [Он]1 [всё]3 [равно]3 [пишет]2 [заявление]5 [о]5 [расторжении]5 [в]4 [тот]4 [же]4 [вечер]4 [и]6 [отправляет]7 [его]8.
+4 note: Am selben Abend: в тот же вечер.
+5 note: Die Kündigung: заявление о расторжении договора.
+7 form: Abschicken: отправлять; приставка ab в конце. Perfekt: hat abgeschickt.
+
+DE: „[Drei]1 [Monate]2 [zahlen]3 [ist]4 [besser]5 [als]6 [für]7 [immer]7 [zahlen]8", [sagt]9 [er]10.
+RU: «[Платить]3 [три]1 [месяца]2 [лучше]4,5, [чем]6 [платить]8 [всегда]7», — [говорит]9 [он]10.
+5 form: Komparativ: gut → besser als.
+7 note: Für immer: навсегда.
+
+== p6
+DE: [Sie]1 [behalten]2 [nur]3 [einen]4 [Streamingdienst]4 [und]5 [teilen]6 [sich]6 [das]7 [Familienabo]7 [mit]8 [Janas]9 [Schwester]10.
+RU: [Они]1 [оставляют]2 [только]3 [один]4 [стриминговый]4 [сервис]4 [и]5 [делят]6 [семейную]7 [подписку]7 [с]8 [сестрой]10 [Яны]9.
+2 note: Behalten: оставить себе, сохранить.
+6 note: Sich etwas teilen: делить что-то между собой.
+
+DE: [Jana]1 [kauft]2 [eine]3 [Thermoskanne]3 [und]4 [macht]5 [ihren]6 [Kaffee]7 [jetzt]8 [zu]9 [Hause]9.
+RU: [Яна]1 [покупает]2 [термос]3 [и]4 [теперь]8 [варит]5 [свой]6 [кофе]7 [дома]9.
+3 note: Die Thermoskanne: термос.
+9 note: Zu Hause: дома (где?); nach Hause — домой (куда?).
+
+DE: [Tarek]1 [kocht]2 [am]3 [Sonntag]3 [für]4 [die]5 [ganze]6 [Woche]5, [und]7 [manchmal]8 [ist]9 [es]10 [sogar]11 [lecker]12.
+RU: [Тарек]1 [по]3 [воскресеньям]3 [готовит]2 [на]4 [всю]6 [неделю]5, [и]7 [иногда]8 [это]10 [даже]11 [вкусно]9,12.
+11 note: Sogar: даже.
+12 note: Lecker: вкусный.
+
+== p7
+DE: [Sie]1 [haben]2 [nicht]3 [das]4 [Gefühl]4, [dass]5 [sie]6 [auf]7 [etwas]8 [Wichtiges]9 [verzichten]10.
+RU: [У]2 [них]1 [нет]3 [ощущения]4, [что]5 [они]6 [отказываются]10 [от]7 [чего-то]8 [важного]9.
+4 note: Das Gefühl: чувство, ощущение.
+9 form: Etwas + прилагательное с большой буквы: etwas Wichtiges — что-то важное.
+10 note: Verzichten auf + Akkusativ: отказываться от чего-то.
+
+DE: [Trotzdem]1 [sparen]2 [sie]3 [jetzt]4 [ungefähr]5 [300]6 [Euro]7 [im]8 [Monat]8.
+RU: [Тем]1 [не]1 [менее]1 [теперь]4 [они]3 [экономят]2 [около]5 [300]6 [евро]7 [в]8 [месяц]8.
+1 note: Trotzdem: тем не менее, всё равно.
+2 note: Sparen: экономить, копить.
+
+DE: [Im]1 [Juli]1 [ist]2 [genug]3 [Geld]4 [auf]5 [dem]6 [Konto]6.
+RU: [В]1 [июле]1 [на]5 [счёте]6 [достаточно]2,3 [денег]4.
+3 note: Genug: достаточно.
+
+DE: [Am]1 [ersten]2 [Abend]1 [in]3 [Lissabon]4 [sitzen]5 [sie]6 [in]7 [einem]8 [kleinen]9 [Café]8 [über]10 [der]11 [Stadt]11.
+RU: [В]1 [первый]2 [вечер]1 [в]3 [Лиссабоне]4 [они]6 [сидят]5 [в]7 [маленьком]9 [кафе]8 [над]10 [городом]11.
+10 form: Über + Dativ: где? — über der Stadt.
+
+DE: [Jana]1 [bestellt]2 [zwei]3 [Cappuccinos]4 [und]5 [sagt]6: „[Die]7 [hier]8 [haben]9 [wir]10 [uns]11 [verdient]9."
+RU: [Яна]1 [заказывает]2 [два]3 [капучино]4 [и]5 [говорит]6: «[Вот]8 [эти]7 [мы]10 [себе]11 [заслужили]9».
+9 note: Sich etwas verdienen: заслужить что-то; verdienen — также «зарабатывать».

@@ -1,0 +1,180 @@
+id: tech-a2-oma-smartphone-v1
+title: Бабушка и смартфон / Oma lernt das Smartphone
+level: A2
+topic: смартфон, мессенджер, семья, голосовые сообщения
+source: original story
+hintLanguage: ru
+
+== p1
+DE: [Helga]1 [ist]2 [achtundsiebzig]3 [Jahre]4 [alt]5 [und]6 [wohnt]7 [allein]8 [in]9 [Dortmund]10.
+RU: [Хельге]1 [семьдесят восемь]3 [лет]4,2,5, [и]6 [она]0 [живёт]7 [одна]8 [в]9 [Дортмунде]10.
+2 sent: Возраст по-немецки: Ich bin … Jahre alt (быть … лет старым).
+7 form: Инфинитив wohnen: ich wohne, sie wohnt, wir wohnen; Präteritum: wohnte; Perfekt: hat gewohnt.
+
+DE: [Zum]1 [Geburtstag]1 [schenkt]2 [ihr]3 [die]4 [Familie]4 [ein]5 [Smartphone]5.
+RU: [На]1 [день рождения]1 [семья]4 [дарит]2 [ей]3 [смартфон]5.
+1 note: Zum Geburtstag: на день рождения; zum = zu dem.
+2 form: Инфинитив schenken: ich schenke, er schenkt, wir schenken; Präteritum: schenkte; Perfekt: hat geschenkt.
+3 form: Ihr: Dativ от sie (кому? — ей).
+
+DE: [Ihr]1 [altes]2 [Handy]1 [hatte]3 [große]4 [Tasten]5 [und]6 [konnte]7 [nur]8 [telefonieren]9.
+RU: [Её]1 [старый]2 [телефон]1 [имел]3 [большие]4 [кнопки]5 [и]6 [умел]7 [только]8 [звонить]9.
+3 form: Präteritum от haben: ich hatte, er hatte, wir hatten.
+7 form: Präteritum от können: ich konnte, er konnte, wir konnten.
+
+DE: [Das]1 [neue]2 [Telefon]1 [hat]3 [gar]4 [keine]4 [Tasten]5, [nur]6 [Glas]7.
+RU: [У]3 [нового]2 [телефона]1 [вообще]4 [нет]4 [кнопок]5, [только]6 [стекло]7.
+4 note: Gar kein: совсем никакой, вообще нет.
+
+DE: „[Wie]1 [soll]2 [ich]3 [das]4 [denn]5 [bedienen]6?", [fragt]7 [sie]8.
+RU: «[Как]1 [же]5 [мне]3 [этим]4 [пользоваться]6,2?» — [спрашивает]7 [она]8.
+2 note: Sollen в вопросе: «как мне…?», «что мне…?».
+5 note: Denn в вопросе: частица удивления, примерно «же».
+6 note: Bedienen: управлять (прибором), пользоваться.
+
+== p2
+DE: [Ihr]1 [Enkel]1 [Jonas]2 [wohnt]3 [in]4 [Hamburg]5, [aber]6 [er]7 [bleibt]8 [nach]9 [der]10 [Feier]10 [noch]11 [zwei]12 [Tage]13.
+RU: [Её]1 [внук]1 [Йонас]2 [живёт]3 [в]4 [Гамбурге]5, [но]6 [после]9 [праздника]10 [он]7 [остаётся]8 [ещё]11 [на]0 [два]12 [дня]13.
+8 form: Инфинитив bleiben: ich bleibe, er bleibt, wir bleiben; Präteritum: blieb; Perfekt: ist geblieben.
+9 form: Nach + Dativ: nach der Feier.
+
+DE: [Er]1 [ist]2 [geduldig]2, [jedenfalls]3 [am]4 [ersten]5 [Tag]4.
+RU: [Он]1 [терпелив]2, [по крайней мере]3 [в]4 [первый]5 [день]4.
+2 note: Geduldig: терпеливый (die Geduld — терпение).
+3 note: Jedenfalls: во всяком случае, по крайней мере.
+
+DE: [Er]1 [zeigt]2 [ihr]3, [wie]4 [man]5 [mit]6 [dem]7 [Finger]7 [wischt]8, [tippt]9 [und]10 [zoomt]11.
+RU: [Он]1 [показывает]2 [ей]3, [как]4 [пальцем]6,7 [листать]5,8, [нажимать]9 [и]10 [увеличивать]11.
+5 note: Man: безличное «люди, все»; по-русски часто просто инфинитив.
+8 note: Wischen: смахивать, листать пальцем по экрану.
+9 note: Tippen: коснуться экрана; также печатать.
+
+DE: [Helga]1 [schreibt]2 [alles]3 [in]4 [ein]5 [kleines]6 [Heft]5: „[Grün]7 [ist]8 [gut]9. [Rot]10 [ist]11 [Auflegen]12."
+RU: [Хельга]1 [записывает]2 [всё]3 [в]4 [маленькую]6 [тетрадку]5: «[Зелёное]7 [—]8 [хорошо]9. [Красное]10 [—]11 [положить трубку]12.»
+12 note: Auflegen: положить трубку, закончить звонок.
+
+DE: [Am]1 [zweiten]2 [Tag]1 [installiert]3 [Jonas]4 [WhatsApp]5 [und]6 [fügt]7 [sie]8 [zur]9 [Familiengruppe]9 [hinzu]7.
+RU: [Во]1 [второй]2 [день]1 [Йонас]4 [устанавливает]3 [WhatsApp]5 [и]6 [добавляет]7 [её]8 [в]9 [семейную]9 [группу]9.
+7 form: Инфинитив hinzufügen: ich füge hinzu, er fügt hinzu; Präteritum: fügte hinzu; Perfekt: hat hinzugefügt.
+9 note: Zur = zu der; jemanden zu etwas hinzufügen — добавить кого-то куда-то.
+
+DE: [Die]1 [Gruppe]1 [heißt]2 „[Familie]3 [Becker]4" [und]5 [hat]6 [elf]7 [Mitglieder]8.
+RU: [Группа]1 [называется]2 «[Семья]3 [Беккер]4», [и]5 [в]6 [ней]6 [одиннадцать]7 [участников]8.
+8 note: Das Mitglied: член, участник (группы, клуба).
+
+== p3
+DE: [Dann]1 [fährt]2 [Jonas]3 [zurück]2 [nach]4 [Hamburg]5, [und]6 [die]7 [Probleme]7 [beginnen]8.
+RU: [Потом]1 [Йонас]3 [уезжает]2 [обратно]2 [в]4 [Гамбург]5, [и]6 [начинаются]8 [проблемы]7.
+2 form: Инфинитив zurückfahren: ich fahre zurück, er fährt zurück; Präteritum: fuhr zurück; Perfekt: ist zurückgefahren.
+
+DE: [Helga]1 [will]2 [ein]3 [Foto]3 [von]5 [ihren]5 [Tomaten]5 [schicken]6.
+RU: [Хельга]1 [хочет]2 [отправить]6 [фото]3 [своих]5 [помидоров]5.
+5 form: Von + Dativ: фото чего/кого (von ihren Tomaten).
+
+DE: [Aber]1 [die]2 [Kamera]2 [zeigt]3 [nicht]4 [die]5 [Tomaten]5, [sondern]6 [ihr]7 [eigenes]8 [Ohr]7.
+RU: [Но]1 [камера]2 [показывает]3 [не]4 [помидоры]5, [а]6 [её]7 [собственное]8 [ухо]7.
+6 note: Nicht …, sondern …: не …, а …
+
+DE: [Das]1 [Foto]1 [vom]2 [Ohr]2 [landet]3 [in]4 [der]5 [Familiengruppe]5.
+RU: [Фото]1 [уха]2 [оказывается]3 [в]4 [семейной]5 [группе]5.
+2 note: Vom = von dem.
+3 note: Landen здесь: попасть, оказаться где-то.
+
+DE: [Elf]1 [Menschen]2 [schicken]3 [lachende]4 [Gesichter]5.
+RU: [Одиннадцать]1 [человек]2 [присылают]3 [смеющиеся]4 [смайлики]5.
+4 note: Lachend: смеющийся (Partizip I от lachen).
+
+DE: [Am]1 [nächsten]2 [Tag]1 [schreibt]3 [Helga]4 [ihrer]5 [Tochter]5: „[Viele]6 [Küsse]7, [deine]8 [Mama]8."
+RU: [На]1 [следующий]2 [день]1 [Хельга]4 [пишет]3 [своей]5 [дочери]5: «[Целую]6,7 [много раз]6, [твоя]8 [мама]8.»
+5 form: Dativ: кому? — ihrer Tochter.
+7 note: Der Kuss, die Küsse: поцелуй, поцелуи.
+
+DE: [Das]1 [Handy]1 [korrigiert]2 [automatisch]3, [und]4 [es]5 [kommt]6 [an]6: „[Viele]7 [Kühe]8, [deine]9 [Mama]9."
+RU: [Телефон]1 [автоматически]3 [исправляет]2, [и]4 [приходит]6 [вот]5 [что]5: «[Много]7 [коров]8, [твоя]9 [мама]9.»
+2 note: Die Autokorrektur: автоисправление текста.
+6 form: Инфинитив ankommen: ich komme an, er kommt an; Präteritum: kam an; Perfekt: ist angekommen.
+8 note: Die Kuh, die Kühe: корова, коровы.
+
+== p4
+DE: [Helga]1 [ärgert]2 [sich]2 [und]3 [ruft]4 [Jonas]5 [an]4.
+RU: [Хельга]1 [злится]2 [и]3 [звонит]4 [Йонасу]5.
+2 note: Sich ärgern: злиться, сердиться.
+4 form: Инфинитив anrufen: ich rufe an, er ruft an; Präteritum: rief an; Perfekt: hat angerufen. Anrufen + Akkusativ: Jonas anrufen.
+
+DE: „[Schreib]1 [nicht]2, [Oma]3", [sagt]4 [er]5. „[Schick]6 [doch]7 [eine]8 [Sprachnachricht]8."
+RU: «[Не]2 [пиши]1, [бабушка]3, — [говорит]4 [он]5. — [Отправь]6 [лучше]7 [голосовое]8 [сообщение]8.»
+1 form: Императив (du): schreib! schick!
+7 note: Doch в просьбе: смягчает и подталкивает — «ну, лучше, же».
+
+DE: [Man]1 [hält]2 [das]3 [Mikrofon]3 [gedrückt]2 [und]4 [spricht]5.
+RU: [Нужно]1 [держать]2 [микрофон]3 [нажатым]2 [и]4 [говорить]5.
+2 note: Gedrückt halten: удерживать нажатым.
+5 form: Инфинитив sprechen: ich spreche, er spricht, wir sprechen; Präteritum: sprach; Perfekt: hat gesprochen.
+
+DE: [Die]1 [erste]2 [Sprachnachricht]1 [von]3 [Helga]4 [dauert]5 [eine]6 [halbe]7 [Sekunde]6.
+RU: [Первое]2 [голосовое]1 [от]3 [Хельги]4 [длится]5 [полсекунды]6,7.
+5 note: Dauern: длиться.
+
+DE: [Man]1 [hört]2 [nur]3: „[Hal]4…"
+RU: [Слышно]1,2 [только]3: «[Ал]4…»
+4 note: Hallo оборвалось: палец отпустил кнопку слишком рано.
+
+DE: [Die]1 [zweite]2 [dauert]3 [sieben]4 [Minuten]5.
+RU: [Второе]1,2 [длится]3 [семь]4 [минут]5.
+
+DE: [Helga]1 [erzählt]2 [darin]3 [vom]4 [Wetter]4, [von]5 [ihrem]6 [Knie]6 [und]7 [von]8 [der]9 [Nachbarin]9, [die]10 [nie]11 [grüßt]12.
+RU: [Хельга]1 [рассказывает]2 [в нём]3 [о]4 [погоде]4, [о]5 [своём]6 [колене]6 [и]7 [о]8 [соседке]9, [которая]10 [никогда]11 [не]0 [здоровается]12.
+2 form: Erzählen von + Dativ: рассказывать о чём-то.
+10 sent: Относительное придаточное: die … grüßt — глагол в конце.
+
+DE: [Am]1 [Ende]1 [sagt]2 [sie]3: „[So]4, [jetzt]5 [lege]6 [ich]7 [auf]6."
+RU: [В]1 [конце]1 [она]3 [говорит]2: «[Так]4, [теперь]5 [я]7 [кладу трубку]6.»
+6 note: Bei einer Sprachnachricht legt man nicht auf — это привычка от телефона.
+
+== p5
+DE: [Mit]1 [der]2 [Zeit]2 [wird]3 [Helga]4 [besser]5.
+RU: [Со]1 [временем]2 [у]0 [Хельги]4 [получается]3 [лучше]5.
+1 note: Mit der Zeit: со временем.
+3 form: Werden + сравнительная степень: становиться лучше.
+
+DE: [Sie]1 [macht]2 [Videoanrufe]3 [mit]4 [ihrer]5 [Tochter]5 [in]6 [Spanien]7 [und]8 [sieht]9 [endlich]10 [das]11 [Baby]11 [jeden]12 [Sonntag]13.
+RU: [Она]1 [делает]2 [видеозвонки]3 [дочери]4,5 [в]6 [Испанию]7 [и]8 [наконец]10 [видит]9 [малыша]11 [каждое]12 [воскресенье]13.
+3 note: Der Videoanruf: видеозвонок.
+12 form: Jeden Sonntag: Akkusativ времени без предлога.
+
+DE: [Sie]1 [findet]2 [Rezepte]3 [im]4 [Internet]4 [und]5 [schickt]6 [Jonas]7 [Fotos]8 [von]10 [ihrem]10 [Kuchen]10.
+RU: [Она]1 [находит]2 [рецепты]3 [в]4 [интернете]4 [и]5 [присылает]6 [Йонасу]7 [фото]8 [своего]10 [пирога]10.
+7 form: Jonas здесь в Dativ: кому присылает.
+
+DE: [Diesmal]1 [ist]2 [der]3 [Kuchen]3 [auf]4 [dem]5 [Foto]5 [und]6 [nicht]7 [ihr]8 [Ohr]8.
+RU: [На этот раз]1 [на]4 [фото]5 [пирог]3,2, [а]6 [не]7 [её]8 [ухо]8.
+
+DE: [Im]1 [Dezember]1 [bringt]2 [sie]3 [ihrer]4 [Freundin]4 [Gerda]5 [bei]2, [wie]6 [man]7 [Fotos]8 [verschickt]9.
+RU: [В]1 [декабре]1 [она]3 [учит]2 [свою]4 [подругу]4 [Герду]5, [как]6 [отправлять]7,9 [фото]8.
+2 note: Jemandem etwas beibringen: научить кого-то чему-то (кому? — Dativ).
+2 form: Инфинитив beibringen: ich bringe bei, er bringt bei; Präteritum: brachte bei; Perfekt: hat beigebracht.
+
+DE: „[Grün]1 [ist]2 [gut]3, [rot]4 [ist]5 [Auflegen]6", [erklärt]7 [sie]8 [streng]9.
+RU: «[Зелёное]1 [—]2 [хорошо]3, [красное]4 [—]5 [положить трубку]6», — [строго]9 [объясняет]7 [она]8.
+
+== p6
+DE: [Im]1 [Frühling]1 [bekommt]2 [Jonas]3 [eine]4 [Sprachnachricht]4 [von]5 [genau]6 [zwanzig]7 [Sekunden]8.
+RU: [Весной]1 [Йонас]3 [получает]2 [голосовое]4 [сообщение]4 [ровно]6,5 [на]5 [двадцать]7 [секунд]8.
+2 note: Bekommen: получать (не «становиться»!).
+
+DE: „[Hallo]1 [Schatz]2. [Ich]3 [brauche]4 [dich]5 [nicht]6 [mehr]6 [für]7 [das]8 [Handy]8."
+RU: «[Привет]1, [дорогой]2. [Ты]5 [мне]3 [больше]6 [не]6 [нужен]4 [для]7 [телефона]8.»
+2 note: Schatz: «сокровище» — ласковое обращение.
+6 note: Nicht mehr: больше не.
+
+DE: „[Aber]1 [ruf]2 [trotzdem]3 [an]2, [ja]4?"
+RU: «[Но]1 [всё равно]3 [звони]2, [ладно]4?»
+3 note: Trotzdem: всё равно, несмотря на это.
+
+DE: [Jonas]1 [hört]2 [die]3 [Nachricht]3 [zweimal]4.
+RU: [Йонас]1 [слушает]2 [сообщение]3 [два раза]4.
+
+DE: [Dann]1 [ruft]2 [er]3 [an]2, [ganz]4 [altmodisch]5, [mit]6 [Stimme]7 [und]8 [ohne]9 [Emojis]10.
+RU: [Потом]1 [он]3 [звонит]2, [совсем]4 [по-старинке]5, [голосом]6,7 [и]8 [без]9 [смайликов]10.
+5 note: Altmodisch: старомодный, по-старинке.
+9 form: Ohne + Akkusativ.

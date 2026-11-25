@@ -5,10 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sync Reader - Parallel Text Reader for Contextual Vocabulary Study</title>
   <meta name="description" content="Sync Reader is a parallel text reader for bilingual reading and vocabulary study in context, with linked translated words, Anki-style review, and Anki TSV export.">
+  <meta name="keywords" content="parallel text reader, bilingual reader, German reader, learn German, German Russian texts, vocabulary in context, Anki export, Anki TSV, language learning, A2 B1 reading">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://asavchenkodev.github.io/tools/sync-reader/">
+  <meta name="application-name" content="Sync Reader">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://asavchenkodev.github.io/tools/sync-reader/">
+  <meta property="og:site_name" content="Aleksandr Savchenko">
   <meta property="og:title" content="Sync Reader - Parallel Text Reader for Contextual Vocabulary Study">
   <meta property="og:description" content="Read parallel translated texts, check vocabulary in context, study clicked words with Anki-style cards, and export ready-to-use Anki TSV files.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Sync Reader - Parallel Text Reader for Contextual Vocabulary Study">
+  <meta name="twitter:description" content="Read parallel translated texts, check vocabulary in context, study clicked words with Anki-style cards, and export ready-to-use Anki TSV files.">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Sync Reader",
+      "url": "https://asavchenkodev.github.io/tools/sync-reader/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Any modern web browser",
+      "inLanguage": ["de", "ru", "en"],
+      "description": "Browser-based parallel text reader for learning German with Russian translations: linked word translations in context, Anki-style review of saved words, and Anki TSV export. Texts and study data stay local in the browser.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+  </script>
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
   <link rel="stylesheet" href="assets/styles.css">
-<script data-goatcounter="https://asv.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  <script>try { document.documentElement.dataset.theme = localStorage.getItem("sync-reader-theme") || "auto"; } catch {}</script>
+  <script data-goatcounter="https://asv.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
   <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -24,125 +54,170 @@
     </symbol>
     <symbol id="sr-plus" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="M5 12h14"/></symbol>
     <symbol id="sr-close" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
-    <symbol id="sr-sidebar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16"/><path d="m15 9 3 3-3 3"/></symbol>
-    <symbol id="sr-swap" viewBox="0 0 24 24"><path d="m16 3 4 4-4 4"/><path d="M20 7H4"/><path d="m8 21-4-4 4-4"/><path d="M4 17h16"/></symbol>
+    <symbol id="sr-sidebar" viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><path d="M9 4.5v15"/></symbol>
+    <symbol id="sr-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+    <symbol id="sr-chevron-right" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+    <symbol id="sr-doc" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4"/></symbol>
+    <symbol id="sr-swap" viewBox="0 0 24 24"><path d="M7 7h13l-3-3"/><path d="M17 17H4l3 3"/></symbol>
     <symbol id="sr-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
-    <symbol id="sr-folder" viewBox="0 0 24 24"><path d="M3 7.5A2.5 2.5 0 0 1 5.5 5H10l2 2h6.5A2.5 2.5 0 0 1 21 9.5v8A2.5 2.5 0 0 1 18.5 20h-13A2.5 2.5 0 0 1 3 17.5v-10Z"/></symbol>
-    <symbol id="sr-folder-plus" viewBox="0 0 24 24"><path d="M3 7.5A2.5 2.5 0 0 1 5.5 5H10l2 2h6.5A2.5 2.5 0 0 1 21 9.5v8A2.5 2.5 0 0 1 18.5 20h-13A2.5 2.5 0 0 1 3 17.5v-10Z"/><path d="M12 11v6"/><path d="M9 14h6"/></symbol>
+    <symbol id="sr-folder" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></symbol>
+    <symbol id="sr-folder-plus" viewBox="0 0 24 24"><path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M12 10.5v5"/><path d="M9.5 13h5"/></symbol>
     <symbol id="sr-file-text" viewBox="0 0 24 24"><path d="M7 3.5h7l4 4v13H7a2 2 0 0 1-2-2v-13a2 2 0 0 1 2-2Z"/><path d="M14 3.5v5h5"/><path d="M8.5 13h7"/><path d="M8.5 17h5"/></symbol>
     <symbol id="sr-more" viewBox="0 0 24 24"><circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></symbol>
     <symbol id="sr-pencil" viewBox="0 0 24 24"><path d="m4 20 4.2-1 10.6-10.6a2.8 2.8 0 0 0-4-4L4.2 15 4 20Z"/><path d="m13.5 5.5 5 5"/></symbol>
     <symbol id="sr-move" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m14 7 5 5-5 5"/><path d="M5 6v12"/></symbol>
     <symbol id="sr-zen" viewBox="0 0 24 24"><path d="M8 3H5a2 2 0 0 0-2 2v3"/><path d="M16 3h3a2 2 0 0 1 2 2v3"/><path d="M8 21H5a2 2 0 0 1-2-2v-3"/><path d="M16 21h3a2 2 0 0 0 2-2v-3"/></symbol>
-    <symbol id="sr-eye" viewBox="0 0 24 24"><path d="M2.5 12s3.3-6 9.5-6 9.5 6 9.5 6-3.3 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="3"/></symbol>
+    <symbol id="sr-eye" viewBox="0 0 24 24"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></symbol>
     <symbol id="sr-eye-off" viewBox="0 0 24 24"><path d="m3 3 18 18"/><path d="M10.6 10.6a2 2 0 0 0 2.8 2.8"/><path d="M9.4 5.4A10.5 10.5 0 0 1 12 5c6.2 0 9.5 7 9.5 7a17 17 0 0 1-3 4"/><path d="M6.2 6.2C3.8 8 2.5 12 2.5 12s3.3 7 9.5 7c1.5 0 2.8-.3 4-.8"/></symbol>
     <symbol id="sr-graduation" viewBox="0 0 24 24"><path d="M2.5 8.5 12 4l9.5 4.5L12 13 2.5 8.5Z"/><path d="M6.5 10.5V15c0 2 2.5 3.5 5.5 3.5s5.5-1.5 5.5-3.5v-4.5"/><path d="M21.5 8.5V15"/></symbol>
     <symbol id="sr-cards" viewBox="0 0 24 24"><rect x="7" y="4" width="12" height="16" rx="2"/><path d="M5 7v11a2 2 0 0 0 2 2h9"/><path d="M10 9h6"/><path d="M10 13h5"/></symbol>
     <symbol id="sr-archive" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v11a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8"/><path d="M9 12h6"/></symbol>
     <symbol id="sr-export" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m8 11 4 4 4-4"/><path d="M5 20h14"/></symbol>
     <symbol id="sr-trash" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M6 7l1 13a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-13"/><path d="M9 7V4h6v3"/></symbol>
+    <symbol id="sr-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1Z"/></symbol>
+    <symbol id="sr-upload" viewBox="0 0 24 24"><path d="M12 15V3"/><path d="m8 7 4-4 4 4"/><path d="M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"/></symbol>
+    <symbol id="sr-flag" viewBox="0 0 24 24"><path d="M5 21V4"/><path d="M5 4h11l-2 4 2 4H5"/></symbol>
+    <symbol id="sr-sparkle" viewBox="0 0 24 24"><path d="M12 3v4"/><path d="M12 17v4"/><path d="M3 12h4"/><path d="M17 12h4"/><path d="m6 6 2.5 2.5"/><path d="m15.5 15.5 2.5 2.5"/><path d="m6 18 2.5-2.5"/><path d="m15.5 8.5 2.5-2.5"/></symbol>
+    <symbol id="sr-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v1"/></symbol>
+    <symbol id="sr-chart" viewBox="0 0 24 24"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></symbol>
   </svg>
-  <main class="app" id="appRoot">
+  <div class="app" id="appRoot">
     <header class="topbar">
-      <div class="brand">
-        <span class="language-mark" style="width: 34px; height: 34px;"><svg class="icon" aria-hidden="true"><use href="#sr-book-open"></use></svg></span>
-        <h1 data-i18n="appTitle">Sync Reader</h1>
-        <nav class="nav" aria-label="Main navigation">
-          <button class="active" data-view-target="reading" data-i18n="reading">Чтение</button>
-          <button data-view-target="words" data-i18n="wordReview">Обзор слов</button>
-          <button data-view-target="rules" data-i18n="rules">Правила</button>
-          <button data-view-target="stats" data-i18n="stats">Статистика</button>
-          <button data-view-target="about" data-i18n="about">О проекте</button>
-        </nav>
+      <div class="topbar-left">
+        <button class="icon-button" type="button" id="toggleLibrary" data-i18n-title="library" title="Библиотека" aria-label="Библиотека" aria-controls="libraryPanel" aria-pressed="true"><svg class="icon" aria-hidden="true"><use href="#sr-sidebar"></use></svg></button>
+        <span class="app-name" data-i18n="appTitle">Sync Reader</span>
       </div>
+      <div class="topbar-spacer"></div>
+      <nav class="nav" data-i18n-aria="sections" aria-label="Разделы">
+        <button type="button" class="active" data-view-target="reading" data-i18n="reading">Чтение</button>
+        <button type="button" data-view-target="words"><span data-i18n="wordReview">Слова</span><span class="nav-count" id="dueBadge" hidden>0</span></button>
+        <button type="button" data-view-target="stats" data-i18n="stats">Статистика</button>
+        <button type="button" data-view-target="rules" data-i18n="rules">Правила</button>
+      </nav>
+      <div class="topbar-spacer"></div>
       <div class="top-actions">
-        <div class="segmented" aria-label="UI language">
-          <button data-lang="ru">RU</button>
-          <button data-lang="de">DE</button>
-          <button data-lang="en">EN</button>
-        </div>
-        <button class="icon-button" id="toggleZen" title="Zen mode" aria-label="Zen mode"><svg class="icon" aria-hidden="true"><use href="#sr-zen"></use></svg></button>
+        <button class="icon-button" type="button" id="swapTexts" data-i18n-title="swapTexts" title="Поменять колонки местами" aria-label="Поменять колонки местами"><svg class="icon" aria-hidden="true"><use href="#sr-swap"></use></svg></button>
+        <button class="icon-button" type="button" id="toggleZen" data-i18n-title="zenMode" title="Режим фокуса" aria-label="Режим фокуса" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#sr-zen"></use></svg></button>
+        <details class="settings-menu" id="settingsMenu">
+          <summary class="icon-button" data-i18n-title="settings" title="Настройки" aria-label="Настройки"><svg class="icon" aria-hidden="true"><use href="#sr-settings"></use></svg></summary>
+          <div class="settings-panel">
+            <div class="setting">
+              <span data-i18n="uiLanguage">Язык интерфейса</span>
+              <div class="segmented" aria-label="UI language">
+                <button type="button" data-lang="ru">RU</button>
+                <button type="button" data-lang="de">DE</button>
+                <button type="button" data-lang="en">EN</button>
+              </div>
+            </div>
+            <div class="setting">
+              <span data-i18n="theme">Тема</span>
+              <div class="segmented" aria-label="Theme">
+                <button type="button" data-theme-choice="auto" data-i18n="themeAuto">Авто</button>
+                <button type="button" data-theme-choice="light" data-i18n="themeLight">Светлая</button>
+                <button type="button" data-theme-choice="dark" data-i18n="themeDark">Тёмная</button>
+              </div>
+            </div>
+            <div class="setting">
+              <span data-i18n="textSize">Размер текста</span>
+              <div class="segmented" aria-label="Text size">
+                <button type="button" data-font-step="-1" aria-label="Smaller">A−</button>
+                <button type="button" class="font-size-value" id="fontSizeValue" disabled>100%</button>
+                <button type="button" data-font-step="1" aria-label="Larger">A+</button>
+              </div>
+            </div>
+            <label class="setting check"><input type="checkbox" id="prefSerif"><span data-i18n="serifFont">Шрифт с засечками</span></label>
+            <label class="setting check"><input type="checkbox" id="prefShowSaved"><span data-i18n="showSavedWords">Подсвечивать сохранённые слова</span></label>
+            <div class="settings-sep" role="separator"></div>
+            <button type="button" class="settings-link" data-view-target="about"><svg class="icon" aria-hidden="true"><use href="#sr-book-open"></use></svg><span data-i18n="about">О проекте</span></button>
+          </div>
+        </details>
       </div>
     </header>
 
-    <section class="shell">
-      <aside class="library-panel">
-        <div class="library-head">
-          <span class="library-title"><svg class="icon" aria-hidden="true"><use href="#sr-library"></use></svg><span data-i18n="library">Библиотека</span></span>
-          <div class="row">
-            <button class="icon-button" id="newFolder" title="New folder" aria-label="New folder"><svg class="icon" aria-hidden="true"><use href="#sr-folder-plus"></use></svg></button>
-            <button class="icon-button library-primary-action" id="openGenerator" title="Import" aria-label="Import"><svg class="icon" aria-hidden="true"><use href="#sr-plus"></use></svg></button>
-            <button class="icon-button" id="toggleLibrary" title="Collapse library" aria-label="Collapse library"><svg class="icon" aria-hidden="true"><use href="#sr-sidebar"></use></svg></button>
-          </div>
-        </div>
-        <div class="library-tools">
-          <label class="field">
-            <input id="librarySearch" type="search" data-i18n-placeholder="searchTexts" placeholder="Поиск текстов...">
+    <div class="shell">
+      <div class="library-backdrop" id="libraryBackdrop"></div>
+      <aside class="library-panel" id="libraryPanel" aria-labelledby="libraryLabel">
+        <div class="library-search">
+          <label class="search-field">
+            <svg class="icon" aria-hidden="true"><use href="#sr-search"></use></svg>
+            <input id="librarySearch" type="search" data-i18n-placeholder="search" data-i18n-aria="searchTexts" placeholder="Поиск" aria-label="Поиск текстов">
           </label>
         </div>
-        <div class="library-list" id="libraryList"></div>
+        <div class="library-label" id="libraryLabel" data-i18n="library">Библиотека</div>
+        <div class="library-list" id="libraryList" role="tree" aria-labelledby="libraryLabel"></div>
+        <div class="library-bottom">
+          <button class="icon-button" type="button" id="openGenerator" data-i18n-title="addTexts" title="Добавить текст" aria-label="Добавить текст"><svg class="icon" aria-hidden="true"><use href="#sr-plus"></use></svg></button>
+          <button class="icon-button" type="button" id="newFolder" data-i18n-title="newFolder" title="Новая папка" aria-label="Новая папка"><svg class="icon" aria-hidden="true"><use href="#sr-folder-plus"></use></svg></button>
+          <span class="library-total" id="libraryTotal"></span>
+        </div>
+        <div class="library-drop-overlay" id="dropOverlay" hidden><span data-i18n="dropHere">Отпустите, чтобы импортировать</span></div>
+        <div class="library-resize" id="libraryResize" aria-hidden="true"></div>
       </aside>
 
-      <div class="workspace">
+      <main class="workspace">
         <div class="toolbar">
-          <strong id="currentTitle"></strong>
-          <select id="textSelect" hidden></select>
-          <div class="meta" id="docMeta"></div>
+          <div class="toolbar-title">
+            <h1 id="currentTitle" lang="de"></h1>
+            <span class="subtitle" id="docMeta" lang="ru"></span>
+          </div>
+          <button class="icon-button zen-exit" type="button" id="exitZen" data-i18n-title="zenExit" title="Выйти из режима фокуса" aria-label="Выйти из режима фокуса"><svg class="icon" aria-hidden="true"><use href="#sr-zen"></use></svg></button>
         </div>
 
         <div class="reader" id="reader">
-          <button class="icon-button swap-mid" id="swapTexts" title="Swap texts" aria-label="Swap texts"><svg class="icon" aria-hidden="true"><use href="#sr-swap"></use></svg></button>
-          <article class="pane" id="pane-ru">
-            <div class="pane-head">
-              <div class="language-title"><span class="language-mark">RU</span><span data-i18n="russian">Русский</span></div>
-              <div class="pane-controls">
-                <span class="pill" id="ruCount">0</span>
-                <button class="icon-button" id="toggleRussian" aria-label="Hide Russian" title="Hide Russian"><svg class="icon" aria-hidden="true"><use href="#sr-eye-off"></use></svg></button>
-              </div>
+          <div class="reader-head">
+            <div class="pane-head head-ru">
+              <span class="label" id="ruHeadLabel" data-i18n="russian">Русский</span>
+              <button class="icon-button" type="button" id="toggleRussian" aria-pressed="false" aria-label="Hide Russian" title="Hide Russian"><svg class="icon" aria-hidden="true"><use href="#sr-eye"></use></svg></button>
             </div>
-            <div class="pane-body" id="ruText"></div>
-          </article>
-
-          <article class="pane" id="pane-de">
-            <div class="pane-head">
-              <div class="language-title"><span class="language-mark">DE</span><span data-i18n="german">Немецкий</span></div>
-              <div class="pane-controls">
-                <span class="pill" id="deCount">0</span>
-                <button class="icon-button" id="toggleGerman" aria-label="Hide German" title="Hide German"><svg class="icon" aria-hidden="true"><use href="#sr-eye-off"></use></svg></button>
-              </div>
+            <div class="pane-head head-de">
+              <span class="label" id="deHeadLabel" data-i18n="german">Немецкий</span>
+              <button class="icon-button" type="button" id="toggleGerman" aria-pressed="false" aria-label="Hide German" title="Hide German"><svg class="icon" aria-hidden="true"><use href="#sr-eye"></use></svg></button>
             </div>
-            <div class="pane-body" id="deText"></div>
-          </article>
+          </div>
+          <div class="reader-rows" id="readerRows"></div>
+          <section class="read-finish" id="readFinish"></section>
         </div>
 
+        <footer class="statusbar" id="statusBar">
+          <span class="statusbar-info" id="statusInfo"></span>
+          <span class="statusbar-word" id="statusWord" aria-live="polite"></span>
+          <button class="statusbar-link" type="button" id="startStudyCurrent" hidden><span id="studyCurrentLabel">Учить</span></button>
+        </footer>
+
         <section class="overview-view" id="wordsView" aria-label="Words overview">
+          <div class="words-toolbar">
+            <button class="button primary" id="startStudyDue"><svg class="icon" aria-hidden="true"><use href="#sr-graduation"></use></svg><span id="studyDueLabel">Учить</span></button>
+            <button class="button" id="overviewStudyCurrent"><svg class="icon" aria-hidden="true"><use href="#sr-file-text"></use></svg><span data-i18n="studyCurrent">Учить слова этого текста</span></button>
+            <label class="field words-search"><input id="wordSearch" type="search" data-i18n-placeholder="searchWords" placeholder="Поиск слов..."></label>
+            <details class="library-menu words-more">
+              <summary class="icon-button" aria-label="More"><svg class="icon" aria-hidden="true"><use href="#sr-more"></use></svg></summary>
+              <div class="library-menu-panel">
+                <button type="button" id="startStudyAll"><svg class="icon" aria-hidden="true"><use href="#sr-cards"></use></svg><span data-i18n="studyAll">Учить все сохранённые слова</span></button>
+                <button type="button" id="startStudyArchive"><svg class="icon" aria-hidden="true"><use href="#sr-archive"></use></svg><span data-i18n="studyArchive">Учить все слова</span></button>
+                <button type="button" id="restoreArchive"><svg class="icon" aria-hidden="true"><use href="#sr-archive"></use></svg><span data-i18n="restoreArchive">Вернуть все слова в изучение</span></button>
+                <button type="button" id="copyAnki"><svg class="icon" aria-hidden="true"><use href="#sr-copy"></use></svg><span data-i18n="copyAnki">Скопировать TSV</span></button>
+                <button type="button" id="downloadAnki"><svg class="icon" aria-hidden="true"><use href="#sr-export"></use></svg><span data-i18n="downloadAnki">Скачать TSV</span></button>
+                <button type="button" class="danger" id="clearFlashcards"><svg class="icon" aria-hidden="true"><use href="#sr-trash"></use></svg><span data-i18n="clearLearning">Очистить «Учу сейчас»</span></button>
+              </div>
+            </details>
+          </div>
           <div class="overview-grid">
             <section class="panel">
               <div class="panel-head">
-                <h2 class="panel-title"><svg class="icon" aria-hidden="true"><use href="#sr-cards"></use></svg><span data-i18n="newWords">Новые слова</span></h2>
+                <h2 class="panel-title"><svg class="icon" aria-hidden="true"><use href="#sr-cards"></use></svg><span data-i18n="newWords">Учу сейчас</span></h2>
                 <span class="pill" id="flashCount">0</span>
               </div>
               <div class="panel-body">
-                <div class="flash-actions">
-                  <button class="button primary" id="overviewStudyCurrent"><svg class="icon" aria-hidden="true"><use href="#sr-graduation"></use></svg><span data-i18n="studyCurrent">Учить слова этого текста</span></button>
-                  <button class="button" id="startStudyAll"><svg class="icon" aria-hidden="true"><use href="#sr-cards"></use></svg><span data-i18n="studyAll">Учить все сохраненные слова</span></button>
-                  <button class="button" id="downloadAnki"><svg class="icon" aria-hidden="true"><use href="#sr-export"></use></svg><span data-i18n="downloadAnki">Скачать TSV</span></button>
-                  <button class="button danger" id="clearFlashcards"><svg class="icon" aria-hidden="true"><use href="#sr-trash"></use></svg><span data-i18n="clear">Очистить</span></button>
-                </div>
                 <div class="flash-list" id="flashList"></div>
               </div>
             </section>
             <section class="panel">
               <div class="panel-head">
-                <h2 class="panel-title"><svg class="icon" aria-hidden="true"><use href="#sr-archive"></use></svg><span data-i18n="archive">Архив слов</span></h2>
+                <h2 class="panel-title"><svg class="icon" aria-hidden="true"><use href="#sr-archive"></use></svg><span data-i18n="archive">Все слова</span></h2>
                 <span class="pill" id="historyCount">0</span>
               </div>
               <div class="panel-body">
-                <div class="flash-actions">
-                  <button class="button" id="startStudyArchive"><svg class="icon" aria-hidden="true"><use href="#sr-graduation"></use></svg><span data-i18n="studyArchive">Учить архив</span></button>
-                  <button class="button" id="restoreArchive"><svg class="icon" aria-hidden="true"><use href="#sr-archive"></use></svg><span data-i18n="restoreArchive">Вернуть архив в новые слова</span></button>
-                </div>
-                <div class="hint" data-i18n="archiveHint">Здесь остаются слова, которые уже были добавлены или изучены. Они хранятся локально в браузере.</div>
+                <div class="hint" data-i18n="archiveHint">Все слова, которые вы когда-либо сохраняли. Выученные карточки возвращаются в повторение, когда подходит срок.</div>
                 <div class="flash-list" id="historyList"></div>
               </div>
             </section>
@@ -378,16 +453,43 @@
         <section class="overview-view" id="statsView" aria-label="Statistics">
           <section class="panel">
             <div class="panel-head">
-              <h2 class="panel-title"><svg class="icon" aria-hidden="true"><use href="#sr-cards"></use></svg><span data-i18n="stats">Статистика</span></h2>
+              <h2 class="panel-title"><svg class="icon" aria-hidden="true"><use href="#sr-chart"></use></svg><span data-i18n="stats">Статистика</span></h2>
             </div>
             <div class="panel-body">
               <div class="stats-grid">
-                <div class="stat-card"><div class="stat-value" id="statActive">0</div><div class="stat-label" data-i18n="statActive">Новые карточки</div></div>
-                <div class="stat-card"><div class="stat-value" id="statArchive">0</div><div class="stat-label" data-i18n="statArchive">В архиве</div></div>
+                <div class="stat-card"><div class="stat-value" id="statDue">0</div><div class="stat-label" data-i18n="statDue">К повторению сейчас</div></div>
+                <div class="stat-card"><div class="stat-value" id="statActive">0</div><div class="stat-label" data-i18n="statActive">Учу сейчас</div></div>
+                <div class="stat-card"><div class="stat-value" id="statArchive">0</div><div class="stat-label" data-i18n="statArchive">Всего слов</div></div>
                 <div class="stat-card"><div class="stat-value" id="statStudied">0</div><div class="stat-label" data-i18n="statStudied">Изучались</div></div>
+                <div class="stat-card"><div class="stat-value" id="statReads">0</div><div class="stat-label" data-i18n="statReads">Прочтений за 7 дней</div></div>
                 <div class="stat-card"><div class="stat-value" id="statTexts">0</div><div class="stat-label" data-i18n="statTexts">Текстов</div></div>
               </div>
-              <button class="button danger wide" id="resetLocalData"><svg class="icon" aria-hidden="true"><use href="#sr-trash"></use></svg><span data-i18n="resetLocalData">Сбросить все локальные данные</span></button>
+            </div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <h2 class="panel-title"><svg class="icon" aria-hidden="true"><use href="#sr-flag"></use></svg><span data-i18n="readProgress">Прогресс по текстам</span></h2>
+            </div>
+            <div class="panel-body">
+              <div class="hint" data-i18n="readProgressHint">После каждого прочтения нажмите «Закончить чтение» внизу текста. Здесь видно, сколько слов было незнакомо в каждом прочтении.</div>
+              <div class="read-table-wrap" id="readProgress"></div>
+            </div>
+          </section>
+          <section class="panel">
+            <div class="panel-head">
+              <h2 class="panel-title"><svg class="icon" aria-hidden="true"><use href="#sr-archive"></use></svg><span data-i18n="dataTitle">Данные</span></h2>
+            </div>
+            <div class="panel-body">
+              <div class="hint" data-i18n="dataHint">Всё хранится только в этом браузере. Сделайте резервную копию, чтобы не потерять библиотеку и слова.</div>
+              <div class="panel-actions">
+                <button class="button" id="exportBackup"><svg class="icon" aria-hidden="true"><use href="#sr-export"></use></svg><span data-i18n="exportBackup">Скачать резервную копию</span></button>
+                <button class="button" id="importBackup"><svg class="icon" aria-hidden="true"><use href="#sr-upload"></use></svg><span data-i18n="importBackup">Восстановить из копии</span></button>
+                <input type="file" id="backupFile" accept=".json,application/json" hidden>
+              </div>
+              <details class="danger-zone">
+                <summary data-i18n="dangerZone">Опасная зона</summary>
+                <button class="button danger" id="resetLocalData"><svg class="icon" aria-hidden="true"><use href="#sr-trash"></use></svg><span data-i18n="resetLocalData">Сбросить все локальные данные</span></button>
+              </details>
             </div>
           </section>
         </section>
@@ -408,21 +510,13 @@
             </div>
           </section>
         </section>
-      </div>
-    </section>
-
-    <div class="reading-tray" id="readingWordTray" hidden>
-      <div>
-        <strong data-i18n="trayTitle">Есть новые слова</strong>
-        <span class="muted-inline" id="trayCount">0</span>
-      </div>
-      <div class="tray-actions">
-        <button class="button primary" id="startStudyCurrent"><svg class="icon" aria-hidden="true"><use href="#sr-graduation"></use></svg><span data-i18n="studyCurrentShort">Учить</span></button>
-        <button class="button" id="copyAnki"><svg class="icon" aria-hidden="true"><use href="#sr-export"></use></svg><span data-i18n="copyAnkiShort">Anki TSV</span></button>
-        <button class="button" id="openWordsFromTray"><svg class="icon" aria-hidden="true"><use href="#sr-cards"></use></svg><span data-i18n="wordReview">Обзор слов</span></button>
-      </div>
+      </main>
     </div>
-  </main>
+  </div>
+
+  <div class="context-menu" id="contextMenu" role="menu" hidden></div>
+  <div class="word-pop" id="wordPop" role="tooltip" hidden></div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
   <dialog class="library-dialog" id="libraryDialog">
     <form class="library-dialog-card" id="libraryDialogForm">
@@ -448,58 +542,121 @@
   </dialog>
 
   <section class="drawer" id="generatorDrawer" aria-hidden="true">
-    <div class="drawer-panel">
+    <div class="drawer-panel" role="dialog" aria-labelledby="generatorTitle">
       <div class="panel-head">
-        <h2 class="panel-title"><svg class="icon" aria-hidden="true"><use href="#sr-plus"></use></svg><span data-i18n="generator">Импорт текста</span></h2>
+        <h2 class="panel-title" id="generatorTitle"><svg class="icon" aria-hidden="true"><use href="#sr-plus"></use></svg><span data-i18n="generator">Добавить тексты</span></h2>
         <button class="icon-button" id="closeGenerator" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#sr-close"></use></svg></button>
       </div>
       <div class="drawer-body stack">
-        <div class="import-steps">
-          <strong data-i18n="importStepsTitle">Как добавить новый текст</strong>
-          <ol>
-            <li data-i18n="importStep1">Сначала настройте тему, уровень и язык заметок ниже.</li>
-            <li data-i18n="importStep2">Скопируйте промпт и вставьте его в ChatGPT или Codex.</li>
-            <li data-i18n="importStep3">Скопируйте полученный JSON в поле импорта и нажмите «Импортировать JSON».</li>
+        <label class="field import-folder-field">
+          <span data-i18n="saveToFolder">Сохранить в папку</span>
+          <select id="importFolder"></select>
+        </label>
+
+        <section class="import-card">
+          <h3><span class="step-no">A</span><span data-i18n="importFilesTitle">У меня уже есть файл</span></h3>
+          <div class="file-drop" id="fileDrop" tabindex="0">
+            <svg class="icon" aria-hidden="true"><use href="#sr-upload"></use></svg>
+            <div>
+              <strong data-i18n="fileDropTitle">Перетащите .txt файлы или целую папку</strong>
+              <div class="hint" data-i18n="fileDropHint">Папка станет папкой в библиотеке. Можно сразу несколько файлов.</div>
+            </div>
+            <div class="row">
+              <button class="button" type="button" id="pickFiles" data-i18n="chooseFiles">Выбрать файлы</button>
+              <button class="button" type="button" id="pickFolder" data-i18n="chooseFolder">Выбрать папку</button>
+            </div>
+            <input type="file" id="fileInput" accept=".txt,.json,text/plain,application/json" multiple hidden>
+            <input type="file" id="folderInput" webkitdirectory multiple hidden>
+          </div>
+          <div class="file-results" id="fileResults"></div>
+        </section>
+
+        <section class="import-card">
+          <h3><span class="step-no">B</span><span data-i18n="aiTitle">Создать новый текст с ИИ</span></h3>
+          <ol class="import-flow">
+            <li>
+              <div class="flow-title" data-i18n="aiStep1">Опишите текст</div>
+              <label class="field">
+                <span data-i18n="topic">Тема или исходный текст</span>
+                <textarea id="topicInput" rows="2">Неполитическая новость о науке, природе, технологиях, культуре или городской жизни.</textarea>
+              </label>
+              <div class="row">
+                <label class="field" style="flex: 1 1 110px;">
+                  <span data-i18n="level">Уровень</span>
+                  <select id="levelInput">
+                    <option>A1</option>
+                    <option selected>A2</option>
+                    <option>B1</option>
+                    <option>B2</option>
+                    <option>C1</option>
+                  </select>
+                </label>
+                <label class="field" style="flex: 1 1 170px;">
+                  <span data-i18n="textLength">Объём текста</span>
+                  <select id="lengthInput">
+                    <option value="150" data-i18n="lengthShort">Короткий (~150 слов)</option>
+                    <option value="300" selected data-i18n="lengthMedium">Средний (~300 слов)</option>
+                    <option value="500" data-i18n="lengthLong">Длинный (~500 слов)</option>
+                    <option value="800" data-i18n="lengthXLong">Очень длинный (~800 слов)</option>
+                  </select>
+                </label>
+                <label class="field" style="flex: 1 1 150px;">
+                  <span data-i18n="textStyle">Жанр</span>
+                  <select id="styleInput">
+                    <option value="story" data-i18n="styleStory">История</option>
+                    <option value="news" data-i18n="styleNews">Новость</option>
+                    <option value="dialogue" data-i18n="styleDialogue">Диалог</option>
+                    <option value="article" data-i18n="styleArticle">Статья</option>
+                  </select>
+                </label>
+              </div>
+              <details class="more-options">
+                <summary data-i18n="moreOptions">Дополнительно</summary>
+                <label class="field">
+                  <span data-i18n="focusWords">Слова, которые нужно использовать (необязательно)</span>
+                  <textarea id="focusWordsInput" rows="2" data-i18n-placeholder="focusWordsHint" placeholder="Например: der Termin, verschieben, pünktlich"></textarea>
+                </label>
+                <button class="button" type="button" id="useDueWords" data-i18n="useMyWords">Подставить мои слова для изучения</button>
+                <label class="field">
+                  <span data-i18n="storyContext">Продолжение истории (необязательно)</span>
+                  <textarea id="storyInput" rows="3" data-i18n-placeholder="storyContextHint" placeholder="Вставьте сюда предыдущую главу, краткое содержание или описание героев."></textarea>
+                </label>
+                <label class="field">
+                  <span data-i18n="extraInstructions">Свои пожелания к ИИ (необязательно)</span>
+                  <textarea id="extraInput" rows="2" data-i18n-placeholder="extraInstructionsHint" placeholder="Например: больше разговорных фраз, герою 30 лет, действие в Берлине."></textarea>
+                </label>
+                <label class="setting check"><input type="checkbox" id="grammarNotesInput" checked><span data-i18n="grammarNotes">Подробные грамматические подсказки</span></label>
+              </details>
+            </li>
+            <li>
+              <div class="flow-title" data-i18n="aiStep2">Скопируйте промпт в Claude, ChatGPT или Gemini</div>
+              <div class="panel-actions">
+                <button class="button primary" id="copyPrompt"><svg class="icon" aria-hidden="true"><use href="#sr-copy"></use></svg><span data-i18n="copyPrompt">Скопировать промпт</span></button>
+              </div>
+              <details class="more-options">
+                <summary data-i18n="showPrompt">Показать промпт</summary>
+                <textarea id="promptOutput" readonly></textarea>
+              </details>
+            </li>
+            <li>
+              <div class="flow-title" data-i18n="aiStep3">Вставьте ответ ИИ целиком</div>
+              <label class="field">
+                <textarea id="jsonInput" rows="7" placeholder="title: ...&#10;== p1&#10;DE: [Anna]1 [liest]2.&#10;RU: [Анна]1 [читает]2."></textarea>
+              </label>
+              <div class="import-preview" id="importPreview" hidden></div>
+              <div class="panel-actions">
+                <button class="button primary" id="importJson" disabled><svg class="icon" aria-hidden="true"><use href="#sr-plus"></use></svg><span data-i18n="importJson">Сохранить текст</span></button>
+              </div>
+            </li>
           </ol>
-        </div>
-        <label class="field">
-          <span data-i18n="topic">Тема или исходный текст</span>
-          <textarea id="topicInput">Неполитическая новость о науке, природе, технологиях, культуре или городской жизни.</textarea>
-        </label>
-        <div class="row">
-          <label class="field" style="flex: 1 1 130px;">
-            <span data-i18n="level">Уровень</span>
-            <select id="levelInput">
-              <option>A1</option>
-              <option selected>A2</option>
-              <option>B1</option>
-              <option>B2</option>
-              <option>C1</option>
-            </select>
-          </label>
-        </div>
-        <label class="field">
-          <span data-i18n="promptForAi">Промпт для Codex или ChatGPT</span>
-          <textarea id="promptOutput" readonly></textarea>
-        </label>
-        <div class="panel-actions">
-          <button class="button primary" id="copyPrompt" data-i18n="copyPrompt">Скопировать промпт</button>
-        </div>
-        <label class="field">
-          <span data-i18n="pasteJson">Вставить готовый JSON</span>
-          <textarea id="jsonInput" placeholder='{"title":"...","p":[["p1",[["RU sentence.","DE sentence.",[["DE","RU"]]]]]]}'></textarea>
-        </label>
-        <div class="panel-actions">
-          <button class="button primary" id="importJson" data-i18n="importJson">Импортировать JSON</button>
-        </div>
-        <div class="hint" data-i18n="generatorHint">Скопируйте промпт в Codex или ChatGPT, затем вставьте JSON сюда. Импортированные тексты сохраняются локально.</div>
+        </section>
         <div class="status" id="status"></div>
       </div>
     </div>
   </section>
 
   <section class="modal" id="studyModal" aria-hidden="true">
-    <div class="modal-card">
+    <div class="modal-card" role="dialog" aria-labelledby="studyTitle">
       <div class="panel-head">
         <h2 class="panel-title" id="studyTitle">Тренировка</h2>
         <button class="icon-button" id="closeStudy" aria-label="Close"></button>
@@ -512,14 +669,15 @@
         <div class="progress"><span id="studyProgress"></span></div>
         <div class="study-card" id="studyCard">
           <div class="study-front" id="studyFront"></div>
+          <div class="study-front-sentence" id="studyFrontSentence"></div>
           <div class="study-back" id="studyBack"></div>
         </div>
         <div class="study-actions" id="studyActions">
           <button class="button primary" id="showAnswer" data-i18n="showAnswer">Показать ответ</button>
-          <button class="button" data-grade="again" data-i18n="again">Снова</button>
-          <button class="button" data-grade="hard" data-i18n="hard">Трудно</button>
-          <button class="button" data-grade="good" data-i18n="good">Хорошо</button>
-          <button class="button" data-grade="easy" data-i18n="easy">Легко</button>
+          <button class="button grade-again" data-grade="again" data-i18n="again">Снова</button>
+          <button class="button grade-hard" data-grade="hard" data-i18n="hard">Трудно</button>
+          <button class="button grade-good" data-grade="good" data-i18n="good">Хорошо</button>
+          <button class="button grade-easy" data-grade="easy" data-i18n="easy">Легко</button>
         </div>
       </div>
     </div>

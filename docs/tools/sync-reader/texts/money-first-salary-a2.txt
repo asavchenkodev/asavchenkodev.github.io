@@ -1,0 +1,197 @@
+id: money-first-salary-a2-v1
+title: Первая зарплата / Das erste Gehalt
+level: A2
+topic: деньги, зарплата, брутто и нетто, бюджет, сбережения
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Jonas]1 [ist]0 [neunzehn]2 [und]3 [macht]4 [eine]4 [Ausbildung]4 [in]5 [einer]6 [Autowerkstatt]6.
+RU: [Йонасу]1 [девятнадцать]2 [лет]2, [и]3 [он]0 [проходит]4 [профобучение]4 [в]5 [автомастерской]6.
+2 note: По-немецки возраст через sein: Er ist neunzehn (Jahre alt).
+4 note: Eine Ausbildung machen: проходить профессиональное обучение (учёба в школе + работа на предприятии).
+6 note: Die Autowerkstatt: автомастерская.
+6 form: In + Dativ: einer Autowerkstatt (место где).
+
+DE: [Am]1 [Ende]1 [des]2 [Monats]2 [bekommt]3 [er]4 [zum]5 [ersten]5 [Mal]5 [Geld]6 [für]7 [seine]8 [Arbeit]9.
+RU: [В]1 [конце]1 [месяца]2 [он]4 [впервые]5 [получает]3 [деньги]6 [за]7 [свою]8 [работу]9.
+2 form: Genitiv: der Monat → des Monats.
+3 form: Инфинитив bekommen: ich bekomme, er bekommt, wir bekommen; Präteritum: bekam; Perfekt: hat bekommen.
+5 note: Zum ersten Mal: впервые, в первый раз.
+
+DE: [Er]1 [hat]2 [schon]3 [viele]4 [Pläne]5: [neue]6 [Kopfhörer]7, [ein]8 [Konzert]8 [in]9 [Köln]10 [und]11 [ein]12 [Abendessen]12 [mit]13 [seiner]14 [Freundin]15 [Lea]16.
+RU: [У]2 [него]1 [уже]3 [много]4 [планов]5: [новые]6 [наушники]7, [концерт]8 [в]9 [Кёльне]10 [и]11 [ужин]12 [со]13 [своей]14 [девушкой]15 [Леей]16.
+5 note: Der Plan, die Pläne: план.
+7 note: Der Kopfhörer, die Kopfhörer: наушники.
+13 form: Mit + Dativ: mit seiner Freundin.
+15 note: Die Freundin: подруга или девушка (в паре).
+
+== p2
+DE: [Am]1 [Freitag]1 [öffnet]2 [er]3 [die]4 [App]4 [seiner]5 [Bank]6.
+RU: [В]1 [пятницу]1 [он]3 [открывает]2 [приложение]4 [своего]5 [банка]6.
+2 form: Инфинитив öffnen: ich öffne, er öffnet, wir öffnen; Präteritum: öffnete; Perfekt: hat geöffnet.
+5 form: Genitiv: die Bank → seiner Bank.
+
+DE: [Auf]1 [dem]1 [Konto]1 [sind]2 [812]3 [Euro]4.
+RU: [На]1 [счёте]1 [лежит]2 [812]3 [евро]4.
+1 note: Das Konto: банковский счёт; auf dem Konto: на счёте.
+
+DE: [Jonas]1 [ist]2 [verwirrt]2, [denn]3 [im]4 [Vertrag]5 [steht]6 [eine]7 [andere]8 [Zahl]7: [1.050]9 [Euro]10.
+RU: [Йонас]1 [сбит]2 [с]2 [толку]2, [потому]3 [что]3 [в]4 [договоре]5 [стоит]6 [другая]8 [цифра]7: [1050]9 [евро]10.
+2 note: Verwirrt: растерянный, сбитый с толку.
+3 sent: После denn прямой порядок слов, как в главном предложении.
+5 note: Der Vertrag: договор; im = in dem.
+6 note: Im Vertrag steht: в договоре написано.
+
+DE: „[Wo]1 [ist]0 [der]2 [Rest]2?", [fragt]3 [er]4 [seinen]5 [Kollegen]6 [Murat]7 [in]8 [der]9 [Pause]9.
+RU: «[Где]1 [остальное]2?» — [спрашивает]3 [он]4 [своего]5 [коллегу]6 [Мурата]7 [в]8 [перерыве]9.
+2 note: Der Rest: остаток, остальное.
+6 form: Der Kollege → den Kollegen: n-склонение, Akkusativ.
+9 note: Die Pause: перерыв.
+
+DE: [Murat]1 [lacht]2 [und]3 [sagt]4: „[Willkommen]5 [in]6 [Deutschland]7! [Das]8 [ist]0 [der]9 [Unterschied]9 [zwischen]10 [brutto]11 [und]12 [netto]13."
+RU: [Мурат]1 [смеётся]2 [и]3 [говорит]4: «[Добро]5 [пожаловать]5 [в]6 [Германию]7! [Это]8 [разница]9 [между]10 [брутто]11 [и]12 [нетто]13».
+2 form: Инфинитив lachen: ich lache, er lacht, wir lachen; Präteritum: lachte; Perfekt: hat gelacht.
+9 note: Der Unterschied: разница.
+11 note: Brutto: сумма до вычета налогов и страховых взносов.
+13 note: Netto: сумма, которая реально приходит на счёт.
+
+== p3
+DE: [Am]1 [Abend]1 [legt]2 [Jonas]3 [die]4 [Gehaltsabrechnung]4 [auf]5 [den]6 [Küchentisch]6.
+RU: [Вечером]1 [Йонас]3 [кладёт]2 [расчётный]4 [листок]4 [на]5 [кухонный]6 [стол]6.
+2 form: Инфинитив legen: ich lege, er legt, wir legen; Präteritum: legte; Perfekt: hat gelegt.
+4 note: Die Gehaltsabrechnung: расчётный листок с суммами брутто, нетто и всеми вычетами.
+6 form: Auf + Akkusativ: куда? — auf den Küchentisch.
+
+DE: [Seine]1 [Mutter]2 [setzt]3 [sich]3 [zu]4 [ihm]5 [und]6 [erklärt]7 [die]8 [Zeilen]8.
+RU: [Его]1 [мама]2 [садится]3 [к]4 [нему]5 [и]6 [объясняет]7 [строчки]8.
+3 form: Sich setzen: ich setze mich, er setzt sich; Perfekt: hat sich gesetzt.
+7 form: Инфинитив erklären: ich erkläre, er erklärt, wir erklären; Präteritum: erklärte; Perfekt: hat erklärt.
+8 note: Die Zeile, die Zeilen: строка.
+
+DE: „[Hier]1 [ist]2 [die]3 [Krankenversicherung]3, [hier]4 [die]5 [Rentenversicherung]5 [und]6 [hier]7 [die]8 [Arbeitslosenversicherung]8."
+RU: «[Вот]1,2 [медицинская]3 [страховка]3, [вот]4 [пенсионное]5 [страхование]5 [и]6 [вот]7 [страхование]8 [от]8 [безработицы]8».
+3 note: Die Krankenversicherung: медицинское страхование.
+5 note: Die Rentenversicherung: пенсионное страхование.
+8 note: Die Arbeitslosenversicherung: страхование на случай безработицы.
+
+DE: „[Und]1 [Steuern]2?", [fragt]3 [Jonas]4.
+RU: «[А]1 [налоги]2?» — [спрашивает]3 [Йонас]4.
+2 note: Die Steuer, die Steuern: налог.
+
+DE: „[Steuern]1 [zahlst]2 [du]3 [noch]4 [fast]5 [keine]6, [weil]7 [dein]8 [Lohn]9 [klein]10 [ist]11."
+RU: «[Налогов]1 [ты]3 [пока]4 [почти]5 [не]6 [платишь]2, [потому]7 [что]7 [твоя]8 [зарплата]9 [маленькая]10,11».
+2 form: Инфинитив zahlen: ich zahle, du zahlst, er zahlt; Präteritum: zahlte; Perfekt: hat gezahlt.
+7 sent: После weil спрягаемый глагол уходит в конец: ... klein ist.
+9 note: Der Lohn: заработная плата; das Gehalt — обычно месячный оклад.
+
+DE: „[Aber]1 [die]2 [Versicherungen]2 [sind]3 [wichtig]4. [Wenn]5 [du]6 [krank]7 [bist]8, [bezahlt]9 [die]10 [Kasse]10 [den]11 [Arzt]11."
+RU: «[Но]1 [страховки]2 [важны]3,4. [Если]5 [ты]6 [заболеешь]7,8, [касса]10 [оплатит]9 [врача]11».
+5 sent: Wenn-предложение стоит первым, поэтому главное начинается с глагола: bezahlt die Kasse.
+10 note: Die Kasse = die Krankenkasse: больничная касса, медицинская страховая.
+
+== p4
+DE: [Jonas]1 [ist]2 [trotzdem]3 [stolz]4.
+RU: [Йонас]1 [всё]3 [равно]3 [гордится]2,4.
+3 note: Trotzdem: несмотря на это, всё равно.
+4 note: Stolz sein: гордиться.
+
+DE: [812]1 [Euro]2 [sind]3 [sein]4 [eigenes]5 [Geld]6.
+RU: [812]1 [евро]2 — [это]3 [его]4 [собственные]5 [деньги]6.
+5 form: Eigen: собственный; окончание -es после sein (das Geld, средний род).
+
+DE: [Am]1 [Samstag]1 [kauft]2 [er]3 [die]4 [Kopfhörer]4 [für]5 [180]6 [Euro]7.
+RU: [В]1 [субботу]1 [он]3 [покупает]2 [наушники]4 [за]5 [180]6 [евро]7.
+2 form: Инфинитив kaufen: ich kaufe, er kauft, wir kaufen; Präteritum: kaufte; Perfekt: hat gekauft.
+
+DE: [Am]1 [Abend]1 [geht]2 [er]3 [mit]4 [Lea]5 [in]6 [ein]7 [italienisches]8 [Restaurant]7 [und]9 [bezahlt]10 [für]11 [beide]12.
+RU: [Вечером]1 [он]3 [идёт]2 [с]4 [Леей]5 [в]6 [итальянский]8 [ресторан]7 [и]9 [платит]10 [за]11 [обоих]12.
+2 form: Инфинитив gehen: ich gehe, er geht, wir gehen; Präteritum: ging; Perfekt: ist gegangen.
+10 form: Инфинитив bezahlen: ich bezahle, er bezahlt, wir bezahlen; Präteritum: bezahlte; Perfekt: hat bezahlt.
+12 note: Für beide: за обоих.
+
+DE: [Am]1 [Sonntag]1 [bestellt]2 [er]3 [noch]4 [Turnschuhe]5 [im]6 [Internet]6, [weil]7 [sie]8 [im]9 [Angebot]9 [sind]0.
+RU: [В]1 [воскресенье]1 [он]3 [ещё]4 [заказывает]2 [кроссовки]5 [в]6 [интернете]6, [потому]7 [что]7 [они]8 [со]9 [скидкой]9.
+2 form: Инфинитив bestellen: ich bestelle, er bestellt, wir bestellen; Präteritum: bestellte; Perfekt: hat bestellt.
+5 note: Der Turnschuh, die Turnschuhe: кроссовки.
+9 note: Im Angebot: по акции, со скидкой.
+
+== p5
+DE: [Am]1 [Mittwoch]1 [schaut]2 [er]3 [wieder]4 [in]5 [die]6 [App]6.
+RU: [В]1 [среду]1 [он]3 [снова]4 [заглядывает]2 [в]5 [приложение]6.
+2 note: In etwas schauen: заглядывать, смотреть.
+
+DE: [Er]1 [hat]2 [nur]3 [noch]3 [230]4 [Euro]5, [und]6 [der]7 [Monat]7 [ist]8 [noch]9 [lang]10.
+RU: [У]2 [него]1 [осталось]3 [всего]3 [230]4 [евро]5, [а]6 [месяц]7 [ещё]9 [длинный]8,10.
+3 note: Nur noch: осталось всего.
+
+DE: [Seine]1 [Mutter]2 [möchte]3 [150]4 [Euro]5 [für]6 [Essen]7 [und]8 [Strom]9, [so]10 [haben]11 [sie]12 [es]0 [vereinbart]11.
+RU: [Его]1 [мама]2 [хочет]3 [150]4 [евро]5 [на]6 [еду]7 [и]8 [электричество]9 — [так]10 [они]12 [договорились]11.
+3 form: Möchten: ich möchte, er möchte, wir möchten.
+9 note: Der Strom: электричество.
+11 form: Vereinbaren: договариваться; Perfekt: hat vereinbart.
+
+DE: [Und]1 [das]2 [Handy]2 [kostet]3 [auch]4 [20]5 [Euro]6 [im]7 [Monat]7.
+RU: [И]1 [телефон]2 [тоже]4 [стоит]3 [20]5 [евро]6 [в]7 [месяц]7.
+2 note: Das Handy: мобильный телефон.
+
+DE: [Jonas]1 [rechnet]2 [und]3 [bekommt]4 [Bauchschmerzen]5.
+RU: [Йонас]1 [считает]2, [и]3 [у]4 [него]4 [начинает]4 [болеть]5 [живот]5.
+2 form: Инфинитив rechnen: ich rechne, er rechnet, wir rechnen; Präteritum: rechnete; Perfekt: hat gerechnet.
+5 note: Bauchschmerzen bekommen: здесь — сильно занервничать.
+
+== p6
+DE: [Am]1 [Wochenende]1 [besucht]2 [er]3 [seine]4 [Oma]5.
+RU: [На]1 [выходных]1 [он]3 [навещает]2 [свою]4 [бабушку]5.
+2 form: Инфинитив besuchen: ich besuche, er besucht, wir besuchen; Präteritum: besuchte; Perfekt: hat besucht.
+
+DE: [Sie]1 [hat]2 [vierzig]3 [Jahre]4 [in]5 [einer]6 [Bäckerei]6 [gearbeitet]2 [und]7 [kennt]8 [sich]8 [mit]9 [Geld]10 [aus]8.
+RU: [Она]1 [сорок]3 [лет]4 [проработала]2 [в]5 [пекарне]6 [и]7 [разбирается]8 [в]9 [деньгах]10.
+2 form: Perfekt: hat ... gearbeitet (arbeiten).
+8 note: Sich mit etwas auskennen: хорошо разбираться в чём-то.
+8 form: Kennt sich ... aus: приставка aus стоит в конце.
+
+DE: [Sie]1 [gibt]2 [ihm]3 [keinen]4 [Kredit]5, [aber]6 [einen]7 [Rat]8.
+RU: [Она]1 [даёт]2 [ему]3 [не]4 [кредит]5, [а]6 [совет]7,8.
+2 form: Инфинитив geben: ich gebe, er gibt, wir geben; Präteritum: gab; Perfekt: hat gegeben.
+8 note: Der Rat: совет; jemandem einen Rat geben — дать совет.
+
+DE: „[Teile]1 [dein]2 [Geld]3 [am]4 [Anfang]4 [des]5 [Monats]5, [nicht]6 [am]7 [Ende]7", [sagt]8 [sie]9.
+RU: «[Распределяй]1 [свои]2 [деньги]3 [в]4 [начале]4 [месяца]5, [а]6 [не]6 [в]7 [конце]7», — [говорит]8 [она]9.
+1 form: Императив от teilen (делить): teil! / teile!
+
+DE: „[Zuerst]1 [die]2 [festen]3 [Kosten]2, [dann]4 [ein]5 [bisschen]5 [sparen]6, [und]7 [nur]8 [der]9 [Rest]9 [ist]0 [für]10 [Spaß]11."
+RU: «[Сначала]1 [обязательные]3 [расходы]2, [потом]4 [немного]5 [отложить]6, [и]7 [только]8 [остаток]9 — [на]10 [удовольствия]11».
+3 note: Feste Kosten: постоянные расходы (аренда, телефон, страховки).
+6 note: Sparen: копить, экономить.
+11 note: Der Spaß: удовольствие, веселье.
+
+== p7
+DE: [Im]1 [nächsten]2 [Monat]1 [macht]3 [Jonas]4 [es]5 [anders]6.
+RU: [В]1 [следующем]2 [месяце]1 [Йонас]4 [делает]3 [всё]5 [по-другому]6.
+6 note: Anders: иначе, по-другому.
+
+DE: [Er]1 [richtet]2 [einen]3 [Dauerauftrag]3 [ein]2: [Jeden]4 [Monat]4 [gehen]5 [50]6 [Euro]7 [auf]8 [ein]9 [Sparkonto]9.
+RU: [Он]1 [настраивает]2 [постоянное]3 [поручение]3: [каждый]4 [месяц]4 [50]6 [евро]7 [уходят]5 [на]8 [накопительный]9 [счёт]9.
+2 form: Einrichten: ich richte ein, er richtet ein; Präteritum: richtete ein; Perfekt: hat eingerichtet.
+3 note: Der Dauerauftrag: регулярный автоматический перевод в банке.
+9 note: Das Sparkonto: сберегательный, накопительный счёт.
+
+DE: [Er]1 [schreibt]2 [alle]3 [Ausgaben]4 [in]5 [eine]6 [Liste]6 [auf]7 [seinem]8 [Handy]9.
+RU: [Он]1 [записывает]2 [все]3 [расходы]4 [в]5 [список]6 [в]7 [своём]8 [телефоне]9.
+4 note: Die Ausgabe, die Ausgaben: расход, трата.
+
+DE: [Das]1 [Konzert]1 [in]2 [Köln]3 [kann]4 [er]5 [im]6 [Frühling]6 [ohne]7 [Stress]8 [bezahlen]9.
+RU: [Концерт]1 [в]2 [Кёльне]3 [он]5 [сможет]4 [оплатить]9 [весной]6 [без]7 [стресса]8.
+4 sent: Модальный глагол kann на второй позиции, инфинитив bezahlen в конце.
+7 form: Ohne + Akkusativ.
+
+DE: [Und]1 [die]2 [Kopfhörer]2?
+RU: [А]1 [наушники]2?
+
+DE: [Die]1 [trägt]2 [er]3 [jeden]4 [Tag]4 [und]5 [denkt]6 [dabei]7 [an]8 [die]9 [teure]10 [Lektion]9.
+RU: [Их]1 [он]3 [носит]2 [каждый]4 [день]4 [и]5 [при]7 [этом]7 [вспоминает]6,8 [дорогой]10 [урок]9.
+1 note: Die здесь — указательное местоимение: «их, эти».
+2 form: Инфинитив tragen: ich trage, er trägt, wir tragen; Präteritum: trug; Perfekt: hat getragen.
+6 note: An etwas denken: думать о чём-то, вспоминать.
+9 note: Die Lektion: урок.

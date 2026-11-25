@@ -1,0 +1,182 @@
+id: life-wohnungssuche-b1-v1
+title: Сорок человек на одну квартиру / Vierzig Leute für eine Wohnung
+level: B1
+topic: поиск квартиры, аренда, переезд, большой город
+source: user generated
+hintLanguage: ru
+
+== p1
+DE: [Als]1 [Jonas]2 [und]3 [Ana]4 [beschlossen]5, [zusammenzuziehen]6, [dachten]7 [sie]8, [das]9 [wäre]10 [der]11 [schwierigste]12 [Teil]11.
+RU: [Когда]1 [Йонас]2 [и]3 [Ана]4 [решили]5 [съехаться]6, [они]8 [думали]7, [что]0 [это]9 [будет]10 [самым]12 [трудным]12 [этапом]11.
+5 note: Beschließen: решить, принять решение.
+5 form: Инфинитив beschließen: er beschließt; Präteritum: beschloss; Perfekt: hat beschlossen.
+6 note: Zusammenziehen: съехаться, начать жить вместе. Zu стоит внутри: zusammenzuziehen.
+10 form: Wäre: Konjunktiv II от sein — «был бы»; передаёт чужую или ошибочную мысль.
+
+DE: [Sie]1 [hatten]2 [sich]3 [geirrt]2.
+RU: [Они]1 [ошибались]2,3.
+2 note: Sich irren: ошибаться.
+2 form: Plusquamperfekt: hatten sich geirrt.
+
+DE: [In]1 [ihrer]2 [Stadt]3 [suchten]4 [tausende]5 [Menschen]6 [eine]7 [bezahlbare]8 [Wohnung]7, [und]9 [fast]10 [niemand]11 [zog]12 [aus]12.
+RU: [В]1 [их]2 [городе]3 [тысячи]5 [людей]6 [искали]4 [доступную]8 [квартиру]7, [и]9 [почти]10 [никто]11 [не]0 [съезжал]12.
+8 note: Bezahlbar: доступный по цене, такой, который можно оплатить.
+12 note: Ausziehen: выехать из квартиры. Einziehen: въехать. Umziehen: переехать.
+
+== p2
+DE: [Jeden]1 [Abend]1 [saßen]2 [sie]3 [mit]4 [dem]4 [Laptop]4 [auf]5 [dem]5 [Sofa]5 [und]6 [lasen]7 [Anzeigen]8.
+RU: [Каждый]1 [вечер]1 [они]3 [сидели]2 [с]4 [ноутбуком]4 [на]5 [диване]5 [и]6 [читали]7 [объявления]8.
+8 note: Die Anzeige: объявление.
+
+DE: [„Zwei]1 [Zimmer]2, [Altbau]3, [hohe]4 [Decken]5, [Balkon]6“, [las]7 [Ana]8 [laut]9 [vor]7.
+RU: [«Две]1 [комнаты]2, [старый]3 [дом]3, [высокие]4 [потолки]5, [балкон]6», [прочитала]7 [Ана]8 [вслух]9.
+3 note: Der Altbau: старый дом (обычно до 1949 года), популярный из-за высоких потолков.
+7 note: Vorlesen: читать вслух кому-то.
+
+DE: [„Kaltmiete]1 [elfhundert]2 [Euro]2, [plus]3 [Nebenkosten]4, [plus]5 [drei]6 [Monatsmieten]7 [Kaution]8.“
+RU: [«Аренда]1 [без]1 [коммуналки]1 [тысяча сто]2 [евро]2, [плюс]3 [коммунальные]4 [платежи]4, [плюс]5 [залог]8 [в]0 [размере]0 [трёх]6 [месячных]7 [плат]7.»
+1 note: Die Kaltmiete: аренда без отопления и коммунальных услуг. Warmmiete: с ними.
+4 note: Die Nebenkosten: коммунальные платежи (вода, мусор, уборка лестницы).
+8 note: Die Kaution: залог, который возвращают при выезде.
+
+DE: [Jonas]1 [rechnete]2 [kurz]3 [und]4 [schloss]5 [den]6 [Laptop]6.
+RU: [Йонас]1 [быстро]3 [подсчитал]2 [и]4 [закрыл]5 [ноутбук]6.
+5 form: Инфинитив schließen: er schließt; Präteritum: schloss; Perfekt: hat geschlossen.
+
+== p3
+DE: [Trotzdem]1 [gingen]2 [sie]3 [zu]4 [jeder]5 [Besichtigung]6, [die]7 [sie]8 [bekommen]9 [konnten]10.
+RU: [Тем не менее]1 [они]3 [ходили]2 [на]4 [каждый]5 [просмотр]6, [на который]7 [они]8 [могли]10 [попасть]9.
+1 note: Trotzdem: тем не менее, несмотря на это.
+6 note: Die Besichtigung: осмотр квартиры перед арендой.
+
+DE: [Bei]1 [der]2 [ersten]3 [standen]4 [schon]5 [vierzig]6 [Leute]7 [im]8 [Treppenhaus]8.
+RU: [На]1 [первом]3 [просмотре]2 [на]8 [лестнице]8 [уже]5 [стояло]4 [сорок]6 [человек]7.
+8 note: Das Treppenhaus: лестничная клетка, подъезд.
+
+DE: [Der]1 [Makler]1 [ließ]2 [immer]3 [zehn]4 [Personen]5 [gleichzeitig]6 [in]7 [die]7 [Wohnung]7, [für]8 [genau]9 [fünf]10 [Minuten]10.
+RU: [Риелтор]1 [впускал]2,7 [в]7 [квартиру]7 [по]3 [десять]4 [человек]5 [одновременно]6, [ровно]9 [на]8 [пять]10 [минут]10.
+1 note: Der Makler: агент по недвижимости, риелтор.
+6 note: Gleichzeitig: одновременно.
+
+DE: [Ana]1 [sah]2 [eine]3 [schöne]4 [Küche]3, [Jonas]5 [sah]6 [einen]7 [Riss]7 [in]8 [der]9 [Wand]9.
+RU: [Ана]1 [увидела]2 [красивую]4 [кухню]3, [Йонас]5 [увидел]6 [трещину]7 [в]8 [стене]9.
+7 note: Der Riss: трещина.
+
+DE: [Am]1 [Ausgang]1 [gab]2 [ihnen]3 [der]4 [Makler]4 [ein]5 [Formular]5 [mit]6 [vier]7 [Seiten]8.
+RU: [На]1 [выходе]1 [риелтор]4 [дал]2 [им]3 [анкету]5 [на]6 [четыре]7 [страницы]8.
+5 note: Das Formular: бланк, анкета.
+
+== p4
+DE: [Sie]1 [lernten]2 [schnell]3, [was]4 [man]5 [für]6 [eine]7 [Bewerbung]7 [braucht]8.
+RU: [Они]1 [быстро]3 [узнали]2, [что]4 [нужно]5,8 [для]6 [заявки]7.
+7 note: Die Bewerbung: заявка; также резюме на работу. В Германии на квартиру «подают заявку», как на работу.
+
+DE: [Gehaltsnachweise]1, [eine]2 [Kopie]2 [vom]3 [Ausweis]3, [eine]4 [Schufa-Auskunft]4 [und]5 [eine]6 [Mietschuldenfreiheitsbescheinigung]6.
+RU: [Справки]1 [о]1 [зарплате]1, [копия]2 [удостоверения]3 [личности]3, [кредитная]4 [справка]4 [Schufa]4 [и]5 [справка]6 [об]6 [отсутствии]6 [долгов]6 [по]6 [аренде]6.
+4 note: Die Schufa: немецкое кредитное бюро; справка показывает, платите ли вы долги.
+6 note: Mietschuldenfreiheitsbescheinigung: бумага от прошлого арендодателя, что вы не должны ему денег. Любимое длинное слово немцев.
+
+DE: [Jonas]1 [konnte]2 [das]3 [Wort]3 [nach]4 [einer]5 [Woche]5 [fehlerfrei]6 [aussprechen]7.
+RU: [Через]4 [неделю]5 [Йонас]1 [мог]2 [произнести]7 [это]3 [слово]3 [без]6 [ошибок]6.
+7 note: Aussprechen: произносить.
+
+DE: [Sie]1 [kauften]2 [eine]3 [blaue]4 [Mappe]3 [und]5 [legten]6 [alle]7 [Papiere]8 [ordentlich]9 [hinein]6.
+RU: [Они]1 [купили]2 [синюю]4 [папку]3 [и]5 [аккуратно]9 [сложили]6 [в]6 [неё]6 [все]7 [бумаги]8.
+6 note: Hineinlegen: положить внутрь.
+9 note: Ordentlich: аккуратно, как следует.
+
+DE: [Die]1 [Mappe]1 [wurde]2 [mit]3 [jeder]4 [Woche]5 [dicker]6.
+RU: [С]3 [каждой]4 [неделей]5 [папка]1 [становилась]2 [толще]6.
+2 form: Werden: становиться. Präteritum: wurde.
+
+== p5
+DE: [Nach]1 [zwei]2 [Monaten]2 [hatten]3 [sie]4 [dreiundzwanzig]5 [Wohnungen]6 [gesehen]3 [und]7 [dreiundzwanzig]8 [Absagen]9 [bekommen]10.
+RU: [За]1 [два]2 [месяца]2 [они]4 [посмотрели]3 [двадцать три]5 [квартиры]6 [и]7 [получили]10 [двадцать три]8 [отказа]9.
+9 note: Die Absage: отказ. Die Zusage: согласие.
+
+DE: [Manche]1 [Vermieter]2 [antworteten]3 [gar]4 [nicht]4.
+RU: [Некоторые]1 [арендодатели]2 [вообще]4 [не]4 [ответили]3.
+2 note: Der Vermieter: арендодатель. Der Mieter: арендатор.
+4 note: Gar nicht: совсем не, вообще не.
+
+DE: [Ana]1 [wurde]2 [immer]3 [stiller]4, [und]5 [Jonas]6 [machte]7 [immer]8 [mehr]8 [schlechte]9 [Witze]10.
+RU: [Ана]1 [становилась]2 [всё]3 [тише]4, [а]5 [Йонас]6 [шутил]7,10 [всё]8 [больше]8 [и]0 [всё]0 [хуже]9.
+3 note: Immer + сравнительная степень: всё более … (immer stiller — всё тише).
+
+DE: [„Vielleicht]1 [sollten]2 [wir]3 [in]4 [einen]5 [Wohnwagen]5 [ziehen]6“, [sagte]7 [er]8 [eines]9 [Abends]9.
+RU: [«Может]1, [нам]3 [стоит]2 [переехать]6 [в]4 [фургон]5», [сказал]7 [он]8 [однажды]9 [вечером]9.
+2 form: Sollten: Konjunktiv II от sollen — совет «стоило бы».
+9 note: Eines Abends: однажды вечером (родительный падеж времени).
+
+DE: [Ana]1 [lachte]2 [nicht]3.
+RU: [Ана]1 [не]3 [засмеялась]2.
+
+== p6
+DE: [Die]1 [Lösung]1 [kam]2 [von]3 [einer]4 [Seite]4, [von]5 [der]6 [sie]7 [es]8 [nicht]9 [erwartet]10 [hatten]10.
+RU: [Решение]1 [пришло]2 [оттуда]3,4, [откуда]5,6 [они]7 [его]8 [не]9 [ожидали]10.
+10 note: Erwarten: ожидать.
+
+DE: [Anas]1 [Kollegin]2 [Birgit]3 [erzählte]4 [beim]5 [Mittagessen]5, [dass]6 [ihr]7 [Bruder]8 [nach]9 [Hamburg]10 [zieht]11.
+RU: [Коллега]2 [Аны]1 [Биргит]3 [рассказала]4 [за]5 [обедом]5, [что]6 [её]7 [брат]8 [переезжает]11 [в]9 [Гамбург]10.
+
+DE: [Er]1 [suchte]2 [einen]3 [Nachmieter]3 [für]4 [seine]5 [Wohnung]6, [und]7 [zwar]7 [schnell]8.
+RU: [Он]1 [искал]2 [нового]3 [жильца]3 [в]4 [свою]5 [квартиру]6, [причём]7 [срочно]8.
+3 note: Der Nachmieter: следующий арендатор, который въезжает после вас.
+7 note: Und zwar: а именно, причём.
+
+DE: [Die]1 [Vermieterin]1, [eine]2 [Frau]2 [Schmitz]2, [wollte]3 [die]4 [neuen]5 [Mieter]4 [aber]6 [selbst]7 [aussuchen]8.
+RU: [Но]6 [хозяйка]1, [некая]2 [фрау]2 [Шмиц]2, [хотела]3 [сама]7 [выбрать]8 [новых]5 [жильцов]4.
+8 note: Aussuchen: выбирать.
+
+DE: [Birgit]1 [sagte]2: [„Schreibt]3 [ihr]4 [einen]5 [Brief]5. [Keinen]6 [Lebenslauf]7, [einen]8 [richtigen]9 [Brief]8.“
+RU: [Биргит]1 [сказала]2: [«Напишите]3,4 [ей]0 [письмо]5. [Не]6 [резюме]7, [а]0 [настоящее]9 [письмо]8.»
+7 note: Der Lebenslauf: резюме, биография.
+
+== p7
+DE: [An]1 [diesem]1 [Abend]1 [schrieben]2 [sie]3 [zum]4 [ersten]4 [Mal]4 [ehrlich]5.
+RU: [В]1 [тот]1 [вечер]1 [они]3 [впервые]4 [написали]2 [честно]5.
+4 note: Zum ersten Mal: впервые.
+
+DE: [Sie]1 [schrieben]2, [dass]3 [Jonas]4 [im]5 [Krankenhaus]5 [Nachtschichten]6 [macht]7 [und]8 [Ana]9 [Grundschulkindern]10 [Lesen]11 [beibringt]12.
+RU: [Они]1 [написали]2, [что]3 [Йонас]4 [работает]7 [в]5 [ночные]6 [смены]6 [в]5 [больнице]5, [а]8 [Ана]9 [учит]12 [младшеклассников]10 [читать]11.
+6 note: Die Nachtschicht: ночная смена.
+12 note: Jemandem etwas beibringen: учить кого-то чему-то.
+
+DE: [Sie]1 [schrieben]2 [von]3 [ihrer]4 [alten]5 [Katze]6 [Mathilda]7, [die]8 [nichts]9 [kaputt]10 [macht]10, [außer]11 [manchmal]12 [eine]13 [Zimmerpflanze]13.
+RU: [Они]1 [написали]2 [о]3 [своей]4 [старой]5 [кошке]6 [Матильде]7, [которая]8 [ничего]9 [не]0 [портит]10, [кроме]11 [иногда]12 [комнатного]13 [растения]13.
+10 note: Kaputt machen: ломать, портить.
+11 note: Außer + Dativ: кроме.
+
+DE: [Ana]1 [legte]2 [ein]3 [Foto]3 [bei]2: [die]4 [beiden]4 [auf]5 [dem]5 [Sofa]5, [die]6 [Katze]6 [dazwischen]7, [alle]8 [drei]8 [etwas]9 [müde]10.
+RU: [Ана]1 [приложила]2 [фото]3: [они]4 [вдвоём]4 [на]5 [диване]5, [кошка]6 [между]7 [ними]7, [все]8 [трое]8 [немного]9 [уставшие]10.
+2 note: Beilegen: приложить (к письму).
+7 note: Dazwischen: между ними, посередине.
+
+== p8
+DE: [Eine]1 [Woche]1 [später]2 [klingelte]3 [das]4 [Telefon]4.
+RU: [Неделю]1 [спустя]2 [зазвонил]3 [телефон]4.
+
+DE: [„Hier]1 [ist]2 [Schmitz]3“, [sagte]4 [eine]5 [ältere]6 [Stimme]5.
+RU: [«Это]1,2 [Шмиц]3», [сказал]4 [пожилой]6 [голос]5.
+1 note: Hier ist …: так представляются по телефону.
+
+DE: [„Ich]1 [hatte]2 [sechzig]3 [Bewerbungen]4, [aber]5 [nur]6 [in]7 [Ihrer]8 [war]9 [eine]10 [Katze]10.“
+RU: [«У меня]1,2 [было]2 [шестьдесят]3 [заявок]4, [но]5 [только]6 [в]7 [вашей]8 [была]9 [кошка]10.»
+
+DE: [Frau]1 [Schmitz]1 [hatte]2 [selbst]3 [zwei]4 [Katzen]5 [und]6 [keine]7 [Geduld]8 [für]9 [Mappen]10.
+RU: [У]1 [самой]3 [фрау]1 [Шмиц]1 [было]2 [две]4 [кошки]5 [и]6 [не]7 [было]0 [терпения]8 [для]9 [папок]10.
+8 note: Die Geduld: терпение.
+
+DE: [Im]1 [März]1 [trugen]2 [Jonas]3 [und]4 [Ana]5 [ihre]6 [Kisten]7 [in]8 [den]8 [vierten]8 [Stock]8.
+RU: [В]1 [марте]1 [Йонас]3 [и]4 [Ана]5 [несли]2 [свои]6 [коробки]7 [на]8 [пятый]8 [этаж]8.
+
+DE: [Es]1 [gibt]1 [keinen]2 [Aufzug]3, [die]4 [Küche]4 [ist]5 [winzig]6, [und]7 [das]8 [Fenster]8 [im]9 [Bad]9 [klemmt]10.
+RU: [Лифта]3 [нет]1,2, [кухня]4 [крошечная]5,6, [а]7 [окно]8 [в]9 [ванной]9 [заедает]10.
+3 note: Der Aufzug: лифт.
+6 note: Winzig: крошечный.
+10 note: Klemmen: заедать, застревать.
+
+DE: [Aber]1 [Mathilda]2 [liegt]3 [jeden]4 [Nachmittag]4 [in]5 [der]5 [Sonne]5 [auf]6 [dem]6 [Fensterbrett]6, [und]7 [die]8 [blaue]9 [Mappe]8 [liegt]10 [ganz]11 [unten]12 [im]13 [Keller]13.
+RU: [Но]1 [Матильда]2 [каждый]4 [день]4 [после обеда]4 [лежит]3 [на]5 [солнце]5 [на]6 [подоконнике]6, [а]7 [синяя]9 [папка]8 [лежит]10 [в]11 [самом]11 [низу]12 [в]13 [подвале]13.
+6 note: Das Fensterbrett: подоконник.
+13 note: Der Keller: подвал; в немецких домах у каждой квартиры есть своя кладовка в подвале.

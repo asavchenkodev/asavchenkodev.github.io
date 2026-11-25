@@ -1,0 +1,226 @@
+id: kleidung-a2-v2
+title: Одежда на каждый день / Kleidung im Alltag
+level: A2
+topic: clothes verbs daily life
+source: pair sample
+hintLanguage: ru
+
+== p1
+DE: [Am Morgen]1 [öffnet]2 [Anna]3 [den]4 [Schrank]4 [und]5 [wählt]6 [Kleidung]7 [für]8 [den]9 [Tag]9.
+RU: [Утром]1 [Анна]3 [открывает]2 [шкаф]4 [и]5 [выбирает]6 [одежду]7 [на]8 [день]9.
+1 note: am = an dem.
+1 form: Дательный падеж: an dem Morgen.
+2 form: Инфинитив öffnen: ich öffne, er öffnet, wir öffnen; Präteritum: öffnete; Perfekt: hat geöffnet.
+4 form: Der Schrank: мужской род, винительный падеж.
+6 form: Инфинитив wählen: ich wähle, er wählt, wir wählen; Präteritum: wählte; Perfekt: hat gewählt.
+7 form: Die Kleidung: обычно единственное число.
+8 form: Für требует винительный падеж.
+9 form: Der Tag: мужской род, винительный падеж.
+
+DE: [Zuerst]1 [zieht]2 [sie]3 [ein]4 [T-Shirt]4 [und]5 [Jeans]6 [an]2.
+RU: [Сначала]1 [она]3 [надевает]2 [футболку]4 [и]5 [джинсы]6.
+2 note: Anziehen = надевать.
+2 form: Отделяемая приставка an стоит в конце. Инфинитив anziehen: ich ziehe an, er zieht an, wir ziehen an; Präteritum: zog an; Perfekt: hat angezogen.
+2 sent: Личная форма zieht стоит на позиции 2, приставка закрывает предложение.
+4 form: Das T-Shirt: средний род, винительный падеж.
+6 form: Die Jeans: часто употребляется как plural/форма на -s.
+
+DE: [Dann]1 [nimmt]2 [sie]3 [einen]4 [Pullover]4, [weil]5 [es]9 [draußen]6 [kalt]7 [ist]8.
+RU: [Потом]1 [она]3 [берёт]2 [свитер]4, [потому что]5 [на улице]6 [холодно]7,8,9.
+2 form: Инфинитив nehmen: ich nehme, er nimmt, wir nehmen; Präteritum: nahm; Perfekt: hat genommen.
+4 form: Der Pullover: мужской род, винительный падеж.
+5 sent: После weil спрягаемый глагол уходит в конец.
+8 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+8 sent: Глагол ist стоит в конце придаточного после weil.
+9 note: Формальное es занимает место подлежащего.
+
+DE: [Sie]1 [sucht]2 [Socken]3, [aber]4 [findet]5 [nur]6 [eine]7 [Socke]7.
+RU: [Она]1 [ищет]2 [носки]3, [но]4 [находит]5 [только]6 [один носок]7.
+2 form: Инфинитив suchen: ich suche, er sucht, wir suchen; Präteritum: suchte; Perfekt: hat gesucht.
+3 form: Множественное число: die Socken.
+5 form: Инфинитив finden: ich finde, er findet, wir finden; Präteritum: fand; Perfekt: hat gefunden.
+7 form: Die Socke: женский род, винительный падеж.
+
+DE: [Deshalb]1 [legt]2 [sie]3 [schnell]4 [ein]5 [anderes]5 [Paar]5 [in]6 [die]7 [Tasche]7.
+RU: [Поэтому]1 [она]3 [быстро]4 [кладёт]2 [другую пару]5 [в]6 [сумку]7.
+1 sent: После deshalb глагол стоит сразу на позиции 2.
+2 form: Инфинитив legen: ich lege, er legt, wir legen; Präteritum: legte; Perfekt: hat gelegt.
+5 form: Das Paar: средний род, винительный падеж; anderes получает окончание -es.
+6 form: Направление: in + винительный падеж.
+7 form: Die Tasche: женский род, винительный падеж.
+
+== p2
+DE: [Im Geschäft]1 [möchte]2 [Anna]3 [eine]4 [Jacke]4 [anprobieren]5.
+RU: [В магазине]1 [Анна]3 [хочет]2 [примерить]5 [куртку]4.
+1 note: im = in dem.
+1 form: Дательный падеж: in dem Geschäft.
+2 note: Вежливая форма от mögen; здесь как «хотела бы».
+2 form: Möchten: ich möchte, er möchte, wir möchten; прошедшее время берёт формы wollen: wollte.
+4 form: Die Jacke: женский род, винительный падеж.
+5 form: Инфинитив anprobieren: ich probiere an, er probiert an, wir probieren an; Präteritum: probierte an; Perfekt: hat anprobiert.
+5 sent: Модальный смысл möchte + инфинитив в конце.
+
+DE: [Der]1 [Verkäufer]1 [bringt]2 [ihr]3 [ein]4 [blaues]4 [Kleid]4 [und]5 [einen]6 [schwarzen]6 [Rock]6.
+RU: [Продавец]1 [приносит]2 [ей]3 [синее платье]4 [и]5 [чёрную юбку]6.
+1 form: Der Verkäufer: мужской род, именительный падеж.
+2 form: Инфинитив bringen: ich bringe, er bringt, wir bringen; Präteritum: brachte; Perfekt: hat gebracht.
+3 form: Дательный падеж: кому? ей.
+4 form: Das Kleid: средний род, винительный падеж; blaues с окончанием -es.
+6 form: Der Rock: мужской род, винительный падеж; schwarzen с окончанием -en.
+
+DE: [Anna]1 [probiert]2 [das]3 [Kleid]3 [vor]4 [dem]5 [Spiegel]5 [an]2.
+RU: [Анна]1 [примеряет]2 [платье]3 [перед]4 [зеркалом]5.
+2 note: Anprobieren = примерять.
+2 form: Отделяемая приставка an стоит в конце. Инфинитив anprobieren: ich probiere an, er probiert an, wir probieren an; Präteritum: probierte an; Perfekt: hat anprobiert.
+2 sent: Личная форма probiert стоит на позиции 2, приставка закрывает предложение.
+3 form: Das Kleid: средний род, винительный падеж.
+4 form: Место: vor + дательный падеж.
+5 form: Der Spiegel: дательный падеж после vor.
+
+DE: [Das]1 [Kleid]1 [passt]2 [gut]3, [aber]4 [der]5 [Rock]5 [ist]6 [zu]7 [lang]8.
+RU: [Платье]1 [подходит]2 [хорошо]3, [но]4 [юбка]5 [слишком]7 [длинная]6,8.
+1 form: Das Kleid: средний род, именительный падеж.
+2 form: Инфинитив passen: es passt; Präteritum: passte; Perfekt: hat gepasst.
+5 form: Der Rock: мужской род, именительный падеж.
+6 form: Инфинитив sein: ich bin, er ist, wir sind; Präteritum: war; Perfekt: ist gewesen.
+
+DE: [Danach]1 [zieht]2 [sie]3 [das]4 [Kleid]4 [aus]2 [und]5 [zieht]6 [ihre]7 [Bluse]7 [wieder]8 [an]6.
+RU: [Затем]1 [она]3 [снимает]2 [платье]4 [и]5 [снова]8 [надевает]6 [свою кофту]7.
+2 note: Ausziehen = снимать одежду.
+2 form: Отделяемая приставка aus стоит в конце. Инфинитив ausziehen: ich ziehe aus, er zieht aus, wir ziehen aus; Präteritum: zog aus; Perfekt: hat ausgezogen.
+2 sent: Личная форма zieht стоит на позиции 2, приставка закрывает предложение.
+4 form: Das Kleid: средний род, винительный падеж.
+6 note: Anziehen = надевать.
+6 form: Отделяемая приставка an стоит в конце. Инфинитив anziehen: ich ziehe an, er zieht an, wir ziehen an; Präteritum: zog an; Perfekt: hat angezogen.
+6 sent: Второй отделяемый глагол тоже закрывает свою часть предложения.
+7 form: Die Bluse: женский род, винительный падеж; ihre = её/своя.
+
+== p3
+DE: [Zu Hause]1 [bereitet]2 [Anna]3 [Kleidung]4 [für]5 [die]6 [Arbeit]6 [vor]2.
+RU: [Дома]1 [Анна]3 [готовит]2 [одежду]4 [для]5 [работы]6.
+1 note: Устойчивое выражение: zu Hause.
+2 note: Vorbereiten = готовить заранее.
+2 form: Отделяемая приставка vor стоит в конце. Инфинитив vorbereiten: ich bereite vor, er bereitet vor, wir bereiten vor; Präteritum: bereitete vor; Perfekt: hat vorbereitet.
+2 sent: Личная форма bereitet стоит на позиции 2, приставка закрывает предложение.
+4 form: Die Kleidung: собирательное существительное.
+5 form: Für требует винительный падеж.
+6 form: Die Arbeit: женский род, винительный падеж.
+
+DE: [Sie]1 [bügelt]2 [ein]3 [Hemd]3 [und]4 [hängt]5 [es]6 [auf]7 [den]8 [Stuhl]8.
+RU: [Она]1 [гладит]2 [рубашку]3 [и]4 [вешает]5 [её]6 [на]7 [стул]8.
+2 form: Инфинитив bügeln: ich bügle, er bügelt, wir bügeln; Präteritum: bügelte; Perfekt: hat gebügelt.
+3 form: Das Hemd: средний род, винительный падеж.
+5 form: Инфинитив hängen: ich hänge, er hängt, wir hängen; Präteritum: hing; Perfekt: hat gehangen.
+6 form: Здесь es относится к das Hemd.
+7 form: Направление: auf + винительный падеж.
+8 form: Der Stuhl: мужской род, винительный падеж.
+
+DE: [Die]1 [Hose]1 [liegt]2 [auf]3 [dem]4 [Bett]4, [und]5 [der]6 [Gürtel]6 [liegt]7 [daneben]8.
+RU: [Брюки]1 [лежат]2 [на]3 [кровати]4, [а]5 [ремень]6 [лежит]7 [рядом]8.
+1 form: Die Hose: женский род, в немецком часто ед. число.
+2 form: Инфинитив liegen: ich liege, er liegt, wir liegen; Präteritum: lag; Perfekt: hat gelegen.
+3 form: Место: auf + дательный падеж.
+4 form: Das Bett: дательный падеж после auf.
+6 form: Der Gürtel: мужской род, именительный падеж.
+7 form: Инфинитив liegen: ich liege, er liegt, wir liegen; Präteritum: lag; Perfekt: hat gelegen.
+
+DE: [Am Abend]1 [wäscht]2 [sie]3 [Sportkleidung]4.
+RU: [Вечером]1 [она]3 [стирает]2 [спортивную одежду]4.
+1 note: am = an dem.
+1 form: Дательный падеж: an dem Abend.
+2 form: 3-е лицо ед. числа от waschen. Инфинитив waschen: ich wasche, er wäscht, wir waschen; Präteritum: wusch; Perfekt: hat gewaschen.
+4 form: Die Sportkleidung: собирательное существительное.
+
+DE: [Nach]1 [dem]2 [Waschen]2 [trocknet]3 [sie]4 [ein]5 [Handtuch]5, [eine]6 [Mütze]6 [und]7 [Handschuhe]8.
+RU: [После]1 [стирки]2 [она]4 [сушит]3 [полотенце]5, [шапку]6 [и]7 [перчатки]8.
+1 form: Nach требует дательный падеж.
+2 form: Das Waschen: существительное от глагола, дательный падеж после nach.
+3 form: Инфинитив trocknen: ich trockne, er trocknet, wir trocknen; Präteritum: trocknete; Perfekt: hat getrocknet.
+5 form: Das Handtuch: средний род, винительный падеж.
+6 form: Die Mütze: женский род, винительный падеж.
+8 form: Множественное число: die Handschuhe.
+
+== p4
+DE: [Am Samstag]1 [geht]2 [die]3 [Familie]3 [spazieren]4.
+RU: [В субботу]1 [семья]3 [идёт]2 [на прогулку]4.
+1 note: am = an dem.
+1 form: Дательный падеж: an dem Samstag.
+2 form: Инфинитив gehen: ich gehe, er geht, wir gehen; Präteritum: ging; Perfekt: ist gegangen.
+3 form: Die Familie: женский род, именительный падеж.
+4 note: Spazieren gehen = идти гулять.
+4 form: Инфинитив spazieren: ich spaziere, er spaziert, wir spazieren; Präteritum: spazierte; Perfekt: ist spaziert.
+4 sent: Глагол geht стоит на позиции 2, инфинитив spazieren в конце.
+
+DE: [Der]1 [Vater]1 [zieht]2 [einen]3 [Mantel]3 [an]2, [weil]4 [der]5 [Wind]5 [weht]6.
+RU: [Отец]1 [надевает]2 [пальто]3, [потому что]4 [дует]6 [ветер]5.
+1 form: Der Vater: мужской род, именительный падеж.
+2 note: Anziehen = надевать.
+2 form: Отделяемая приставка an стоит в конце. Инфинитив anziehen: ich ziehe an, er zieht an, wir ziehen an; Präteritum: zog an; Perfekt: hat angezogen.
+3 form: Der Mantel: мужской род, винительный падеж.
+4 sent: После weil глагол стоит в конце.
+5 form: Der Wind: мужской род, именительный падеж.
+6 form: Инфинитив wehen: der Wind weht; Präteritum: wehte; Perfekt: hat geweht.
+6 sent: Глагол стоит в конце придаточного после weil.
+
+DE: [Die]1 [Mutter]1 [nimmt]2 [einen]3 [Schal]3 [und]4 [einen]5 [Regenschirm]5.
+RU: [Мать]1 [берёт]2 [шарф]3 [и]4 [зонтик]5.
+1 form: Die Mutter: женский род, именительный падеж.
+2 form: Инфинитив nehmen: ich nehme, er nimmt, wir nehmen; Präteritum: nahm; Perfekt: hat genommen.
+3 form: Der Schal: мужской род, винительный падеж.
+5 form: Der Regenschirm: мужской род, винительный падеж.
+
+DE: [Das]1 [Kind]1 [wählt]2 [rote]3 [Stiefel]4, [aber]5 [vergisst]6 [die]7 [Mütze]7.
+RU: [Ребёнок]1 [выбирает]2 [красные]3 [ботинки]4, [но]5 [забывает]6 [шапку]7.
+1 form: Das Kind: средний род, именительный падеж.
+2 form: Инфинитив wählen: ich wähle, er wählt, wir wählen; Präteritum: wählte; Perfekt: hat gewählt.
+3 form: Винительный падеж plural без артикля: rote Stiefel.
+4 form: Plural или форма мн. числа: die Stiefel.
+6 form: 3-е лицо ед. числа от vergessen. Инфинитив vergessen: ich vergesse, er vergisst, wir vergessen; Präteritum: vergaß; Perfekt: hat vergessen.
+7 form: Die Mütze: женский род, винительный падеж.
+
+DE: [Vor]1 [dem]2 [Gehen]2 [prüfen]3 [alle]4 [die]5 [Taschen]5 [und]6 [machen]7 [die]8 [Jacken]8 [zu]7.
+RU: [Перед]1 [выходом]2 [все]4 [проверяют]3 [карманы]5 [и]6 [застёгивают]7 [куртки]8.
+1 form: Vor требует дательный падеж, если речь о времени.
+2 form: Das Gehen: дательный падеж после vor.
+3 form: Инфинитив prüfen: ich prüfe, er prüft, wir prüfen; Präteritum: prüfte; Perfekt: hat geprüft.
+5 form: Die Tasche: здесь «карманы»; множественное число винительный падеж.
+7 note: Zumachen = закрывать/застёгивать.
+7 form: Отделяемая приставка zu стоит в конце.
+8 form: Die Jacke: множественное число винительный падеж.
+
+== p5
+DE: [Später]1 [räumt]2 [Anna]3 [die]4 [Kleidung]4 [in]5 [den]6 [Schrank]6.
+RU: [Позже]1 [Анна]3 [убирает]2 [одежду]4 [в]5 [шкаф]6.
+2 form: Инфинитив räumen: ich räume, er räumt, wir räumen; Präteritum: räumte; Perfekt: hat geräumt.
+4 form: Die Kleidung: женский род, винительный падеж.
+5 form: Направление: in + винительный падеж.
+6 form: Der Schrank: мужской род, винительный падеж.
+
+DE: [Sie]1 [faltet]2 [T-Shirts]3 [und]4 [legt]5 [Socken]6 [in]7 [die]8 [Schublade]8.
+RU: [Она]1 [складывает]2 [футболки]3 [и]4 [кладёт]5 [носки]6 [в]7 [ящик]8.
+2 form: Инфинитив falten: ich falte, er faltet, wir falten; Präteritum: faltete; Perfekt: hat gefaltet.
+3 form: Plural с -s.
+5 form: Инфинитив legen: ich lege, er legt, wir legen; Präteritum: legte; Perfekt: hat gelegt.
+6 form: Plural: die Socken.
+7 form: Направление: in + винительный падеж.
+8 form: Die Schublade: женский род, винительный падеж.
+
+DE: [Alte]1 [Schuhe]2 [gibt]3 [sie]4 [der]5 [Nachbarin]5.
+RU: [Старые]1 [ботинки]2 [она]4 [отдаёт]3 [соседке]5.
+1 form: Винительный падеж plural без артикля.
+2 form: Plural: die Schuhe.
+3 form: Инфинитив geben: ich gebe, er gibt, wir geben; Präteritum: gab; Perfekt: hat gegeben.
+5 form: Die Nachbarin: дательный падеж, кому? соседке.
+
+DE: [Neue]1 [Sachen]2 [kauft]3 [sie]4 [nicht]5 [sofort]6.
+RU: [Новые]1 [вещи]2 [она]4 [не]5 [покупает]3 [сразу]6.
+1 form: Винительный падеж plural без артикля.
+2 form: Plural: die Sachen.
+3 form: Инфинитив kaufen: ich kaufe, er kauft, wir kaufen; Präteritum: kaufte; Perfekt: hat gekauft.
+
+DE: [Zuerst]1 [denkt]2 [sie]3, [was]4 [sie]5 [wirklich]6 [braucht]7.
+RU: [Сначала]1 [она]3 [думает]2, [что]4 [ей]5 [действительно]6 [нужно]7.
+2 form: Инфинитив denken: ich denke, er denkt, wir denken; Präteritum: dachte; Perfekt: hat gedacht.
+4 sent: Вводит придаточное предложение.
+7 form: Инфинитив brauchen: ich brauche, er braucht, wir brauchen; Präteritum: brauchte; Perfekt: hat gebraucht.
+7 sent: Глагол стоит в конце придаточного после was.
